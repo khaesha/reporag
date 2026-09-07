@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Inter";
+  src: url("/stitch/inter-400.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/stitch/inter-500.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/stitch/inter-600.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/stitch/inter-700.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@theme inline {
+  --font-sans: "Inter", Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+::selection {
+  background: #e60023;
+  color: #ffffff;
+}
+
+@keyframes loading-progress {
+  from {
+    width: 12%;
+  }
+
+  to {
+    width: 88%;
+  }
+}
+
+.loading-progress {
+  animation: loading-progress 3.5s ease-in-out infinite alternate;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .loading-progress {
+    animation: none;
+    width: 88%;
+  }
+}

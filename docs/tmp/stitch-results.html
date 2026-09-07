@@ -1,0 +1,151 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>RAG Search - Pinterest Style</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+          },
+          colors: {
+            primary: '#e60023',
+            'primary-pressed': '#cc001f',
+            ink: '#000000',
+            'ink-soft': '#211922',
+            body: '#33332e',
+            mute: '#62625b',
+            ash: '#91918c',
+            stone: '#c8c8c1',
+            hairline: '#dadad3',
+            'hairline-soft': '#e5e5e0',
+            'surface-card': '#f6f6f3',
+            'surface-soft': '#fbfbf9',
+            canvas: '#ffffff',
+            'focus-outer': '#435ee5',
+            'focus-inner': '#ffffff',
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    /* Signature double-ring focus signal defined in Pinterest DESIGN.md:
+       A 2px #000000 inner ring and 4px #435ee5 outer ring separated cleanly */
+    .rag-search-container:focus-within {
+      background-color: #ffffff !important;
+      border-color: #91918c !important;
+      box-shadow: 0 0 0 2px #000000, 0 0 0 6px #435ee5;
+    }
+  </style>
+</head>
+<body class="bg-surface-soft font-sans antialiased text-body min-h-screen flex flex-col justify-between selection:bg-[#e60023] selection:text-white">
+<!-- Top Minimal Navigation -->
+<header class="w-full h-16 px-6 md:px-12 flex items-center justify-between border-b border-hairline bg-canvas">
+<div class="flex items-center space-x-3">
+<!-- Pinterest Red Wordmark / Mark -->
+<img src="https://lh3.googleusercontent.com/aida/AEtjO1WGhsHKk-tZnq53kGc6XkoPdEzDa2DkeETX8-f7xNVh0nWSb2QMF7fT9rClyu9jbs3VZ6hCmaW4ib1VikgOk6CDCg2z_fGzA5es-qzNTEXxEa0nLm4UdzWd9HUd7fMBapPFEzZVxCLZ2E3neqEdzbINKdkuA0HKg76gfB9oBVe6Leah76Of07z7nJjnPINBFxoteLrfd4vLdsksSuxujN2JzxZ1bwBGsx4Ec0PG54wX9x8UtifPgWkIjLoE" alt="SearchLens RAG Logo" class="w-9 h-9 rounded-lg object-contain flex-shrink-0 shadow-sm border border-hairline/60 bg-white p-0.5">
+<span class="font-bold text-ink text-lg tracking-tight">SearchLens RAG</span>
+</div>
+<div class="flex items-center space-x-3">
+<span class="hidden md:inline-block px-3 py-1 bg-surface-card rounded-full text-xs font-semibold text-mute">Knowledge Base Active</span>
+<button class="px-4 py-2 bg-primary text-white rounded-2xl text-sm font-bold hover:bg-primary-pressed transition-colors">Sign up</button>
+</div>
+</header>
+<!-- Main Centered Content Section -->
+<main class="flex-1 flex flex-col items-center justify-center px-4 sm:px-6 w-full max-w-5xl mx-auto py-12">
+<!-- Hero Headline & Intro -->
+<div class="text-center max-w-2xl mb-6 space-y-2">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface-card border border-hairline text-xs font-semibold text-ink-soft">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+        Retrieval-Augmented Discovery
+      </div>
+<h1 class="text-4xl md:text-5xl font-bold tracking-tight text-ink">
+        Ask anything across knowledge.
+      </h1>
+<p class="text-base text-mute leading-relaxed font-normal">
+        Synthesize multimodal sources, documents, and visual ideas with enterprise-grade retrieval.
+      </p>
+</div>
+<!-- Prominent RAG Search Container (Up to 768px wide) -->
+<div class="w-full max-w-[768px] relative mb-6">
+<div class="rag-search-container w-full h-12 bg-surface-card rounded-full border border-hairline flex items-center pl-4 pr-1.5 transition-all duration-150" id="searchContainer">
+<!-- Search Leading Icon -->
+<div class="flex items-center justify-center text-ash mr-2 flex-shrink-0">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewBox="0 0 24 24">
+<circle cx="11" cy="11" r="8"></circle>
+<line x1="21" x2="16.65" y1="21" y2="16.65"></line>
+</svg>
+</div>
+<!-- Input Field styled per {typography.body-md} -->
+<input autocomplete="off" class="flex-1 h-full bg-transparent border-none outline-none font-sans text-base leading-[1.4] font-normal text-ink placeholder-ash" id="ragInput" placeholder="Ask anything..." type="text" value="Retrieval-Augmented Generation evaluation and token chunking strategies">
+<!-- Action Button (button-icon-circular) 40x40 with state handling -->
+<button aria-label="Submit query" class="w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 transition-all duration-150 bg-primary text-white hover:bg-primary-pressed shadow-sm" id="submitBtn">
+<svg class="w-4 h-4 fill-none stroke-current" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24">
+<line x1="5" x2="19" y1="12" y2="12"></line>
+<polyline points="12 5 19 12 12 19"></polyline>
+</svg>
+</button>
+</div>
+<!-- Quick Helper Text Below Input -->
+<div class="flex items-center justify-between text-xs text-mute mt-2.5 px-3">
+<span class="">Press <kbd class="px-1.5 py-0.5 bg-surface-card border border-hairline rounded font-mono text-[11px] text-ink">Enter</kbd> to generate answers</span>
+<span class="flex items-center gap-1.5">
+<span class="inline-block w-1.5 h-1.5 rounded-full bg-[#103c25]"></span>
+          Verified Index Connected
+        </span>
+</div>
+</div>
+<!-- Suggested Discovery Pill Chips -->
+<div class="w-full max-w-[768px] flex flex-wrap items-center justify-center gap-2 pt-2">
+<span class="text-xs font-semibold text-ash uppercase tracking-wider mr-1">Try asking:</span>
+<button class="px-3.5 py-1.5 rounded-full bg-surface-card text-xs font-semibold text-ink hover:bg-hairline transition-colors" onclick="setQuery('Summarize latest design tokens update')">
+        Summarize design tokens
+      </button>
+<button class="px-3.5 py-1.5 rounded-full bg-surface-card text-xs font-semibold text-ink hover:bg-hairline transition-colors" onclick="setQuery('Extract key metrics from Q3 report')">
+        Extract Q3 metrics
+      </button>
+<button class="px-3.5 py-1.5 rounded-full bg-surface-card text-xs font-semibold text-ink hover:bg-hairline transition-colors" onclick="setQuery('Compare vector search vs keyword search')">
+        Vector search vs keyword
+      </button>
+<button class="px-3.5 py-1.5 rounded-full bg-surface-card text-xs font-semibold text-ink hover:bg-hairline transition-colors" onclick="setQuery('Generate code snippet for API auth')">
+        API auth snippet
+      </button>
+</div><div class="w-full max-w-[768px] mt-8"><div class="flex items-center justify-between py-3 mb-4 border-b border-hairline"><div class="flex items-center gap-2"><span class="text-sm font-bold text-mute">Sort by:</span><span class="text-xs text-ash font-medium">(10 results)</span></div><div class="flex items-center gap-2"><button class="bg-ink text-white rounded-full px-4 py-1.5 text-sm font-bold transition-colors">Similarity Score</button><button class="bg-surface-card text-ink hover:bg-hairline rounded-full px-4 py-1.5 text-sm font-bold transition-colors">Alphabetical</button><button class="bg-surface-card text-ink hover:bg-hairline rounded-full px-4 py-1.5 text-sm font-bold transition-colors">Date</button></div></div><div class="space-y-3"><div class="bg-white rounded-2xl p-5 border border-hairline shadow-sm hover:border-ash transition-all"><div class="flex items-start justify-between gap-4"><div><h2 class="text-lg font-semibold text-ink leading-snug hover:text-primary cursor-pointer transition-colors">Optimal Chunk Sizing &amp; Sliding Window Overlap in Enterprise RAG Systems</h2><p class="text-sm text-mute mt-1">By Dr. Aris Thorne • Updated 2 days ago • AI Architecture</p></div><span class="flex-shrink-0 bg-surface-card border border-hairline/60 text-[#e60023] rounded-full px-3 py-1 text-xs font-semibold">98% Match</span></div><p class="text-base text-body leading-[1.4] mt-2.5 font-normal">Empirical evaluation comparing 256, 512, and 1024 token chunk sizes with recursive character boundary splitting. Demonstrates how a 15% sliding window overlap preserves multi-sentence context and resolves coreference resolution gaps in sparse document retrieval pipelines.</p></div><div class="bg-white rounded-2xl p-5 border border-hairline shadow-sm hover:border-ash transition-all"><div class="flex items-start justify-between gap-4"><div><h2 class="text-lg font-semibold text-ink leading-snug hover:text-primary cursor-pointer transition-colors">Hybrid Retrieval: Merging Dense Vector Embeddings with BM25 Sparse Indexing</h2><p class="text-sm text-mute mt-1">By Vector Systems Team • Updated yesterday • Search Infrastructure</p></div><span class="flex-shrink-0 bg-surface-card border border-hairline/60 text-[#e60023] rounded-full px-3 py-1 text-xs font-semibold">96% Match</span></div><p class="text-base text-body leading-[1.4] mt-2.5 font-normal">A production implementation of reciprocal rank fusion (RRF) marrying HNSW dense k-NN vector indexes with term-frequency BM25 scores. Fixes exact keyword domain misses while retaining conceptual semantic matching across multimodal documents.</p></div><div class="bg-white rounded-2xl p-5 border border-hairline shadow-sm hover:border-ash transition-all"><div class="flex items-start justify-between gap-4"><div><h2 class="text-lg font-semibold text-ink leading-snug hover:text-primary cursor-pointer transition-colors">Two-Stage RAG: Cross-Encoder Re-Ranking Architecture &amp; Latency Benchmarks</h2><p class="text-sm text-mute mt-1">By Research Engineering • Updated 4 days ago • Model Optimization</p></div><span class="flex-shrink-0 bg-surface-card border border-hairline/60 text-[#e60023] rounded-full px-3 py-1 text-xs font-semibold">94% Match</span></div><p class="text-base text-body leading-[1.4] mt-2.5 font-normal">Assessing latency tradeoffs when filtering top-100 bi-encoder candidates through a quantized MiniLM cross-encoder. Results demonstrate a 24% boost in MRR@10 with only 18ms p95 latency overhead on clustered inference nodes.</p></div><div class="bg-white rounded-2xl p-5 border border-hairline shadow-sm hover:border-ash transition-all"><div class="flex items-start justify-between gap-4"><div><h2 class="text-lg font-semibold text-ink leading-snug hover:text-primary cursor-pointer transition-colors">Hierarchical Document Chunking with Parent-Child Vector Associations</h2><p class="text-sm text-mute mt-1">By Maya Lin, Staff ML Scientist • Updated 5 days ago • Data Ingestion</p></div><span class="flex-shrink-0 bg-surface-card border border-hairline/60 text-[#e60023] rounded-full px-3 py-1 text-xs font-semibold">91% Match</span></div><p class="text-base text-body leading-[1.4] mt-2.5 font-normal">Index micro-chunks (128 tokens) for hyper-precise vector discovery while passing larger parent segments (2048 tokens) to the generative context window. Eliminates truncation artifacts while ensuring fine-grained vector similarity matches.</p></div><div class="bg-white rounded-2xl p-5 border border-hairline shadow-sm hover:border-ash transition-all"><div class="flex items-start justify-between gap-4"><div><h2 class="text-lg font-semibold text-ink leading-snug hover:text-primary cursor-pointer transition-colors">Hallucination Guardrails: Grounding Evaluation Metrics via RAGAS &amp; TruLens</h2><p class="text-sm text-mute mt-1">By Quality Assurance Guild • Updated 1 week ago • Evaluation Frameworks</p></div><span class="flex-shrink-0 bg-surface-card border border-hairline/60 text-[#e60023] rounded-full px-3 py-1 text-xs font-semibold">89% Match</span></div><p class="text-base text-body leading-[1.4] mt-2.5 font-normal">Automated evaluation workflows for measuring context relevance, answer groundedness, and hallucination frequency. Integrates synthetic test set generation across multi-tenant knowledge bases with automated citation attribution scores.</p></div><div class="bg-white rounded-2xl p-5 border border-hairline shadow-sm hover:border-ash transition-all"><div class="flex items-start justify-between gap-4"><div><h2 class="text-lg font-semibold text-ink leading-snug hover:text-primary cursor-pointer transition-colors">Token Budget Management &amp; Context Compression Strategies for LLM Prompts</h2><p class="text-sm text-mute mt-1">By Platform Scalability Group • Updated 1 week ago • Cost &amp; Performance</p></div><span class="flex-shrink-0 bg-surface-card border border-hairline/60 text-[#e60023] rounded-full px-3 py-1 text-xs font-semibold">87% Match</span></div><p class="text-base text-body leading-[1.4] mt-2.5 font-normal">Techniques for dynamic prompt context pruning using semantic sentence encoders and extractive summarization. Achieves 40% reduction in generation token costs without compromising factuality or answer completeness in domain QA benchmarks.</p></div><div class="bg-white rounded-2xl p-5 border border-hairline shadow-sm hover:border-ash transition-all"><div class="flex items-start justify-between gap-4"><div><h2 class="text-lg font-semibold text-ink leading-snug hover:text-primary cursor-pointer transition-colors">Multimodal RAG: Image-Text Interleaved Ingestion &amp; CLIP Vector Alignment</h2><p class="text-sm text-mute mt-1">By Visual Intelligence Team • Updated 2 weeks ago • Vision &amp; Multimodal</p></div><span class="flex-shrink-0 bg-surface-card border border-hairline/60 text-[#e60023] rounded-full px-3 py-1 text-xs font-semibold">85% Match</span></div><p class="text-base text-body leading-[1.4] mt-2.5 font-normal">Strategies for parsing complex PDF diagrams, flowcharts, and technical tables into joint vector spaces. Combines OCR extraction, layout detection transformers, and dual-projection embedding spaces for cohesive cross-modal question answering.</p></div><div class="bg-white rounded-2xl p-5 border border-hairline shadow-sm hover:border-ash transition-all"><div class="flex items-start justify-between gap-4"><div><h2 class="text-lg font-semibold text-ink leading-snug hover:text-primary cursor-pointer transition-colors">Adaptive Query Rewriting &amp; HyDE (Hypothetical Document Embeddings) Analysis</h2><p class="text-sm text-mute mt-1">By Cognitive Retrieval Lab • Updated 2 weeks ago • Query Engineering</p></div><span class="flex-shrink-0 bg-surface-card border border-hairline/60 text-[#e60023] rounded-full px-3 py-1 text-xs font-semibold">83% Match</span></div><p class="text-base text-body leading-[1.4] mt-2.5 font-normal">A deep dive into zero-shot query expansion where an LLM generates speculative answers prior to vector search. Explores trade-offs in hallucination propagation versus recall improvement for ambiguous and shorthand developer search queries.</p></div><div class="bg-white rounded-2xl p-5 border border-hairline shadow-sm hover:border-ash transition-all"><div class="flex items-start justify-between gap-4"><div><h2 class="text-lg font-semibold text-ink leading-snug hover:text-primary cursor-pointer transition-colors">GraphRAG: Augmenting Vector Retrieval with Knowledge Graph Traversal</h2><p class="text-sm text-mute mt-1">By Knowledge Systems Group • Updated 3 weeks ago • Graph Architectures</p></div><span class="flex-shrink-0 bg-surface-card border border-hairline/60 text-[#e60023] rounded-full px-3 py-1 text-xs font-semibold">81% Match</span></div><p class="text-base text-body leading-[1.4] mt-2.5 font-normal">Overcoming k-NN retrieval blindness in complex multi-hop reasoning by combining entity relationship graph communities with dense embeddings. Enables deep inductive summarization across disconnected institutional datasets.</p></div><div class="bg-white rounded-2xl p-5 border border-hairline shadow-sm hover:border-ash transition-all"><div class="flex items-start justify-between gap-4"><div><h2 class="text-lg font-semibold text-ink leading-snug hover:text-primary cursor-pointer transition-colors">Vector Database Sharding &amp; Distributed HNSW Index Maintenance at Scale</h2><p class="text-sm text-mute mt-1">By Cloud Infrastructure Core • Updated 1 month ago • Database Engineering</p></div><span class="flex-shrink-0 bg-surface-card border border-hairline/60 text-[#e60023] rounded-full px-3 py-1 text-xs font-semibold">79% Match</span></div><p class="text-base text-body leading-[1.4] mt-2.5 font-normal">Operational principles for updating live HNSW vector indexes without query degradation. Covers partition clustering, incremental centroid recalculation, and memory-mapped file techniques for hundred-million vector collections.</p></div></div><div class="flex items-center justify-center gap-2 mt-8 mb-12"><button class="h-10 px-4 rounded-full bg-[#e5e5e0] text-ink font-bold text-sm hover:bg-[#c8c8c1] transition-colors">Previous</button><button class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold bg-ink text-white">1</button><button class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold bg-surface-card text-ink hover:bg-[#e5e5e0] transition-colors">2</button><button class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold bg-surface-card text-ink hover:bg-[#e5e5e0] transition-colors">3</button><button class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold bg-surface-card text-ink hover:bg-[#e5e5e0] transition-colors">4</button><button class="h-10 px-4 rounded-full bg-[#e5e5e0] text-ink font-bold text-sm hover:bg-[#c8c8c1] transition-colors">Next</button></div></div>
+</main>
+<!-- Minimal Footer -->
+<footer class="w-full py-5 px-6 border-t border-hairline bg-canvas text-center text-xs text-mute">
+<span class="">Crafted with Pinterest Design System specifications • Inter Display • {rounded.full} Pill Geometry</span>
+</footer>
+<script>
+    const input = document.getElementById('ragInput');
+    const submitBtn = document.getElementById('submitBtn');
+
+    function updateButtonState() {
+      const val = input.value.trim();
+      if (val.length > 0) {
+        submitBtn.disabled = false;
+        submitBtn.className = "w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 transition-all duration-150 bg-primary text-white hover:bg-primary-pressed active:bg-primary-pressed shadow-sm cursor-pointer";
+      } else {
+        submitBtn.disabled = true;
+        submitBtn.className = "w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 transition-all duration-150 bg-surface-card text-ash cursor-not-allowed";
+      }
+    }
+
+    input.addEventListener('input', updateButtonState);
+
+    function setQuery(text) {
+      input.value = text;
+      input.focus();
+      updateButtonState();
+    }
+  </script>
+
+
+
+</body></html>

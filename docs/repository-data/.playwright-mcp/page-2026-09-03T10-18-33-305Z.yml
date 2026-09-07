@@ -1,0 +1,451 @@
+- generic [active] [ref=f431e1]:
+  - generic [ref=f431e2]:
+    - generic [ref=f431e4]:
+      - link [ref=f431e6] [cursor=pointer]:
+        - /url: http://repository.upi.edu/
+        - img "UPI Repository" [ref=f431e7]
+      - generic [ref=f431e9]:
+        - generic [ref=f431e10]:
+          - link "Home" [ref=f431e11] [cursor=pointer]:
+            - /url: http://repository.upi.edu
+          - link "|" [ref=f431e12] [cursor=pointer]:
+            - /url: "#"
+          - link "Contact" [ref=f431e13] [cursor=pointer]:
+            - /url: http://repository.upi.edu/contact.html
+        - generic [ref=f431e15]: Answer at its best to any Quests
+    - navigation [ref=f431e16]:
+      - list [ref=f431e19]:
+        - listitem [ref=f431e20]:
+          - link "Home" [ref=f431e21] [cursor=pointer]:
+            - /url: http://repository.upi.edu
+        - listitem [ref=f431e22]:
+          - link "About" [ref=f431e23] [cursor=pointer]:
+            - /url: http://repository.upi.edu/information.html
+        - listitem [ref=f431e24]:
+          - link "Browse" [ref=f431e25] [cursor=pointer]:
+            - /url: http://repository.upi.edu/view/
+        - listitem [ref=f431e26]
+    - generic [ref=f431e27]:
+      - generic:
+        - generic:
+          - list
+  - generic [ref=f431e28]:
+    - heading "Items where Division is \"Program Studi Ilmu Komputer\" and Year is 2014" [level=1] [ref=f431e29]
+    - link [ref=f431e31] [cursor=pointer]:
+      - /url: ./
+      - img "[up]" [ref=f431e32]
+      - text: Up a level
+    - generic [ref=f431e35]:
+      - generic [ref=f431e36]:
+        - generic [ref=f431e37]: Export as
+        - combobox "Export as" [ref=f431e38]:
+          - option "ASCII Citation" [selected]
+          - option "BibTeX"
+          - option "Dublin Core"
+          - option "EP3 XML"
+          - option "EndNote"
+          - option "HTML Citation"
+          - option "JSON"
+          - option "METS"
+          - option "Multiline CSV"
+          - option "Object IDs"
+          - option "OpenURL ContextObject"
+          - option "RDF+N-Triples"
+          - option "RDF+N3"
+          - option "RDF+XML"
+          - option "Refer"
+          - option "Reference Manager"
+        - button "Export" [ref=f431e39] [cursor=pointer]
+      - generic [ref=f431e40]:
+        - link [ref=f431e42] [cursor=pointer]:
+          - /url: /cgi/exportview/divisions/ILKOM/2014/Atom/ILKOM_2014.xml
+          - img "[Atom feed]" [ref=f431e43]
+          - text: Atom
+        - link [ref=f431e45] [cursor=pointer]:
+          - /url: /cgi/exportview/divisions/ILKOM/2014/RSS/ILKOM_2014.rss
+          - img "[RSS feed]" [ref=f431e46]
+          - text: RSS 1.0
+        - link [ref=f431e48] [cursor=pointer]:
+          - /url: /cgi/exportview/divisions/ILKOM/2014/RSS2/ILKOM_2014.xml
+          - img "[RSS2 feed]" [ref=f431e49]
+          - text: RSS 2.0
+    - generic [ref=f431e50]:
+      - generic [ref=f431e51]:
+        - text: "Group by: Creators |"
+        - link "Item Type" [ref=f431e52] [cursor=pointer]:
+          - /url: 2014.type.html
+        - text: "|"
+        - link "No Grouping" [ref=f431e53] [cursor=pointer]:
+          - /url: 2014.default.html
+      - generic [ref=f431e55]:
+        - text: "Jump to:"
+        - link "A" [ref=f431e56] [cursor=pointer]:
+          - /url: "#group_A"
+        - text: "|"
+        - link "B" [ref=f431e57] [cursor=pointer]:
+          - /url: "#group_B"
+        - text: "|"
+        - link "D" [ref=f431e58] [cursor=pointer]:
+          - /url: "#group_D"
+        - text: "|"
+        - link "F" [ref=f431e59] [cursor=pointer]:
+          - /url: "#group_F"
+        - text: "|"
+        - link "G" [ref=f431e60] [cursor=pointer]:
+          - /url: "#group_G"
+        - text: "|"
+        - link "H" [ref=f431e61] [cursor=pointer]:
+          - /url: "#group_H"
+        - text: "|"
+        - link "J" [ref=f431e62] [cursor=pointer]:
+          - /url: "#group_J"
+        - text: "|"
+        - link "K" [ref=f431e63] [cursor=pointer]:
+          - /url: "#group_K"
+        - text: "|"
+        - link "M" [ref=f431e64] [cursor=pointer]:
+          - /url: "#group_M"
+        - text: "|"
+        - link "N" [ref=f431e65] [cursor=pointer]:
+          - /url: "#group_N"
+        - text: "|"
+        - link "P" [ref=f431e66] [cursor=pointer]:
+          - /url: "#group_P"
+        - text: "|"
+        - link "R" [ref=f431e67] [cursor=pointer]:
+          - /url: "#group_R"
+        - text: "|"
+        - link "S" [ref=f431e68] [cursor=pointer]:
+          - /url: "#group_S"
+        - text: "|"
+        - link "T" [ref=f431e69] [cursor=pointer]:
+          - /url: "#group_T"
+        - text: "|"
+        - link "Y" [ref=f431e70] [cursor=pointer]:
+          - /url: "#group_Y"
+        - text: "|"
+        - link "Z" [ref=f431e71] [cursor=pointer]:
+          - /url: "#group_Z"
+      - generic [ref=f431e72]:
+        - text: "Number of items:"
+        - strong [ref=f431e73]: "45"
+        - text: .
+      - heading "A" [level=2] [ref=f431e74]
+      - paragraph [ref=f431e75]:
+        - text: Amalia, Hanna (2014)
+        - link [ref=f431e76] [cursor=pointer]:
+          - /url: http://repository.upi.edu/16930/
+          - emphasis [ref=f431e77]: SISTEM REKOMENDASI VARIAN RASA BERDASARKAN KLASIFIKASI PELANGGAN PADA PERUSAHAAN BROWNIES AMANDA.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "B" [level=2] [ref=f431e78]
+      - paragraph [ref=f431e79]:
+        - text: Bahri, Cipta setiadi (2014)
+        - link [ref=f431e80] [cursor=pointer]:
+          - /url: http://repository.upi.edu/13000/
+          - emphasis [ref=f431e81]: SISTEM PAKAR UNTUK MENGIDENTIFIKASI PENGGUNAAN JENIS NARKOBA DAN PENANGGULANGANNYA MENGGUNAKAN METODE CASE BASED REASONING (CBR).
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "D" [level=2] [ref=f431e82]
+      - paragraph [ref=f431e83]:
+        - text: Dea rokhmatun Iradewa, - (2014)
+        - link [ref=f431e84] [cursor=pointer]:
+          - /url: http://repository.upi.edu/44845/
+          - emphasis [ref=f431e85]: PENGENALAN TULISAN AKSARA SUNDA OFFLINE DENGAN JARINGAN SYARAF TIRUAN BACKPROPAGATION.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e86]:
+        - text: Deskantini, Asri maulida (2014)
+        - link [ref=f431e87] [cursor=pointer]:
+          - /url: http://repository.upi.edu/16353/
+          - emphasis [ref=f431e88]: PENERAPAN MULTIMEDIA PADA PEMBELAJARAN BERBASIS MASALAH UNTUK MENINGKATKAN KEMAMPUAN APLIKASI SISWA.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "F" [level=2] [ref=f431e89]
+      - paragraph [ref=f431e90]:
+        - text: Fachri, - (2014)
+        - link [ref=f431e91] [cursor=pointer]:
+          - /url: http://repository.upi.edu/12526/
+          - emphasis [ref=f431e92]: SISTEM REKOMENDASI PENJURUSAN PADA JENJANG MENENGAH ATAS MENGGUNAKAN ALGORITMA C45.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e93]:
+        - text: Fauzi, Arfi (2014)
+        - link [ref=f431e94] [cursor=pointer]:
+          - /url: http://repository.upi.edu/14128/
+          - emphasis [ref=f431e95]: APLIKASI TES SKALA MINAT PEKERJAAN UNTUK MEMPREDIKSI JURUSAN PERGURUAN TINGGI PADA SISWA SMA KELAS XI MENGGUNAKAN METODE FUZZY LOGIC.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e96]:
+        - text: Firdaus, Khairul Jabal (2014)
+        - link [ref=f431e97] [cursor=pointer]:
+          - /url: http://repository.upi.edu/12620/
+          - emphasis [ref=f431e98]: SISTEM TRACKING GARIS DAN SUDUT SEBAGAI PENDUKUNG NAVIGASI PADA PENGENDARA.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e99]:
+        - text: Fitri, Annisa Aulia (2014)
+        - link [ref=f431e100] [cursor=pointer]:
+          - /url: http://repository.upi.edu/12524/
+          - emphasis [ref=f431e101]: SISTEM PENDUKUNG KEPUTUSAN PENENTUAN WILAYAH RAWAN BANJIR MENGGUNAKAN METODE SIMPLE ADDITIVE WEIGHTING (SAW) DI KABUPATEN BANDUNG BERBASIS WEBGIS.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e102]:
+        - text: Fitriani, Syifa Afifah (2014)
+        - link [ref=f431e103] [cursor=pointer]:
+          - /url: http://repository.upi.edu/14222/
+          - emphasis [ref=f431e104]: PERBANDINGAN METODE WEIGHTED PRODUCT DENGAN METODE TECHNIQUE FOR ORDER PREFERENCE BY SIMILARITY TO IDEAL SOLUTION DALAM PENDUKUNG KEPUTUSAN PEREKRUTAN SISWA/MAHASISWA PRAKTEK KERJA LAPANGAN.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e105]:
+        - text: Futra, Muhammad Haryadi (2014)
+        - link [ref=f431e106] [cursor=pointer]:
+          - /url: http://repository.upi.edu/13050/
+          - emphasis [ref=f431e107]: DETEKSI AKTIVITAS DENGAN MEMANFAATKAN DATA LAYANAN JEJARING SOSIAL BERBASIS LOKASI TWITTER.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "G" [level=2] [ref=f431e108]
+      - paragraph [ref=f431e109]:
+        - text: Gava, Siska Lamedies (2014)
+        - link [ref=f431e110] [cursor=pointer]:
+          - /url: http://repository.upi.edu/14620/
+          - emphasis [ref=f431e111]: SISTEM PAKAR PENENTUAN POLA ASUH ANAK BERDASARKAN ENEAGRAM KEPRIBADIAN DENGAN METODE FORWARD CHAINING.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "H" [level=2] [ref=f431e112]
+      - paragraph [ref=f431e113]:
+        - text: Hakim, Muhamad Ade Lukmanul (2014)
+        - link [ref=f431e114] [cursor=pointer]:
+          - /url: http://repository.upi.edu/15084/
+          - emphasis [ref=f431e115]: SISTEM PENGUKUR KUALITAS LAYANAN PENDIDIKAN MENGGUNAKAN EDUCATIONAL QUALITY.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e116]:
+        - text: Handika, Yola Tri (2014)
+        - link [ref=f431e117] [cursor=pointer]:
+          - /url: http://repository.upi.edu/11449/
+          - emphasis [ref=f431e118]: IMPLEMENTASI METODE FILTER GABOR DAN BACKPROPAGATION NEURAL NETWORK PADA SISTEM PENGENALAN WAJAH SEBAGAI PERSONAL AUTHENTICATION.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e119]:
+        - text: Hartuti, Foni Sri (2014)
+        - link [ref=f431e120] [cursor=pointer]:
+          - /url: http://repository.upi.edu/27897/
+          - emphasis [ref=f431e121]: PENGEMBANGAN MULTIMEDIA PEMBELAJARAN INTERAKTIF DENGAN TEKNIK BFS DAN DFS MENGGUNAKAN PENDEKATAN PEMBELAJARAN BERBASIS MASALAH DALAM MATERI PEMOGRAMAN DASAR.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e122]:
+        - text: Hasanah, Siti (2014)
+        - link [ref=f431e123] [cursor=pointer]:
+          - /url: http://repository.upi.edu/14211/
+          - emphasis [ref=f431e124]: "KAJIAN IMPLEMENTASI E-LEARNING BERDASARKAN TINGKAT KESIAPAN PESERTA E-LEARNING : Studi Kasus di Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam Universitas Pendidikan Indonesia."
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "J" [level=2] [ref=f431e125]
+      - paragraph [ref=f431e126]:
+        - text: Jayadi, Didi (2014)
+        - link [ref=f431e127] [cursor=pointer]:
+          - /url: http://repository.upi.edu/16280/
+          - emphasis [ref=f431e128]: "SISTEM PENDUKUNG KEPUTUSAN ANALISIS KELAYAKAN KREDIT MENGGUNAKAN METODE FUZZY DAN SMART (SIMPLE MULTI-ATTRIBUTE RATING TECHNIQUE) : Studi kasus di Koperasi Baitul Makmur Kec. Gantar - Kab. Indramayu."
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e129]:
+        - text: Juanda, Juwita (2014)
+        - link [ref=f431e130] [cursor=pointer]:
+          - /url: http://repository.upi.edu/11448/
+          - emphasis [ref=f431e131]: PERBANDINGAN ALGORITMA NAIVE BAYES DAN APRIORI DALAM SISTEM REKOMENDASI PEMILIHAN WARNA CAT DINDING KAMAR TIDUR BERDASARKAN KEPRIBADIAN.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "K" [level=2] [ref=f431e132]
+      - paragraph [ref=f431e133]:
+        - text: Kamil, Andri (2014)
+        - link [ref=f431e134] [cursor=pointer]:
+          - /url: http://repository.upi.edu/11913/
+          - emphasis [ref=f431e135]: PENERAPAN ALGORITMA LINE MAZE PADA ROBOT LINE FOLLOWER UNTUK MENYELESAIKAN LINE MAZE DENGAN MENGGUNAKAN LEFT HAND RULE.
+        - text: S2 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e136]:
+        - text: Kamil, Kiki Husni (2014)
+        - link [ref=f431e137] [cursor=pointer]:
+          - /url: http://repository.upi.edu/13544/
+          - emphasis [ref=f431e138]: "Pengembangan Aplikasi Pembentukan Kelompok Belajar Siswa Berdasar Metode Spin Wish Berbasis Website Untuk Pembelajaran Menggunakan Metode Pltlp: Peer-Led Team Learning And Presentation Pada Mata Pelajaran Tik Sma."
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e139]:
+        - text: Kurnia, Asep (2014)
+        - link [ref=f431e140] [cursor=pointer]:
+          - /url: http://repository.upi.edu/14818/
+          - emphasis [ref=f431e141]: KEAMANAN WEB FOTO GALERY DENGAN MENGGUNAKAN ALGORITMA 3DES (TRIPLE DATA ENCRYPTION STANDARD).
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e142]:
+        - text: Kurniawan, Reza (2014)
+        - link [ref=f431e143] [cursor=pointer]:
+          - /url: http://repository.upi.edu/16403/
+          - emphasis [ref=f431e144]: "SISTEM PENDUKUNG KEPUTUSAN GURU BERPRESTASI MENGGUNAKAN METODE ANALYTICAL HIERARCHY PROCESS (AHP) DAN WEIGHTED PRODUCT (WP) : Studi Kasus SMK Negeri 1 Sindang."
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e145]:
+        - text: Kusumah, Renisa Suryahadi (2014)
+        - link [ref=f431e146] [cursor=pointer]:
+          - /url: http://repository.upi.edu/14224/
+          - emphasis [ref=f431e147]: IMPLEMENTASI ALGORITMA GADDAG DAN NEGASCOUT UNTUK OPTIMALISASI COMPUTER PLAYER DALAM PERMAINAN SCRABBLE.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "M" [level=2] [ref=f431e148]
+      - paragraph [ref=f431e149]:
+        - text: Maulana, Rifaldi (2014)
+        - link [ref=f431e150] [cursor=pointer]:
+          - /url: http://repository.upi.edu/15692/
+          - emphasis [ref=f431e151]: PENERAPAN PEMBELAJARAN INQUIRI BERBANTU MULTIMEDIA INTERAKTIF UNTUK MENINGKATKAN KEMAMPUAN PEMECAHAN MASALAH PADA SISWA SMK.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e152]:
+        - text: Melyna, Elsi (2014)
+        - link [ref=f431e153] [cursor=pointer]:
+          - /url: http://repository.upi.edu/16264/
+          - emphasis [ref=f431e154]: "SISTEM REKOMENDASI PRIORITAS PENERIMA LAYANAN KONSELING SISWA MENGGUNAKAN METODE SIMPLE ADDITIVE WEIGHTING (SAW) : STUDI KASUS : SMP LABORATORIUM UPI."
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e155]:
+        - text: Melyna, Elsi (2014)
+        - link [ref=f431e156] [cursor=pointer]:
+          - /url: http://repository.upi.edu/15644/
+          - emphasis [ref=f431e157]: "SISTEM REKOMENDASI PRIORITAS PENERIMA LAYANAN KONSELING SISWA MENGGUNAKAN METODE SIMPLE ADDITIVE WEIGHTING (SAW) : Studi kasus : SMP Laboratorium UPI."
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e158]:
+        - text: Mustamiin, Muhamad (2014)
+        - link [ref=f431e159] [cursor=pointer]:
+          - /url: http://repository.upi.edu/15392/
+          - emphasis [ref=f431e160]: PENGEMBANGAN MULTIMEDIA PEMBELAJARAN BERBASIS WEB MENGGUNAKAN METODE INTERACTIVE MULTIMEDIA SYSTEM DESIGN AND DEVELOPMENT (IMSDD) PADA MATERI BASIS DATA DI SMK RPL DENGAN MENGADAPTASI PEMBELAJARAN KOOPERATIF TIPE STUDENT TEAM ACHIEVEMENT DIVISION (STAD).
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "N" [level=2] [ref=f431e161]
+      - paragraph [ref=f431e162]:
+        - text: Narudin, Nanda Franata Sufriadi (2014)
+        - link [ref=f431e163] [cursor=pointer]:
+          - /url: http://repository.upi.edu/14066/
+          - emphasis [ref=f431e164]: RANCANG BANGUN APLIKASI TRACING MOBIL RENTAL MENGGUNAKAN ALGORITMA A* (A STAR) UNTUK MENENTUKAN JALUR TERPENDEK SECARA REAL TIME PADA PERANGKAT ANDROID.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e165]:
+        - text: Nur, Muhammad (2014)
+        - link [ref=f431e166] [cursor=pointer]:
+          - /url: http://repository.upi.edu/15347/
+          - emphasis [ref=f431e167]: STUDI KOMPARASI METODE PROMETHEE DAN TOPSIS UNTUK MEMBERIKAN SOLUSI TERBAIK DALAM PENGAMBILAN KEPUTUSAN MENENTUKAN TINGKAT OBESITAS.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "P" [level=2] [ref=f431e168]
+      - paragraph [ref=f431e169]:
+        - text: Permadi, Rojali Budi (2014)
+        - link [ref=f431e170] [cursor=pointer]:
+          - /url: http://repository.upi.edu/7054/
+          - emphasis [ref=f431e171]: SISTEM E-VOTING MENGGUNAKAN PROTOKOL TWO CENTRAL FACILITIES DENGAN MENGGABUNGKAN ALGORITMA AES DAN RSA SEBAGAI KOMBINASI KEAMANAN.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e172]:
+        - text: Pradana, Asep Doni (2014)
+        - link [ref=f431e173] [cursor=pointer]:
+          - /url: http://repository.upi.edu/11446/
+          - emphasis [ref=f431e174]: SISTEM REKOMENDASI PENENTUAN PEKERJAAN BERDASARKAN KEPRIBADIAN RIASEC MENGGUNAKAN METODE SIMPLE ADDITIVE WEIGHTING DAN TOPSIS.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e175]:
+        - text: Pujihati, Ratih (2014)
+        - link [ref=f431e176] [cursor=pointer]:
+          - /url: http://repository.upi.edu/13503/
+          - emphasis [ref=f431e177]: PENERAPAN METODE JARINGAN SYARAF TIRUAN LEARNING VECTOR QUANTIZATION (LVQ) UNTUK PENGENALAN WAJAH DENGAN CITRA WAJAH GAUSSIAN BLUR.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e178]:
+        - text: Purwnto, Ari (2014)
+        - link [ref=f431e179] [cursor=pointer]:
+          - /url: http://repository.upi.edu/7351/
+          - emphasis [ref=f431e180]: PERBANDINGAN METODE STEGANOGRAFI LEAST SIGNIFICANT BIT DENGAN METODE STEGANOGRAFI BIT PLANE COMPLEXITY SEGMENTATION PADA CITRA PNG.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e181]:
+        - text: Puspaningrum, Alifia (2014)
+        - link [ref=f431e182] [cursor=pointer]:
+          - /url: http://repository.upi.edu/14797/
+          - emphasis [ref=f431e183]: RANCANG BANGUN MULTIMEDIA INTERAKTIF BERBASIS METODE CONCEPT ATTAINMENT DENGAN MENGGUNAKAN ALGORITMA BRANCH AND BOUND UNTUK MENINGKATKAN PEMAHAMAN MAHASISWA PADA MATA KULIAH ALGORITMA DAN PEMROGRAMAN.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "R" [level=2] [ref=f431e184]
+      - paragraph [ref=f431e185]:
+        - text: Rahmanda, Fadhila Ilmi (2014)
+        - link [ref=f431e186] [cursor=pointer]:
+          - /url: http://repository.upi.edu/15065/
+          - emphasis [ref=f431e187]: "PENERAPAN METODE AHP-TOPSIS PADA PROSES TATA KELOLA LAHAN HCV DI PERKEBUNAN KELAPA SAWIT BERBASIS SISTEM REKOMENDASI : Studi Kasus PT. Aksenta Indonesia."
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e188]:
+        - text: Riadhy, Rizky (2014)
+        - link [ref=f431e189] [cursor=pointer]:
+          - /url: http://repository.upi.edu/14328/
+          - emphasis [ref=f431e190]: SISTEM ENKRIPSI INSTANT MESSAGING DENGAN MENGGUNAKAN ALGORITMA RSA PADA PLATFORM ANDROID.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e191]:
+        - text: Rikin, Stevie Paul Wijaya (2014)
+        - link [ref=f431e192] [cursor=pointer]:
+          - /url: http://repository.upi.edu/18473/
+          - emphasis [ref=f431e193]: Pengembangan Sistem Uji Kemampuan Bahasa Inggris Berbasis Computerized Adaptive Test Dengan Menggunakan Metode Interval Teratur.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e194]:
+        - text: Romadona, Erik (2014)
+        - link [ref=f431e195] [cursor=pointer]:
+          - /url: http://repository.upi.edu/12579/
+          - emphasis [ref=f431e196]: SISTEM PENDUKUNG KEPUTUSAN PENERAPAN SISTEM INFORMASI BERDASARKAN BUDAYA ORGANISASI MENGGUNAKAN METODE ORGANIZATIONAL CULTURE ASSESSMENT INSTRUMENT DAN COMPETING VALUES FRAMEWORK.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e197]:
+        - text: Rozak, Mohammad Fachry (2014)
+        - link [ref=f431e198] [cursor=pointer]:
+          - /url: http://repository.upi.edu/7162/
+          - emphasis [ref=f431e199]: "MONITORING DAN AUTO BACKUP SERVER DENGAN PERIODIC PUSH TECHNOLOGY DALAM NETWORK AVAILABILITY : Studi Kasus Pada Server FPMIPA UPI."
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "S" [level=2] [ref=f431e200]
+      - paragraph [ref=f431e201]:
+        - text: Sandy, Ikhlas Pratama (2014)
+        - link [ref=f431e202] [cursor=pointer]:
+          - /url: http://repository.upi.edu/13505/
+          - emphasis [ref=f431e203]: PENERAPAN METODE ANALYTICAL HIERARCHY PROCESS PADA PENGAMBILAN KEPUTUSAN PEMILIHAN NOTEBOOK BAGI MAHASISWA.
+        - text: S1 thesis, Univeritas Pendidikan Indonesia.
+      - paragraph [ref=f431e204]:
+        - text: Septian, Irvan (2014)
+        - link [ref=f431e205] [cursor=pointer]:
+          - /url: http://repository.upi.edu/14064/
+          - emphasis [ref=f431e206]: PENERAPAN METODE TRANSPORTASI DAN STEPPING STONE UNTUK MENGOPTIMALKAN PEMILIHAN SUPLLIER BAHAN BAKU.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e207]:
+        - text: Septian, Ridwan Fadjar (2014)
+        - link [ref=f431e208] [cursor=pointer]:
+          - /url: http://repository.upi.edu/11519/
+          - emphasis [ref=f431e209]: IMPLEMENTASI FUZZY LOGIC METODE MAMDANI UNTUK PENGEMBANGAN INTELLIGENT NON-PLAYER CHARACTER PADA GAME STRATEGY.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f431e210]:
+        - text: Suhedar, Agus (2014)
+        - link [ref=f431e211] [cursor=pointer]:
+          - /url: http://repository.upi.edu/13929/
+          - emphasis [ref=f431e212]: PENERAPAN MODEL PEMBELAJARAN CREATIVE PROBLEM SOLVING (CPS) UNTUK MENINGKATKAN HASIL BELAJAR SISWA PADA APLIKASI PENGOLAH ANGKA.
+        - text: S1 thesis, Univeritas Pendidikan Indonesia.
+      - heading "T" [level=2] [ref=f431e213]
+      - paragraph [ref=f431e214]:
+        - text: Thabit, Nabil Amer (2014)
+        - link [ref=f431e215] [cursor=pointer]:
+          - /url: http://repository.upi.edu/13857/
+          - emphasis [ref=f431e216]: RANCANG BANGUN APLIKASI TES BUTA WARNA BERBASIS WEB INTERAKTIF MENGGUNAKAN METODE PSEUDOISOCHROMATIC PLATES DAN ARRANGEMENT TEST.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "Y" [level=2] [ref=f431e217]
+      - paragraph [ref=f431e218]:
+        - text: Yusuf, Muhammad (2014)
+        - link [ref=f431e219] [cursor=pointer]:
+          - /url: http://repository.upi.edu/11518/
+          - emphasis [ref=f431e220]: PENERAPAN KONSEP INBOUND MARKETING PADA APLIKASI TWITTER CLIENT UNTUK KEPERLUAN PEMASARAN PADA KORPORASI.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "Z" [level=2] [ref=f431e221]
+      - paragraph [ref=f431e222]:
+        - text: Zulkifli, - (2014)
+        - link [ref=f431e223] [cursor=pointer]:
+          - /url: http://repository.upi.edu/16319/
+          - emphasis [ref=f431e224]: SISTEM PAKAR DIAGNOSA PENYAKIT AUTIS PADA ANAK DENGAN MENGGUNAKAN METODE FUZZY MAMDANI.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - generic [ref=f431e225]:
+        - text: This list was generated on
+        - strong [ref=f431e226]: Thu Sep 3 12:55:02 2026 WIB
+        - text: .
+  - contentinfo [ref=f431e227]:
+    - generic [ref=f431e228]:
+      - navigation [ref=f431e230]:
+        - list [ref=f431e232]:
+          - listitem [ref=f431e233]:
+            - link "Home" [ref=f431e234] [cursor=pointer]:
+              - /url: http://repository.upi.edu
+          - listitem [ref=f431e235]:
+            - link "About" [ref=f431e236] [cursor=pointer]:
+              - /url: http://repository.upi.edu/information.html
+          - listitem [ref=f431e237]:
+            - link "Browse" [ref=f431e238] [cursor=pointer]:
+              - /url: http://repository.upi.edu/view/
+          - listitem [ref=f431e239]
+      - generic [ref=f431e242]:
+        - link "Accesibility" [ref=f431e243] [cursor=pointer]:
+          - /url: "#"
+        - text: "|"
+        - link "Copyright @ 2022" [ref=f431e244] [cursor=pointer]:
+          - /url: "#"
+        - text: "|"
+        - link "Disclaimer" [ref=f431e245] [cursor=pointer]:
+          - /url: "#"
+        - text: "|"
+        - link "Privacy" [ref=f431e246] [cursor=pointer]:
+          - /url: "#"
+        - text: "|"
+        - link "Right to Information" [ref=f431e247] [cursor=pointer]:
+          - /url: "#"

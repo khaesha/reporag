@@ -1,0 +1,353 @@
+[
+  {
+    "title": "PENENTUAN STRATEGI PENEMPATAN BOLA TENIS LAPANGAN DENGAN ALGORITMA BOYER MOORE BERDASARKAN PERHITUNGAN ENERGI",
+    "abstract": "Teknik penguasaan adalah keterampilan terpenting dalam tenis yang harus dimiliki pemain, salah satunya adalah penempatan bola dengan benar sehingga pemain lawan sulit mengembalikan. Teknik sport science diterapkan untuk memetakan pergerakan bola antar pemain untuk mendapatkan pola sehingga pemain bisa mempelajari bagaimana orang lain menempatkan bola. Aktivitas fisik adalah sebagai setiap gerakan tubuh yang mengakibatkan pengeluaran energi lebih tinggi dari istirahat. Penelitian ini ingin merancang dan mengimplementasikan sebuah model pencarian string dengan menggunakan Boyer-Moore sebagai pendekatan dalam memproses pola bola dan perhitungan energi terhadap pola. Model akan diimplementasikan pada pemrograman Bahasa R. Data yang digunakan adalah data penempatan bola yang sudah ditransformasikan ke dalam karakter-karakter dari setiap area dalam lapangan tenis. Pengujian dilakukan menggunakan 10 short sequence acak dari video yang tersedia sebagai data training dan 20 short sequence dari video baru pertandingan tenis lapangan yang diambil dari situs Youtube. Hasil penelitian ini menunjukkan bahwa berdasarkan data penempatan bola 60% lebih optimal jika dilihat dari sisi total energi pemain jika dibandingkan dengan hasil aktual video. Mastery technique is the most crucial skill in tennis that a player must have, one part of this technique is the proper placement of the ball so that the opposing player is difficult to return it. The technique of sports science is applied to map the ball's movement from one player to another to get a pattern so that players can learn how others place the ball. Physical activity is defined as anybody's movement that results in higher energy expenditure from rest. The study wanted to design and implement a string search model using the Boyer-Moore algorithm to process the resulting patterns and perform energy calculations of those patterns. The model will be implemented in the R Language programming. The data used is ball placement data that has previously been transformed into the characters of each area of the tennis court. The tests were conducted using 10 short random sequences of videos available as training data and 20 short sequences from new videos of court tennis matches taken from the Youtube site. The results of this study indicate that based on the placement of the ball data, 60% is more optimal when viewed in terms of the total energy expended by the players when compared to the actual video results.",
+    "authors": [
+      "Achmad Firditama, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Achmad Firditama",
+    "date_deposited": "25 May 2022 08:09",
+    "uri": "http://repository.upi.edu/id/eprint/72625"
+  },
+  {
+    "title": "IMPLEMENTASI DYNAMIC DIFFICULTY ADJUSTMENT PADA NON-VIOLENT VIDEO GAMES UNTUK MENINGKATKAN DAYA TARIK PEMAIN",
+    "abstract": "Video Games merupakan sebuah permainan elektronik yang memiliki tujuan sebagai salah satu media hiburan pada zaman modern. Sebagai media hiburan, sebuah video games harus dapat membuat suasana pengalaman pada pemain agar termotivasi untuk menyelesaikan game tersebut. Dynamic Difficulty Adjustment merupakan sebuah metode yang digunakan untuk menyesuaikan tingkat kesulitan secara otomatis berdasarkan kemampuan yang dimiliki oleh pemain. Tujuan dari metode ini adalah agar pemain dapat mencapai flow state dimana pemain merasa termotivasi untuk melanjutkan permainan dan tidak menghadapi tingkat kesulitan yang terlalu tinggi sehingga menyebabkan pemain merasa frustrasi atau tingkat kesulitan yang terlalu rendah sehingga menyebabkan pemain merasa bosan. Tujuan dari penelitian ini adalah untuk meningkatkan daya tarik non-violent video games dengan menerapkan metode DDA. Pendekatan DDA yang akan digunakan adalah algoritma Hidden Markov Model (HMM) yang merupakan salah satu dari metode probabilitas. Game ini diuji dengan menggunakan kuesioner Game User Experience Satisfaction Scale (GUESS). Hasil pengujian menunjukan bahwa game yang diuji memiliki skor akhir yaitu 51,3 yang merupakan diatas rata-rata dan menunjukkan bahwa game tersebut cukup menarik. Video Games is an electronic game that has a purpose as one of the entertainment media in modern times. As an entertainment media, a video game must be able to create an atmosphere of experience where players will be motivated to complete the game. Dynamic Difficulty Adjustment is a method used to automatically adjust the difficulty level based on the abilities of the player. The purpose of this method is so that players can reach a flow state where players feel motivated to continue the game and do not face a level of difficulty that is too high, causing players to feel frustrated or a difficulty level that is too low, causing players to feel bored. The purpose of this study was to increase the attractiveness of non-violent video games by applying the DDA method. DDA approach that will be used is the Hidden Markov Model (HMM) algorithm which is one of the probabilities methods . This game was tested using the Game User Experience Satisfaction Scale (GUESS) questionnaire. The test results show that the game being tested has a final score of 51,3 which is above the average and indicates that the game is quite interesting.",
+    "authors": [
+      "Adithya Kurniawan, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Adithya Kurniawan",
+    "date_deposited": "09 Sep 2022 07:03",
+    "uri": "http://repository.upi.edu/id/eprint/79151"
+  },
+  {
+    "title": "RANCANG BANGUN ANIMASI INTERAKTIF SEBAGAI MEDIA PENGENALAN KEBUDAYAAN SUNDA DENGAN PENERAPAN INTERACTIVE STORYTELLING",
+    "abstract": "Pada era globalisasi seperti saat ini membuat kebudayaan dari berbagai negara di dunia dapat sangat mudah masuk ke dalam kehidupan masyarakat. Beberapa negara menggunakan media animasi sebagai media pengenalan kebudayaan mereka kepada masyarakat. Animasi di Indonesia masih di dominasi oleh animasi buatan luar negeri. Hal tersebut menyebabkan masyarakat terutama generasi muda lebih tertarik dengan kebudayaan asing dibandingkan dengan kebudayaan Indonesia. Oleh karena itu, dibutuhkanlah sebuah inovasi pada media animasi yang dapat meningkatkan ketertarikan dan pengetahuan masyarakat terhadap kebudayaan Indonesia. Pada penelitian ini akan dirancang dan dibangun sebuah animasi interaktif sebagai media sosialisasi kebudayaan Indonesia dengan ruang lingkup kebudayaan Sunda menggunakan metode penelitian Design Research Methodology (DRM). Animasi interaktif tersebut akan memiliki beberapa fitur interaksi, yaitu fitur cerita non linear, mengendalikan karakter, interaksi dengan warga, dan latihan soal. Pada fitur cerita non linear digunakan limited branching model sebagai pemodelan cerita. Hasil penelitian didapatkan dengan melakukan survei dan menganalisis hasil tersebut menggunakan skala Likert. Hasil analisis survei memperlihatkan bahwa pada instrumen pemahaman pengguna pada saat menggunakan aplikasi animasi interaktif memiliki indeks persentase sebesar 88,96% atau sangat baik. Kemudian pada instrumen pendapat pengguna memiliki indeks persentase sebesar 84,95% atau sangat baik. In the current era of globalization, it is very easy for cultures from various countries in the world to enter people's lives. Some countries use animation media as a medium for introducing their culture to the public. Animation in Indonesia is still dominated by foreign-made animation. This causes people, especially the younger generation, to be more interested in foreign culture than Indonesian culture. Therefore, innovation in animation media is needed that can increase public interest and knowledge of Indonesian culture. In this study, an interactive animation will be designed and built as a medium for socializing Indonesian culture with the scope of Sundanese culture using the Design Research Methodology (DRM) research method. The interactive animation will have several interaction features, namely non-linear story features, controlling characters, interaction with residents, and practice questions. In non-linear story features, a limited branching model is used as story modeling. The results of the study were obtained by conducting a survey and analyzing the results using a Likert scale. The results of the survey analysis show that the user understanding of instruments when using interactive animation applications has a percentage index of 88.96% or very good. Then the user opinion instrument has a percentage index of 84.95% or very good.",
+    "authors": [
+      "Afif Alfauzan, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Afif Alfauzan",
+    "date_deposited": "09 Sep 2022 03:47",
+    "uri": "http://repository.upi.edu/id/eprint/79885"
+  },
+  {
+    "title": "RANCANG BANGUN SISTEM ADMINISTRASI INVENTARIS MENGGUNAKAN MODEL WATERFALL UNTUK FAKULTAS PENDIDIKAN MATEMATIKA DAN ILMU PENGETAHUAN ALAM UNIVERSITAS PENDIDIKAN INDONESIA",
+    "abstract": null,
+    "authors": [
+      "Agung Sugiarto, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Agung Sugiarto",
+    "date_deposited": "14 Sep 2022 04:12",
+    "uri": "http://repository.upi.edu/id/eprint/80417"
+  },
+  {
+    "title": "IMPLEMENTASI MODEL STATE MACHINE DALAM PENILAIAN PENULISAN SOURCE CODE OTOMATIS PADA SISTEM ONLINE JUDGE",
+    "abstract": null,
+    "authors": [
+      "Albari Berki Pradhana, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) L Education > LB Theory and practice of education > LB1603 Secondary Education. High schools Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Albari Berki Pradhana",
+    "date_deposited": "09 Sep 2022 07:05",
+    "uri": "http://repository.upi.edu/id/eprint/78403"
+  },
+  {
+    "title": "ANALISIS KEAMANAN DAN PENGARUH PERUBAHAN CODEC TERHADAP QUALITY OF SERVICE DARI TELEPON SUARA TERENKRIPSI PADA VOICE OVER IP FREEPBX",
+    "abstract": null,
+    "authors": [
+      "Asep Saepul Achmad, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Asep Saepul Achmad",
+    "date_deposited": "19 Sep 2022 04:22",
+    "uri": "http://repository.upi.edu/id/eprint/81371"
+  },
+  {
+    "title": "Implementasi Feature Selection Dan Pembobotan TFIDF Pada Klasifikasi Tweets Informasi Kehilangan Dengan Naive Bayes",
+    "abstract": null,
+    "authors": [
+      "Burhanudin, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Burhanudin",
+    "date_deposited": "14 Sep 2022 02:37",
+    "uri": "http://repository.upi.edu/id/eprint/80363"
+  },
+  {
+    "title": "PERANCANGAN USER INTERFACE UNTUK WEBSITE E-MARKETING BERDASARKAN EIGHT GOLDEN RULES OF INTERFACE DESIGN (STUDIKASUS CAFE XYZ)",
+    "abstract": null,
+    "authors": [
+      "Dhimas Satria Hanandyatama, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Dhimas Satria Hanandyatama",
+    "date_deposited": "15 Sep 2022 08:26",
+    "uri": "http://repository.upi.edu/id/eprint/79902"
+  },
+  {
+    "title": "RULES-BASED PROCEDURAL CONTENT GENERATION UNTUK NILAI KOGNITIF DAN AFEKTIF SISWA DI AWAL PERMAINAN PADA GAME TEACHING",
+    "abstract": null,
+    "authors": [
+      "Dicky Kurniawan, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) L Education > LB Theory and practice of education > LB1603 Secondary Education. High schools Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Dicky Kurniawan",
+    "date_deposited": "02 Jun 2022 04:56",
+    "uri": "http://repository.upi.edu/id/eprint/72829"
+  },
+  {
+    "title": "IMPLEMENTASI DESAIN USER EXPERIENCE (UX) PADA WEBSITE DIREKTORI-INDUSTRI.ID DENGAN MENGGUNAKAN METODE USER CENTERED DESIGN (UCD)",
+    "abstract": null,
+    "authors": [
+      "Dimas Saptahadi, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Dimas Saptahadi",
+    "date_deposited": "16 Sep 2022 02:28",
+    "uri": "http://repository.upi.edu/id/eprint/80820"
+  },
+  {
+    "title": "PENGEMBANGAN WEBSITE E-COMMERCE BERDASARKAN USER EXPERIENCE DENGAN MENGGUNAKAN METODE LEAN UX",
+    "abstract": null,
+    "authors": [
+      "Eka Budi Haryanti, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Eka Budi Haryanti",
+    "date_deposited": "31 May 2022 05:07",
+    "uri": "http://repository.upi.edu/id/eprint/72657"
+  },
+  {
+    "title": "PEMBANGUNAN GAMIFIKASI PADA APLIKASI PEMBELAJARAN MENGGUNAKAN INTERNET MEME DAN CHATBOT PADA APLIKASI INSTANT MESSAGING DENGAN OCTALYSIS GAMIFICATION FRAMEWORK",
+    "abstract": null,
+    "authors": [
+      "Fachri Veryawan Mahkota, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Fachri Veryawan Mahkota",
+    "date_deposited": "19 Sep 2022 07:31",
+    "uri": "http://repository.upi.edu/id/eprint/80852"
+  },
+  {
+    "title": "PREDIKSI PERGERAKAN HARGA SAHAM BERDASARKAN BERITA MENGGUNAKAN METODE LONG SHORT-TERM MEMORY",
+    "abstract": null,
+    "authors": [
+      "Fenny Feronika Maharani, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "H Social Sciences > H Social Sciences (General) L Education > L Education (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Fenny Feronika Maharani",
+    "date_deposited": "15 Jun 2022 02:24",
+    "uri": "http://repository.upi.edu/id/eprint/73225"
+  },
+  {
+    "title": "PENGEMBANGAN SISTEM MONITORING DAN PELAPORAN PEKERJAAN BERDASARKAN USER EXPERIENCE PADA MASA WORK FROM HOME",
+    "abstract": null,
+    "authors": [
+      "Hasya Ghitha Putri, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Hasya Ghitha Putri",
+    "date_deposited": "30 May 2022 07:11",
+    "uri": "http://repository.upi.edu/id/eprint/72624"
+  },
+  {
+    "title": "PENGEMBANGAN APLIKASI ARSG : ASSOCIATION RULES AND SURVEY GENERATOR MENGGUNAKAN ALGORITMA FP-GROWTH DENGAN METODE LAPI UNTUK PENANGANAN INCREMENTAL DATA (STUDI KASUS : FAKTOR KEMATIAN AKIBAT COVID-19)",
+    "abstract": null,
+    "authors": [
+      "Khamal Fauzan Somantri, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "B Philosophy. Psychology. Religion > BF Psychology L Education > L Education (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Khamal Fauzan Somantri",
+    "date_deposited": "14 Sep 2022 03:33",
+    "uri": "http://repository.upi.edu/id/eprint/80423"
+  },
+  {
+    "title": "KLASIFIKASI SPESIES BERDASARKAN DNA BARCODE SEQUENCE MENGGUNAKAN RANDOM FERNS",
+    "abstract": null,
+    "authors": [
+      "M Ammar Fadhlur Rahman, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science Q Science > QH Natural history > QH301 Biology Q Science > QH Natural history > QH426 Genetics",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "M Ammar Fadhlur Rahman",
+    "date_deposited": "15 Sep 2022 08:15",
+    "uri": "http://repository.upi.edu/id/eprint/80431"
+  },
+  {
+    "title": "RANCANG BANGUN UPIGO SEBAGAI CAMPUS TOUR GUIDE MENGGUNAKAN AUGMENTED REALITY BERBASIS ANIMASI",
+    "abstract": null,
+    "authors": [
+      "Muhammad Argi Nafisa, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Muhammad Argi Nafisa",
+    "date_deposited": "07 Sep 2022 07:37",
+    "uri": "http://repository.upi.edu/id/eprint/77944"
+  },
+  {
+    "title": "PENGUKURAN KONSISTENSI KINERJA BELAJAR MAHASISWA MENGGUNAKAN ALGORITMA K-MEANS",
+    "abstract": "Pesatnya perkembangan teknologi kini telah memasuki berbagai bidang, termasuk pendidikan. Revolusi Industri 4.0 dalam bidang pendidikan menuntut peserta didik untuk mampu bersaing dengan peserta didik lainnya di berbagai aspek dari banyak wilayah. Salah satu tantangannya adalah tenaga kerja yang terpercaya, yang membutuhkan kematangan skill dan pengetahuan yang dibutuhkan, dan ini didapat dari hasil kinerja belajar dari pendidikan yang mereka ambil. Ini membuat para peserta didik harus mampu menjaga kinerja belajar mereka agar mampu bersaing. Penelitian tentang pengukuran konsistensi kinerja belajar peserta didik, seperti mahasiswa, masih jarang dilakukan. Penelitian ini akan menggunakan sebuah metode clustering, yaitu K-Means untuk melakukan pengukuran konsistensi kinerja belajar tersebut. Data yang digunakan adalah data mahasiswa dummy atau data fiktif yang dibuat sendiri oleh penulis. Jumlah mahasiswa yang akan diteliti adalah 80 orang yang akan dibagi menjadi 3 klaster. Ada dua metode yang digunakan, yaitu metode K-Means standar, dan K-Means dengan MinMaxScaler (MMS). MMS digunakan untuk mengubah rentang data menjadi rentang tertentu seperti 0 dan 1. Hasil pengukuran konsistensi kinerja belajar mahasiswa secara keseluruhan dalam metode standar yang tergolong naik, tetap, dan turun adalah 36%, 39%, dan 25%. Sedangkan dalam metode MMS adalah 36%, 44%, dan 20%. The rapid development of technology has now entered various fields, including education. The Industrial Revolution 4.0 in the field of education requires students to be able to compete with other students in various aspects from many regions. One of the challenges is a trusted workforce, which requires the maturity of skills and knowledge needed, and this is obtained from the results of learning performance from the education they take. This makes learners must be able to maintain their learning performance to be able to compete. Research on measuring the consistency of learning performance of learners, such as university students, is still rare. This research will use a clustering method, namely K-Means to measure the consistency of learning performance. The data used is dummy student data or fictitious data created by the author. The number of students to be studied is 80 people who will be divided into 3 clusters. There are two methods used, namely the standard K-Means method, and K-Means with MinMaxScaler (MMS). MMS is used to convert the data range into a certain range such as 0 and 1. The results of measuring the consistency of overall student learning performance in the standard method which is classified as up, fixed, and down are 36%, 39%, and 25%. While in the MMS method are 36%, 44%, and 20%.",
+    "authors": [
+      "Muhammad Firmansyah Gumelar, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Muhammad Firmansyah Gumelar",
+    "date_deposited": "08 Sep 2022 07:11",
+    "uri": "http://repository.upi.edu/id/eprint/79522"
+  },
+  {
+    "title": "RANCANG BANGUN GAME EDUKASI UNTUK PENGENALAN KEBUDAYAAN KAMPUNG NAGA MENGGUNAKAN METODE FINITE STATE MACHINE (FSM)",
+    "abstract": null,
+    "authors": [
+      "Muhammad Ikhsan Nurulfalaah, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Muhammad Ikhsan Nurulfalaah",
+    "date_deposited": "31 May 2022 07:58",
+    "uri": "http://repository.upi.edu/id/eprint/72664"
+  },
+  {
+    "title": "PENGENALAN AKSI PADA VIDEO MENGGUNAKAN METODE TRANSFORMER",
+    "abstract": "Manusia dapat dengan mudah mengenali dan mengidentifikasi suatu tindakan atau aksi seseorang dalam sebuah video, namun tidak demikian dengan mesin. Hal ini sulit dilakukan karena beberapa hal, seperti adanya variasi dalam melakukan suatu aksi, objeknya dapat berubah, atau sudut pandang yang berbeda. Teknik action recognition dapat menganalisis isi video untuk dapat menentukan tindakan apa saja yang ada pada video tersebut. Action recognition ini dapat dimanfaatkan di berbagai bidang seperti security surveillance, autonomous driving, robotics, early warning, video retrieval, dan healthcare. Dari permasalahan tersebut, penelitian ini bertujuan untuk membangun model sistem pengenalan aksi pada video menggunakan metode Transformer. Model ini dibangun menggunakan set data publik UTD-MHAD versi video RGB yang berisikan 861 video aksi sederhana manusia. Recognizer pada penelitian ini menggunakan metode Transformer yang dapat menangani permasalahan pada data sekuensial. Akurasi tertinggi yang berhasil didapatkan pada penelitian ini adalah 83,78%.",
+    "authors": [
+      "Rantty Gantini, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Rantty Gantini",
+    "date_deposited": "09 Sep 2022 07:02",
+    "uri": "http://repository.upi.edu/id/eprint/79894"
+  },
+  {
+    "title": "IMPLEMENTASI CONTENT BASED IMAGE RETRIEVAL (CBIR) UNTUK PENCARIAN GAMBAR BUNGA MENGGUNAKAN QUERY GAMBAR DENGAN METODE CHI-SQUARE DISTANCE",
+    "abstract": null,
+    "authors": [
+      "Reinaldy Rahmadian, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > Q Science (General) T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Reinaldy Rahmadian",
+    "date_deposited": "09 Jun 2022 02:00",
+    "uri": "http://repository.upi.edu/id/eprint/72197"
+  },
+  {
+    "title": "ANALISIS KOMPARASI METODE SAW DAN SMART DALAM SISTEM REKOMENDASI DAERAH PENYEDIAAN AIR BERSIH DI KOTA BANDUNG",
+    "abstract": null,
+    "authors": [
+      "Rendy Fathagrap, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Rendy Fathagrap -",
+    "date_deposited": "14 Sep 2022 07:35",
+    "uri": "http://repository.upi.edu/id/eprint/77804"
+  },
+  {
+    "title": "SISTEM REKOMENDASI PENENTUAN PEMBIMBING SKRIPSI BERDASARKAN MULTI KRITERIA DENGAN FUZZY MULTIPLE ATTRIBUTE DECISION MAKING (FMADM) DAN SIMPLE ADDITIVE WEIGHTING (SAW)",
+    "abstract": null,
+    "authors": [
+      "Risman Hidayatulloh, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "H Social Sciences > H Social Sciences (General) L Education > L Education (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Risman Hidayatulloh",
+    "date_deposited": "15 Sep 2022 09:15",
+    "uri": "http://repository.upi.edu/id/eprint/79144"
+  },
+  {
+    "title": "RANCANG BANGUN APLIKASI VIRTUAL TOUR 360 PADA KAMPUS UNIVERSITAS PENDIDIKAN INDONESIA",
+    "abstract": null,
+    "authors": [
+      "Tio Ardiyanto, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Tio Ardiyanto",
+    "date_deposited": "30 May 2022 06:23",
+    "uri": "http://repository.upi.edu/id/eprint/72667"
+  },
+  {
+    "title": "RANCANG BANGUN SISTEM IDENTIFIKASI KEPRIBADIAN MYERS-BRIGGS TYPE INDICATOR(MBTI) MENGGUNAKAN DECISION TREE BERBASIS VIDEO GAME UNTUK REKOMENDASI PEMILIHAN PEKERJAAN",
+    "abstract": null,
+    "authors": [
+      "Wanda Yudha Pratama, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Wanda Yudha Pratama",
+    "date_deposited": "07 Jun 2022 02:08",
+    "uri": "http://repository.upi.edu/id/eprint/72666"
+  },
+  {
+    "title": "K-MEANS CLUSTERING DAN EXTREME GRADIENT BOOSTING (XGBOOST) UNTUK PREDIKSI POIN DI GAME FANTASY PREMIER LEAGUE",
+    "abstract": "Popularitas Fantasy Sport di kalangan penggemar olahraga professional semakin meningkat setiap tahunnya. Fantasy Premier League (FPL) merupakan game fantasy sport resmi Liga Premier Inggris yang dimainkan oleh jutaan orang di seluruh dunia. Partisipan FPL berperan sebagai manajer sebuah tim yang bertujuan untuk memperoleh poin sebanyak-banyaknya. Kemampuan analisis dan pengambilan keputusan sangat diandalkan dalam menentukan pemain dalam tim yang dimiliki. Platform yang menyediakan model untuk memprediksi poin pemain FPL sudah banyak tersedia di pasar. Dengan sifatnya yang dinamis dan sulit ditebak, bidang prediksi poin pada Fantasy Premier League terbuka lebar untuk peningkatan. Pada penelitian ini digunakan metode penggabungan model unsupervised learning K-Means dengan model supervised learning Extreme Gradient Boosting (XGBoost). Data yang digunakan adalah empat musim data Fantasy Premier League mulai dari musim 2017 hingga musim 2020. Data yang terkumpul diolah dan diagregasi, lalu digabungkan menjadi satu dataset utuh. Berdasarkan eksperimen yang dilakukan, ditemukan bahwa penggabungan K-Means Clustering dengan XGBoost tidak meningkatkan kinerja model. Model tunggal XGBoost menghasilkan nilai RMSE 2.118 dan MAE 1.176. Sedangkan model ensemble XGBoost dan K-Means pada nilai parameter k terbaik menghasilkan nilai RMSE 2.431 dan MAE 1.945.",
+    "authors": [
+      "Yuliansyah Ibrahim, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Yuliansyah Ibrahim",
+    "date_deposited": "23 Aug 2022 02:06",
+    "uri": "http://repository.upi.edu/id/eprint/76156"
+  },
+  {
+    "title": "IMPLEMENTASI DYNAMIC WEB APPLICATION KUESIONER TRACER STUDY MENGGUNAKAN NOSQL DAN GRAPHQL",
+    "abstract": null,
+    "authors": [
+      "Yusuf Fakhri, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Yusuf Fakhri",
+    "date_deposited": "28 Jun 2022 03:31",
+    "uri": "http://repository.upi.edu/id/eprint/73683"
+  }
+]

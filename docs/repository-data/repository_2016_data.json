@@ -1,0 +1,990 @@
+[
+  {
+    "title": "IMPLEMENTASI METODE PROFILE MATCHING TERHADAP KELAYAKAN PEMBERIAN KREDIT PINJAMAN DI KOPERASI",
+    "abstract": null,
+    "authors": [
+      "Abbas, R. Vanhas Ibnu"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA75 Electronic computers. Computer science Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "12 Oct 2017 03:28",
+    "uri": "http://repository.upi.edu/id/eprint/26884"
+  },
+  {
+    "title": "IMPLEMENTASI ALGORITMA CAMELLIA DENGAN KUNCI 128 BIT PADA ENKRIPSI DAN DEKRIPSI ISI PESAN ELCTRONIC MAIL (EMAIL)",
+    "abstract": null,
+    "authors": [
+      "Adison, _"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "T Technology > T Technology (General) Z Bibliography. Library Science. Information Resources > ZA Information resources > ZA4450 Databases",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "06 Sep 2017 02:05",
+    "uri": "http://repository.upi.edu/id/eprint/25728"
+  },
+  {
+    "title": "Optimasi Rute Terpendek dengan Algoritma Dijkstra pada Layanan Pengiriman Produk Gerai Makanan Cepat Saji (Studi Kasus : KFC Kecamatan Sukasari, Bandung)",
+    "abstract": null,
+    "authors": [
+      "Agustianto Mur Kusuma, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA75 Electronic computers. Computer science T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "salsabila",
+    "date_deposited": "09 Jan 2020 08:26",
+    "uri": "http://repository.upi.edu/id/eprint/44385"
+  },
+  {
+    "title": "SISTEM PAKAR DIAGNOSA AUTISME PADA ANAK DENGAN METODE FORWARD CHAINING DAN CERTAINTY FACTOR",
+    "abstract": null,
+    "authors": [
+      "Aini R, Nur"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > LB Theory and practice of education T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mrs. Neni Sumarni",
+    "date_deposited": "20 Nov 2017 07:12",
+    "uri": "http://repository.upi.edu/id/eprint/28003"
+  },
+  {
+    "title": "SISTEM REKOMENDASI TEMPAT MENGGUNAKAN METODE USER-BASED COLLABORATIVE FILTERING DAN K-NN DENGAN DATA CHECK-IN PADA TWITTER",
+    "abstract": null,
+    "authors": [
+      "Andika, Tiara Freddy"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > Q Science (General) Q Science > QA Mathematics Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mrs. Neni Sumarni",
+    "date_deposited": "23 Apr 2018 02:33",
+    "uri": "http://repository.upi.edu/id/eprint/29662"
+  },
+  {
+    "title": "PENENTUAN POSISI ARAH PANDANG MATA MENGGUNAKAN METODE CONNECTED COMPONENT ANALYSIS DAN IMAGE SCALING",
+    "abstract": null,
+    "authors": [
+      "Anugrah, Ricko Devian"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mrs. Santi Santika",
+    "date_deposited": "21 Dec 2018 06:47",
+    "uri": "http://repository.upi.edu/id/eprint/32983"
+  },
+  {
+    "title": "PENGENALAN KEMAMPUAN PERSEPSI VISUAL ANAK PRA SEKLOAH MENGGUNAKAN KECERDASAN BUATAN BERBASIS CASE BASED REASONING DAN NEAREST NEIGHBOUR",
+    "abstract": null,
+    "authors": [
+      "Arifianto, Defri"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "B Philosophy. Psychology. Religion > BF Psychology Q Science > Q Science (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "10 Jan 2018 07:17",
+    "uri": "http://repository.upi.edu/id/eprint/28455"
+  },
+  {
+    "title": "IMPLEMENTASI ALGORITMA FUZZY C-MEANS UNTUK SISTEM PENGHASIL PAKET SOAL DALAM EVALUASI PEMBELAJARAN SUMATIF DAN FORMATIF",
+    "abstract": null,
+    "authors": [
+      "Awaludin, Rabihi"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "T Technology > T Technology (General) Z Bibliography. Library Science. Information Resources > ZA Information resources > ZA4450 Databases",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "20 Sep 2017 02:16",
+    "uri": "http://repository.upi.edu/id/eprint/26147"
+  },
+  {
+    "title": "IMPLEMENTASI MINIMAX DENGAN ALPHA BETA PRUNING TERHADAP PERMAINAN OTTJIN",
+    "abstract": "Indonesia kaya akan permainan tradisionalnya, salah satunya adalah dakon. Dakon dimainkan pada sebuah papan yang diberi sejumlah lubang untuk tempat biji dakon. Dakon merupakan salah satu dari variasi mancala (Donkers dkk.). Mancala memiliki beberapa karakteristik yaitu dimainkan pada papan yang memiliki sejumlah lubang, memakai sejumlah penghitung (batu, biji, dll), langkah dilakukan dengan cara menempatkan penghitung satu per satu, dan penghitung dapat ditangkap. Ada satu lagi permainan tradisional Indonesia yang merupakan variasi mancala yaitu ottjin, yang memiliki nama lengkap awli onnam ottjin (bermain onnam ikan). Permainan ini dimainkan oleh suku Penihing. Papan permainan yang dimainkan berbentuk perahu, dan memiliki 20 buah lubang. Permainan ini memiliki peraturan yang berbeda dengan dakon. Ottjin termasuk dalam permainan papan (board game) pada umumnya karena memiliki beberapa karakteristik yang sama, yaitu dimainkan oleh dua pemain secara bergantian, memiliki sejumlah aturan, dan memiliki informasi penuh (tidak melibatkan unsur probabilitas).Citra Anindya (2011) telah berhasil mengimplementasikan Minimax terhadap permainan dakon. Namun seperti yang sudah dijelaskan, Minimax memiliki kelemahan yaitu harus menelusuri seluruh kemungkinan yang ada. Sarah Nurhasanah (2013) telah berhasil mengurangi kekurangan tersebut dengan menambahkan optimasi Alpha Beta Pruning, yang dapat mengurangi jumlah penelusuran. Dengan Minimax dan optimasi Alpha Beta Pruning, diharapkan dapat membangun permainan ottjin yang dapat dimainkan oleh satu orang pemain.;---Indonesia is rich in traditional games, one of which is dakon. Dakon played on a board that given the number of holes to place dakon seeds. Dakon is one of the variations of Mancala (Donkers et al.). Mancala has several characteristics that is played on a board that has a number of holes, taking a number of counters (stones, seeds, etc.), the step is done by placing the counters one by one, and counters can be captured. There is one more game that is a variation of traditional Indonesian Mancala called ottjin, which has the full name awli onnam ottjin (play onnam fish). The game is played by Penihing tribe. Played board games boat-shaped, and has 20 holes. This game has different rules with dakon. Ottjin included in the board game (board games) in general because it has some of the same characteristics, which is played by two players in turn, has a number of rules, and having full information (not involve the element of probability). Citra Anindya (2011) has successfully implemented the game dakon Minimax. However, as already explained, Minimax has the disadvantage of having to browse all available possibility. Sarah Nurhasanah (2013) has succeeded in reducing the shortfall by adding Alpha Beta Pruning optimization, which can reduce the average number of searche. With Minimax using Alpha Beta Pruning optimization, is expected to build ottjin game that can be played by one player.",
+    "authors": [
+      "Cahyadi, Robby"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA75 Electronic computers. Computer science Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "12 Oct 2017 03:36",
+    "uri": "http://repository.upi.edu/id/eprint/26978"
+  },
+  {
+    "title": "SISTEM PENDUKUNG KEPUTUSAN EVALUASI KINERJA PENGAJAR PROGRAM GENERAL ENGLISH MENGGUNAKAN METODE SMARTER DAN TOPSIS",
+    "abstract": null,
+    "authors": [
+      "Dewi, Nur"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) L Education > LB Theory and practice of education T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "06 Sep 2017 01:31",
+    "uri": "http://repository.upi.edu/id/eprint/25721"
+  },
+  {
+    "title": "PENGEMBANGAN MULTIMEDIA BERBASIS PLATFORMER GAME UNTUK PENERAPAN MODEL EXPLICIT INSTRUCTION PADA MATA PELAJARAN PEMOGRAMAN DASAR",
+    "abstract": null,
+    "authors": [
+      "Febrianti, Trisya"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "12 Oct 2017 03:29",
+    "uri": "http://repository.upi.edu/id/eprint/26893"
+  },
+  {
+    "title": "PENCARIAN DATA TERENKRIPSI MENGGUNAKAN SKEMA PUBLIC-KEY ENCRYPTION WITH KEYWORD SEARCH",
+    "abstract": null,
+    "authors": [
+      "Firdaus, Alex"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > Q Science (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "10 Aug 2017 00:42",
+    "uri": "http://repository.upi.edu/id/eprint/24633"
+  },
+  {
+    "title": "SISTEM MONITORING KONTRAK KERJASAMA DENGAN PROTOKOL TWO CENTRAL FACILITIES MENGGUNAKAN ALGORITMA AES DAN WHITESPACE MANIPULATION",
+    "abstract": null,
+    "authors": [
+      "Firdaus, Caesar"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > Q Science (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "31 Jul 2017 09:04",
+    "uri": "http://repository.upi.edu/id/eprint/24330"
+  },
+  {
+    "title": "PERBANDINGAN SISTEM PERAMALAN PRODUKSI METODE SINGLE EXPONENTIAL SMOOTHING DAN MOVING AVERAGE DALAM MENINGKATKAN KEUNTUNGAN PERUSAHAAN: Studi kasus: Brownies Amanda Jl.Rancabolang no.29",
+    "abstract": null,
+    "authors": [
+      "Firmansyah, Luthfi Arif"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "H Social Sciences > HF Commerce",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "17 Jul 2017 04:29",
+    "uri": "http://repository.upi.edu/id/eprint/23693"
+  },
+  {
+    "title": "SISTEM PAKAR DIAGNOSA AWAL KANKER KULIT MELANOMA MALIGNA BERBASIS WEB MENGGUNAKAN METODE FUZZY RULE BASED CLASSIFICATION SYSTEMS",
+    "abstract": null,
+    "authors": [
+      "Fitri, Machrita"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "25 Sep 2017 08:01",
+    "uri": "http://repository.upi.edu/id/eprint/26199"
+  },
+  {
+    "title": "IMPLEMENTASI METODE PATHFINDING DENGAN MENGGUNAKAN ALGORITMA A* (A BINTANG) DAN GRID GRAPH PADA KECERDASAN BUATAN NON-PLAYER CHARACTER DALAM GAME ACTION PUZZLE",
+    "abstract": "Permainan komputer atau yang sering kita sebut game merupakan salah satu aplikasi yang banyak diminati oleh para pengguna perangkat teknologi informasi dan komunikasi seperti mobile phone dan personal computer (PC). Pada sebuah game, biasanya terdapat implementasi dari algoritma kecerdasan buatan untuk mendukung gameplay game tersebut. Salah satunya adalah implementasi metode pathfinding dengan menggunakan Algoritma A* dan grid graph. Penelitian ini menghasilkan sebuah game berjudul Treasure Hunter bergenre game action puzzle dengan mengimplementasikan metode pathfinding menggunakan algoritma A* dan grid graph pada non-player character (NPC). Dari hasil pengujian kinerja Algoritma A* dan grid graph dapat disimpulkan bahwa pencarian dengan menggunakan Algoritma A* selalu berhasil menemukan node tujuan dengan catatan waktu relatif singkat. Selain itu, berdasarkan data pengujian yang dilakukan dimensi grid 3x3 sampai 69x69 merupakan luas world game yang termasuk memiliki performa baik untuk digunakan pada game Treasure Hunter. Sehingga untuk game dengan dimensi yang lebih luas, Algoritma A* dan grid graph kurang cocok. Dari hasil kuesioner yang diberikan kepada responden bahwa dengan adanya penerapan pathfinding pada NPC, secara keseluruhan game Treasure Hunter menarik untuk dimainkan.; Computer games or what we often call the game is one application that is much in demand by the users of the information and communication technologies such as mobile phones and personal computers (PCs). In the game, there are usually implementations of artificial intelligence algorithms to support gameplay of the game. One of them is the implementation of the method of pathfinding using Algorithm A * and grid graph. This research resulted in a game called Treasure Hunter with game action puzzle genre by implementing methods of pathfinding algorithm A * and grid graph on a non-player character (NPC). From the results of performance testing Algorithm A * and grid graph can be concluded that the search by using Algorithm A * always managed to find the destination node to record a relatively short time. In addition, based on data of tests performed dimensional grid of 3x3 to 69x69 is a world wide game that includes having a good performance for use in the game Treasure Hunter. So for games with broader dimensions, Algorithm A * and grid graph are less suitable. From the results of a questionnaire given to respondents that with the implementation of the NPC pathfinding, the overall game Treasure Hunter is interesting to play.",
+    "authors": [
+      "Ghofur, Abdul"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "17 Jul 2017 04:25",
+    "uri": "http://repository.upi.edu/id/eprint/23646"
+  },
+  {
+    "title": "RANCANG BANGUN MULTIMEDIA PEMBELAJARAN GAME DENGAN MODEL BRAIN BASED LEARNING UNTUK MENINGKATKAN HASIL BELAJAR SISWA SMK",
+    "abstract": null,
+    "authors": [
+      "Grazelda, Rivan Lazuardi"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "12 Oct 2017 03:29",
+    "uri": "http://repository.upi.edu/id/eprint/26895"
+  },
+  {
+    "title": "CLUSTERING KELUHAN KOTA BANDUNG DENGAN MEMANFAATKAN DATA TWITTER MENGGUNAKAN ALGORITMA K-MEANS",
+    "abstract": null,
+    "authors": [
+      "Gunawan, Tommy Putra Pratama"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > Q Science (General) T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "11 Jan 2018 00:13",
+    "uri": "http://repository.upi.edu/id/eprint/28517"
+  },
+  {
+    "title": "DETEKSI MOOD PESERTA DIDIK PADA RUANG KELAS MENGGUNAKAN METODE DEEP LEARNING",
+    "abstract": null,
+    "authors": [
+      "Handoko, Siswo"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "25 Sep 2017 08:06",
+    "uri": "http://repository.upi.edu/id/eprint/26228"
+  },
+  {
+    "title": "IMPLEMENTASI SISTEM PENDUKUNG KEPUTUSAN UNTUK MENENTUKAN PENILAIAN KINERJA GURU TERBAIK DENGAN METODE ANP DAN TOPSIS DI MTSN 1 GARUT",
+    "abstract": null,
+    "authors": [
+      "Hanifah, Rani"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) L Education > LB Theory and practice of education > LB2300 Higher Education T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "17 Oct 2017 03:47",
+    "uri": "http://repository.upi.edu/id/eprint/27396"
+  },
+  {
+    "title": "RANCANG BANGUN MEDIA PEMBANTU PEMBELAJARAN BERBASIS CLOUD COMPUTING UNTUK PAKET KEAHLIAN REKAYASA PERANGKAT LUNAK",
+    "abstract": null,
+    "authors": [
+      "Haqiki, Ridwan"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "12 Oct 2017 03:18",
+    "uri": "http://repository.upi.edu/id/eprint/26796"
+  },
+  {
+    "title": "KONTROL KETERSEDIAAN NODE SERVER PADA SERVER CLUSTER DENGAN KLUSTERISASI DATA UPTIME MENGGUNAKAN ALGORITMA K-MEANS",
+    "abstract": null,
+    "authors": [
+      "Harja, Yogi Sofi"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > Q Science (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "10 Aug 2017 00:42",
+    "uri": "http://repository.upi.edu/id/eprint/24634"
+  },
+  {
+    "title": "IMPLEMENTASI DIGITAL SIGNATURE MENGGUNAKAN ALGORITMA KRIPTOGRAFI AES DAN ALGORITMA KRIPTOGRAFI RSA SEBAGAI KEAMANAN PADA SISTEM DISPOSISI SURAT",
+    "abstract": "Kegiatan surat-menyurat sangat popular dan sering digunakan oleh instansi atau perusahan, itu sebabnya instansi atau perusahan mendirikan divisi khusus untuk menangani permasalahan yang berkaitan dengan pengelolaan surat. Pendistribusian surat menggunakan media elektronik, maka surat tersebut harus dijaga kerahasiaannya agar tidak terjadi hal-hal yang tidak diinginkan. Untuk memenuhi aspek keamanan dapat menggunakan metode keamanan data dan informasi yang disebut kriptografi. Teknik lain yang bisa digunakan salah satunya melakukan pemberian tanda khusus yaitu digital signature. Penelitian menambahkan algoritma kriptografi asimetris dan simetris, yaitu algoritma RSA dan algoritma AES pada digital signature untuk menjaga keamanan data. Algoritma RSA digunakan saat proses tanda tangan digital, sedangkan algoritma AES digunakan saat proses penyandian pesan yang akan dikirimkan kepada penerima. Setelah penambahan algoritma kriptografi pada digital signature, maka tahapan selanjutnya adalah menguji hasil penelitian terhadap empat tujuan kriptografi yaitu kerahasiaan (Confidentially), Integritas Data (Data Integrity), autentikasi (Authentication) dan nir-penyangkalan (Non-repudation). ; Activities correspondence is often used by agencies or companies, so that institutions or companies set up a special division to handle issues related to the letter management. Most of the distribution of letters using electronic media, then the letter should be kept confidential in order to avoid things that are not desirable. Techniques that can be done to meet the security aspect is by using cryptography or by giving a digital signature. The addition of asymmetric and symmetric algorithms, ie RSA and AES algorithms, on the digital signature had been done in this study to maintain data security. The RSA algorithm was used during the process of giving digital signature, while the AES algorithm was used during the process of encoding a message that will be sent to the recipient. Based on the research can be concluded that the addition of AES and RSA algorithms on the digital signature meet four objectives of cryptography: Secrecy, Data Integrity, Authentication and Non-repudiation.",
+    "authors": [
+      "Haryatno, Try"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "14 Sep 2017 07:42",
+    "uri": "http://repository.upi.edu/id/eprint/25897"
+  },
+  {
+    "title": "DIGITAL WATERMARKING PADA CITRA TERKOMPRESI ANIMATED GIF DENGAN METODE BIT-PLANE COMPLEXITY SEGMENTATION (BPCS)",
+    "abstract": null,
+    "authors": [
+      "Hidayanti, Fitri"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA75 Electronic computers. Computer science T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr. Cahya Mulyana",
+    "date_deposited": "20 Nov 2017 07:16",
+    "uri": "http://repository.upi.edu/id/eprint/28068"
+  },
+  {
+    "title": "SISTEM PAKAR UNTUK MENDIAGNOSIS PENYAKIT GIGI DAN MULUT MENGGUNAKAN METODE CERTAINTY FACTOR DANMETODE RULE-BASED REASONING",
+    "abstract": "Menjaga kesehatan gigi dan mulut merupakan hal yang penting bagi manusia. Tanda klinis awal gangguan kesehatan seseorang biasanya pertama kali terlihat di rongga mulut. Jika kesehatan gigi dan mulut tidak dijaga, dapat menimbulkan penyakit lain yang mungkin bisa menyerang organ tubuh lainnya. Akan tetapi, masih banyak masyarakat yang tidak tahu akan betapa pentingnya kesehatan gigi dan mulut. Oleh sebab itu, peneliti ingin membangun sebuah aplikasi sistem pakar untuk mendiagnosis awal penyakit gigi dan mulut seseorang. Aplikasi ini diharapkan dapat meng-influence masyarakat agar segera memeriksakan penyakit gigi dan mulut mereka ketika terasa sakit. Aplikasi sistem pakar ini dibangun menggunakan metode certainty factor dan rule-based reasoning dan menggunakan gejala user sebagai masukan awal yang kemudian akan mendiagnosis sesuai dengan gejala yang dimasukkan. Setiap gejala yang dimasukkan oleh user akan memiliki nilai yang akan dihitung menggunakan rumus certainty factor dan menghasilkan kemungkinan penyakit yang diderita user. Metode certainty factor digunakan saat menghitung nilai faktor kepastian kemungkinan penyakit yang diderita user, sedangkan metode rule-based reasoning digunakaan saat proses diagnosis membutuhkan aturan khusus dari pakar. Keluaran pada aplikasi ini adalah berupa penyakit yang diderita oleh user, nilai kepastiannya serta solusi dari penyakit tersebut. Hasil pengujian menunjukkan aplikasi mampu mendiagnosis penyakit user dengan tingkat akurasi yang mendekati hasil diagnosis yang dilakukan langsung oleh pakar kepada pasien.;---Maintaining oral health is essential for humans. Clinical signs of the beginning of a person's health disorders usually first seen in the oral cavity. If oral health is not maintained, it may cause other diseases that may affect other organs. However, there are many people who do not know the importance of oral health. Therefore, researchers wanted to build an Expert System Application for early diagnosis of dental and oral diseases a person. This application is expected to be able to influence people to immediately consult their teeth and mouth disease when it hurt. Application of expert system is built using Certainty Factor and Rule-Based Reasoning method and using user symptoms as initial inputs which will then diagnose according to the symptoms entered. Each symptom is entered by the user will have a value which will be calculated using the formula Certainty Factor Method and generate possible illness user. Certainty Factor method used when calculating the value of the Certainty Factor the possibility of illness user, while the Rule-based Reasoning method is used current diagnostic process requires special rules of the expert. Output in this application is a form of the disease suffered by the user, the value of certainty and solutions of the disease. The test results showed the application is able to diagnose the disease user with accuracy approaching the diagnosis is done directly by specialists to patients.",
+    "authors": [
+      "Hidayatulloh, Muhammad Aliansyah"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "25 Sep 2017 08:01",
+    "uri": "http://repository.upi.edu/id/eprint/26195"
+  },
+  {
+    "title": "IMPLEMENTASI MODEL RUANG VEKTOR UNTUK PENCARIAN DOKUMEN TEKS",
+    "abstract": null,
+    "authors": [
+      "Iftitah, Khalifa Esha"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "12 Oct 2017 02:46",
+    "uri": "http://repository.upi.edu/id/eprint/26544"
+  },
+  {
+    "title": "PEMBELAJARAN PERAKITAN KOMPUTER DENGAN MODEL SAVI BERBANTUAN MULTIMEDIA 3D UNTUK MENINGKATKAN PEMAHAMAN SISWA",
+    "abstract": null,
+    "authors": [
+      "Insyirohati, Ling Ling"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "12 Oct 2017 02:39",
+    "uri": "http://repository.upi.edu/id/eprint/26481"
+  },
+  {
+    "title": "PERAMALAN PERTUMBUHAN KREDIT MACET DENGAN METODE DOUBLE EXPONENTIAL SMOOTHING DAN METODE TREND PROJECTION",
+    "abstract": "Kredit memegang peran penting dalam perekonomian seperti meningkatkan produktivitas, menjaga kestabilan ekonomi, pembangunan, mengembangkan usaha dan lapangan kerja. Namun, tidak semua debitur membayar kredit sesuai dengan ketentuan yang berlaku sehingga terjadi kredit macet. Otoritas Jasa Keuangan (OJK) mencatat nominal kredit macet hingga triwulan I 2016 mencapai angka Rp. 113,08 triliun (Kompas, 2016). Hal tersebut tentu merupakan masalah yang sangat serius karena dapat menurunkan profitabilitas bank. Dalam upaya menekan pertumbuhan kredit, peramalan berguna untuk memprediksi kredit macet pada masa mendatang. Maka dibutuhkan aplikasi peramalan mobile yang realtime yang dapat digunakan manajemen bank dalam memantau laju pertumbuhan kredit macet dengan mudah. Hasil peramalan dapat digunakan oleh bank untuk menjadi bahan pertimbangan dalam memberikan kredit, penunjang pendukung keputusan, bahan pertimbangan dan bank dapat menyiapkan strategi baru untuk menekan angka kredit macet. Dalam implementasi perangkat lunak, metode peramalan Double Exponential Smoothing dan metode Trend Projection dipilih karena pada penelitian-penelitian lain metode tersebut memiliki akurasi peramalan yang baik. Berdasarkan aplikasi yang telah dibangun dengan menggunakan data kredit salah satu bank di Indonesia, diperoleh hasil peramalan menggunakan metode Double Exponential Smoothing dengan besar kesalahan 5%, sedangkan metode Trend Projection menghasilkan peramalan dengan besar kesalahan 12%. Untuk menentukan peramalan dengan metode terbaik dilakukan uji statistik tes distribusi F dan diperoleh hasil metode Double Exponential Smoothing merupakan metode yang tepat digunakan untuk aplikasi peramalan pertumbuhan kredit macet. --- Loans take an important role in the economy such as increased productivity, maintain economic stability, development, develop a business, and employment. But not all debtors pay loans in accordance with the applicable provisions so it’s caused Non-Performing Loans. Otoritas Jasa Keuangan (OJK) record Non-Performing Loans at the first quarter of 2016 reached Rp. 113.08 trillion (Kompas, 2016). It is certainly a very serious problem because it can decrease banks profitability. In an effort to suppress the growth of credit, forecasting is useful for predicting Non-Performing Loans. So mobile realtime forecasting applications is needed to monitor the growth rate of bad loans easily. Forecasting results can be used to be taken into consideration in giving loans, decision support, consideration and banks can set up a new strategy to reduce the number of Non-Performing Loans. In the software implementation, Double Exponential Smoothing forecasting methods and Trend Projection methods selected because other forecasting studies gave a good accuracy results. Based on the software that have been built using a loans data in Indonesian bank, forecasting results obtained Double Exponential Smoothing have 5% errors, while Trend Projection method have 12% error. To determine the prediction using the best method to test the statistical test F distribution and the result is Trend Projection method is an appropriate method that used for the forecasting the growth of Non-Performing Loans software.",
+    "authors": [
+      "Marshelina, Gita"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > Q Science (General) Q Science > QA Mathematics Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "31 Aug 2017 07:51",
+    "uri": "http://repository.upi.edu/id/eprint/25541"
+  },
+  {
+    "title": "DETEKSI TRENDING TOPICS DARI DATA STREAM TWITTER DENGAN PENDEKATAN SEQUENTIAL K-MEANS",
+    "abstract": null,
+    "authors": [
+      "Mediayani, Melani"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > Q Science (General) T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "11 Jan 2018 00:14",
+    "uri": "http://repository.upi.edu/id/eprint/28522"
+  },
+  {
+    "title": "SISTEM INFORMASI EKSEKUTIF PEDAGANG KAKI LIMA KOTA BANDUNG DENGAN PROSES PENGUMPULAN PEDAGANG KAKI LIMA MENGGUNAKAN SMS GATEWAY",
+    "abstract": "Kota Bandung merupakan kota metropolitan yang dapat menarik banyak penduduk pendatang. Mereka melakukan urbanisasi berharap bisa mendapatkan penghasilan yang lebih layak dibandikan dengan desanya. Hanya saja harapan mereka tidak sebanding dengan keahlian yang mereka punya, sehingga untuk bertahan hidup akhirnya memulai melalui sektor informal salah satunya yaitu Pedagang Kaki Lima (PKL). PKL yang banyak dan berkumpul pada satu titik akan menjadi masalah Kota, titik tersebut akan menjadi munculnya kemacetan lalu lintas, merusak tatanan kota dan mengumpulnya sampah. Pemerintah Kota harus mengambil solusi dan bertindak dengan cepat untuk menyelesaikan permasalahan ini karena titik masalah PKL terus bertambah. Untuk masalah tersebut disarankan Pemerintah Kota memiliki Sistem Informasi Eksekutif yang dapat memberikan informai yang sederhana tapi menyankup seluruh informasi dan ditambah dengan SMS Gateway untuk proses pengumplan data, agar data dapat berubah dengan cepat. SIE akan membuat pemerintah kota menyerap informasi dengan mudah sehingga bisa dengan cepat menemukan solusi dan melakukan tindakan.",
+    "authors": [
+      "Mehisa, Galang Vandi"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": null,
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "17 Jul 2017 04:29",
+    "uri": "http://repository.upi.edu/id/eprint/23690"
+  },
+  {
+    "title": "SISTEM INFORMASI EKSEKUTIF PEDAGANG KAKI LIMA KOTA BANDUNG DENGAN PROSES PENGUMPULAN PEDAGANG KAKI LIMA MENGGUNAKAN SMS GATEWAY",
+    "abstract": null,
+    "authors": [
+      "Mehisa, Galang Vandi"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr. Tri Agung",
+    "date_deposited": "29 Aug 2016 01:27",
+    "uri": "http://repository.upi.edu/id/eprint/22082"
+  },
+  {
+    "title": "KOMBINASI SISTEM PAKAR DAN MACHINE LEARNING DENGAN DEMPSTER SHAFER DAN NAIVE BAYES UNTUK DIAGNOSA PENYAKIT DENGAN GEJALA DEMAM",
+    "abstract": null,
+    "authors": [
+      "Mulyani, Yani"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr. Tri Agung",
+    "date_deposited": "25 Aug 2016 06:43",
+    "uri": "http://repository.upi.edu/id/eprint/21947"
+  },
+  {
+    "title": "IMPLEMENTASI GRADIENT DESCENT DAN VARIANNYA DALAM BAHASA R DENGAN STUDI KASUS PREDIKSI FAKTOR KOMPRESIBILITAS GAS",
+    "abstract": null,
+    "authors": [
+      "Nasrulloh, Imam Fachmi"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > Q Science (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "31 Jul 2017 08:48",
+    "uri": "http://repository.upi.edu/id/eprint/24185"
+  },
+  {
+    "title": "PEMBANGUNAN PERANGKAT LUNAK UNTUK MENGOPERASIKAN FUNGSI MOUSE MENGGUNAKAN WAJAH DAN MATA",
+    "abstract": null,
+    "authors": [
+      "Nur Aini, Qori"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > Q Science (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "07 Jul 2017 08:30",
+    "uri": "http://repository.upi.edu/id/eprint/23477"
+  },
+  {
+    "title": "RANCANG BANGUN MULTIMEDIA INTERAKTIF BERBASIS ADVENTURE GAME DENGAN MODEL SAVI (SOMATIC AUDITORY VISUALISATION INTELECTUALLY) UNTUK MENINGKATKAN PEMAHAMAN SISWA DALAM JARINGAN DASAR",
+    "abstract": null,
+    "authors": [
+      "Nuraeni, Tiara"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "12 Oct 2017 02:43",
+    "uri": "http://repository.upi.edu/id/eprint/26512"
+  },
+  {
+    "title": "PERBANDINGAN BRISK DAN FAST MENGGUNAKAN COSINE SIMILARITY PADA VERIFIKASI TANDA TANGAN OFFLINE BERBASIS ANDROID",
+    "abstract": null,
+    "authors": [
+      "Nurfalah, Aziz"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "T Technology > TK Electrical engineering. Electronics Nuclear engineering",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr. Cahya Mulyana",
+    "date_deposited": "06 Feb 2018 08:10",
+    "uri": "http://repository.upi.edu/id/eprint/29234"
+  },
+  {
+    "title": "RANCANG BANGUN VISUAL WEB API BUILDER UNTUK RE-DESIGN WEB-API SEBAGAI PENDUKUNG INTEROPERABILITAS APLIKASI E-GOVERNMENT",
+    "abstract": "Kebutuhan data dari berbagai bidang melandasi munculnya interoperabilitas. Interoperabilitas merupakan kemampuan dua atau lebih sistem untuk dapat saling bertukar informasi dan dapat saling mempergunakan informasi yang dipertukarkan tersebut. Dari sisi teknologi informasi, interoperabilitas dapat dilakukan dengan menerapkan teknologi web service sebagai media penghubung data elektronik. BPLHD Jabar mengimplementasikan teknologi web service untuk memenuhi kebutuhan interperabilitas tersebut. Namun pada web service atau web API yang digunakan BPLHD masih terdapat kekurangan. Pada web API versi 1 kekurangan terdapat pada method yang digunakan untuk berbagi data. Sedangkan pada web API versi 2 kekurangan terdapat pada desain URI API yang sulit digunakan dan tidak memenuhi kaidah umum desain API. Pada penelitian ini penulis fokus pada re-design URI API berbasis RESTful . Re-design mengacu pada kaidah umum desain API untuk menghasilkan API yang sederhana dan mudah digunakan. Dalam rangka menjamin penggunaan kaidah umum desain API pada setiap pembuatan API, maka pada penelitian ini dibangun perangkat lunak API generator. Kaidah umum desain API diterjemahkan ke dalam fitur perangkat lunak API generator tersebut. API generator menghasilkan API yang merupakan re-design berdasarkan kaidah umum desain API. Dari penelitian yang dilakukan, web API yang dihasilkan API generator lebih sederhana dan mudah digunakan dalam mendukung interoperabilitas.;---The needs of data from variety fields underlies the emergence of interoperability. Interoperability is the ability of two or more systems to exchange information and able to use the information exchanged. In terms of information technology, interoperability can be done by applying web services technology as a media liaison electronic data. BPLHD Jabar implement web services technology to meet the needs of the interperability. However, the web service or web API used by BPLHD is still a shortage. On the web API version 1 deficiency found in the method used to share data. While on the web API version 2 design flaws contained in the URI API that are difficult to use and does not meet the common convention of API design. In this study, the authors focused on the re-design RESTful URI API. Re-design refers to the common convention of designing API. In order to ensure using design API common convention on each API generating, so in this study software as API generator is built .Common convention of API design is translated into an API generator’s features. API generator produces API which is a re-design based on the common convention of API design. From the research conducted, the web API resulted by API generator is simpler and easier to use in support of interoperability.",
+    "authors": [
+      "Nuriyani, Afifah"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > Q Science (General) T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "25 Sep 2017 08:28",
+    "uri": "http://repository.upi.edu/id/eprint/26289"
+  },
+  {
+    "title": "MODIFIKASI ALGORITMA DATA ENCRYPTION STANDARD (DES) 64 BIT UNTUK PENGAMANAN PADA PENYIMPANAN FILE",
+    "abstract": null,
+    "authors": [
+      "Nurjaman, Asep Rizal"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics Q Science > QA Mathematics > QA75 Electronic computers. Computer science Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "12 Oct 2017 03:34",
+    "uri": "http://repository.upi.edu/id/eprint/26951"
+  },
+  {
+    "title": "SISTEM REKOMENDASI PANGAN BALITA MENGGUNAKAN METODE KNOWLEDGE BASED RECOMMENDATION BERDASARKAN BERAT BADAN DAN KALORI",
+    "abstract": "Masalah yang jadi utama untuk para ibu adalah pengetahuannya yang sangat kurang dalam memberikan asupan nutrisi untuk balita sesuai kalori yang dibutuhkan dalam sehari. Akibatnya, timbul masalah perkembangan gizi, entah itu gizi buruk yang disebabkan kurangnya asupan kalori setiap hari atau gizi lebih yang mengakibatkan balita menjadi obesitas karena terlalu banyak asupan kalori yang tidak terkontrol setiap harinya. Oleh karena itu, metode Knowledge-Based Recommendation dipilih untuk menyelesaikan permasalahan ini. Pada penelitian ini akan menentukan alternatif menu pangan balita berdasarkan berat badan dan kalori yang dibutuhkan dalam per hari. Knowledge-Based (Basis Pengetahuan) memuat informasi essensial tentang domain masalah dan sering direpresentasikan sebagai fakta (Fact) dan aturan (Rules). Alur yang dipakai untuk menghasilkan rekomendasi akhir adalah alur Forward Chaining. Penerapan metode Knowledge-Based Recommendation dengan alur Forward Chaining cukup baik. Hasil yang didapatkan melalui metode ini adalah berbagai menu pangan balita sesuai kebutuhan user ---; Foodstuffs are materials that allow human body growing and maintaining their body and also breed. Every kind of foodstuffs contains calories, protein, fat and carbohydrates whose numbers differ according to its size. In modern times like now, there is still a major problem, especially for mothers whose knowledge is very short in providing appropriate nutrition for toddlers according the calories needed per day. As a result, the development of nutritional problems arise; whether malnutrition caused by lack of daily caloric intake everyday or too much nutrition which resulted toddlers become obese because of too many calories uncontrolled every day. Therefore, Knowledge-Based Recommendation method is chosen to resolve this matter. This research will determine alternative toddler food menu based on weight and calories needed per day. Knowledge-Based contains essential information about the problem domain and are often represented as fact and rules. A Flow which is used to produce final recommendations is Forward Chaining flow. The application of Knowledge-Based Recommendation method with Forward Chaining flow is pretty good. The results which is obtained through this method is the variety of toddler’s food menu according to user needs.",
+    "authors": [
+      "Nurvazria, Selvia"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "25 Sep 2017 08:26",
+    "uri": "http://repository.upi.edu/id/eprint/26266"
+  },
+  {
+    "title": "PEMBANGUNAN SISTEM PAKAR UNTUK PREDIKSI DIAGNOSA PENYAKIT GANGGUAN TIDUR DENGAN METODE FUZZY RULE-BASED CLASIFICATION SYSTEMS",
+    "abstract": null,
+    "authors": [
+      "Okvitasari, Mila Pradini"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "12 Oct 2017 02:43",
+    "uri": "http://repository.upi.edu/id/eprint/26509"
+  },
+  {
+    "title": "MENGUKUR EFEKTIFITAS METODE TRIPLE EXPONENTIAL SMOOTHING (WINTER) DALAM SISTEM PERAMALAN JUMLAH PENUMPANG DENGAN OPTIMALISASI NILAI ALPHA, BETA DAN GAMMA",
+    "abstract": null,
+    "authors": [
+      "Parida, Ida"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "H Social Sciences > HE Transportation and Communications L Education > L Education (General) T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "17 Jul 2017 04:34",
+    "uri": "http://repository.upi.edu/id/eprint/23735"
+  },
+  {
+    "title": "SISTEM PENERJEMAH BAHASA ISYARAT MENGGUNAKAN METODE CONVOLUTIONAL NEURAL NETWORK (CNN) BERBASIS SENSOR 2.5D",
+    "abstract": null,
+    "authors": [
+      "Permatasari, Nuraini Putri"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA76 Computer software T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "14 Sep 2017 07:55",
+    "uri": "http://repository.upi.edu/id/eprint/25976"
+  },
+  {
+    "title": "SISTEM PREDIKSI SPAM ACCOUNT PADA MEDIA SOSIAL TWITTER DENGAN MENGGUNAKAN ALGORITMA C4.5",
+    "abstract": null,
+    "authors": [
+      "Poetra, Dion Ajie"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > Q Science (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mrs. Neni Sumarni",
+    "date_deposited": "14 Feb 2017 01:42",
+    "uri": "http://repository.upi.edu/id/eprint/22863"
+  },
+  {
+    "title": "IMPLEMENTASI DAN PERBANDINGAN METODE PROMETHEE DAN METODE FUZZY PROMETHEE UNTUK KASUS PEREKRUTAN KARYAWAN OUTSOURCING",
+    "abstract": null,
+    "authors": [
+      "Pradhana, Radian"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "T Technology > T Technology (General) Z Bibliography. Library Science. Information Resources > ZA Information resources > ZA4450 Databases",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "14 Sep 2017 06:09",
+    "uri": "http://repository.upi.edu/id/eprint/25830"
+  },
+  {
+    "title": "RANCANG BANGUN APLIKASI USABILITY EVALUATION MENGGUNAKAN PENDEKATAN ISO 9241-11",
+    "abstract": null,
+    "authors": [
+      "Pratiwi, Inaz"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "31 Jul 2017 09:10",
+    "uri": "http://repository.upi.edu/id/eprint/24394"
+  },
+  {
+    "title": "IMPLEMENTASI VEHICLE TRACKING SYSTEM SEBAGAI PENGINDERAAN JAUH DENGAN MEMANFAATKAN TRACCAR SERVER UNTUK MEMANTAU LOKASI ASET BERGERAK",
+    "abstract": null,
+    "authors": [
+      "Priyono, Ricki Iqbal"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA75 Electronic computers. Computer science T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "14 Sep 2017 07:53",
+    "uri": "http://repository.upi.edu/id/eprint/25959"
+  },
+  {
+    "title": "IMPLEMENTASI EXPONENTIAL SMOOTHING DENGAN PARALLEL COMPUTING UNTUK PERAMALAN ELEMEN ORBIT DALAM BIDANG ASTROPHYSICS",
+    "abstract": "Dalam bidang astrophysics, telah diketahui bahwa benda langit bergerak sesuai dengan orbitnya, yaitu suatu jalur yang dilalui oleh objek di sekitar objek lainnya karena pengaruh dari gaya gravitasinya. Penentuan orbit suatu benda langit dapat diketahui dari elemen orbitnya, misalkan elemen Kepler. Prediksi elemen orbit ini penting karena perlunya diketahui apakah benda langit tersebut akan bertrubukan atau mengitari bumi. Indikasi apakah benda langit menubruk atau mengitari bumi diketahui dengan ada tidaknya resonansi dari elemen orbit tersebut. Akan tetapi, satu langkah penting sebelum penentuan ada tidaknya resonansi adalah memprediksi elemen orbit dalam jangka waktu yang lama. Pada umumnya, peneliti astrophysics menggunakan algoritma Bulirsch-Stoer (BS) dalam memprediksi elemen orbit. Penelitian ini akan mengusulkan suatu pendekatan baru, yaitu melalui pendekatan time series analysis dengan menggunakan parallel computing. Implementasi metode tersebut menggunakan bahasa pemrograman R. Eksperimen dengan berbagai parameter simulasi juga dilakukan untuk mengetahui tingkat akurasi dan akurasi dan performance dari model yang telah dikembangkan. Lebih lanjut hasil eksperimen kemudian dibandingkan dengan hasil dari algoritma BS.;--- In astrophysics, sky objects known to moving around based on their orbitals, which is a traversed path by an object near to other objects afftected by the gravity. Orbital determinations of each sky objects can be seen from its orbital elements, such as Kepler’s elements. Orbital element’s predictions are important, because of the needs of knowing whether the sky objects will collide or moving around the earth. An indication of whether the heavenly bodies around the earth crashing or known to whether there is a resonance of the orbital elements. However, an important step before determining whether there is a resonance is predicted orbital elements in the long term. In general, researchers astrophysics using Bulirsch-Stoer algorithm (BS) in predicting the orbital elements. This study will adopt a new approach, namely through a time series analysis approach using parallel computing. Implementation of these methods use the R programming language. Experiment with different parameters of the simulation was also conducted to determine the level of accuracy and the accuracy and performance of the models that have been developed. Further experimental results were compared with the results of the BS algorithm.",
+    "authors": [
+      "Putra, Syandi Mufti"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "04 Sep 2017 09:08",
+    "uri": "http://repository.upi.edu/id/eprint/25694"
+  },
+  {
+    "title": "IMPLEMENTASI METODE TASK CENTERED USER INTERFACE DESIGN (TCUID) PADA RANCANG BANGUN APLIKASI E-COMMERCE UNTUK OPTIMASI TINGKAT USABILITY",
+    "abstract": null,
+    "authors": [
+      "Putri, Refnita"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "T Technology > T Technology (General) Z Bibliography. Library Science. Information Resources > ZA Information resources > ZA4450 Databases",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "10 Jul 2017 08:54",
+    "uri": "http://repository.upi.edu/id/eprint/23532"
+  },
+  {
+    "title": "IMPLEMENTASI NAÏVE BAYES CLASSIFIER PADA SISTEM ANALISIS SENTIMEN TWITTER",
+    "abstract": null,
+    "authors": [
+      "Rachman, Arief Mochammad"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "T Technology > T Technology (General) Z Bibliography. Library Science. Information Resources > ZA Information resources > ZA4450 Databases",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "31 Aug 2017 07:54",
+    "uri": "http://repository.upi.edu/id/eprint/25571"
+  },
+  {
+    "title": "IMPLEMENTASI PROTOKOL KEAMANAN PADA VALIDASI DOKUMEN TUGAS KELAS",
+    "abstract": null,
+    "authors": [
+      "Rafsanjani, Arif Husni"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > Q Science (General) T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "22 Jan 2018 01:56",
+    "uri": "http://repository.upi.edu/id/eprint/28602"
+  },
+  {
+    "title": "IMPLEMENTASI METODE NAÏVE BAYES DALAM ANALISIS KELAYAKAN PEMBERIAN KREDIT",
+    "abstract": null,
+    "authors": [
+      "Rahmawati, Annisa"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "12 Oct 2017 03:26",
+    "uri": "http://repository.upi.edu/id/eprint/26859"
+  },
+  {
+    "title": "RANCANG BANGUN MULTIMEDIA PEMBELAJARAN BERBASIS ADVENTURE GAME MENGGUNAKAN MODEL AUDITORY INTELLECTUALLY REPETITION (AIR) UNTUK MENINGKATKAN PEMAHAMAN KONSEP PEMROGRAMAN DASAR SISWA",
+    "abstract": null,
+    "authors": [
+      "Rahmawati, Isnaeni"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) L Education > LB Theory and practice of education T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "25 Sep 2017 08:00",
+    "uri": "http://repository.upi.edu/id/eprint/26191"
+  },
+  {
+    "title": "APLIKASI SMS SPAM FILTERING PADA ANDROID MENGGUNAKAN ALGORITMA NAÏVE BAYES",
+    "abstract": null,
+    "authors": [
+      "Rahmi, Ferdila"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA76 Computer software T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "12 Oct 2017 03:33",
+    "uri": "http://repository.upi.edu/id/eprint/26936"
+  },
+  {
+    "title": "IMPLEMENTASI JARINGAN SYARAF TIRUAN BACKPROPAGATION DALAM ANALISIS PEMBERIAN KREDIT KEPADA PARA DEBITUR",
+    "abstract": "Perkembangan perekonomian di Indonesia saat ini tumbuh berkembang dengan seiring meningkatnya kegiatan perekonomian yang berdampak langsung terhadap peningkatan usaha dan kebutuhan manusia. Sebagaimana umumnya dalam negara berkembang, dalam dunia usaha selalu berusaha untuk meningkatkan penjualan karena dengan meningkatnya penjualan akan meningkatkan pula pendapatan dunia usaha tersebut. Salah satu cara yang digunakan untuk meningkatkan penjualan adalah dengan menggunakan sistem penjualan kredit. Proses penilaian kelayakan pemberian kredit ini menjadi permasalahan pada lembaga pembiayaan. Beberapa kendala dalam proses analisis pemberian kredit di lembaga pembiayaan yaitu kurang tepat dan cepat hasil analisis kredit yang dilakukan. Hal tersebut dipengaruhi oleh faktor human error, sedangkan data yang akan dianalisis jumlahnya bisa mencapai ratusan nasabah perhari, sehingga mengakibatkan tingkat kesalahan analisis sangat besar dan membutuhkan waktu yang lama. Untuk menyelesaikan permasalahan analisis kredit tersebut, dalam penelitian ini akan membangun sebuah sistem yang dapat memberikan rekomendasi kepada analis kredit untuk menganalisis kredit. Sistem akan dibangun dengan menggunakan algoritma backpropagation. Dari hasil yang telah dilakukan, secara umum jaringan yang dilatih dapat menganalisis permintaan kredit dengan cukup baik terbukti dengan akurasi yang dihasilkan sebesar 79% dengan hidden layer 20 dan learning rate 0.003. Beberapa faktor yang mempengaruhi keakurasian tersebut diantaranya karena metode Jaringan Saraf Tiruan backpropagation yang digunakan dapat diimplementasikan dalam aplikasi analisis pemberian kredit, kemudian mengganti maks epoh dengan maxMSEsama lebih efektif karena akan menghasilkan jaringan yang optimal dan tidak terjebak dalam kondisi local optima.; Development economy in Indonesia is currently growing by the concomitant increase in the economic activities that directly impact business improvement and human needs. As is generally in the developing world, the business world is always trying to increase sales by increasing sales revenues will improve also the business world. One of the ways used to increase sales is by using a system of credit sales. The process of assessing creditworthiness is an issue on financing institution. Some of the obstacles in the process of analyzing credit in the financial institution that is less precise and quick results do credit analysis. It is influenced by the factor of human error, while the data will be analyzed totaling in the hundreds of customers per day, resulting in an error rate analysis is very large and requires a long time. To solve the problems of the credit analysis, this research will build a system that can give a recommendation to credit analysts to analyze credit. The system will be built using back propagation algorithm. From the results that have been done, in general trained network can analyze credit demand quite well as evidenced by the resulting accuracy of 79% with a hidden layer 20 and the learning rate 0.003. Some of the factors that affect the accuracy of methods such as artificial neural networks backpropagation used can be implemented in the application analysis of lending, then replace max epoch with maxMSEsama more effective because it will generate optimal network and do not get stuck in local optima conditions.",
+    "authors": [
+      "Ramadhan, Fatah"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "H Social Sciences > HB Economic Theory H Social Sciences > HG Finance T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "31 Jul 2017 08:58",
+    "uri": "http://repository.upi.edu/id/eprint/24222"
+  },
+  {
+    "title": "IMPLEMENTASI KRIPTOGRAFI AES DAN OTP DALAM MEMBANGKITKAN KODE OTENTIKASI UNTUK AKTIVASI ONLINE MEMBER BARU YANG DIKIRIM MELALUI SMS",
+    "abstract": null,
+    "authors": [
+      "Ramadhan, Iman Muhamad"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "T Technology > T Technology (General) Z Bibliography. Library Science. Information Resources > ZA Information resources > ZA4050 Electronic information resources Z Bibliography. Library Science. Information Resources > ZA Information resources > ZA4450 Databases",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "17 Jul 2017 04:34",
+    "uri": "http://repository.upi.edu/id/eprint/23737"
+  },
+  {
+    "title": "IMPLEMENTASI ALGORITMA SIFT (SCALE INVARIANT FEATURE TRANSFORM) PADA PROSES IDENTIFIKASI SAMPAH ORGANIK DAN ANORGANIK DENGAN MEMANFAATKAN CIRI CITRA LABEL PRODUK",
+    "abstract": null,
+    "authors": [
+      "Ramadhan, Widianto Gilang"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "17 Jul 2017 04:30",
+    "uri": "http://repository.upi.edu/id/eprint/23696"
+  },
+  {
+    "title": "ANALISIS DAN IMPLEMENTASI ALGORITMA ELGAMAL DAN SHA-512 (SECURE HASH ALGORITHM - 512) UNTUK PENANGANAN DATA COLLISION PADA DIGITAL SIGNATURE",
+    "abstract": null,
+    "authors": [
+      "Ramdhani, Ahmad"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "12 Oct 2017 02:31",
+    "uri": "http://repository.upi.edu/id/eprint/26447"
+  },
+  {
+    "title": "RANCANG BANGUN MULTIMEDIA PEMBELAJARAN INTERAKTIF BERBASIS MODEL ADVANCE ORGANIZER UNTUK MENINGKATKAN PEMAHAMAN SISWA PADA PEMBELAJARAN PEMROGRAMAN DASAR DI SMK",
+    "abstract": null,
+    "authors": [
+      "Retnaasih, Wulansari"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) T Technology > T Technology (General) T Technology > TA Engineering (General). Civil engineering (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr. Cahya Mulyana",
+    "date_deposited": "14 Feb 2017 01:43",
+    "uri": "http://repository.upi.edu/id/eprint/22887"
+  },
+  {
+    "title": "PENERAPAN CRITICAL PATH METHOD (CPM) PADA PROYEK BIMBINGAN SKRIPSI:(Studi Kasus: Departemen Pendidikan Ilmu Komputer, FPMIPA UPI)",
+    "abstract": null,
+    "authors": [
+      "Retnani, Dian Novita"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) T Technology > T Technology (General) T Technology > TA Engineering (General). Civil engineering (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr. Cahya Mulyana",
+    "date_deposited": "07 Mar 2017 07:47",
+    "uri": "http://repository.upi.edu/id/eprint/23129"
+  },
+  {
+    "title": "SEGMENTASI CITRA AKSARA SUNDA MENGGUNAKAN METODE SAUVOLA DAN PROJECTION PROFILE",
+    "abstract": null,
+    "authors": [
+      "Rino, Winapamungkas"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > Q Science (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "10 Jan 2018 07:17",
+    "uri": "http://repository.upi.edu/id/eprint/28456"
+  },
+  {
+    "title": "PENERAPAN ALGORITMA NAÏVE BAYES PADA METODE DEMPSTER SHAFER UNTUK DIAGNOSA PENYAKIT MATA PADA MANUSIA",
+    "abstract": null,
+    "authors": [
+      "Ritonga, Fitri Handayani"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > Q Science (General) T Technology > T Technology (General) Z Bibliography. Library Science. Information Resources > ZA Information resources > ZA4050 Electronic information resources",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr. Cahya Mulyana",
+    "date_deposited": "16 Aug 2017 06:06",
+    "uri": "http://repository.upi.edu/id/eprint/24930"
+  },
+  {
+    "title": "RANCANG BANGUN MULTIMEDIA PEMBELAJARAN DENGAN MODEL MEANS-ENDS ANALYSIS UNTUK MENINGKATKAN PEMAHAMAN SISWA SMK PADA MATA PELAJARAN PEMROGRAMAN DASAR",
+    "abstract": null,
+    "authors": [
+      "Rizki, Mochammad"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) L Education > LB Theory and practice of education L Education > LB Theory and practice of education > LB1603 Secondary Education. High schools T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "25 Sep 2017 08:03",
+    "uri": "http://repository.upi.edu/id/eprint/26216"
+  },
+  {
+    "title": "SISTEM PENDUKUNG KEPUTUSAN KENAIKAN JABATAN TEKNISI MENGGUNAKAN METODE AHP DAN VIKOR",
+    "abstract": null,
+    "authors": [
+      "Rusyandi, Mochamad Reza Pratama"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > Q Science (General) T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "22 Jan 2018 02:11",
+    "uri": "http://repository.upi.edu/id/eprint/28613"
+  },
+  {
+    "title": "PERBANDINGAN MODEL GRAPH DAN TERM FREKUENSI PADA SISTEM PENILAIAN JAWABAN ESAI OTOMATIS",
+    "abstract": null,
+    "authors": [
+      "Saidah, Ranti"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "T Technology > T Technology (General) Z Bibliography. Library Science. Information Resources > ZA Information resources > ZA4450 Databases",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "25 Sep 2017 08:28",
+    "uri": "http://repository.upi.edu/id/eprint/26281"
+  },
+  {
+    "title": "IMPLEMENTASI JARINGAN SARAF TIRUAN RADIAL BASIS FUNCTION (RBF) PADA PERAMALAN FOREIGN EXCHANGE (FOREX)",
+    "abstract": null,
+    "authors": [
+      "Saputri, Lia"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) T Technology > T Technology (General) T Technology > TA Engineering (General). Civil engineering (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr. Cahya Mulyana",
+    "date_deposited": "27 Mar 2017 00:47",
+    "uri": "http://repository.upi.edu/id/eprint/23271"
+  },
+  {
+    "title": "IMPLEMENTASI MODEL MASTERY LEARNING PADA MULTIMEDIA INTERAKTIF UNTUK MENINGKATKAN PEMAHAMAN MAHASISWA",
+    "abstract": null,
+    "authors": [
+      "Setiawatri, Novi"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) L Education > LB Theory and practice of education > LB2300 Higher Education T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr. Cahya Mulyana",
+    "date_deposited": "23 Jan 2017 02:00",
+    "uri": "http://repository.upi.edu/id/eprint/22811"
+  },
+  {
+    "title": "PERBANDINGAN OPTIMASI PENJADWALAN PRODUKSI MEBEL KAYU JATI MENGGUNAKAN ALGORITMA NEH DENGAN ALGORITMA HO-CHANG",
+    "abstract": null,
+    "authors": [
+      "Silviana, Maya"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "H Social Sciences > HD Industries. Land use. Labor Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mrs. Neni Sumarni",
+    "date_deposited": "20 Nov 2017 07:12",
+    "uri": "http://repository.upi.edu/id/eprint/28005"
+  },
+  {
+    "title": "IMPLEMENTASI METODE GREY SYSTEM THEORY DALAM APLIKASI PERAMALAN TARGET PENJUALAN GAMIS",
+    "abstract": "Peramalan jangka pendek sangat diperlukan untuk menyelesaikan hal yang mendesak. Namun jika data masa lalu yang tersedia sulit didapatkan atau terbatas maka bisa mengakibatkan sulitnya mendapatkan ramalan yang akurat. Model peramalan dikatakan baik jika nilai keakuratan peramalannya mendekati data sebenarnya. Grey Forecasting Model atau GM (1,1) merupakan model peramalan yang menggunakan persamaan differensial orde satu dan satu variable yang meningkatkan keakuratan ramalan jangka pendek untuk data terbatas.;---Short-term forecasting is necessary to resolve urgent matters. But if the past data available are limited, difficult to obtain or can lead to difficulties in obtaining accurate forecasts. Forecasting model is said to be good if the value of the accuracy of forecasting closer to the actual data. Grey Forecasting Model or GM (1,1) is a forecasting model using first-order differential equation and one variable that improves the accuracy of short-term forecasts for unlimited data.",
+    "authors": [
+      "Sudrajat, Syaeful Yuniar"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA75 Electronic computers. Computer science Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "17 Oct 2017 03:54",
+    "uri": "http://repository.upi.edu/id/eprint/27464"
+  },
+  {
+    "title": "SISTEM PAKAR PENENTUAN KERUSAKAN MESIN PRODUKSI MENGGUNAKAN METODE FORWARD CHAINING",
+    "abstract": null,
+    "authors": [
+      "Suganda, Herdian"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > LB Theory and practice of education T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "16 Aug 2017 06:34",
+    "uri": "http://repository.upi.edu/id/eprint/24960"
+  },
+  {
+    "title": "SIMULASI SISTEM ANTRIAN PEMBAYARAN (KASIR) DI SUPERMARKET",
+    "abstract": null,
+    "authors": [
+      "Sundari, Amalia"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mrs. Neni Sumarni",
+    "date_deposited": "01 Mar 2018 06:04",
+    "uri": "http://repository.upi.edu/id/eprint/29737"
+  },
+  {
+    "title": "IMPLEMENTASI ALGORITMA BACKPROPAGATION DALAM EVALUASI PRODUKSI IKAN GURAME DI JAWA BARAT",
+    "abstract": "Evaluasi produksi gurame merupakan salah satu pekerjaan yang cukup sulit diselesaikan karena terkait dengan model kausal, dimana variabel yang akan dievaluasi (variabel dependen) terkait dengan variabel lain (variabel independen) dalam model. Beberapa metode yang dapat digunakan untuk menyelesaikan masalah yang berhubungan dengan metode kausal ini adalah metode regresi dan metode jaringan saraf tiruan khususnya algoritma backpropagation. Pada penelitian ini, metode jaringan saraf tiruan algoritma backpropagation digunakan untuk mengevaluasi produksi gurame di Jawa Barat, dalam metode tersebut diperlukan sebuah jaringan yang optimal untuk untuk memberikan hasil evaluasi dengan akurasi yang tinggi. Jaringan dikatakan optimal jika proses training dan testing menghasilkan nilai galat yang kecil dan nilai akurasi yang tinggi. Satuan galat yang digunakan pada penelitian ini adalah mean square error (MSE). Pada penelitian ini juga berhasil dibuat sebuah aplikasi untuk membuktikan hasil evaluasi dan keabsahan penelitian. Dari serangkaian pengujian pada kasus evaluasi produksi gurame di Jawa Barat didapatkan beberapa hasil yang mencapai akurasi yang diharapkan. ;---Evaluation of production carp is one job that is quite difficult to resolve because associated with a causal model, where the variable that will be evaluated (the dependent variable) associated with other variables (independent variables) within the model. Several methods can be used to solve problems related to causal method is regression method and artificial neural network method especially backpropagation algorithm. In this study, the method of artificial neural network back propagation algorithm was used to evaluate the production of carp in West Java, in the method required an optimal network for to provide evaluation results with high accuracy. The network is said to be optimal if training and testing processes produce a small error value and the value of high accuracy. Unit error used in this study is the mean square error (MSE). In this study also successfully made an application to prove the validity of the results of the evaluation and research. From a series of tests in the case of evaluation of production carp in West Java obtained some results that achieve the expected accuracy.",
+    "authors": [
+      "Wahyu, Muhammad"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA75 Electronic computers. Computer science Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "12 Oct 2017 03:28",
+    "uri": "http://repository.upi.edu/id/eprint/26882"
+  },
+  {
+    "title": "SISTEM PAKAR PEMANTAUAN KONDISI JANIN DENGAN METODE CERTAINTY FACTOR MENGGUNAKAN DATA KARDIOTOKOGRAFI",
+    "abstract": "Evaluasi kesehatan janin adalah salah satu perhatian utama dari dokter kandungan. Hampir semua ibu hamil pasti menginginkan kehamilannya tanpa masalah, persalinan berjalan normal, dan melahirkan bayi sehat. Kardiotokografi adalah salah satu sarana teknis yang banyak digunakan dalam memantau kesejahteraan janin melalui penilaian denyut jantung janin, kontraksi uterus, dan gerak janin dalam waktu bersamaan. Pada skripsi ini, penulis memfokuskan penelitian untuk memantau kondisi janin berdasarkan data pemeriksaan kardiotokografi melalui sistem pakar. Dari data pemeriksaan kardiotokografi, terdapat 5 karakteristik utama yang dapat dibaca informasinya untuk pengambilan kesimpulan kondisi kesejahteraan janin, yaitu frekuensi dasar detak jantung janin, variabilitas detak jantung janin, akselerasi detak jantung, deselerasi detak jantung, dan kontraksi janin. Sistem pakar dapat menggantikan peran seorang pakar dalam menganalisa dan menentukan kesimpulan atau keputusan. Metode sistem pakar yang dapat digunakan salah satunya metode Certainty Factor. Metode Certainty Factor melakukan perhitungan berdasarkan bobot nilai yang diberikan langsung oleh pakar yang berkompeten dibidangnya, dalam hal ini Dokter Spesialis Obstetri dan Ginekologi, sehingga perhitungan yang dilakukan dianggap sebagai representatif dari analisa pemikiran dan perhitungan pakar. Sistem pakar pemantauan kondisi janin dengan metode Certainty Factor menggunakan data kardiotokografi memberikan hasil yang baik, terbukti dengan nilai akurasi mencapai 81.25%, dari pengujian sebanyak 32 kali dengan data hasil pemeriksaan kardiotokografi pasien yang berbeda.;---Evaluation of fetal health is one of the main concerns of the obstetrician. Almost all pregnant women want a pregnancy without problems, running normal labor, and gave birth to a healthy baby. Cardiotocography is one of the technical means used to monitor fetal well-being through the assessment of fetal heart rate, uterine contractions and fetal movement at the same time. In this paper, the authors focus on research to monitor the condition of the fetus based on inspection cardiotocography data through expert systems. Cardiotocography examination of the data, there are five main characteristics that can read the information for making conclusions welfare condition of the fetus, which is the fundamental frequency of the fetal heart rate, fetal heart rate variability, heart rate acceleration, deceleration heartbeat, and contraction of the fetus. Expert systems can replace the role of an expert in analyzing and determining conclusions or decisions. Methods of an expert system that can be used one method of Certainty Factor. Certainty Factor method of doing calculations based on the weighting given directly by experts who are competent in their field, in this case the Specialist Obstetrics and Gynecology, so the calculation is performed is considered as representative of analytical thinking and calculation experts. Fetal condition monitoring expert system with Certainty Factor method uses cardiotocography data give good results, as evidenced by the value of accuracy reached 81.25%, from 32 times testing with the cardiotocography data examination results of different patients.",
+    "authors": [
+      "Wijaya, Cresna Putra"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "12 Oct 2017 03:29",
+    "uri": "http://repository.upi.edu/id/eprint/26899"
+  },
+  {
+    "title": "PENILAIAN KINERJA TATA KELOLA TEKNOLOGI INFORMASI UNIVERSITAS PENDIDIKAN INDONESIA DENGAN METODE BALANCED SCORE CARD DAN COBIT 4.1",
+    "abstract": "Pemanfaatan Teknologi Informasi (TI) di era global seperti saat ini sudah menjadi hal yang sangat penting di berbagai sektor kehidupan. Tidak terkecuali institusi pendidikan, salah satunya Universitas Pendidikan Indonesia (UPI), yang menjadikan teknologi informasi sebagai aset utama dalam meningkatkan kualitas dan daya saing global. Dengan pentingnya pemanfaatan teknologi informasi dalam hampir seluruh sektor, dibutuhkan pengukuran untuk menentukan apakah UPI sudah memiliki kinerja tata kelola TI yang baik atau tidak. Berdasarkan hal-hal tersebut, tujuan dilaksanakannya penelitian ini adalah untuk mendapatkan indikator-indikator yang digunakan untuk pengukuran kinerja tata kelola TI UPI, mendapatkan bobot nilai kinerja berdasarkan indikator-indikator yang telah ditentukan, serta mendapatkan analisis kinerja tata kelola TI UPI. Metode yang digunakan untuk memperoleh tujuan penelitian adalah penggabungan analisis Balanced Score Card (BSC) dan COBIT 4.1 sebagai framework penyusunan indikator penilaian berbentuk kuesioner. Penggabungan kedua metode ini memungkinkan perolehan nilai kinerja tata kelola TI yang merepresentasikan business goals and objectives UPI di seluruh sektor. Penelitian ini menggunakan 26 proses COBIT 4.1 sebagai indikator penilaian kinerja yang merupakan hasil pemetaan dari 15 IT goals dan 8 business goals COBIT 4.1, serta 17 rencana strategis UPI. Skor akhir yang didapatkan adalah perspektif financial bernilai 3.80, perspektif customer bernilai 3.63, perspektif internal business process bernilai 3.62, dan perspektif learning and growth bernilai 3.72. Dengan adanya skor masing-masing perspektif tersebut, maka seluruh perspektif berada pada level 4 (managed and measureable), dimana proses teknologi informasi dilakukan dengan teratur dan sudah ada prosedur yang mengatur, serta ada monitoring/pengawasan. ;---Information technology’s application has become an important daily support for all sectors. Educational institutions, including Universitas Pendidikan Indonesia (UPI), enable information technology as the main asset to increase its qualities and global’s competitive power. By the importances of using information technology for almost every scope, measurement is needed to identify how optimal the IT governance is. Based on these facts, the purposes of this reaseacrh are identify the IT governance’s performance assessment indicators, discover the scores based on the indicators, and analyse IT governance’s performance in UPI. This research is using the combination of Balanced Score Card (BSC) and COBIT 4.1 as the framework to establish assessment indicators in questionnaire’s form.By combining both methods, the final scores of IT governance’s performance will represent UPI’s business goals and objectives in all sectors. This research used 26 COBIT’s processes as assessment indicator of IT performance from the maping 15 IT and business goals of COBIT, and 17 UPI’s strategic plans. The final score are 3.80 for financial perspective, 3.63 for customer perspective, 3.62 for internal business process perspective, and 3.72 for learning and growth perspective. With these scores, then the final result is each perspectives of Balanced Score Card’s current maturity levels are at level 4, which is IT process criticality is regularly defined with full support and agreement from the relevant business process owners.",
+    "authors": [
+      "Wijayanti, Nura Yuniar"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "31 Aug 2017 07:49",
+    "uri": "http://repository.upi.edu/id/eprint/25505"
+  },
+  {
+    "title": "PENERAPAN LATENT SEMANTIC INDEXING PADA PROSES KNOWLEDGE RETRIEVAL DALAM PENGEMBANGAN KNOWLEDGE MANAGEMENT SYSTEM",
+    "abstract": "Agar sebuah Knowledge Management System (KMS) dapat diaplikasikan dengan baik, proses knowledge retrieval pada KMS harus berjalan dengan efektif. Namun, pengetahuan organisasi yang tersimpan pada sebuah KMS dapat bersifat terstrukstur dan tidak terstruktur. Peran Information Retrieval (IR) pada KMS menjadi sangat penting, sebab jika hanya mengandalkan keyword atau regex rules untuk menemukan kembali pengetahuan organisasi, maka jumlah aturan yang dibuat akan sangat banyak dan unscalabale seiring dengan lingkup pengetahuan tersimpan yang semakin membesar. Penelitian ini bertujuan untuk menerapkan Latent Semantic Indexing (LSI) pada proses knowledge retrieval dalam pengembangan KMS. Implementasi LSI yang dilakukan terdiri dari 4 tahapan, yaitu: (i) pemrosesan teks, yang terdiri dari proses tokenization, filtering, dan stemming, (ii) pembangunan LSI, dan (iii) formulasi query (iv) evaluasi dan perhitungan performansi. Pengetahuan organisasi yang digunakan sebagai koleksi dokumen untuk membangun index merupakan data dokumen penelitian dan skripsi prodi Ilmu Komputer dan Pendidikan Ilmu Komputer. Hasil perhitungan performansi dan evaluasi menunjukan hasil yang cukup baik, dengan MAP sebesar 77.90% pada scenario r = 120 dan rata-rata presisi sebesar 83.33% pada skenario nilai r = 90.; To be well applicated Knowledge Management System (KMS), knowledge retrieval process on KMS must be performed effectively. However, organizational knowledge stored in KMS can be structured and unstructured. Information Retrieval (IR) role on knowledge retrieval process become very important because if it only rely on keywords or regex rules, then the number of rules woul be very large and unscalable while stored knowledge scope is getting bigger. This study purpose is to implement latent semantic indexing (LSI) on knowledge retrieval process in KMS development. LSI implementation consist of 4 phases, that is : (i) text processing, which consist of tokenization, filtering, and stemming process (ii) LSI building (iii) query formulation, and (iv) evaluation and performance calculation. This study uses thesis and research documents of Computer Science and Computer Science Education Major in UPI as organizational knowledge to be document collection for index building. Performance calculation and evaluation result indicate good outcome, with MAP around 77.90% on scenario r = 120 and average precision 83.33% on scenario r = 90.",
+    "authors": [
+      "Yuniarsih, Arum"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > Q Science (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "31 Jul 2017 08:49",
+    "uri": "http://repository.upi.edu/id/eprint/24197"
+  },
+  {
+    "title": "IMPLEMENTASI METODE MARKERLESS AUGMENTED REALITY UNTUK MEMVISUALISASIKAN INFORMASI FILOSOFI BATIK BERBASIS ANDROID",
+    "abstract": null,
+    "authors": [
+      "Yustiawan, Ivan"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "25 Sep 2017 08:08",
+    "uri": "http://repository.upi.edu/id/eprint/26229"
+  },
+  {
+    "title": "PEMANFAATAN TEKNIK GRAFOLOGI DAN FUZZY RULE-BASED CLASSIFICATION SYSTEMS DALAM MENGIDENTIFIKASI JENIS KELAMIN BERDASARKAN TULISAN TANGAN",
+    "abstract": null,
+    "authors": [
+      "Zainaff, Aldi"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > Q Science (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "10 Aug 2017 00:42",
+    "uri": "http://repository.upi.edu/id/eprint/24635"
+  }
+]

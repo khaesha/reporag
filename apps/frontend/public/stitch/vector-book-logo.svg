@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none">
+  <!-- Subtle protective boundary with 16px outer roundedness aesthetic -->
+  <defs>
+    <filter id="softGaze" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.04" />
+    </filter>
+  </defs>
+
+  <!-- Central Canvas Backplate (Optional Pure White Soft Background) -->
+  <rect width="512" height="512" rx="32" fill="#ffffff"/>
+
+  <!-- Main Vector Book Icon Container -->
+  <g transform="translate(48, 64)">
+    <!-- Book Spine / Outer Binding with 16px Soft Curvature -->
+    <!-- Left Book Cover / Contour -->
+    <path d="M 40 40 Q 190 28 200 48 L 200 336 Q 190 324 40 336 Z" 
+          fill="none" stroke="#000000" stroke-width="0" />
+
+    <!-- Spine Centerfold -->
+    <path d="M 208 48 C 208 48 208 190 208 344" stroke="#000000" stroke-width="4.5" stroke-linecap="round"/>
+
+    <!-- Left Book Spine Curve Base / Softly rounded outer boundary (16px radius aesthetic) -->
+    <path d="M 204 344 C 150 330 80 334 32 344 C 23 346 16 339 16 330 L 16 70 C 16 61 23 54 32 52 C 80 42 150 46 204 60" 
+          stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+    <!-- Right Book Spine Curve Base -->
+    <path d="M 212 344 C 266 330 336 334 384 344 C 393 346 400 339 400 330 L 400 70 C 400 61 393 54 384 52 C 336 42 266 46 212 60" 
+          stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+    <!-- LEFT PAGE: Structured Horizontal Lines -->
+    <!-- Line 1 -->
+    <path d="M 48 96 C 96 88 152 90 192 100" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+    <!-- Line 2 -->
+    <path d="M 48 132 C 96 124 152 126 192 136" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+    <!-- Line 3 -->
+    <path d="M 48 168 C 96 160 152 162 192 172" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+    <!-- Line 4 -->
+    <path d="M 48 204 C 96 196 152 198 192 208" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+    <!-- Line 5 -->
+    <path d="M 48 240 C 96 232 152 234 192 244" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+    <!-- Line 6 -->
+    <path d="M 48 276 C 96 268 152 270 192 280" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+    <!-- Line 7 -->
+    <path d="M 64 312 C 104 306 152 308 192 316" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- RIGHT PAGE: Horizontal Lines breaking into Vector Dots -->
+    <!-- Row 1 -->
+    <path d="M 224 100 C 260 92 290 92 316 95" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="338" cy="97" r="3.5" fill="#000000"/>
+    <circle cx="360" cy="100" r="3.5" fill="#000000"/>
+    <circle cx="384" cy="106" r="3" fill="#000000"/>
+
+    <!-- Row 2 -->
+    <path d="M 224 136 C 255 128 280 128 300 130" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="320" cy="132" r="3.5" fill="#000000"/>
+    <circle cx="344" cy="136" r="4" fill="#000000"/>
+    <circle cx="372" cy="142" r="3.5" fill="#000000"/>
+    <circle cx="400" cy="150" r="2.5" fill="#000000"/>
+
+    <!-- Row 3: The Target Retrieval Row with Single Red Vector Dot -->
+    <path d="M 224 172 C 262 164 294 164 322 167" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="344" cy="170" r="4" fill="#000000"/>
+    <!-- THE ONE SATURATED RED DOT (#e60023) - Symbolizing Retrieved Academic Knowledge -->
+    <circle cx="376" cy="174" r="7.5" fill="#e60023"/>
+    <circle cx="408" cy="182" r="3.5" fill="#000000"/>
+
+    <!-- Row 4 -->
+    <path d="M 224 208 C 252 200 274 200 292 202" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="312" cy="204" r="3.5" fill="#000000"/>
+    <circle cx="334" cy="207" r="3.5" fill="#000000"/>
+    <circle cx="362" cy="214" r="4" fill="#000000"/>
+    <circle cx="392" cy="222" r="3" fill="#000000"/>
+
+    <!-- Row 5 -->
+    <path d="M 224 244 C 258 236 288 236 312 239" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="332" cy="242" r="3.5" fill="#000000"/>
+    <circle cx="356" cy="247" r="3.5" fill="#000000"/>
+    <circle cx="384" cy="255" r="3.5" fill="#000000"/>
+
+    <!-- Row 6 -->
+    <path d="M 224 280 C 250 272 272 272 290 274" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="310" cy="276" r="3.5" fill="#000000"/>
+    <circle cx="336" cy="281" r="3.5" fill="#000000"/>
+    <circle cx="366" cy="290" r="3.5" fill="#000000"/>
+
+    <!-- Row 7 -->
+    <path d="M 224 316 C 255 310 282 310 304 313" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="326" cy="316" r="3" fill="#000000"/>
+    <circle cx="352" cy="322" r="3" fill="#000000"/>
+  </g>
+</svg>

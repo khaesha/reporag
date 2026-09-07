@@ -1,0 +1,574 @@
+[
+  {
+    "title": "PENGENALAN TULISAN TANGAN AKSARA SUNDA NGALAGENA DENGAN ALGORITMA FUZZY C-MEANS",
+    "abstract": null,
+    "authors": [
+      "Achmad Ridwan, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Erni Alipiyani",
+    "date_deposited": "18 Oct 2023 07:13",
+    "uri": "http://repository.upi.edu/id/eprint/109893"
+  },
+  {
+    "title": "PENGEMBANGAN SMART IPS UNTUK MEREDUKSI FALSE POSITIVE",
+    "abstract": null,
+    "authors": [
+      "Ade Ismail Isnan, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Erni Alipiyani",
+    "date_deposited": "12 Oct 2023 07:23",
+    "uri": "http://repository.upi.edu/id/eprint/109930"
+  },
+  {
+    "title": "IMPLEMENTASI ALGORITMA HUFFMAN PADA KOMPRESI DAN DEKOMPRESI FILE BERTIPE WAV",
+    "abstract": null,
+    "authors": [
+      "Agus Sakti Sunarto, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Erni Alipiyani",
+    "date_deposited": "18 Oct 2023 07:10",
+    "uri": "http://repository.upi.edu/id/eprint/110475"
+  },
+  {
+    "title": "SISTEM PENGENALAN WAJAH MENGGUNAKAN METODE PRINCIPAL COMPONEN ANALISYS (PCA) DENGAN ALGORITMA FUZZY C-MEANS (FCM)",
+    "abstract": null,
+    "authors": [
+      "Andri Suryadi, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Erni Alipiyani",
+    "date_deposited": "18 Oct 2023 07:10",
+    "uri": "http://repository.upi.edu/id/eprint/110450"
+  },
+  {
+    "title": "SISTEM INFORMASI PARIWISATA KOTA BANDUNG BERBASIS GIS",
+    "abstract": null,
+    "authors": [
+      "Aneu Kristina, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Erni Alipiyani",
+    "date_deposited": "12 Oct 2023 07:09",
+    "uri": "http://repository.upi.edu/id/eprint/110320"
+  },
+  {
+    "title": "PENGENALAN WAJAH MENGGUNAKAN TRANSFORMASI WAVELET SEBAGAI PROTOTYPE PERANCANGAN SISTEM ABSENSI",
+    "abstract": "Sistem absensi yang telah ada sekarang, seperti penulisan tanda tangan manual, barcode atau sidik jari dapat berpotensi untuk dimanipulasi dalam proses pengabsenannya. Salah satu cara untuk mengatasi hal tersebut adalah dengan menggunakan sistem pengenalan wajah. Terdapat beberapa metode yang digunakan untuk pengenalan wajah, diantaranya jaringan saraf tiruan, eigenface dan transformasi wavelet. Dalam skripsi ini metode pengenalan wajah yang digunakan adalah transformasi wavelet. Secara garis besar metode ini mempunyai komputasi yang sederhana, antara lain dalam penelitian ini citra diinputkan ke dalam sistem. Kemudian didapatkan sebuah nilai warna RGB. Dari warna tersebut ditransformasikan ke dalam nilai warna YIQ. Metode transformasi wavelet digunakan sebagai fitur pengekstraksi ciri dengan menggunakan nilai warna YIQ. Pencocokan menggunakan euclidean distance dimana selisih terkecil antara nilai transformasi wavelet dari citra input dan citra basis data adalah citra targetnya. Bila nilai dari citra target lebih kecil dari nilai ambang, maka citra wajah berhasil teridentifikasi. Hasil dari proses identifikasi akan digunakan untuk pendataan absensi dengan mencatat waktu dan tanggal pelaksanaan absensi ketika citra inputan berhasil dikenali.",
+    "authors": [
+      "Aris Gustiana, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Erni Alipiyani",
+    "date_deposited": "18 Oct 2023 07:13",
+    "uri": "http://repository.upi.edu/id/eprint/110103"
+  },
+  {
+    "title": "IMPLEMENTASI MODEL RUANG VEKTOR PADA SISTEM TEMU BALIK INFORMASI DOKUMEN BERBAHASA INDONESIA",
+    "abstract": null,
+    "authors": [
+      "Asri Yulian Pratiwi, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Erni Alipiyani",
+    "date_deposited": "18 Oct 2023 07:11",
+    "uri": "http://repository.upi.edu/id/eprint/110555"
+  },
+  {
+    "title": "MODEL SISTEM REMOTE KONTROL AKTUATOR PAN TILT MENGGUNAKAN SINYAL DTMF",
+    "abstract": "Model Sistem Remote Kontrrol Aktuator Pan-Tilt dibangun berdasarkan ide bahwa sinyal DTMF (Dual Tone Multi Frequency) yang ditransmisikan dalam koneksi video call dapat digunakan sebagai kontrol aktuator. Dalam implementasinya diperlukan kombinasi rangkaian analog dan digital dimulai dari pengkondisi sinyal, DTMF decoder, match digit decoder dan aktuator. Sinyal DTMF di sample dari output earphone yang selanjutnya dibatasi levelnya dengan menggunakan AGC pada level audio untuk dapat langsung di decode ke data digital 4 bit dengan menggunakan DTMF decoder. Penyesuaian tombol yang diplih dengan aktuator dilakukan oleh mikrokontroller dengan tujuan flexibilitas dan responsifitas yang mendekati realtime. Dikarenakan aktuator Pan Tilt beroperasi pada catu 220V AC, diplih intercafe relay untuk menjamin isolasi antara rangkaian terhadap aktuator. Untuk menggerakan aktuator secara pan-til hanya diperlukan 4 bit data. Dengan karakteristik panggilan komunikasi video call pada jaringan selular GSM, sistem remote kontrol ini dapat digunakan sebagai CCTV on demand.",
+    "authors": [
+      "D Sugiana Lukman H, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Hikmal Fajar Fardyan",
+    "date_deposited": "22 Sep 2023 01:44",
+    "uri": "http://repository.upi.edu/id/eprint/107501"
+  },
+  {
+    "title": "RANCANG BANGUN PERANGKAT LUNAK PENGGAJIAN DAN PPh KARYAWAN DENGAN MENGGUNAKAN METODE VORD",
+    "abstract": null,
+    "authors": [
+      "Deviana Septian, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Erni Alipiyani",
+    "date_deposited": "18 Oct 2023 07:10",
+    "uri": "http://repository.upi.edu/id/eprint/110538"
+  },
+  {
+    "title": "PENERAPAN METODE PEMBELAJARAN TEAM ASSISTED INDIVIDUALIZATION UNTUK MENINGKATKAN HASIL BELAJAR SISWA PADA MATA PELAJARAN TEKNOLOGI INFORMASI DAN KOMUNIKASI",
+    "abstract": null,
+    "authors": [
+      "Devy Rikasari Waryuman, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Fawwaz Nabil Azaria",
+    "date_deposited": "08 Aug 2023 08:34",
+    "uri": "http://repository.upi.edu/id/eprint/96828"
+  },
+  {
+    "title": "IMPLEMENTASI ALGORITMA LEBAH UNTUK PENCARIAN JALUR TERPENDEK DENGAN MEMPERTIMBANGKAN HEURISTIK",
+    "abstract": null,
+    "authors": [
+      "Dian Nurdiana, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics Q Science > QA Mathematics > QA75 Electronic computers. Computer science Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Imas Aulia",
+    "date_deposited": "22 Sep 2023 02:04",
+    "uri": "http://repository.upi.edu/id/eprint/107695"
+  },
+  {
+    "title": "IMPLEMENTASI MULTIMEDIA PEMBELAJARAN CAI MODEL TUTORIAL UNTUK ANAK TUNARUNGU PADA KETERAMPILAN KOMPUTER",
+    "abstract": null,
+    "authors": [
+      "Edo Surya Utama, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Hikmal Fajar Fardyan",
+    "date_deposited": "19 Sep 2023 08:44",
+    "uri": "http://repository.upi.edu/id/eprint/106315"
+  },
+  {
+    "title": "RANCANG BANGUN PERANGKAT LUNAK APOTEK DENGAN FUNCTIONAL DECOMPOSITION METHODOLOGIES",
+    "abstract": null,
+    "authors": [
+      "Eri Irawan, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Hikmal Fajar Fardyan",
+    "date_deposited": "19 Sep 2023 08:42",
+    "uri": "http://repository.upi.edu/id/eprint/106806"
+  },
+  {
+    "title": "PENERAPAN KONSEP SISTEM MANAJEMEN WORKFLOW SEBAGAI OTOMATISASI PROSES BISNIS KLAIM ASURANSI STUDI KASUS PT. ASURANSI JIWA SINARMAS",
+    "abstract": null,
+    "authors": [
+      "FIRMANTO, Arief"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Users 1 not found.",
+    "date_deposited": "04 Sep 2013 02:22",
+    "uri": "http://repository.upi.edu/id/eprint/1352"
+  },
+  {
+    "title": "RANCANG BANGUN APLIKASI MOBILE TWITTER CLIENT UNTUK SPESIFIKASI JTWI (JAVA TECHNOLOGY FOR THE WIRELESS INDUSTRY SPECIFICATION)",
+    "abstract": null,
+    "authors": [
+      "Febrinaldi, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "V Naval Science > V Naval Science (General) V Naval Science > VM Naval architecture. Shipbuilding. Marine engineering",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Imas Aulia",
+    "date_deposited": "22 Sep 2023 02:02",
+    "uri": "http://repository.upi.edu/id/eprint/107231"
+  },
+  {
+    "title": "IMPLEMENTASI ALGORITMA FUZZY ITERATIVE DICHOTOMISER 3 (FID3) PADA FUZZY DECISION TREE UNTUK DIAGNOSA PENYAKIT JANTUNG",
+    "abstract": null,
+    "authors": [
+      "Fitri Nurlaelsari, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA75 Electronic computers. Computer science Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Septiani Sitrulroaeni",
+    "date_deposited": "14 Nov 2023 04:31",
+    "uri": "http://repository.upi.edu/id/eprint/112197"
+  },
+  {
+    "title": "IMPLEMENTASI METODE MONTE CARLO DALAM SISTEM PERTOKOAN BERBASIS WEB UNTUK OPTIMASI PROSES PENGADAAN BARANG (STUDI KASUS TOKO ALMIRA)",
+    "abstract": null,
+    "authors": [
+      "Gelar Gilang Ginanjar, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics Q Science > QA Mathematics > QA75 Electronic computers. Computer science Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Imas Aulia",
+    "date_deposited": "22 Sep 2023 02:03",
+    "uri": "http://repository.upi.edu/id/eprint/107719"
+  },
+  {
+    "title": "METODE PENGENALAN SIDIK JARI DENGAN CIRI COOCURRENCE MENGGUNAKAN JARINGAN SARAF TIRUAN PROPAGASI BALI",
+    "abstract": null,
+    "authors": [
+      "Hilman Hakim, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics Q Science > QA Mathematics > QA75 Electronic computers. Computer science Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Imas Aulia",
+    "date_deposited": "22 Sep 2023 02:02",
+    "uri": "http://repository.upi.edu/id/eprint/107751"
+  },
+  {
+    "title": "MARKET BASKET ANALYSIS DENGAN ALGORITMA CT-PRO PADA DEPARTEMEN STORE X",
+    "abstract": null,
+    "authors": [
+      "Ihsan Kurniawan, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Erni Alipiyani",
+    "date_deposited": "18 Oct 2023 07:11",
+    "uri": "http://repository.upi.edu/id/eprint/110550"
+  },
+  {
+    "title": "MEMBANGUN SISTEM PENJUALAN ONLINE DENGAN MENGGUNAKAN METODE USER CENTERED DESIGN (UCD) :Studi Kasus Toko De-Gauss",
+    "abstract": "Banyak website penjualan online yang tidak memenuhi kehendak pengguna karena informasi yang didapat tidak sesuai keinginan para pengguna tersebut. Kebanyakan penjualan online tidak didasarkan atas pembuatan tujuan awal dari pembuatan website itu sendiri, karena definisi dan aturan-aturan yang mestinya diperhatikan tidak ditonjolkan secara detail dalam pembuatannya, sehingga tidak terstruktur dengan baik. Dari latar belakang tersebut, maka dibutuhkan suatu website penjualan yang dapat memenuhi keinginan pengguna agar para pengguna bisa tertarik untuk membeli produk secara online dan dapat melihat informasi-informasinya secara jelas dan detail. Oleh karena itu dibuatlah suatu website penjualan online dengan menggunakan metode User Centered Design (UCD) yang akan membantu mempromosikan dan menjual barang tersebut. Maksudnya aplikasi penjualan online dengan menggunakan metode User Centered Design (UCD) ini adalah untuk mempermudah pengguna melihat informasi yang ada dalam website penjualan online dan memberikan kepuasan yang tinggi, memberikan pelayanan yang baik serta kenyamanan untuk para pengguna pada saat melakukan pembelian produk secara online ketika pengguna mengunjungi website tersebut dan bahkan orang awam pun bisa menggunakannya, karena didalam website tersebut diberikan bantuan petunjuk agar dapat menjalankannya dengan baik. Metode yang dipakai dalam membuat sistem ini adalah metode pengumpulan data yaitu dengan mengadakan wawancara yang ditujukan kepada pemilik degauss supaya aplikasi yang akan dibuat sesuai dengan keinginan dari pemilik degauss tersebut dan studi literatur, sedangkan metode pengembangan sistem yang dipakai yaitu metode prototyping yang terdiri dari tahapan pengumpulan kebutuhan, membangun prototyping, evaluasi prototyping, mengkodekan sistem, menguji sistem, evaluasi sistem dan menggunakan sistem. Aplikasi penjualan online ini dibuat dengan menggunakan bahasa pemograman PHP My Admin, databasenya dengan menggunakan MySQL dan servernya menggunakan Apache web server yang dijalankan pada localhost.",
+    "authors": [
+      "Inda Meidan, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Fawwaz Nabil Azaria",
+    "date_deposited": "06 Sep 2023 02:11",
+    "uri": "http://repository.upi.edu/id/eprint/102372"
+  },
+  {
+    "title": "PENGGUNAAN METODE BAYESIAN NETWORK DALAM SISTEM PAKAR UNTUK DIAGNOSIS PENYAKIT LEUKEMIA",
+    "abstract": "Sistem pakar (expert system) secara umum adalah sistem yang berusaha mengadopsi pengetahuan manusia ke komputer, agar komputer dapat menyelesaikan masalah seperti yang biasa dilakukan oleh para ahli. Atau dengan kata lain sistem pakar adalah sistem yang didesain dan diimplementasikan dengan bantuan bahasa pemrograman tertentu untuk dapat menyelesaikan masalah seperti yang dilakukan oleh para ahli. Leukemia atau kanker darah adalah jenis kanker yang menyerang sel darah putih. Leukemia dikelompokkan menjadi empat jenis. Gejala yang hampir sama untuk setiap jenisnya mempersulit untuk menentukan jenis penyakit leukemia yang diderita pasien. Pada skripsi ini, peneliti bertujuan untuk merancang sistem pakar untuk diagnosis penyakit leukemia menggunakan metode bayesian network dengan memperhatikan gejala-gejala yang dialami. Bayesian network dapat digunakan untuk menghitung probabilitas dari kehadiran berbagai gejala penyakit. Sulitnya menentukan jenis penyakit leukemia karena rumitnya berbagai gejala yang mengiringinya, dapat dibantu dengan merepresentasikan gejala penyakit ini ke dalam sebuah model grafis dalam bayesian network. Implementasi sistem pakar berbasis web ini menggunkan bahasa pemrograman php.",
+    "authors": [
+      "Indyana Meigarani, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics Q Science > QA Mathematics > QA75 Electronic computers. Computer science Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Imas Aulia",
+    "date_deposited": "30 Oct 2023 03:05",
+    "uri": "http://repository.upi.edu/id/eprint/110725"
+  },
+  {
+    "title": "SISTEM REKOMENDASI FILM BERBASIS WEB MENGGUNAKAN METODE ITEM-BASED COLLABORATIVE FILTERING BERBASIS K-NEAREST NEIGHBOR",
+    "abstract": null,
+    "authors": [
+      "Irfan Aris Nur Hakim, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics Q Science > QA Mathematics > QA75 Electronic computers. Computer science Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Imas Aulia",
+    "date_deposited": "22 Sep 2023 02:04",
+    "uri": "http://repository.upi.edu/id/eprint/107711"
+  },
+  {
+    "title": "IMPLEMENTASI SISTEM PENDUKUNG KEPUTUSAN LAYANAN BIMBINGAN KONSELING (BK) UNTUK MENENTUKAN PENJURUSAN SISWA DENGAN MENGGUNAKAN METODE WEIGHTED PRODUCT :Studi kasus : SMAN 3 Subang",
+    "abstract": null,
+    "authors": [
+      "Kania Purnama, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics Q Science > QA Mathematics > QA75 Electronic computers. Computer science Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Imas Aulia",
+    "date_deposited": "22 Sep 2023 02:03",
+    "uri": "http://repository.upi.edu/id/eprint/107731"
+  },
+  {
+    "title": "IMPLEMENTASI ALGORITMA A* DALAM SISTEM PENDETEKSI KERUSAKAN HARDWARE KOMPUTER",
+    "abstract": null,
+    "authors": [
+      "Kania Zakiah, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics Q Science > QA Mathematics > QA75 Electronic computers. Computer science Q Science > QA Mathematics > QA76 Computer software Q Science > QH Natural history",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Imas Aulia",
+    "date_deposited": "22 Sep 2023 02:09",
+    "uri": "http://repository.upi.edu/id/eprint/107279"
+  },
+  {
+    "title": "PEMBANGUNAN APLIKASI GEOCHAT SEBAGAI MEDIA SHARE INFORMASI TRAFFIC MANAGEMENT CENTER (TMC) :Studi Kasus Kemacetan Lalu Lintas di Jakarta",
+    "abstract": null,
+    "authors": [
+      "Kiki Firmansyah, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Fawwaz Nabil Azaria",
+    "date_deposited": "06 Sep 2023 02:10",
+    "uri": "http://repository.upi.edu/id/eprint/102389"
+  },
+  {
+    "title": "PENERAPAN FUZZY FEATURE EXTRACTION DAN JARINGAN SYARAF TIRUAN RESILIENT PROPAGATION DALAM PENGENALAN TULISAN TANGAN KATAKANA",
+    "abstract": null,
+    "authors": [
+      "Krisna Febrianto, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Erni Alipiyani",
+    "date_deposited": "18 Oct 2023 07:13",
+    "uri": "http://repository.upi.edu/id/eprint/110023"
+  },
+  {
+    "title": "PENGENALAN TULISAN TANGAN AKSARA SUNDA MENGGUNAKAN KOHONEN NEURAL NETWORK",
+    "abstract": null,
+    "authors": [
+      "MUBAROK, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Erni Alipiyani",
+    "date_deposited": "18 Oct 2023 07:11",
+    "uri": "http://repository.upi.edu/id/eprint/110554"
+  },
+  {
+    "title": "SISTEM PENDUKUNG KEPUTUSAN OPTIMALISASI PRODUKSI BARANG PADA CV. SAMSON JAYA DENGAN MENGGUNAKAN METODE SIMPLEKS PRIMAL",
+    "abstract": null,
+    "authors": [
+      "Mastufah, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Hikmal Fajar Fardyan",
+    "date_deposited": "22 Sep 2023 01:44",
+    "uri": "http://repository.upi.edu/id/eprint/107579"
+  },
+  {
+    "title": "KLASIFIKASI KARAKTER PENGGUNA BATIK UNTUK REKOMENDASI MOTIF MENGGUNAKAN ALGORITMA NAIVE BAYES",
+    "abstract": null,
+    "authors": [
+      "Nikha Akbariah, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics Q Science > QA Mathematics > QA75 Electronic computers. Computer science Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Imas Aulia",
+    "date_deposited": "30 Oct 2023 03:05",
+    "uri": "http://repository.upi.edu/id/eprint/110772"
+  },
+  {
+    "title": "PERBANDINGAN CLUSTERING BASED ON FREQUENT WORD SEQUENCE (CFWS) DAN K-MEANS UNTUK PENGELOMPOKAN DOKUMEN BERBAHASA INDONESIA",
+    "abstract": null,
+    "authors": [
+      "Novita Rizky Widyawati, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics Q Science > QA Mathematics > QA75 Electronic computers. Computer science Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Imas Aulia",
+    "date_deposited": "22 Sep 2023 02:03",
+    "uri": "http://repository.upi.edu/id/eprint/107369"
+  },
+  {
+    "title": "STUDI DAN IMPLEMENTASI ALGORITMA SUFFIX TREE CLUSTERING UNTUK ORGANISASI DATA HASIL SEARCH ENGINE",
+    "abstract": null,
+    "authors": [
+      "R Seno A Anggoro, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Erni Alipiyani",
+    "date_deposited": "18 Oct 2023 07:14",
+    "uri": "http://repository.upi.edu/id/eprint/109886"
+  },
+  {
+    "title": "SISTEM PENGAMAN MOBIL MELALUI SMS (SHORT MESSAGE SERVICE) BERBASIS MIKROKONTROLER",
+    "abstract": null,
+    "authors": [
+      "Rian Adhitya Yudistianto, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Erni Alipiyani",
+    "date_deposited": "12 Oct 2023 07:09",
+    "uri": "http://repository.upi.edu/id/eprint/110315"
+  },
+  {
+    "title": "APLIKASI MOBILE PEMBACA SHORT MESSAGE SERVICE (SMS) UNTUK TUNANETRA MENGGUNAKAN MODEL INTONASI DAN EKSPRESI BICARA BAHASA INDONESIA",
+    "abstract": null,
+    "authors": [
+      "Rifki Susetyo, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Erni Alipiyani",
+    "date_deposited": "12 Oct 2023 07:10",
+    "uri": "http://repository.upi.edu/id/eprint/110317"
+  },
+  {
+    "title": "IMPLEMENTASI SMS GATEWAY PADA SISTEM LAYANAN INFORMASI JADWAL KULIAH",
+    "abstract": null,
+    "authors": [
+      "Rikki Yawhari, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Erni Alipiyani",
+    "date_deposited": "18 Oct 2023 07:14",
+    "uri": "http://repository.upi.edu/id/eprint/110014"
+  },
+  {
+    "title": "PENENTUAN KATA DASAR DAN KELAS KATA DARI KATA BERIMBUHAN PADA EJAAN BAHASA INDONESIA DENGAN ALGORITMA STEMMING",
+    "abstract": null,
+    "authors": [
+      "Riri Hemiliawati, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Erni Alipiyani",
+    "date_deposited": "18 Oct 2023 07:14",
+    "uri": "http://repository.upi.edu/id/eprint/110035"
+  },
+  {
+    "title": "PENERAPAN ALGORITMA K-MEANS PADA CLUSTERING BERITA BERBAHASA INDONESIA",
+    "abstract": null,
+    "authors": [
+      "Rubi Henjaya, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Erni Alipiyani",
+    "date_deposited": "18 Oct 2023 07:12",
+    "uri": "http://repository.upi.edu/id/eprint/110557"
+  },
+  {
+    "title": "PENENTUAN PLAFOND KREDIT NASABAH MENGGUNAKAN SUBTRACTIVE CLUSTERING DAN LOGIKA FUZZY",
+    "abstract": "Proses penentuan plafond kredit nasabah merupakan proses mendapatkan dan menggunakan informasi data analisa plafond kredit nasabah pada masa lalu di suatu bank, untuk dijadikan sebagai data training dalam menentukan plafond kredit nasabah menggunakan Subtractive Clustering dan Logika Fuzzy. Penentuan plafond kredit nasabah menggunakan Subtractive Clustering dan Logika Fuzzy ini dilakukan dengan dua tahap pengerjaan. Tahap pertama adalah penentuan data pembelajaran/ training dimana data training ini akan diolah untuk membentuk suatu aturan/ rule. Untuk membentuk suatu aturan harus menentukan pusat kluster data training terlebih dahulu. Dalam penentuan pusat kluster ini digunakan algoritma fuzzy subtractive clustering. Tahap kedua adalah pembentukan fuzzy inferference systems untuk menentukan plafond kredit nasabah data cek/ testing. Dalam pembentukan fuzzy inferference systems menggunakan model Takagi Sugeno dilakukan proses fuzzyfikasi, proses inferensi dan proses defuzzyfikasi. Proses defuzzyfikasi ini dilakukan menggunakan metode weighted average. Hasil defuzzyfikasi ini dibandingkan dengan data eksisting untuk mengetahui tingkat akurasi dari defuzzyfikasi. Dalam melakukan perbandingan hasil defuzzyfikasi dengan data eksisting dilakukan dengan menentukan Mean Percentage Error (MPE). Pada penelitian ini telah dibuat sebuah perangkat lunak Sistem Penentuan Plafond Kredit Nasabah (SPPKN) yang berfungsi membantu pihak bank khususnya analis kredit bank dalam menentukan plafond kredit nasabah yang tepat dengan menggunakan Subtractive Clustering dan Logika Fuzzy. Fungsi utama perangkat lunak ini adalah mengolah data-data pengajuan kredit pemohon. Perangkat lunak ini diimplementasikan dengan menggunakan bahasa pemrograman Matlab, dan untuk database menggunakan Access. .",
+    "authors": [
+      "SOLICKHIN, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Erni Alipiyani",
+    "date_deposited": "18 Oct 2023 07:14",
+    "uri": "http://repository.upi.edu/id/eprint/110020"
+  },
+  {
+    "title": "PENERAPAN MODEL ARIAS (ASSURANCE, RELEVANCE, INTEREST, ASSESSMENT, AND SATISFACTION) DALAM PEMBELAJARAN TIK (TEKNOLOGI INFORMASI DAN KOMUNIKASI) UNTUK MENINGKATKAN HASIL BELAJAR SISWA :PENELITIAN KUASI EKSPERIMEN TERHADAP SISWA KELAS X SMA PASUNDAN 2 BANDUNG SEMESTER GENAP TAHUN AJARAN 2009/2010",
+    "abstract": null,
+    "authors": [
+      "Sa'adah, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Hikmal Fajar Fardyan",
+    "date_deposited": "11 Sep 2023 12:02",
+    "uri": "http://repository.upi.edu/id/eprint/104545"
+  },
+  {
+    "title": "PERBANDINGAN RASIO KOMPRESI DAN EFISIENSI ALGORITMA SHANNON-FANO DENGAN ALGORITMA HUFFMAN PADA KOMPRESI TEKS",
+    "abstract": null,
+    "authors": [
+      "Septin Saputri, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics Q Science > QA Mathematics > QA75 Electronic computers. Computer science Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Imas Aulia",
+    "date_deposited": "22 Sep 2023 02:03",
+    "uri": "http://repository.upi.edu/id/eprint/107735"
+  },
+  {
+    "title": "IMPLEMENTASI PENDEKATAN SEMANTIC OBJECT MODEL PADA RANCANGAN DATABASE PENATAUSAHAAN ASET FASILITAS KANTOR Studi Kasus : Dinas Komunikasi dan Informatika - Bandung",
+    "abstract": "Database merupakan salah satu komponen yang paling penting dalam sebuah sistem informasi, karena merupakan dasar dalam menyediakan informasi atau kumpulan data yang ditampilkan melalui sistem informasi. Hasil analisis terhadap proses penatausahaan sebelumnya terdapat beberapa kekurangan dantaranya membutuhkan sebuah perangkat lunak yang terkomputerisasi, dan hal itu tidak terlepas dari adanya suatu database yang berfungsi sebagai media penyimpanan yang berhubungan dengan aplikasi yang ada. Pada penelitian ini penyusun menerapkan pendekatan Semantic Object Model dalam pemodelan datanya, yang dalam merepresentasikan objek-objeknya menggunakan diagram SOM. Pemodelan data dengan menggunakan Semantic Object Model dapat memudahkan pengembang dalam mengimplementasikan model data tersebut karena, Semantic Object Model lebih detail dalam penggambaran model datanya, sehingga untuk melakukan proses selanjutnya yaitu pembuatan relational database lebih mudah",
+    "authors": [
+      "Siti Husnul bariyah, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Pendidikan Ilmu Komputer",
+    "depositing_user": "Erni Alipiyani",
+    "date_deposited": "18 Oct 2023 07:10",
+    "uri": "http://repository.upi.edu/id/eprint/110535"
+  },
+  {
+    "title": "PENERAPAN MODEL PENGAJARAN LANGSUNG (DIRECT INSTRUCTION) UNTUK MENINGKATKAN PEMAHAMAN BELAJAR SISWA DALAM PEMBELAJARAN REKAYASA PERANGKAT LUNAK (RPL) (Studi Kasus di SMKN 1 Panyingkiran)",
+    "abstract": null,
+    "authors": [
+      "Siti Mardiyah, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) L Education > LB Theory and practice of education > LB1603 Secondary Education. High schools Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Erni Alipiyani",
+    "date_deposited": "18 Oct 2023 07:13",
+    "uri": "http://repository.upi.edu/id/eprint/110018"
+  },
+  {
+    "title": "PERANCANGAN PERANGKAT LUNAK PERMASALAHAN TINDAK PIDANA PENCURIAN MENGGUNAKAN INFERENSI RUNUT MAJU BERBASIS METODE DEPTH FIRST SEARCH (DFS)",
+    "abstract": null,
+    "authors": [
+      "Suhati Novalia Rengganis, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Erni Alipiyani",
+    "date_deposited": "18 Oct 2023 07:10",
+    "uri": "http://repository.upi.edu/id/eprint/110531"
+  },
+  {
+    "title": "PERBANDINGAN DECISION TREE C4.5 DAN NAÏVE BAYES DALAM IMPLEMENTASI KLASIFIKASI KONSUMEN ASURANSI KESEHATAN",
+    "abstract": null,
+    "authors": [
+      "Tony Ardianto, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Erni Alipiyani",
+    "date_deposited": "18 Oct 2023 07:14",
+    "uri": "http://repository.upi.edu/id/eprint/109924"
+  },
+  {
+    "title": "PENERAPAN MODEL PROJECT BASED LEARNING TERHADAP PENINGKATAN HASIL BELAJAR SISWA PADA MATA PELAJARAN TEKNOLOGI INFORMASI DAN KOMUNIKASI",
+    "abstract": "Project Based Learning merupakan model pembelajaran yang memberikan kesempatan kepada pendidik untuk mengelola pembelajaran di kelas dengan melibatkan kerja proyek. Tujuan dari penelitian ini adalah untuk mengetahui perbedaan rata-rata peningkatan hasil belajar siswa antara siswa kelompok atas, tengah dan bawah setelah diterapkannya model Project Based Learning pada mata pelajaran Teknologi Informasi dan Komunikasi (TIK). Metode penelitian yang digunakan adalah metode eksperimen, dengan desain Pre-Eksperimental menggunakan model One-Group Pretest-Posttest Design. Sampel yang digunakan dalam penelitian ini adalah sebanyak 36 orang siswa kelas XII-IPA-5 SMA Negeri 24 Bandung. Berdasarkan hasil penilitian dan analisis data, didapatkan hasil pengujian hipotesis dengan menggunakan uji ANOVA satu jalur, menunjukkan nilai Fhitung > Ftabel, 3,625 > 3,28 artinya H0 ditolak. Maka dapat disimpulkan bahwa terdapat perbedaan rata-rata peningkatan hasil belajar siswa antara siswa kelompok atas, tengah dan bawah setelah diterapkannya model Project Based Learning pada mata pelajaran Teknologi Informasi dan Komunikasi (TIK).",
+    "authors": [
+      "Yahya Muhammad Mukhlis, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Erni Alipiyani",
+    "date_deposited": "12 Oct 2023 07:09",
+    "uri": "http://repository.upi.edu/id/eprint/110276"
+  }
+]

@@ -1,0 +1,437 @@
+- generic [active] [ref=f140e1]:
+  - generic [ref=f140e2]:
+    - generic [ref=f140e4]:
+      - link [ref=f140e6] [cursor=pointer]:
+        - /url: http://repository.upi.edu/
+        - img "UPI Repository" [ref=f140e7]
+      - generic [ref=f140e9]:
+        - generic [ref=f140e10]:
+          - link "Home" [ref=f140e11] [cursor=pointer]:
+            - /url: http://repository.upi.edu
+          - link "|" [ref=f140e12] [cursor=pointer]:
+            - /url: "#"
+          - link "Contact" [ref=f140e13] [cursor=pointer]:
+            - /url: http://repository.upi.edu/contact.html
+        - generic [ref=f140e15]: Answer at its best to any Quests
+    - navigation [ref=f140e16]:
+      - list [ref=f140e19]:
+        - listitem [ref=f140e20]:
+          - link "Home" [ref=f140e21] [cursor=pointer]:
+            - /url: http://repository.upi.edu
+        - listitem [ref=f140e22]:
+          - link "About" [ref=f140e23] [cursor=pointer]:
+            - /url: http://repository.upi.edu/information.html
+        - listitem [ref=f140e24]:
+          - link "Browse" [ref=f140e25] [cursor=pointer]:
+            - /url: http://repository.upi.edu/view/
+        - listitem [ref=f140e26]
+    - generic [ref=f140e27]:
+      - generic:
+        - generic:
+          - list
+  - generic [ref=f140e28]:
+    - heading "Items where Division is \"Program Studi Ilmu Komputer\" and Year is 2010" [level=1] [ref=f140e29]
+    - link [ref=f140e31] [cursor=pointer]:
+      - /url: ./
+      - img "[up]" [ref=f140e32]
+      - text: Up a level
+    - generic [ref=f140e35]:
+      - generic [ref=f140e36]:
+        - generic [ref=f140e37]: Export as
+        - combobox "Export as" [ref=f140e38]:
+          - option "ASCII Citation" [selected]
+          - option "BibTeX"
+          - option "Dublin Core"
+          - option "EP3 XML"
+          - option "EndNote"
+          - option "HTML Citation"
+          - option "JSON"
+          - option "METS"
+          - option "Multiline CSV"
+          - option "Object IDs"
+          - option "OpenURL ContextObject"
+          - option "RDF+N-Triples"
+          - option "RDF+N3"
+          - option "RDF+XML"
+          - option "Refer"
+          - option "Reference Manager"
+        - button "Export" [ref=f140e39] [cursor=pointer]
+      - generic [ref=f140e40]:
+        - link [ref=f140e42] [cursor=pointer]:
+          - /url: /cgi/exportview/divisions/ILKOM/2010/Atom/ILKOM_2010.xml
+          - img "[Atom feed]" [ref=f140e43]
+          - text: Atom
+        - link [ref=f140e45] [cursor=pointer]:
+          - /url: /cgi/exportview/divisions/ILKOM/2010/RSS/ILKOM_2010.rss
+          - img "[RSS feed]" [ref=f140e46]
+          - text: RSS 1.0
+        - link [ref=f140e48] [cursor=pointer]:
+          - /url: /cgi/exportview/divisions/ILKOM/2010/RSS2/ILKOM_2010.xml
+          - img "[RSS2 feed]" [ref=f140e49]
+          - text: RSS 2.0
+    - generic [ref=f140e50]:
+      - generic [ref=f140e51]:
+        - text: "Group by: Creators |"
+        - link "Item Type" [ref=f140e52] [cursor=pointer]:
+          - /url: 2010.type.html
+        - text: "|"
+        - link "No Grouping" [ref=f140e53] [cursor=pointer]:
+          - /url: 2010.default.html
+      - generic [ref=f140e55]:
+        - text: "Jump to:"
+        - link "A" [ref=f140e56] [cursor=pointer]:
+          - /url: "#group_A"
+        - text: "|"
+        - link "D" [ref=f140e57] [cursor=pointer]:
+          - /url: "#group_D"
+        - text: "|"
+        - link "E" [ref=f140e58] [cursor=pointer]:
+          - /url: "#group_E"
+        - text: "|"
+        - link "F" [ref=f140e59] [cursor=pointer]:
+          - /url: "#group_F"
+        - text: "|"
+        - link "G" [ref=f140e60] [cursor=pointer]:
+          - /url: "#group_G"
+        - text: "|"
+        - link "H" [ref=f140e61] [cursor=pointer]:
+          - /url: "#group_H"
+        - text: "|"
+        - link "I" [ref=f140e62] [cursor=pointer]:
+          - /url: "#group_I"
+        - text: "|"
+        - link "K" [ref=f140e63] [cursor=pointer]:
+          - /url: "#group_K"
+        - text: "|"
+        - link "M" [ref=f140e64] [cursor=pointer]:
+          - /url: "#group_M"
+        - text: "|"
+        - link "N" [ref=f140e65] [cursor=pointer]:
+          - /url: "#group_N"
+        - text: "|"
+        - link "R" [ref=f140e66] [cursor=pointer]:
+          - /url: "#group_R"
+        - text: "|"
+        - link "S" [ref=f140e67] [cursor=pointer]:
+          - /url: "#group_S"
+        - text: "|"
+        - link "T" [ref=f140e68] [cursor=pointer]:
+          - /url: "#group_T"
+        - text: "|"
+        - link "Y" [ref=f140e69] [cursor=pointer]:
+          - /url: "#group_Y"
+      - generic [ref=f140e70]:
+        - text: "Number of items:"
+        - strong [ref=f140e71]: "44"
+        - text: .
+      - heading "A" [level=2] [ref=f140e72]
+      - paragraph [ref=f140e73]:
+        - text: Achmad Ridwan, - (2010)
+        - link [ref=f140e74] [cursor=pointer]:
+          - /url: http://repository.upi.edu/109893/
+          - emphasis [ref=f140e75]: PENGENALAN TULISAN TANGAN AKSARA SUNDA NGALAGENA DENGAN ALGORITMA FUZZY C-MEANS.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e76]:
+        - text: Ade Ismail Isnan, - (2010)
+        - link [ref=f140e77] [cursor=pointer]:
+          - /url: http://repository.upi.edu/109930/
+          - emphasis [ref=f140e78]: PENGEMBANGAN SMART IPS UNTUK MEREDUKSI FALSE POSITIVE.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e79]:
+        - text: Agus Sakti Sunarto, - (2010)
+        - link [ref=f140e80] [cursor=pointer]:
+          - /url: http://repository.upi.edu/110475/
+          - emphasis [ref=f140e81]: IMPLEMENTASI ALGORITMA HUFFMAN PADA KOMPRESI DAN DEKOMPRESI FILE BERTIPE WAV.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e82]:
+        - text: Andri Suryadi, - (2010)
+        - link [ref=f140e83] [cursor=pointer]:
+          - /url: http://repository.upi.edu/110450/
+          - emphasis [ref=f140e84]: SISTEM PENGENALAN WAJAH MENGGUNAKAN METODE PRINCIPAL COMPONEN ANALISYS (PCA) DENGAN ALGORITMA FUZZY C-MEANS (FCM).
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e85]:
+        - text: Aneu Kristina, - (2010)
+        - link [ref=f140e86] [cursor=pointer]:
+          - /url: http://repository.upi.edu/110320/
+          - emphasis [ref=f140e87]: SISTEM INFORMASI PARIWISATA KOTA BANDUNG BERBASIS GIS.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e88]:
+        - text: Aris Gustiana, - (2010)
+        - link [ref=f140e89] [cursor=pointer]:
+          - /url: http://repository.upi.edu/110103/
+          - emphasis [ref=f140e90]: PENGENALAN WAJAH MENGGUNAKAN TRANSFORMASI WAVELET SEBAGAI PROTOTYPE PERANCANGAN SISTEM ABSENSI.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e91]:
+        - text: Asri Yulian Pratiwi, - (2010)
+        - link [ref=f140e92] [cursor=pointer]:
+          - /url: http://repository.upi.edu/110555/
+          - emphasis [ref=f140e93]: IMPLEMENTASI MODEL RUANG VEKTOR PADA SISTEM TEMU BALIK INFORMASI DOKUMEN BERBAHASA INDONESIA.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "D" [level=2] [ref=f140e94]
+      - paragraph [ref=f140e95]:
+        - text: D Sugiana Lukman H, - (2010)
+        - link [ref=f140e96] [cursor=pointer]:
+          - /url: http://repository.upi.edu/107501/
+          - emphasis [ref=f140e97]: MODEL SISTEM REMOTE KONTROL AKTUATOR PAN TILT MENGGUNAKAN SINYAL DTMF.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e98]:
+        - text: Deviana Septian, - (2010)
+        - link [ref=f140e99] [cursor=pointer]:
+          - /url: http://repository.upi.edu/110538/
+          - emphasis [ref=f140e100]: RANCANG BANGUN PERANGKAT LUNAK PENGGAJIAN DAN PPh KARYAWAN DENGAN MENGGUNAKAN METODE VORD.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e101]:
+        - text: Devy Rikasari Waryuman, - (2010)
+        - link [ref=f140e102] [cursor=pointer]:
+          - /url: http://repository.upi.edu/96828/
+          - emphasis [ref=f140e103]: PENERAPAN METODE PEMBELAJARAN TEAM ASSISTED INDIVIDUALIZATION UNTUK MENINGKATKAN HASIL BELAJAR SISWA PADA MATA PELAJARAN TEKNOLOGI INFORMASI DAN KOMUNIKASI.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e104]:
+        - text: Dian Nurdiana, - (2010)
+        - link [ref=f140e105] [cursor=pointer]:
+          - /url: http://repository.upi.edu/107695/
+          - emphasis [ref=f140e106]: IMPLEMENTASI ALGORITMA LEBAH UNTUK PENCARIAN JALUR TERPENDEK DENGAN MEMPERTIMBANGKAN HEURISTIK.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "E" [level=2] [ref=f140e107]
+      - paragraph [ref=f140e108]:
+        - text: Edo Surya Utama, - (2010)
+        - link [ref=f140e109] [cursor=pointer]:
+          - /url: http://repository.upi.edu/106315/
+          - emphasis [ref=f140e110]: IMPLEMENTASI MULTIMEDIA PEMBELAJARAN CAI MODEL TUTORIAL UNTUK ANAK TUNARUNGU PADA KETERAMPILAN KOMPUTER.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e111]:
+        - text: Eri Irawan, - (2010)
+        - link [ref=f140e112] [cursor=pointer]:
+          - /url: http://repository.upi.edu/106806/
+          - emphasis [ref=f140e113]: RANCANG BANGUN PERANGKAT LUNAK APOTEK DENGAN FUNCTIONAL DECOMPOSITION METHODOLOGIES.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "F" [level=2] [ref=f140e114]
+      - paragraph [ref=f140e115]:
+        - text: FIRMANTO, Arief (2010)
+        - link [ref=f140e116] [cursor=pointer]:
+          - /url: http://repository.upi.edu/1352/
+          - emphasis [ref=f140e117]: PENERAPAN KONSEP SISTEM MANAJEMEN WORKFLOW SEBAGAI OTOMATISASI PROSES BISNIS KLAIM ASURANSI STUDI KASUS PT. ASURANSI JIWA SINARMAS.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e118]:
+        - text: Febrinaldi, - (2010)
+        - link [ref=f140e119] [cursor=pointer]:
+          - /url: http://repository.upi.edu/107231/
+          - emphasis [ref=f140e120]: RANCANG BANGUN APLIKASI MOBILE TWITTER CLIENT UNTUK SPESIFIKASI JTWI (JAVA TECHNOLOGY FOR THE WIRELESS INDUSTRY SPECIFICATION).
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e121]:
+        - text: Fitri Nurlaelsari, - (2010)
+        - link [ref=f140e122] [cursor=pointer]:
+          - /url: http://repository.upi.edu/112197/
+          - emphasis [ref=f140e123]: IMPLEMENTASI ALGORITMA FUZZY ITERATIVE DICHOTOMISER 3 (FID3) PADA FUZZY DECISION TREE UNTUK DIAGNOSA PENYAKIT JANTUNG.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "G" [level=2] [ref=f140e124]
+      - paragraph [ref=f140e125]:
+        - text: Gelar Gilang Ginanjar, - (2010)
+        - link [ref=f140e126] [cursor=pointer]:
+          - /url: http://repository.upi.edu/107719/
+          - emphasis [ref=f140e127]: IMPLEMENTASI METODE MONTE CARLO DALAM SISTEM PERTOKOAN BERBASIS WEB UNTUK OPTIMASI PROSES PENGADAAN BARANG (STUDI KASUS TOKO ALMIRA).
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "H" [level=2] [ref=f140e128]
+      - paragraph [ref=f140e129]:
+        - text: Hilman Hakim, - (2010)
+        - link [ref=f140e130] [cursor=pointer]:
+          - /url: http://repository.upi.edu/107751/
+          - emphasis [ref=f140e131]: METODE PENGENALAN SIDIK JARI DENGAN CIRI COOCURRENCE MENGGUNAKAN JARINGAN SARAF TIRUAN PROPAGASI BALI.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "I" [level=2] [ref=f140e132]
+      - paragraph [ref=f140e133]:
+        - text: Ihsan Kurniawan, - (2010)
+        - link [ref=f140e134] [cursor=pointer]:
+          - /url: http://repository.upi.edu/110550/
+          - emphasis [ref=f140e135]: MARKET BASKET ANALYSIS DENGAN ALGORITMA CT-PRO PADA DEPARTEMEN STORE X.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e136]:
+        - text: Inda Meidan, - (2010)
+        - link [ref=f140e137] [cursor=pointer]:
+          - /url: http://repository.upi.edu/102372/
+          - emphasis [ref=f140e138]: MEMBANGUN SISTEM PENJUALAN ONLINE DENGAN MENGGUNAKAN METODE USER CENTERED DESIGN (UCD) :Studi Kasus Toko De-Gauss.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e139]:
+        - text: Indyana Meigarani, - (2010)
+        - link [ref=f140e140] [cursor=pointer]:
+          - /url: http://repository.upi.edu/110725/
+          - emphasis [ref=f140e141]: PENGGUNAAN METODE BAYESIAN NETWORK DALAM SISTEM PAKAR UNTUK DIAGNOSIS PENYAKIT LEUKEMIA.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e142]:
+        - text: Irfan Aris Nur Hakim, - (2010)
+        - link [ref=f140e143] [cursor=pointer]:
+          - /url: http://repository.upi.edu/107711/
+          - emphasis [ref=f140e144]: SISTEM REKOMENDASI FILM BERBASIS WEB MENGGUNAKAN METODE ITEM-BASED COLLABORATIVE FILTERING BERBASIS K-NEAREST NEIGHBOR.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "K" [level=2] [ref=f140e145]
+      - paragraph [ref=f140e146]:
+        - text: Kania Purnama, - (2010)
+        - link [ref=f140e147] [cursor=pointer]:
+          - /url: http://repository.upi.edu/107731/
+          - emphasis [ref=f140e148]: "IMPLEMENTASI SISTEM PENDUKUNG KEPUTUSAN LAYANAN BIMBINGAN KONSELING (BK) UNTUK MENENTUKAN PENJURUSAN SISWA DENGAN MENGGUNAKAN METODE WEIGHTED PRODUCT :Studi kasus : SMAN 3 Subang."
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e149]:
+        - text: Kania Zakiah, - (2010)
+        - link [ref=f140e150] [cursor=pointer]:
+          - /url: http://repository.upi.edu/107279/
+          - emphasis [ref=f140e151]: IMPLEMENTASI ALGORITMA A* DALAM SISTEM PENDETEKSI KERUSAKAN HARDWARE KOMPUTER.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e152]:
+        - text: Kiki Firmansyah, - (2010)
+        - link [ref=f140e153] [cursor=pointer]:
+          - /url: http://repository.upi.edu/102389/
+          - emphasis [ref=f140e154]: PEMBANGUNAN APLIKASI GEOCHAT SEBAGAI MEDIA SHARE INFORMASI TRAFFIC MANAGEMENT CENTER (TMC) :Studi Kasus Kemacetan Lalu Lintas di Jakarta.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e155]:
+        - text: Krisna Febrianto, - (2010)
+        - link [ref=f140e156] [cursor=pointer]:
+          - /url: http://repository.upi.edu/110023/
+          - emphasis [ref=f140e157]: PENERAPAN FUZZY FEATURE EXTRACTION DAN JARINGAN SYARAF TIRUAN RESILIENT PROPAGATION DALAM PENGENALAN TULISAN TANGAN KATAKANA.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "M" [level=2] [ref=f140e158]
+      - paragraph [ref=f140e159]:
+        - text: MUBAROK, - (2010)
+        - link [ref=f140e160] [cursor=pointer]:
+          - /url: http://repository.upi.edu/110554/
+          - emphasis [ref=f140e161]: PENGENALAN TULISAN TANGAN AKSARA SUNDA MENGGUNAKAN KOHONEN NEURAL NETWORK.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e162]:
+        - text: Mastufah, - (2010)
+        - link [ref=f140e163] [cursor=pointer]:
+          - /url: http://repository.upi.edu/107579/
+          - emphasis [ref=f140e164]: SISTEM PENDUKUNG KEPUTUSAN OPTIMALISASI PRODUKSI BARANG PADA CV. SAMSON JAYA DENGAN MENGGUNAKAN METODE SIMPLEKS PRIMAL.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "N" [level=2] [ref=f140e165]
+      - paragraph [ref=f140e166]:
+        - text: Nikha Akbariah, - (2010)
+        - link [ref=f140e167] [cursor=pointer]:
+          - /url: http://repository.upi.edu/110772/
+          - emphasis [ref=f140e168]: KLASIFIKASI KARAKTER PENGGUNA BATIK UNTUK REKOMENDASI MOTIF MENGGUNAKAN ALGORITMA NAIVE BAYES.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e169]:
+        - text: Novita Rizky Widyawati, - (2010)
+        - link [ref=f140e170] [cursor=pointer]:
+          - /url: http://repository.upi.edu/107369/
+          - emphasis [ref=f140e171]: PERBANDINGAN CLUSTERING BASED ON FREQUENT WORD SEQUENCE (CFWS) DAN K-MEANS UNTUK PENGELOMPOKAN DOKUMEN BERBAHASA INDONESIA.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "R" [level=2] [ref=f140e172]
+      - paragraph [ref=f140e173]:
+        - text: R Seno A Anggoro, - (2010)
+        - link [ref=f140e174] [cursor=pointer]:
+          - /url: http://repository.upi.edu/109886/
+          - emphasis [ref=f140e175]: STUDI DAN IMPLEMENTASI ALGORITMA SUFFIX TREE CLUSTERING UNTUK ORGANISASI DATA HASIL SEARCH ENGINE.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e176]:
+        - text: Rian Adhitya Yudistianto, - (2010)
+        - link [ref=f140e177] [cursor=pointer]:
+          - /url: http://repository.upi.edu/110315/
+          - emphasis [ref=f140e178]: SISTEM PENGAMAN MOBIL MELALUI SMS (SHORT MESSAGE SERVICE) BERBASIS MIKROKONTROLER.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e179]:
+        - text: Rifki Susetyo, - (2010)
+        - link [ref=f140e180] [cursor=pointer]:
+          - /url: http://repository.upi.edu/110317/
+          - emphasis [ref=f140e181]: APLIKASI MOBILE PEMBACA SHORT MESSAGE SERVICE (SMS) UNTUK TUNANETRA MENGGUNAKAN MODEL INTONASI DAN EKSPRESI BICARA BAHASA INDONESIA.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e182]:
+        - text: Rikki Yawhari, - (2010)
+        - link [ref=f140e183] [cursor=pointer]:
+          - /url: http://repository.upi.edu/110014/
+          - emphasis [ref=f140e184]: IMPLEMENTASI SMS GATEWAY PADA SISTEM LAYANAN INFORMASI JADWAL KULIAH.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e185]:
+        - text: Riri Hemiliawati, - (2010)
+        - link [ref=f140e186] [cursor=pointer]:
+          - /url: http://repository.upi.edu/110035/
+          - emphasis [ref=f140e187]: PENENTUAN KATA DASAR DAN KELAS KATA DARI KATA BERIMBUHAN PADA EJAAN BAHASA INDONESIA DENGAN ALGORITMA STEMMING.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e188]:
+        - text: Rubi Henjaya, - (2010)
+        - link [ref=f140e189] [cursor=pointer]:
+          - /url: http://repository.upi.edu/110557/
+          - emphasis [ref=f140e190]: PENERAPAN ALGORITMA K-MEANS PADA CLUSTERING BERITA BERBAHASA INDONESIA.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "S" [level=2] [ref=f140e191]
+      - paragraph [ref=f140e192]:
+        - text: SOLICKHIN, - (2010)
+        - link [ref=f140e193] [cursor=pointer]:
+          - /url: http://repository.upi.edu/110020/
+          - emphasis [ref=f140e194]: PENENTUAN PLAFOND KREDIT NASABAH MENGGUNAKAN SUBTRACTIVE CLUSTERING DAN LOGIKA FUZZY.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e195]:
+        - text: Sa'adah, - (2010)
+        - link [ref=f140e196] [cursor=pointer]:
+          - /url: http://repository.upi.edu/104545/
+          - emphasis [ref=f140e197]: PENERAPAN MODEL ARIAS (ASSURANCE, RELEVANCE, INTEREST, ASSESSMENT, AND SATISFACTION) DALAM PEMBELAJARAN TIK (TEKNOLOGI INFORMASI DAN KOMUNIKASI) UNTUK MENINGKATKAN HASIL BELAJAR SISWA :PENELITIAN KUASI EKSPERIMEN TERHADAP SISWA KELAS X SMA PASUNDAN 2 BANDUNG SEMESTER GENAP TAHUN AJARAN 2009/2010.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e198]:
+        - text: Septin Saputri, - (2010)
+        - link [ref=f140e199] [cursor=pointer]:
+          - /url: http://repository.upi.edu/107735/
+          - emphasis [ref=f140e200]: PERBANDINGAN RASIO KOMPRESI DAN EFISIENSI ALGORITMA SHANNON-FANO DENGAN ALGORITMA HUFFMAN PADA KOMPRESI TEKS.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e201]:
+        - text: Siti Husnul bariyah, - (2010)
+        - link [ref=f140e202] [cursor=pointer]:
+          - /url: http://repository.upi.edu/110535/
+          - emphasis [ref=f140e203]: "IMPLEMENTASI PENDEKATAN SEMANTIC OBJECT MODEL PADA RANCANGAN DATABASE PENATAUSAHAAN ASET FASILITAS KANTOR Studi Kasus : Dinas Komunikasi dan Informatika - Bandung."
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e204]:
+        - text: Siti Mardiyah, - (2010)
+        - link [ref=f140e205] [cursor=pointer]:
+          - /url: http://repository.upi.edu/110018/
+          - emphasis [ref=f140e206]: PENERAPAN MODEL PENGAJARAN LANGSUNG (DIRECT INSTRUCTION) UNTUK MENINGKATKAN PEMAHAMAN BELAJAR SISWA DALAM PEMBELAJARAN REKAYASA PERANGKAT LUNAK (RPL) (Studi Kasus di SMKN 1 Panyingkiran).
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=f140e207]:
+        - text: Suhati Novalia Rengganis, - (2010)
+        - link [ref=f140e208] [cursor=pointer]:
+          - /url: http://repository.upi.edu/110531/
+          - emphasis [ref=f140e209]: PERANCANGAN PERANGKAT LUNAK PERMASALAHAN TINDAK PIDANA PENCURIAN MENGGUNAKAN INFERENSI RUNUT MAJU BERBASIS METODE DEPTH FIRST SEARCH (DFS).
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "T" [level=2] [ref=f140e210]
+      - paragraph [ref=f140e211]:
+        - text: Tony Ardianto, - (2010)
+        - link [ref=f140e212] [cursor=pointer]:
+          - /url: http://repository.upi.edu/109924/
+          - emphasis [ref=f140e213]: PERBANDINGAN DECISION TREE C4.5 DAN NAÏVE BAYES DALAM IMPLEMENTASI KLASIFIKASI KONSUMEN ASURANSI KESEHATAN.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "Y" [level=2] [ref=f140e214]
+      - paragraph [ref=f140e215]:
+        - text: Yahya Muhammad Mukhlis, - (2010)
+        - link [ref=f140e216] [cursor=pointer]:
+          - /url: http://repository.upi.edu/110276/
+          - emphasis [ref=f140e217]: PENERAPAN MODEL PROJECT BASED LEARNING TERHADAP PENINGKATAN HASIL BELAJAR SISWA PADA MATA PELAJARAN TEKNOLOGI INFORMASI DAN KOMUNIKASI.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - generic [ref=f140e218]:
+        - text: This list was generated on
+        - strong [ref=f140e219]: Thu Sep 3 16:59:07 2026 WIB
+        - text: .
+  - contentinfo [ref=f140e220]:
+    - generic [ref=f140e221]:
+      - navigation [ref=f140e223]:
+        - list [ref=f140e225]:
+          - listitem [ref=f140e226]:
+            - link "Home" [ref=f140e227] [cursor=pointer]:
+              - /url: http://repository.upi.edu
+          - listitem [ref=f140e228]:
+            - link "About" [ref=f140e229] [cursor=pointer]:
+              - /url: http://repository.upi.edu/information.html
+          - listitem [ref=f140e230]:
+            - link "Browse" [ref=f140e231] [cursor=pointer]:
+              - /url: http://repository.upi.edu/view/
+          - listitem [ref=f140e232]
+      - generic [ref=f140e235]:
+        - link "Accesibility" [ref=f140e236] [cursor=pointer]:
+          - /url: "#"
+        - text: "|"
+        - link "Copyright @ 2022" [ref=f140e237] [cursor=pointer]:
+          - /url: "#"
+        - text: "|"
+        - link "Disclaimer" [ref=f140e238] [cursor=pointer]:
+          - /url: "#"
+        - text: "|"
+        - link "Privacy" [ref=f140e239] [cursor=pointer]:
+          - /url: "#"
+        - text: "|"
+        - link "Right to Information" [ref=f140e240] [cursor=pointer]:
+          - /url: "#"

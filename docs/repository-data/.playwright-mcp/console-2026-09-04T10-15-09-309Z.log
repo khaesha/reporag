@@ -1,0 +1,1342 @@
+[   51547ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17357/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17357/:0
+[   51548ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17357/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17357/:0
+[   51548ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17357/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17357/:0
+[   51571ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17357/:286:3
+[   51572ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17357/:329:3
+[   51572ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17357/:372:3
+[   51572ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17357/:415:3
+[   51570ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17357/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17357/:467
+[   51572ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17357/:458:3
+[   51572ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17357/:499:3
+[   51571ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17357/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17357/:551
+[   51572ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17357/:542:3
+[   51572ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17357/:583:3
+[   51572ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17357/:626:3
+[   51571ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17357/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17357/:678
+[   51572ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17357/:669:3
+[   51695ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22426/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22426/:0
+[   51695ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22426/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22426/:0
+[   51695ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22426/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22426/:0
+[   51704ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22426/:292:3
+[   51704ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22426/:335:3
+[   51704ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22426/:378:3
+[   51704ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22426/:421:3
+[   51704ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22426/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22426/:473
+[   51704ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22426/:464:3
+[   51704ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22426/:505:3
+[   51704ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22426/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22426/:557
+[   51704ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22426/:548:3
+[   51704ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22426/:589:3
+[   51704ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22426/:632:3
+[   51704ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22426/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22426/:684
+[   51705ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22426/:675:3
+[   51807ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18981/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18981/:0
+[   51808ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18981/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18981/:0
+[   51808ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18981/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18981/:0
+[   51808ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18981/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18981/:0
+[   51808ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18981/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18981/:0
+[   51808ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18981/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18981/:0
+[   51808ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18981/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18981/:0
+[   51808ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18981/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18981/:0
+[   51808ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18981/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18981/:0
+[   51808ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18981/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18981/:0
+[   51814ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18981/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18981/:307
+[   51815ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18981/:298:3
+[   51815ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18981/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18981/:348
+[   51815ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18981/:339:3
+[   51815ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18981/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18981/:389
+[   51815ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18981/:380:3
+[   51815ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18981/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18981/:430
+[   51815ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18981/:421:3
+[   51815ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18981/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18981/:471
+[   51815ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18981/:462:3
+[   51815ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18981/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18981/:512
+[   51815ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18981/:503:3
+[   51815ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18981/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18981/:553
+[   51816ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18981/:544:3
+[   51815ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18981/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18981/:594
+[   51816ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18981/:585:3
+[   51815ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18981/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18981/:635
+[   51816ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18981/:626:3
+[   51815ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18981/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18981/:676
+[   51816ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18981/:667:3
+[   51953ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16645/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16645/:0
+[   51953ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16645/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16645/:0
+[   51953ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16645/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16645/:0
+[   51964ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16645/:292:3
+[   51964ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16645/:335:3
+[   51964ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16645/:378:3
+[   51964ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16645/:421:3
+[   51960ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16645/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16645/:473
+[   51964ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16645/:464:3
+[   51964ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16645/:505:3
+[   51960ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16645/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16645/:557
+[   51964ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16645/:548:3
+[   51964ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16645/:589:3
+[   51964ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16645/:632:3
+[   51961ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16645/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16645/:684
+[   51964ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16645/:675:3
+[   52015ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16636/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16636/:0
+[   52015ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16636/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16636/:0
+[   52015ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16636/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16636/:0
+[   52015ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16636/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16636/:0
+[   52015ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16636/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16636/:0
+[   52015ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16636/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16636/:0
+[   52015ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16636/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16636/:0
+[   52021ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16636/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16636/:311
+[   52024ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16636/:302:3
+[   52021ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16636/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16636/:352
+[   52024ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16636/:343:3
+[   52021ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16636/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16636/:393
+[   52024ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16636/:384:3
+[   52022ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16636/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16636/:434
+[   52024ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16636/:425:3
+[   52022ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16636/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16636/:475
+[   52024ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16636/:466:3
+[   52024ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16636/:507:3
+[   52022ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16636/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16636/:559
+[   52024ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16636/:550:3
+[   52024ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16636/:591:3
+[   52022ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16636/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16636/:643
+[   52024ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16636/:634:3
+[   52024ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16636/:675:3
+[   52730ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16701/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16701/:0
+[   52730ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16701/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16701/:0
+[   52730ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16701/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16701/:0
+[   52742ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16701/:292:3
+[   52742ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16701/:335:3
+[   52742ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16701/:378:3
+[   52742ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16701/:421:3
+[   52737ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16701/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16701/:473
+[   52742ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16701/:464:3
+[   52742ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16701/:505:3
+[   52737ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16701/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16701/:557
+[   52742ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16701/:548:3
+[   52742ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16701/:589:3
+[   52742ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16701/:632:3
+[   52737ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16701/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16701/:684
+[   52742ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16701/:675:3
+[   53206ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20382/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20382/:0
+[   53207ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20382/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20382/:0
+[   53207ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20382/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20382/:0
+[   53235ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20382/:304:3
+[   53235ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20382/:347:3
+[   53235ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20382/:390:3
+[   53235ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20382/:433:3
+[   53214ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20382/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20382/:485
+[   53235ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20382/:476:3
+[   53235ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20382/:517:3
+[   53214ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20382/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20382/:569
+[   53235ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20382/:560:3
+[   53235ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20382/:601:3
+[   53235ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20382/:644:3
+[   53214ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20382/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20382/:696
+[   53235ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20382/:687:3
+[   53418ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22355/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22355/:0
+[   53419ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22355/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22355/:0
+[   53419ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22355/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22355/:0
+[   53432ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22355/:290:3
+[   53432ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22355/:333:3
+[   53432ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22355/:376:3
+[   53432ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22355/:419:3
+[   53427ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22355/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22355/:471
+[   53432ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22355/:462:3
+[   53432ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22355/:503:3
+[   53427ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22355/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22355/:555
+[   53432ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22355/:546:3
+[   53432ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22355/:587:3
+[   53432ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22355/:630:3
+[   53428ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22355/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22355/:682
+[   53432ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22355/:673:3
+[   53651ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18886/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18886/:0
+[   53651ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18886/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18886/:0
+[   53662ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18886/:290:3
+[   53662ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18886/:333:3
+[   53662ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18886/:376:3
+[   53662ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18886/:419:3
+[   53658ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18886/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18886/:471
+[   53662ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18886/:462:3
+[   53662ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18886/:503:3
+[   53658ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18886/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18886/:555
+[   53662ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18886/:546:3
+[   53662ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18886/:587:3
+[   53662ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18886/:630:3
+[   53870ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20929/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20929/:0
+[   53870ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20929/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20929/:0
+[   53870ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20929/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20929/:0
+[   53882ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20929/:292:3
+[   53882ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20929/:335:3
+[   53882ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20929/:378:3
+[   53882ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20929/:421:3
+[   53878ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20929/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20929/:473
+[   53882ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20929/:464:3
+[   53882ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20929/:505:3
+[   53878ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20929/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20929/:557
+[   53882ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20929/:548:3
+[   53882ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20929/:589:3
+[   53882ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20929/:632:3
+[   53878ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20929/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20929/:684
+[   53882ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20929/:675:3
+[   54721ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45395/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45395/:0
+[   54721ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45395/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45395/:0
+[   54721ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45395/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45395/:0
+[   54721ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45395/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45395/:0
+[   54721ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45395/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45395/:0
+[   54721ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45395/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45395/:0
+[   54721ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45395/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45395/:0
+[   54721ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45395/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45395/:0
+[   54721ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45395/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45395/:0
+[   54721ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45395/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45395/:0
+[   54728ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45395/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45395/:384
+[   54729ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/45395/:375:3
+[   54728ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45395/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45395/:425
+[   54729ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/45395/:416:3
+[   54728ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45395/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45395/:466
+[   54729ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/45395/:457:3
+[   54728ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45395/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45395/:507
+[   54729ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/45395/:498:3
+[   54728ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45395/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45395/:548
+[   54729ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/45395/:539:3
+[   54728ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45395/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45395/:589
+[   54729ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/45395/:580:3
+[   54728ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45395/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45395/:630
+[   54729ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/45395/:621:3
+[   54728ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45395/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45395/:671
+[   54730ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/45395/:662:3
+[   54729ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45395/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45395/:712
+[   54730ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/45395/:703:3
+[   54729ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45395/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45395/:753
+[   54730ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/45395/:744:3
+[   55031ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17486/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17486/:0
+[   55032ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17486/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17486/:0
+[   55041ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17486/:288:3
+[   55041ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17486/:331:3
+[   55041ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17486/:374:3
+[   55041ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17486/:417:3
+[   55039ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17486/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17486/:469
+[   55041ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17486/:460:3
+[   55041ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17486/:501:3
+[   55040ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17486/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17486/:553
+[   55041ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17486/:544:3
+[   55041ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17486/:585:3
+[   55041ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17486/:628:3
+[   55505ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17345/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17345/:0
+[   55505ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17345/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17345/:0
+[   55505ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17345/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17345/:0
+[   55516ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17345/:300:3
+[   55516ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17345/:343:3
+[   55516ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17345/:386:3
+[   55516ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17345/:429:3
+[   55513ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17345/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17345/:481
+[   55516ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17345/:472:3
+[   55516ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17345/:513:3
+[   55514ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17345/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17345/:565
+[   55516ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17345/:556:3
+[   55516ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17345/:597:3
+[   55516ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17345/:640:3
+[   55514ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17345/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17345/:692
+[   55516ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17345/:683:3
+[   55566ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37127/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37127/:0
+[   55566ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37127/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37127/:0
+[   55566ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37127/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37127/:0
+[   55566ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37127/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37127/:0
+[   55566ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37127/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37127/:0
+[   55566ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37127/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37127/:0
+[   55566ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37127/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37127/:0
+[   55566ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37127/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37127/:0
+[   55566ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37127/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37127/:0
+[   55572ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37127/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37127/:307
+[   55573ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/37127/:298:3
+[   55572ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37127/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37127/:348
+[   55573ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/37127/:339:3
+[   55573ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37127/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37127/:389
+[   55573ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/37127/:380:3
+[   55573ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37127/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37127/:430
+[   55573ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/37127/:421:3
+[   55573ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37127/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37127/:471
+[   55573ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/37127/:462:3
+[   55573ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37127/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37127/:512
+[   55573ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/37127/:503:3
+[   55573ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37127/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37127/:553
+[   55573ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/37127/:544:3
+[   55573ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37127/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37127/:594
+[   55573ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/37127/:585:3
+[   55573ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37127/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37127/:635
+[   55573ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/37127/:626:3
+[   55697ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22117/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22117/:0
+[   55698ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22117/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22117/:0
+[   55698ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22117/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22117/:0
+[   55705ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22117/:291:3
+[   55705ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22117/:334:3
+[   55705ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22117/:377:3
+[   55705ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22117/:420:3
+[   55704ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22117/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22117/:472
+[   55705ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22117/:463:3
+[   55705ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22117/:504:3
+[   55704ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22117/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22117/:556
+[   55705ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22117/:547:3
+[   55705ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22117/:588:3
+[   55705ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22117/:631:3
+[   55705ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22117/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22117/:683
+[   55705ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22117/:674:3
+[   56507ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18632/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18632/:0
+[   56508ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18632/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18632/:0
+[   56508ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18632/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18632/:0
+[   56515ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18632/:287:3
+[   56515ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18632/:330:3
+[   56515ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18632/:373:3
+[   56515ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18632/:416:3
+[   56515ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18632/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18632/:468
+[   56515ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18632/:459:3
+[   56515ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18632/:500:3
+[   56515ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18632/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18632/:552
+[   56515ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18632/:543:3
+[   56515ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18632/:584:3
+[   56515ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18632/:627:3
+[   56515ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18632/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18632/:679
+[   56515ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18632/:670:3
+[   57114ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20303/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20303/:0
+[   57114ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20303/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20303/:0
+[   57123ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20303/:293:3
+[   57123ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20303/:336:3
+[   57123ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20303/:379:3
+[   57123ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20303/:422:3
+[   57122ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20303/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20303/:474
+[   57123ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20303/:465:3
+[   57123ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20303/:506:3
+[   57122ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20303/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20303/:558
+[   57123ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20303/:549:3
+[   57123ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20303/:590:3
+[   57123ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20303/:633:3
+[   57228ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22805/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22805/:0
+[   57228ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22805/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22805/:0
+[   57238ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22805/:294:3
+[   57238ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22805/:337:3
+[   57238ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22805/:380:3
+[   57238ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22805/:423:3
+[   57236ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22805/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22805/:475
+[   57238ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22805/:466:3
+[   57238ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22805/:507:3
+[   57236ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22805/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22805/:559
+[   57238ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22805/:550:3
+[   57238ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22805/:591:3
+[   57238ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22805/:634:3
+[   57276ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17471/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17471/:0
+[   57277ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17471/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17471/:0
+[   57287ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17471/:288:3
+[   57287ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17471/:331:3
+[   57287ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17471/:374:3
+[   57287ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17471/:417:3
+[   57284ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17471/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17471/:469
+[   57287ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17471/:460:3
+[   57287ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17471/:501:3
+[   57284ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17471/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17471/:553
+[   57287ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17471/:544:3
+[   57287ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17471/:585:3
+[   57287ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17471/:628:3
+[   57515ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19901/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19901/:0
+[   57515ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19901/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19901/:0
+[   57515ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19901/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19901/:0
+[   57515ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19901/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19901/:0
+[   57515ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19901/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19901/:0
+[   57515ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19901/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19901/:0
+[   57515ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19901/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19901/:0
+[   57515ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19901/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19901/:0
+[   57523ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19901/:318:3
+[   57523ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19901/:361:3
+[   57523ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19901/:404:3
+[   57524ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19901/:447:3
+[   57523ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19901/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19901/:499
+[   57524ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19901/:490:3
+[   57524ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19901/:531:3
+[   57523ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19901/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19901/:583
+[   57524ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19901/:574:3
+[   57524ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19901/:615:3
+[   57524ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19901/:658:3
+[   57523ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19901/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19901/:710
+[   57524ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19901/:701:3
+[   57523ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19901/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19901/:751
+[   57524ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19901/:742:3
+[   57523ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19901/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19901/:792
+[   57524ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19901/:783:3
+[   57523ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19901/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19901/:833
+[   57525ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19901/:824:3
+[   57523ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19901/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19901/:874
+[   57525ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19901/:865:3
+[   57523ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19901/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19901/:915
+[   57526ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19901/:906:3
+[   58393ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18885/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18885/:0
+[   58393ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18885/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18885/:0
+[   58393ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18885/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18885/:0
+[   58401ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18885/:294:3
+[   58402ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18885/:337:3
+[   58402ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18885/:380:3
+[   58402ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18885/:423:3
+[   58400ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18885/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18885/:475
+[   58402ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18885/:466:3
+[   58402ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18885/:507:3
+[   58400ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18885/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18885/:559
+[   58402ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18885/:550:3
+[   58402ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18885/:591:3
+[   58402ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18885/:634:3
+[   58401ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18885/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18885/:686
+[   58402ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18885/:677:3
+[   58523ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19304/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19304/:0
+[   58523ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19304/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19304/:0
+[   58523ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19304/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19304/:0
+[   58532ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19304/:298:3
+[   58532ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19304/:341:3
+[   58533ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19304/:384:3
+[   58533ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19304/:427:3
+[   58530ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19304/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19304/:479
+[   58533ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19304/:470:3
+[   58533ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19304/:511:3
+[   58530ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19304/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19304/:563
+[   58533ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19304/:554:3
+[   58533ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19304/:595:3
+[   58533ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19304/:638:3
+[   58531ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19304/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19304/:690
+[   58533ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19304/:681:3
+[   58614ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/26174/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/26174/:0
+[   58614ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/26174/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/26174/:0
+[   58614ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/26174/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/26174/:0
+[   58626ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/26174/:298:3
+[   58626ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/26174/:341:3
+[   58626ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/26174/:384:3
+[   58626ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/26174/:427:3
+[   58621ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/26174/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/26174/:479
+[   58626ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/26174/:470:3
+[   58626ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/26174/:511:3
+[   58622ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/26174/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/26174/:563
+[   58626ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/26174/:554:3
+[   58626ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/26174/:595:3
+[   58626ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/26174/:638:3
+[   58622ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/26174/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/26174/:690
+[   58626ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/26174/:681:3
+[   58824ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20080/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20080/:0
+[   58824ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20080/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20080/:0
+[   58833ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20080/:304:3
+[   58833ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20080/:347:3
+[   58833ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20080/:390:3
+[   58833ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20080/:433:3
+[   58832ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20080/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20080/:485
+[   58833ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20080/:476:3
+[   58833ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20080/:517:3
+[   58832ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20080/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20080/:569
+[   58833ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20080/:560:3
+[   58833ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20080/:601:3
+[   58833ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20080/:644:3
+[   58935ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17663/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17663/:0
+[   58935ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17663/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17663/:0
+[   58935ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17663/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17663/:0
+[   58946ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17663/:290:3
+[   58946ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17663/:333:3
+[   58946ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17663/:376:3
+[   58946ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17663/:419:3
+[   58942ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17663/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17663/:471
+[   58946ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17663/:462:3
+[   58946ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17663/:503:3
+[   58942ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17663/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17663/:555
+[   58946ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17663/:546:3
+[   58946ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17663/:587:3
+[   58946ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17663/:630:3
+[   58942ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17663/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17663/:682
+[   58946ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17663/:673:3
+[   69654ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16671/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16671/:0
+[   69655ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16671/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16671/:0
+[   69666ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16671/:286:3
+[   69666ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16671/:329:3
+[   69666ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16671/:372:3
+[   69666ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16671/:415:3
+[   69661ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16671/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16671/:467
+[   69666ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16671/:458:3
+[   69666ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16671/:499:3
+[   69662ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16671/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16671/:551
+[   69666ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16671/:542:3
+[   69666ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16671/:583:3
+[   69666ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16671/:626:3
+[   69770ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18720/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18720/:0
+[   69770ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18720/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18720/:0
+[   69770ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18720/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18720/:0
+[   69780ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18720/:292:3
+[   69780ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18720/:335:3
+[   69780ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18720/:378:3
+[   69780ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18720/:421:3
+[   69778ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18720/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18720/:473
+[   69780ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18720/:464:3
+[   69780ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18720/:505:3
+[   69778ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18720/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18720/:557
+[   69780ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18720/:548:3
+[   69780ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18720/:589:3
+[   69780ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18720/:632:3
+[   69778ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/18720/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/18720/:684
+[   69780ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/18720/:675:3
+[   69986ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22199/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22199/:0
+[   69987ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22199/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22199/:0
+[   70019ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22199/:294:3
+[   70020ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22199/:337:3
+[   70020ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22199/:380:3
+[   70020ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22199/:423:3
+[   69995ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22199/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22199/:475
+[   70020ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22199/:466:3
+[   70020ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22199/:507:3
+[   69995ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22199/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22199/:559
+[   70020ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22199/:550:3
+[   70020ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22199/:591:3
+[   70020ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22199/:634:3
+[   70126ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22273/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22273/:0
+[   70126ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22273/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22273/:0
+[   70126ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22273/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22273/:0
+[   70135ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22273/:306:3
+[   70135ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22273/:349:3
+[   70135ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22273/:392:3
+[   70135ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22273/:435:3
+[   70134ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22273/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22273/:487
+[   70135ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22273/:478:3
+[   70135ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22273/:519:3
+[   70134ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22273/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22273/:571
+[   70135ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22273/:562:3
+[   70135ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22273/:603:3
+[   70135ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22273/:646:3
+[   70134ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22273/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22273/:698
+[   70135ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22273/:689:3
+[   70326ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16667/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16667/:0
+[   70326ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16667/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16667/:0
+[   70334ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16667/:288:3
+[   70334ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16667/:331:3
+[   70334ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16667/:374:3
+[   70335ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16667/:417:3
+[   70333ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16667/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16667/:469
+[   70335ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16667/:460:3
+[   70335ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16667/:501:3
+[   70333ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16667/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16667/:553
+[   70335ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16667/:544:3
+[   70335ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16667/:585:3
+[   70335ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16667/:628:3
+[   70985ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20940/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20940/:0
+[   70986ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20940/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20940/:0
+[   70986ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20940/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20940/:0
+[   70996ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20940/:292:3
+[   70996ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20940/:335:3
+[   70996ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20940/:378:3
+[   70996ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20940/:421:3
+[   70993ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20940/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20940/:473
+[   70996ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20940/:464:3
+[   70996ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20940/:505:3
+[   70994ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20940/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20940/:557
+[   70996ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20940/:548:3
+[   70996ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20940/:589:3
+[   70996ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20940/:632:3
+[   70994ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20940/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20940/:684
+[   70996ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20940/:675:3
+[   71538ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16633/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16633/:0
+[   71538ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16633/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16633/:0
+[   71547ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16633/:288:3
+[   71547ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16633/:331:3
+[   71547ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16633/:374:3
+[   71547ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16633/:417:3
+[   71546ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16633/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16633/:469
+[   71547ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16633/:460:3
+[   71547ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16633/:501:3
+[   71547ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16633/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16633/:553
+[   71548ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16633/:544:3
+[   71548ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16633/:585:3
+[   71548ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16633/:628:3
+[   71641ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20011/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20011/:0
+[   71641ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20011/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20011/:0
+[   71641ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20011/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20011/:0
+[   71653ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20011/:300:3
+[   71654ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20011/:343:3
+[   71654ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20011/:386:3
+[   71654ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20011/:429:3
+[   71649ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20011/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20011/:481
+[   71654ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20011/:472:3
+[   71654ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20011/:513:3
+[   71649ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20011/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20011/:565
+[   71654ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20011/:556:3
+[   71654ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20011/:597:3
+[   71654ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20011/:640:3
+[   71649ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20011/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20011/:692
+[   71654ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20011/:683:3
+[   71715ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16713/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16713/:0
+[   71716ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16713/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16713/:0
+[   71716ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16713/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16713/:0
+[   71728ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16713/:292:3
+[   71728ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16713/:335:3
+[   71728ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16713/:378:3
+[   71728ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16713/:421:3
+[   71723ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16713/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16713/:473
+[   71728ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16713/:464:3
+[   71728ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16713/:505:3
+[   71723ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16713/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16713/:557
+[   71728ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16713/:548:3
+[   71728ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16713/:589:3
+[   71728ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16713/:632:3
+[   71723ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16713/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16713/:684
+[   71728ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16713/:675:3
+[   71799ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14279/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14279/:0
+[   71799ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14279/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14279/:0
+[   71799ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14279/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14279/:0
+[   71810ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14279/:304:3
+[   71810ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14279/:347:3
+[   71810ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14279/:390:3
+[   71810ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14279/:433:3
+[   71807ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14279/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14279/:485
+[   71810ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14279/:476:3
+[   71810ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14279/:517:3
+[   71807ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14279/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14279/:569
+[   71810ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14279/:560:3
+[   71810ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14279/:601:3
+[   71810ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14279/:644:3
+[   71807ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14279/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14279/:696
+[   71810ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14279/:687:3
+[   73307ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14278/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14278/:0
+[   73307ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14278/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14278/:0
+[   73308ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14278/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14278/:0
+[   73316ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14278/:298:3
+[   73316ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14278/:341:3
+[   73316ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14278/:384:3
+[   73316ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14278/:427:3
+[   73315ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14278/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14278/:479
+[   73316ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14278/:470:3
+[   73317ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14278/:511:3
+[   73316ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14278/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14278/:563
+[   73317ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14278/:554:3
+[   73317ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14278/:595:3
+[   73317ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14278/:638:3
+[   73316ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14278/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14278/:690
+[   73317ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14278/:681:3
+[   73468ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/23060/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/23060/:0
+[   73468ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/23060/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/23060/:0
+[   73468ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/23060/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/23060/:0
+[   73477ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/23060/:298:3
+[   73477ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/23060/:341:3
+[   73477ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/23060/:384:3
+[   73477ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/23060/:427:3
+[   73476ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/23060/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/23060/:479
+[   73477ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/23060/:470:3
+[   73477ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/23060/:511:3
+[   73476ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/23060/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/23060/:563
+[   73477ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/23060/:554:3
+[   73477ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/23060/:595:3
+[   73476ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/23060/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/23060/:647
+[   73477ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/23060/:638:3
+[   73580ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37117/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37117/:0
+[   73581ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37117/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37117/:0
+[   73581ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37117/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37117/:0
+[   73581ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37117/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37117/:0
+[   73581ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37117/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37117/:0
+[   73581ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37117/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37117/:0
+[   73581ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37117/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37117/:0
+[   73581ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37117/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37117/:0
+[   73581ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37117/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37117/:0
+[   73581ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37117/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37117/:0
+[   73587ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37117/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37117/:300
+[   73588ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/37117/:291:3
+[   73588ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37117/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37117/:341
+[   73588ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/37117/:332:3
+[   73588ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37117/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37117/:382
+[   73588ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/37117/:373:3
+[   73588ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37117/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37117/:423
+[   73588ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/37117/:414:3
+[   73588ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37117/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37117/:464
+[   73589ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/37117/:455:3
+[   73588ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37117/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37117/:505
+[   73589ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/37117/:496:3
+[   73588ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37117/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37117/:546
+[   73589ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/37117/:537:3
+[   73588ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37117/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37117/:587
+[   73589ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/37117/:578:3
+[   73588ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37117/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37117/:628
+[   73589ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/37117/:619:3
+[   73588ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/37117/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/37117/:669
+[   73589ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/37117/:660:3
+[   73654ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20513/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20513/:0
+[   73654ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20513/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20513/:0
+[   73654ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20513/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20513/:0
+[   73664ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20513/:300:3
+[   73664ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20513/:343:3
+[   73664ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20513/:386:3
+[   73664ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20513/:429:3
+[   73661ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20513/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20513/:481
+[   73665ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20513/:472:3
+[   73665ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20513/:513:3
+[   73662ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20513/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20513/:565
+[   73665ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20513/:556:3
+[   73665ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20513/:597:3
+[   73665ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20513/:640:3
+[   73662ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20513/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20513/:692
+[   73665ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20513/:683:3
+[   73744ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22129/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22129/:0
+[   73745ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22129/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22129/:0
+[   73745ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22129/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22129/:0
+[   73752ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22129/:292:3
+[   73752ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22129/:335:3
+[   73752ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22129/:378:3
+[   73752ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22129/:421:3
+[   73752ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22129/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22129/:473
+[   73753ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22129/:464:3
+[   73753ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22129/:505:3
+[   73752ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22129/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22129/:557
+[   73753ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22129/:548:3
+[   73753ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22129/:589:3
+[   73753ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22129/:632:3
+[   73752ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/22129/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/22129/:684
+[   73753ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/22129/:675:3
+[   74450ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20612/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20612/:0
+[   74450ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20612/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20612/:0
+[   74459ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20612/:290:3
+[   74459ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20612/:333:3
+[   74459ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20612/:376:3
+[   74459ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20612/:419:3
+[   74458ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20612/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20612/:471
+[   74459ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20612/:462:3
+[   74459ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20612/:503:3
+[   74458ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20612/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20612/:555
+[   74459ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20612/:546:3
+[   74459ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20612/:587:3
+[   74459ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20612/:630:3
+[   74952ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20152/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20152/:0
+[   74953ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20152/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20152/:0
+[   74965ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20152/:298:3
+[   74965ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20152/:341:3
+[   74965ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20152/:384:3
+[   74965ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20152/:427:3
+[   74961ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20152/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20152/:479
+[   74965ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20152/:470:3
+[   74965ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20152/:511:3
+[   74961ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/20152/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/20152/:563
+[   74965ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20152/:554:3
+[   74965ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20152/:595:3
+[   74965ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/20152/:638:3
+[   75082ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45572/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45572/:0
+[   75083ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45572/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45572/:0
+[   75083ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45572/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45572/:0
+[   75083ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45572/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45572/:0
+[   75083ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45572/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45572/:0
+[   75083ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45572/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45572/:0
+[   75083ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45572/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45572/:0
+[   75083ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45572/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45572/:0
+[   75083ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45572/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45572/:0
+[   75083ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45572/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45572/:0
+[   75089ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45572/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45572/:308
+[   75092ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/45572/:299:3
+[   75089ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45572/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45572/:349
+[   75092ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/45572/:340:3
+[   75090ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45572/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45572/:390
+[   75092ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/45572/:381:3
+[   75090ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45572/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45572/:431
+[   75092ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/45572/:422:3
+[   75090ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45572/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45572/:472
+[   75092ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/45572/:463:3
+[   75090ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45572/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45572/:513
+[   75092ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/45572/:504:3
+[   75090ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45572/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45572/:554
+[   75092ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/45572/:545:3
+[   75090ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45572/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45572/:595
+[   75092ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/45572/:586:3
+[   75090ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45572/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45572/:636
+[   75092ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/45572/:627:3
+[   75090ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/45572/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/45572/:677
+[   75092ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/45572/:668:3
+[   75249ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14301/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14301/:0
+[   75249ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14301/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14301/:0
+[   75249ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14301/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14301/:0
+[   75249ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14301/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14301/:0
+[   75249ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14301/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14301/:0
+[   75256ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14301/:312:3
+[   75256ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14301/:355:3
+[   75256ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14301/:398:3
+[   75256ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14301/:441:3
+[   75256ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14301/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14301/:493
+[   75256ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14301/:484:3
+[   75256ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14301/:525:3
+[   75256ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14301/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14301/:577
+[   75256ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14301/:568:3
+[   75256ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14301/:609:3
+[   75257ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14301/:652:3
+[   75256ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14301/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14301/:704
+[   75258ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14301/:695:3
+[   75256ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14301/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14301/:745
+[   75258ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14301/:736:3
+[   75256ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14301/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14301/:786
+[   75258ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14301/:777:3
+[   75354ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19872/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19872/:0
+[   75355ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19872/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19872/:0
+[   75362ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19872/:298:3
+[   75362ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19872/:341:3
+[   75363ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19872/:384:3
+[   75363ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19872/:427:3
+[   75362ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19872/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19872/:479
+[   75363ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19872/:470:3
+[   75363ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19872/:511:3
+[   75362ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19872/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19872/:563
+[   75363ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19872/:554:3
+[   75363ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19872/:595:3
+[   75363ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19872/:638:3
+[   76086ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14040/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14040/:0
+[   76087ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14040/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14040/:0
+[   76095ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14040/:302:3
+[   76095ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14040/:345:3
+[   76095ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14040/:388:3
+[   76095ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14040/:431:3
+[   76094ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14040/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14040/:483
+[   76095ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14040/:474:3
+[   76095ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14040/:515:3
+[   76095ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14040/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14040/:567
+[   76095ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14040/:558:3
+[   76095ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14040/:599:3
+[   76095ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14040/:642:3
+[   76569ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17824/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17824/:0
+[   76570ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17824/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17824/:0
+[   76570ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17824/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17824/:0
+[   76578ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17824/:292:3
+[   76578ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17824/:335:3
+[   76578ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17824/:378:3
+[   76578ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17824/:421:3
+[   76578ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17824/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17824/:473
+[   76578ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17824/:464:3
+[   76578ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17824/:505:3
+[   76578ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17824/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17824/:557
+[   76578ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17824/:548:3
+[   76578ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17824/:589:3
+[   76578ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17824/:632:3
+[   76578ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/17824/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/17824/:684
+[   76578ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/17824/:675:3
+[   76660ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14288/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14288/:0
+[   76660ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14288/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14288/:0
+[   76678ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14288/:292:3
+[   76678ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14288/:335:3
+[   76678ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14288/:378:3
+[   76678ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14288/:421:3
+[   76667ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14288/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14288/:473
+[   76678ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14288/:464:3
+[   76678ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14288/:505:3
+[   76667ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/14288/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/14288/:557
+[   76678ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14288/:548:3
+[   76678ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/14288/:589:3
+[   76816ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19861/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19861/:0
+[   76816ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19861/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19861/:0
+[   76816ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19861/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19861/:0
+[   76816ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19861/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19861/:0
+[   76827ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19861/:314:3
+[   76827ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19861/:357:3
+[   76827ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19861/:400:3
+[   76827ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19861/:443:3
+[   76824ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19861/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19861/:495
+[   76827ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19861/:486:3
+[   76827ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19861/:527:3
+[   76824ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19861/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19861/:579
+[   76827ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19861/:570:3
+[   76827ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19861/:611:3
+[   76827ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19861/:654:3
+[   76824ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19861/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19861/:706
+[   76827ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19861/:697:3
+[   76824ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/19861/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/19861/:747
+[   76827ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/19861/:738:3
+[   76918ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16569/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16569/:0
+[   76919ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16569/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16569/:0
+[   76919ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16569/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16569/:0
+[   76929ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16569/:286:3
+[   76929ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16569/:329:3
+[   76929ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16569/:372:3
+[   76929ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16569/:415:3
+[   76925ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16569/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16569/:467
+[   76929ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16569/:458:3
+[   76929ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16569/:499:3
+[   76926ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16569/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16569/:551
+[   76929ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16569/:542:3
+[   76929ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16569/:583:3
+[   76929ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16569/:626:3
+[   76926ms] [WARNING] Mixed Content: The page at 'https://repository.upi.edu/16569/' was loaded over HTTPS, but requested an insecure element 'http://repository.upi.edu/style/images/fileicons/text.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://repository.upi.edu/16569/:678
+[   76929ms] ReferenceError: gaq is not defined
+    at https://repository.upi.edu/16569/:669:3

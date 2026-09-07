@@ -1,0 +1,483 @@
+[
+  {
+    "title": "RANCANG BANGUN SISTEM REKOMENDASI PENERIMAAN BARISTA DENGAN MENGGUNAKAN METODE AHP DAN TOPSIS",
+    "abstract": null,
+    "authors": [
+      "Aditya Nugraha, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Aditya Nugraha",
+    "date_deposited": "28 Aug 2020 08:56",
+    "uri": "http://repository.upi.edu/id/eprint/50872"
+  },
+  {
+    "title": "REMOTE SENSING UNTUK MEMPREDIKSI PRODUKSI TANAMAN PADI SAWAH DI KABUPATEN BANDUNG MENGGUNAKAN ALGORITMA GRADIENT BOOSTING REGRESSOR",
+    "abstract": null,
+    "authors": [
+      "Afina Hadaina Yudianita, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Afina Hadaina Yudianita",
+    "date_deposited": "31 Aug 2020 04:44",
+    "uri": "http://repository.upi.edu/id/eprint/51519"
+  },
+  {
+    "title": "IMPLEMENTASI METODE SINGLE SHOT MULTIBOX DETECTOR (SSD) UNTUK OBJECT TRACKING SECARA REAL-TIME PADA SISTEM TOKO PINTAR BLIBLI MART",
+    "abstract": null,
+    "authors": [
+      "Alfarizi, Rizal"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Rizal Alfarizi",
+    "date_deposited": "01 Sep 2020 04:14",
+    "uri": "http://repository.upi.edu/id/eprint/51506"
+  },
+  {
+    "title": "PENGENALAN WAJAH MENGGUNAKAN METODE CONVOLUTIONAL NEURAL NETWORK-RESTRICTED BOLTZMANN MACHINE BERBASIS PRINCIPAL COMPONENT ANALYSIS",
+    "abstract": "Teknologi pengenalan wajah berpotensi untuk diterapkan pada berbagai bidang dalam kehidupan sehari-hari. Penelitian ini melakukan pengembangan teknologi pengenalan wajah dengan mengusulkan metode Convolutional Neural Network-Restricted Boltzmann Machine (CNN-RBM) berbasis Principal Component Analysis (PCA) menggunakan set data Labeled Faces in the Wild (LFW). CNN-RBM berbasis PCA memanfaatkan PCA sebagai pereduksi dimensi pada input, kemudian menggunakan CNN sebagai ekstraksi fitur, dan menggunakan RBM pada tahap klasifikasi wajah. Hasil eksperimen membuktikan bahwa CNN-RBM berbasis PCA mampu mengungguli baseline dengan peningkatan akurasi sebesar 1,6%. Face recognition technology can be applied in various fields of in everyday life. This research develops face recognition technology using Convolutional Neural Network-Restricted Boltzmann Machine (CNN-RBM) based on Principal Component Analysis (PCA) using labeled Faces in the Wild (LFW) set data. PCN-based CNN-RBM uses PCA as a dimension reduction in input, then uses CNN as a feature extraction, and uses RBM in face classification. The experimental results prove that PCN-based CNN-RBM was able to outperform the baseline with 1,6% accuracy improvement.",
+    "authors": [
+      "Ali Hasan Ash Shiddiq, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Ali Hasan Ash Shiddiq",
+    "date_deposited": "31 Aug 2020 04:23",
+    "uri": "http://repository.upi.edu/id/eprint/51328"
+  },
+  {
+    "title": "IMPLEMENTASI ALGORITMA SPIRAL DYNAMICS DENGAN PARALLEL COMPUTING UNTUK PERMASALAHAN OPTIMASI KONTINU",
+    "abstract": null,
+    "authors": [
+      "Anshar Alifya Ihsan, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Anshar Alifya Ihsan",
+    "date_deposited": "02 Sep 2020 07:53",
+    "uri": "http://repository.upi.edu/id/eprint/52082"
+  },
+  {
+    "title": "IMPLEMENTASI ALGORITMA BLOK CIPHER 3 DAN RSA DALAM MENGENKRIPSI DATA HAK CIPTA YANG DISISIPKAN PADA AUDIO MP3 MENGGUNAKAN METODE LEAST SIGNIFICANT BIT",
+    "abstract": null,
+    "authors": [
+      "Ariswara, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "ariswara",
+    "date_deposited": "02 Sep 2020 07:54",
+    "uri": "http://repository.upi.edu/id/eprint/51991"
+  },
+  {
+    "title": "RANCANG BANGUN CAMPUS TOUR GUIDE BERBASIS AUGMENTED REALITY",
+    "abstract": null,
+    "authors": [
+      "Basthatan Ihsan Alhamid, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Basthatan Ihsan Alhamid",
+    "date_deposited": "01 Sep 2020 07:59",
+    "uri": "http://repository.upi.edu/id/eprint/51836"
+  },
+  {
+    "title": "PREDIKSI PENDERITA DIARE DENGAN METODE SEASONAL AUTOREGRESSIVE INTEGRATED MOVING AVERAGE (SARIMA) DI KOTA BANDUNG",
+    "abstract": null,
+    "authors": [
+      "Cacuk Jati Pangestu, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Cacuk Jati Pangestu",
+    "date_deposited": "13 Jul 2020 02:12",
+    "uri": "http://repository.upi.edu/id/eprint/49772"
+  },
+  {
+    "title": "MENINGKATKAN USER EXPERIENCE SITUS WEB DENGAN MENGGUNAKAN METODE USER-CENTERED DESIGN",
+    "abstract": null,
+    "authors": [
+      "De Gitgit Agitya, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "De Gitgit Agitya",
+    "date_deposited": "02 Jun 2020 06:26",
+    "uri": "http://repository.upi.edu/id/eprint/49029"
+  },
+  {
+    "title": "IMPLEMENTASI METODE AHP PADA SISTEM PENGUKURAN TINGKAT KECOCOKAN BELAJAR ANTARA GURU DENGAN SISWA BERDASARKAN LEARNING STYLE SISWA",
+    "abstract": null,
+    "authors": [
+      "Dewi Arni Sari, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Dewi Arni Sari",
+    "date_deposited": "06 Mar 2020 07:58",
+    "uri": "http://repository.upi.edu/id/eprint/47703"
+  },
+  {
+    "title": "PEMBENTUKAN KELOMPOK PADA PEMBELAJARAN COLLABORATIVE PROBLEM SOLVING BERDASARKAN LEARNING STYLE MENGGUNAKAN ALGORITMA FUZZY C MEANS",
+    "abstract": null,
+    "authors": [
+      "Endah Mustika Dewanti, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Endah Mustika Dewanti",
+    "date_deposited": "06 Mar 2020 07:54",
+    "uri": "http://repository.upi.edu/id/eprint/47710"
+  },
+  {
+    "title": "IMPLEMENTASI KRIPTOGRAFI AES-256 UNTUK FILE CITRA BITMAP PADA PRIVATE CLOUD SERVICE DENGAN VERIFIKASI DAN PENGAMANAN DATA",
+    "abstract": null,
+    "authors": [
+      "Farah Wihda Imarah, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Farah Wihda Imarah",
+    "date_deposited": "01 Jun 2020 14:39",
+    "uri": "http://repository.upi.edu/id/eprint/48966"
+  },
+  {
+    "title": "AGE ESTIMATION UNTUK INTELLIGENT ADVERTISING PADA POSTER DIGITAL MENGGUNAKAN CONVOLUTIONAL NEURAL NETWORK",
+    "abstract": "Sebagai bagian dari intelligent advertising, age estimation digunakan untuk menyesuaikan iklan dari hasil estimasi usia audience. Age estimation (AE) dapat dibangun menggunakan deep learning menggunakan ConvNet dengan kendala seperti data training wajah usia tua yang sedikit, ketidak seimbangan dataset di dalamnya, serta membutuhkan jumlah data yang besar. Salah satu solusi dari permasalahan ini adalah melakukan data augmentasi menggunakan model generatif ACGAN untuk melakukan generate gambar sesuai dengan kelas. Intelligent advertising pada poster digital hanya disimulasikan pada komputer. Simulasi intelligent advertising berfungsi dengan baik terlepas dari terbatasnya iklan dan tidak konsistennya hasil estimasi usia. Hasil dari penggunaan model generatifACGAN untuk data augmentation berhasil meningkatkan performa hasil pada model AE terlepas dari rendahnya skor IS dan FID serta kualitas gambar yang dihasilkan. Hasil data augmentation lebih terlihat pada model B dengan peningkatan akurasi cumulative score sebesar 4,8% dan skor MAE sebesar 1,297.",
+    "authors": [
+      "Galih Abdul Muhyi, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Galih Abdul Muhyi",
+    "date_deposited": "17 Sep 2020 07:22",
+    "uri": "http://repository.upi.edu/id/eprint/52274"
+  },
+  {
+    "title": "IMPLEMENTASI TERM FREQUENCY-INVERS DOCUMENT FREQUENCY (TF-IDF) DAN COSINE SIMILARITY DALAM PENENTUAN REVIEWER PENELITIAN DOSEN UNIVERSITAS PENDIDIKAN INDONESIA",
+    "abstract": null,
+    "authors": [
+      "Hazmi Ramadhan Adli, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Hazmi Ramadhan Adli Hazmi",
+    "date_deposited": "07 Sep 2020 03:25",
+    "uri": "http://repository.upi.edu/id/eprint/52602"
+  },
+  {
+    "title": "SISTEM INFORMASI UNTUK MENINGKATKAN EFEKTIVITAS PENYEDIAAN BAHAN MENTAH PADA UMKM DENGAN MENGGUNAKAN TIME SERIES FORECASTING AUTOREGRESSIVE MODEL",
+    "abstract": null,
+    "authors": [
+      "Ilham Mohammad Hanip Soetardjo, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "B Philosophy. Psychology. Religion > BF Psychology L Education > L Education (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "ILHAM MOHAMMAD HANIP SOETARDJO",
+    "date_deposited": "31 Aug 2020 04:43",
+    "uri": "http://repository.upi.edu/id/eprint/51566"
+  },
+  {
+    "title": "SEASONAL SPACE-TIME AUTOREGRESSIVE INTEGRATED MOVING AVERAGE UNTUK PREDIKSI PENYAKIT MENULAR BERBASIS SPASIAL TEMPORAL STUDI KASUS: INFEKSI SALURAN PERNAFASAN AKUT KOTA BANDUNG",
+    "abstract": null,
+    "authors": [
+      "Iqdam Musayyad Rabbani, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Iqdam Musayyad Rabbani",
+    "date_deposited": "01 Sep 2020 04:50",
+    "uri": "http://repository.upi.edu/id/eprint/51740"
+  },
+  {
+    "title": "MOBILE ACADEMIC INFORMATION BERBASIS ANDROID DENGAN PUSH NOTIFICATION UNTUK MENUNJANG KEGIATAN AKADEMIK MAHASISWA",
+    "abstract": null,
+    "authors": [
+      "Lundy Van Kevin, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Lundy Van Kevin -",
+    "date_deposited": "05 Jan 2021 05:20",
+    "uri": "http://repository.upi.edu/id/eprint/58058"
+  },
+  {
+    "title": "RANCANG BANGUN APLIKASI AUGMENTED REALITY DENGAN METODE MARKERLESS BERBASIS ANDROID SEBAGAI MEDIA PROMOSI PARIWISATA DI KOTA TASIKMALAYA STUDI KASUS TAMAN WISATA KARANG RESIK",
+    "abstract": null,
+    "authors": [
+      "Luvi Zatnika, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Luvi Zatnika",
+    "date_deposited": "04 Jan 2021 01:34",
+    "uri": "http://repository.upi.edu/id/eprint/58010"
+  },
+  {
+    "title": "DETEKSI SEPEDA MOTOR DI JALAN RAYA MENGGUNAKAN FASTER R-CNN BERBASIS VGG16",
+    "abstract": null,
+    "authors": [
+      "Moch Dian Lazuardi Yudha, Dian"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Dian Lazuardi",
+    "date_deposited": "25 Sep 2020 01:37",
+    "uri": "http://repository.upi.edu/id/eprint/52882"
+  },
+  {
+    "title": "MESIN REKOMENDASI FILM MENGGUNAKAN METODE DEEPAUTOENCODER",
+    "abstract": null,
+    "authors": [
+      "Muhamad Adie Maulana, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) > N Visual arts (General) For photography, see TR",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Muhamad Adie Maulana",
+    "date_deposited": "11 May 2020 12:12",
+    "uri": "http://repository.upi.edu/id/eprint/47713"
+  },
+  {
+    "title": "KEMDROID UNTUK MELAKSANAKAN UJI KECEPATAN EFEKTIF MEMBACA (KEM) MENGGUNAKAN TEKNOLOGI WEB SERVICE BERBASIS ANDROID",
+    "abstract": null,
+    "authors": [
+      "Muhammad, Sabilil Aslam"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Muhammad Sabilil Aslam",
+    "date_deposited": "06 Jan 2021 04:24",
+    "uri": "http://repository.upi.edu/id/eprint/57864"
+  },
+  {
+    "title": "SISTEM DETEKSI JUMLAH KEJADIAN SOLAR FLARES PADA CITRA SWAP PROBA2 DENGAN MENGGUNAKAN ALGORITMA SEEDED REGION GROWING DAN RANDOM FOREST",
+    "abstract": null,
+    "authors": [
+      "Muhammad Faris Muzakki, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA75 Electronic computers. Computer science Q Science > QB Astronomy T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Muhammad Faris Muzakki",
+    "date_deposited": "26 May 2020 00:29",
+    "uri": "http://repository.upi.edu/id/eprint/48894"
+  },
+  {
+    "title": "DNA BARCODING DENGAN ALGORITMA PARTICLE SWARM OPTIMIZATION MENGGUNAKAN APACHE SPARK SQL",
+    "abstract": null,
+    "authors": [
+      "Muhammad Ilham Nurfathiya, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Muhammad Ilham Nurfathiya",
+    "date_deposited": "13 Jul 2020 01:58",
+    "uri": "http://repository.upi.edu/id/eprint/49774"
+  },
+  {
+    "title": "PENGENALAN EMOSI MANUSIA MENGGUNAKAN LOG-GABOR CONVOLUTIONAL NETWORKS MELALUI PENDEKATAN FACIAL REGION SEGMENTATION",
+    "abstract": null,
+    "authors": [
+      "Naufan Rusyda Faikar, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "K Law > K Law (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Naufan Rusyda Faikar",
+    "date_deposited": "02 Sep 2020 04:14",
+    "uri": "http://repository.upi.edu/id/eprint/51881"
+  },
+  {
+    "title": "PENGELOMPOKAN SKILL REQUIREMENT PADA LOWONGAN PEKERJAAN ALUMNI MENGGUNAKAN ALGORITMA K-MEANS",
+    "abstract": null,
+    "authors": [
+      "Nugraha, Rizki"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Rizki Nugraha",
+    "date_deposited": "01 Jun 2020 14:49",
+    "uri": "http://repository.upi.edu/id/eprint/48963"
+  },
+  {
+    "title": "IMPLEMENTASI METODE GENERATIVE ADVERSARIAL NETWORK DENGAN MODEL MOBILENET UNTUK PENINGKATAN KUALITAS RESOLUSI CITRA",
+    "abstract": "Informasi yang detail dari citra dengan resolusi tinggi sangat dibutuhkan ketika akan dilakukan analisis terhadap konten yang terkandung dalam citra tersebut. Namun, terkadang citra memiliki resolusi rendah sehingga citra tersebut sulit untuk diinterpretasikan. Berdasarkan permasalahan tersebut, maka dilakukan penelitian mengenai peningkatan kualitas resolusi citra. Penelitian yang dilakukan berdasarkan pendekatan Super Resolution (SR) dengan melakukan modifikasi pada metode Super Resolution Generative Adversarial Network (SRGAN) yang digunakan sebagai baseline. Modifikasi yang dilakukan yaitu berupa penggabungan metode SRGAN dengan model MobileNet dengan mengubah lapisan residual block pada metode SRGAN dan mengubahnya dengan lapisan depthwise residual block yang merupakan implementasi dari model MobileNet. Dalam penelitian yang telah dilakukan, metode yang diusulkan dapat meningkatkan efisiensi pada time computation. Hal ini dibuktikan dengan hasil eksperimen yang mengalami peningkatan sebesar 25% pada time computation mengungguli metode baseline. Detailed information on high-resolution images is necessary when we will analyze the content in the images. However, sometimes the image has a low resolution so that the image difficult to interpret. Based on these problems, a study was conducted on improving the quality of image resolution. The research was conducted based on the Super Resolution (SR) approach by making modifications to the Super Resolution Generative Adversarial Network (SRGAN) method which was used as the baseline. The modification made is in the form of combining the SRGAN method with the MobileNet model by changing the residual block layer in the SRGAN method and the block residual layer which is an implementation of the MobileNet model. In the research that has been done, the proposed method can increase the efficiency of the computation time. It has proved by the results of experiments that have increased by 25% when computing outperformed the baseline method.",
+    "authors": [
+      "Nurmaulani Mustika Tresna, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Nurmaulani Mustika Tresna",
+    "date_deposited": "31 Aug 2020 06:53",
+    "uri": "http://repository.upi.edu/id/eprint/51618"
+  },
+  {
+    "title": "PENGEMBANGAN E-PORTFOLIO PADA COLLABORATIVE PROBLEM SOLVING MENGGUNAKAN FELDER SILVERMAN LEARNING STYLE MODEL",
+    "abstract": null,
+    "authors": [
+      "Rani Suprianti, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Rani Suprianti",
+    "date_deposited": "01 Jun 2020 05:51",
+    "uri": "http://repository.upi.edu/id/eprint/48967"
+  },
+  {
+    "title": "IMPLEMENTASI METODE MACHINE LEARNING MENGGUNAKAN ALGORITMA EVOLVING ARTIFICIAL NEURAL NETWORK PADA KASUS PREDIKSI DIAGNOSIS DIABETES",
+    "abstract": null,
+    "authors": [
+      "Resky Ramadhandi Santoso, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Resky Ramadhandi Santoso",
+    "date_deposited": "03 Sep 2020 06:09",
+    "uri": "http://repository.upi.edu/id/eprint/52245"
+  },
+  {
+    "title": "IMPLEMENTASI NEURAL NETWORK UNTUK MENGENALI KEPRIBADIAN SESEORANG MENGGUNAKAN MODEL BIG FIVE PERSONALITY BERDASARKAN RATING GENRE VIDEO GAME YANG DIBERIKAN OLEH RESPONDEN",
+    "abstract": null,
+    "authors": [
+      "Reyhan Fikri Dzikriansyah, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Reyhan Fikri Dzikriansyah",
+    "date_deposited": "02 Sep 2020 04:11",
+    "uri": "http://repository.upi.edu/id/eprint/51919"
+  },
+  {
+    "title": "SISTEM REKOMENDASI PEMILIHAN RUMAH SAKIT KOTA BANDUNG BERDASARKAN PREFERENSI USER",
+    "abstract": null,
+    "authors": [
+      "Reza Pratama, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Reza Pratama",
+    "date_deposited": "22 Dec 2020 03:20",
+    "uri": "http://repository.upi.edu/id/eprint/57813"
+  },
+  {
+    "title": "PREDIKSI SOLAR FLARES MENGGUNAKAN PRODUK DATA VECTOR MAGNETIC SDO/HMI DAN RANDOM FERNS",
+    "abstract": null,
+    "authors": [
+      "Rooseno Rahman Dewanto, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Rooseno Rahman Dewanto",
+    "date_deposited": "01 Sep 2020 07:50",
+    "uri": "http://repository.upi.edu/id/eprint/51602"
+  },
+  {
+    "title": "PEMBENTUKAN KELOMPOK COLLABORATIVE PROBLEM SOLVING BERDASARKAN PERSONALITY TRAITS MENGGUNAKAN ALGORITMA GENETIKA",
+    "abstract": null,
+    "authors": [
+      "Secilia Selviana Agustine, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Secilia Selviana Agustine",
+    "date_deposited": "06 Mar 2020 08:03",
+    "uri": "http://repository.upi.edu/id/eprint/47704"
+  },
+  {
+    "title": "IMPLEMENTASI METODE MULTINOMIAL NAIVE BAYES UNTUK MENDETEKSI KICAUAN YANG MENGANDUNG UJARAN KEBENCIAN PADA DATA TWITTER BAHASA INDONESIA",
+    "abstract": null,
+    "authors": [
+      "Umar Syahid Aulia Rahman, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Umar Syahid Aulia Rahman",
+    "date_deposited": "11 Sep 2020 03:45",
+    "uri": "http://repository.upi.edu/id/eprint/53029"
+  },
+  {
+    "title": "EXEMPLAR BASED CONVOLUTIONAL NEURAL NETWORK UNTUK PENCARIAN WAJAH PADA VIDEO REKAMAN CCTV",
+    "abstract": null,
+    "authors": [
+      "Winda Mauli Kristy, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Winda Mauli Kristy",
+    "date_deposited": "31 Aug 2020 06:52",
+    "uri": "http://repository.upi.edu/id/eprint/51360"
+  },
+  {
+    "title": "AUTOMATIC GENERATE QUESTION UNTUK SHORT-ANSWER-QUESTION DI READING COMPREHENSION IELTS MENGGUNAKAN METODE NATURAL LANGUAGE PROCESSING DAN ALGORITMA K-NEAREST NEIGHBOR",
+    "abstract": "International English Language Testing System (IELTS) adalah salah satu tes evaluasi kemampuan berbahasa inggris, selain TOEFL dan TOEIC. Cotton (2001), berpendapat bahwa dalam pembuatan soal dapat menghabiskan lebih dari 50% dari jam waktunya untuk memikirkan satu buah set soal, oleh karena itu tentu dalam pembuatan soal IELTS ini membutuhkan waktu yang tidak sedikit dalam memikirkan kalimat pertanyaan dan jawabannya. Karena masalah ini, penelitian mengenai automatic question generation dilakukan dengan harapan dapat digunakan sebagai tools untuk menghasilkan kalimat pertanyaan dan jawabannya, sehingga dapat menghemat waktu dalam memikirkan pertanyaan dan jawabannya, akan tetapi soal yang dihasilkan difokuskan pada jenis soal short answer question di reading comprehension, karena untuk penelitian jenis soal lain membutuhkan metode penelitian yang berbeda. Soal-soal yang dihasilkan menggunakan sumber artikel dari berita dengan grammar yang terpercaya seperti CNN dan BBC. Juga dalam penelitian ini mengumpulkan kumpulan soal IELTS dengan jenis soal short answer question di bagian reading comprehension, kumpulan soal ini yang akan digunakan dalam penelitian untuk membandingkan kelayakan dengan data uji, yang menjadi kandidat soal. Sumber yang digunakan dalam penelitian untuk mengumpulkan soal-soal yang menjadi data latih berasal dari ebook dan website. Tahapan dari penelitian ini secara garis besar yaitu ekstraksi kalimat sederhana, klasifikasi soal, generate kalimat soal, dan yang terakhir membandingkan kandidat soal dengan data latih untuk menentukan kelayakan. Hasil dari evaluasi yang dilakukan adalah untuk parameter Grammatical Correctness menghasilkan persentase sebesar 59,52%, untuk parameter Answer Existence menghasilkan 95,24%, sedangkan untuk parameter Difficulty Index menghasilkan presentase sebesar 34,92%. Sehingga untuk rata-rata yang dihasilkan sebesar 63,23%.",
+    "authors": [
+      "Yahya Firdaus, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Yahya Firdaus",
+    "date_deposited": "28 Dec 2020 03:01",
+    "uri": "http://repository.upi.edu/id/eprint/57818"
+  },
+  {
+    "title": "PENGGUNAAN METODE CLUSTERING K-MEANS DALAM MENENTUKAN RUMPUN PRESTASI BELAJAR MAHASISWA",
+    "abstract": null,
+    "authors": [
+      "Yudi, Masyhudi"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA75 Electronic computers. Computer science Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Yudi Masyhudi",
+    "date_deposited": "11 Jan 2021 07:35",
+    "uri": "http://repository.upi.edu/id/eprint/58235"
+  },
+  {
+    "title": "PENGEMBANGAN E-MODUL SEBAGAI MULTIMEDIA PEMBELAJARAN INTERAKTIF DENGAN MODEL DISCOVERY LEARNING UNTUK MENINGKATKAN KOGNITIF SISWA",
+    "abstract": "Penelitian ini merupakan penelitian pengembangan yang bertujuan untuk: (1) menghasilkan e-modul sebagai multimedia pembelajaran interaktif dengan model discovery learning untuk meningkatkan kognitif siswa. (2) Mengetahui tingkat kelayakan e-modul sebagai multimedia pembelajaran interaktif dengan model discovery learning untuk meningkatkan kognitif siswa. Penelitian ini menggunakan metode pengembangan multimedia siklus hidup menyeluruh (SHM) dengan tahapan analisis, desain, pengembangan, implementasi, serta penilaian. Data diperoleh dari data primer berupa studi pendahuluan lapangan dan data sekunder dari skripsi, buku, artikel dan jurnal yang berkaitan dengan penelitian yang dilakukan. Hasil penelitian ini menunjukkan bahwa: (1) E-modul¬ sebagai multimedia pembelajaran interaktif dinyatakan baik serta layak digunakan dengan nilai persentase sebesar 90,8% termasuk kategori “Sangat Baik” oleh ahli media. (2) E – Modul sebagai multimedia interaktif ini dapat meningkatkan kognitif siswa dengan rata – rata nilai gain sebesar 0,61 dengan kriteria efektivitas “Sedang”. (3) Respon siswa terhadap penggunaan E – Modul sebagai multimedia pembelajaran menunjukkan nilai persentase sebesar 96,2% dengan kategori “Sangat Baik”. Kata Kunci: E – Modul, Multimedia Pembelajaran Interaktif, Discovery Learning, Kognitif Siswa, Siklus Hidup Menyeluruh (SHM)",
+    "authors": [
+      "Zsalzsa Puspa Alivia, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "- - Zsalzsa Puspa Alivia",
+    "date_deposited": "27 Aug 2020 08:03",
+    "uri": "http://repository.upi.edu/id/eprint/50664"
+  }
+]

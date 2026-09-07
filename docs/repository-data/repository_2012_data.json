@@ -1,0 +1,535 @@
+[
+  {
+    "title": "APLIKASI MAKET BERBASIS AUGMENTED REALITY SEBAGAI MEDIA PERAGA BAGI PENGEMBANG PROPERTI",
+    "abstract": "Maket atau miniatur bangunan merupakan suatu bentuk perwujudan dari bangunan dengan skala yang lebih kecil. Maket berfungsi sebagai alat bantu dalam mempresentasikan kepada khalayak ramai tentang bangunan yang akan dibangun. Untuk menambah nilai efektifitas dari maket atau 3D modeler yang telah digunakan sebelumnya, pada penelitian ini penulis menerapkan teknologi augmented reality (AR) yang dapat menggabungkan benda maya tiga dimensi ke dalam sebuah lingkungan nyata lalu memproyeksikan benda-benda maya tersebut secara real time. Aplikasi maket berbasis augmented reality dengan library OpenSpace 3D sebagai media peraga bangunan terbukti lebih tinggi tingkat efektifitasnya dibandingkan dengan cara konvensional.",
+    "authors": [
+      "Agung Leonaras, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Nazwa Azalia Sofianti",
+    "date_deposited": "02 Nov 2023 08:27",
+    "uri": "http://repository.upi.edu/id/eprint/110884"
+  },
+  {
+    "title": "PERBANDINGAN ALGORITMA FORCE DIRECTED GRAPH DENGAN RANDOM GEOMETRIC GRAPH PADA PENGGAMBARAN GRAF",
+    "abstract": "Pada penggambaran graf muncul suatu permasalahan yaitu simpul dan garis tidak memiliki informasi mengenai tata letak dalam sebuah penggambaran graf. Maka dari itu dibutuhkan suatu metode untuk menghitung tata letak simpul dan garis yaitu dengan menggunakan algoritma Force Directed Graph dan algoritma Random Geometric Graph. Force Directed Graph Algorithms menggunakan representasi spring model, dimana simpul-simpul dianggap sebagai benda-benda yang bermuatan dan dihubungkan(ditarik) oleh garis yang dianggap sebagai pegas. Algoritma Random Geometric Graph adalah sebuah graf dimana nilai dari tata letak simpul dibangkitkan dari bilangan acak seragam. Penggambaran graf yang baik memiliki kriteria-kriteria tertentu seperti mengurangi jumlah garis yang berpotongan, total dari panjang setiap garis harus seminimal mungkin, minimalisasi variasi dari panjang setiap garis, dan menampilkan sifat simetri pada hasil akhir penggambaran. Algoritma Force Directed Graph lebih memenuhi penggambaran graf kriteria yang baik, karena dari setia kriteria hasilnya selalu lebih optimal dibandingkan dengan algoritma Random Geometric Graph. Kata Kunci : sociogram, algoritma Force Directed Graph, Graf, intersection, eucludian distance, spring model, Random Geometric Graph",
+    "authors": [
+      "Ahmad Zulfiana Utama, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Rio Muhammad Rahmatuloh",
+    "date_deposited": "31 Oct 2023 07:26",
+    "uri": "http://repository.upi.edu/id/eprint/110463"
+  },
+  {
+    "title": "ANALISIS PERILAKU PENGGUNAAN MEDIA PEMBELAJARAN SONY SUGEMA-DIGITAL LEARNING SYSTEM (S2DLS VERS. 2) DENGAN PENDEKATAN TECHNOLOGY ACCEPTANCE MODEL (TAM). : Studi Penerapan Dalam Pembelajaran Di MAN Cianjur",
+    "abstract": null,
+    "authors": [
+      "Andri Indrawan, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Nazwa Azalia Sofianti",
+    "date_deposited": "02 Nov 2023 09:10",
+    "uri": "http://repository.upi.edu/id/eprint/111053"
+  },
+  {
+    "title": "RANCANG BANGUN SISTIM PENDUKUNG KEPUTUSAN PEMILIHAN MITRA BISNIS (FRANCHISEE) BERDASARKAN DAYA TARIK LOKASI DENGAN MENGGUNAKAN METODE MULTI ATTRIBUTE GLOBAL INFERENCE OF QUALITY (MAGIQ) DAN ANALYTICAL HIERARCHY ROCESS (AHP) : Studi Kasus di PT. YOMART",
+    "abstract": "Penelitian ini bertujuan untuk membantu PT.YOMART mengambil keputusan dalam memilih mitra dengan menggunakan metode MAGIQ dan AHP. Selain itu, membandingkan antara penilaian yang dilakukan perusahaan (tanpa metode MCDA) dengan yang memakai metode, untuk melihat apakah ada perbedaan yang signifikan dari penilaian yang dihasilkan. Metode penelitian yang digunakan adalah metode eksperimen dan komparasi. Instrumen yang digunakan dalam penelitian ini berupa lembar observasi. Sampel penelitiannya adalah 10 data lokasi. Berdasarkan hasil penelitian dari 10 lokasi, terdapat 8 lokasi diantaranya : lokasi A sebesar 3.175, B sebesar2.825, C sebesar 2.625, D sebesar 2.7, E sebesar 2.875, F sebesar 2.7, I sebesar 2.9 dan J sebesar 2.675 yang direkomendasikan melalui perhitungan yang dilakukan oleh perusahaan dengan bobot standard rekomendasi minimal 2.61. Untuk percobaan I dengan menggunakan metode diperoleh 3 lokasi yang direkomendasikan yaitu : A sebesar 0.3094, B sebesar 0.2809, dan I sebesar 0.2848 dengan bobot standard rekomendasi minimal 0.274. sedangkan percobaan II hanya 1 lokasi yang direkomendasikan yaitu sebesar 0.3409 dengan standard rekomendasi minimal 0.326. Oleh karena itu, ditarik kesimpulan bahwa terdapat perbedaan yang signifikan antara penilaian lokasi yang menggunakan metode MAGIQ dan AHP dengan penilaian lokasi yang tidak menggunakan metode tersebut.",
+    "authors": [
+      "Bakti Fauzi, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Ferli pennita",
+    "date_deposited": "30 Oct 2023 04:13",
+    "uri": "http://repository.upi.edu/id/eprint/111541"
+  },
+  {
+    "title": "SISTEM PAKAR PROGRAM LATIHAN PENCAK SILAT TINGKAT REMAJA BAGI ASISTEN PELATIH",
+    "abstract": null,
+    "authors": [
+      "Dian Ayu Fuji Lestari, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Nazwa Azalia Sofianti",
+    "date_deposited": "02 Nov 2023 08:25",
+    "uri": "http://repository.upi.edu/id/eprint/110231"
+  },
+  {
+    "title": "SISTEM INFORMASI PERAMALAN PENJUALAN MENGGUNAKAN METODE EXPONENTIAL SMOOTHING STUDI KASUS BANDOENGSCHE MELK CENTRALE",
+    "abstract": "Seiring dengan berkembangnya ekonomi dan dunia bisnis yang sangat pesat ditandai dengan tingkatan persaingan yang sangat keras, menuntut semua organisasi bisnis, besar maupun kecil, swasta atau pemerintahan yang bergerak di dunia modern harus membuat rencana dalam menghadapi rencana yang akan datang, diantaranya adalah untuk forcasting (peramalan) penjualan. Metode ramalan exponential smoothing merupakan salah satu model ramalan data deret berkala yang dalam penelitian ini digunakan sebagai metode dalam peramalan penjualan. Berdasarkan uraian diatas permasalahan yang akan dibahas adalah (1) bagaimana metode Exponential Smoothing digunakan untuk meramalkan penjualan di PT.AGRONESIA DEVISI MAKANAN DAN MINUMAN Bandoengsche Melk Centrale, (2) bagaimana prediksi atau ramalan penjualan di PT.AGRONESIA DEVISI MAKANAN DAN MINUMAN Bandoengsche Melk Centrale untuk bulan mendatang. Tujuan penelitian ini adalah mengimplementasi metode Exponential Smoothing kedalam sistem informasi peramalan penjualan. Sedangkan manfaat dari penelitian ini diharapkan dapat menambah wawasan pengetahuan yang lebih luas terutama yang berkaitan dengan peramalan, dan memahami penerapan metode Exponential Smoothing untuk keperluan sistem penjualan. Data yang diambil dalam penelitian ini adalah jumlah penjualan dari bilan Januari 2008 sampai dengan September 2010 pada PT.AGRONESIA DEVISI INDUSTRI MAKANAN DAN MINUMAN Bandoengsche Melk Centrale. Data yang diperoleh kemudian dianalisis dengan membuat scatter diagram, Mencari harga-harga %4;T+1(T) masing-masing metode untuk memilih metode exponential smoothing yang tepat. menentukan forcast error masing masing metode, kemudian dari analisis dapat ditarik kesimpulan metode yang cocok untuk meramalakan penjualan periode mendatang. Hasil yang diperoleh dalam penelitian ini adalah data penjualan selama 33 bulan dengan Average Error (AE) double exponential smoothing dengan α = 0,7 paling kecil dibandingkan Average Error (AE) single exponential smoothing dan Average Error (AE) triple exponential smoothing, maka untuk peramalan penjualan di PT.AGRONESIA DEVISI MAKANAN DAN MINUMAN Bandoengsche Melk Centrale dipilih metode Double Exponential Smoothing. Prediksi atau ramalan pada bulan Oktober 2010 adalah 84% kebenarannya dengan membandingkan data sebenarnya. Adapun saran-saran yang dapat disampaikan adalah diperlukan penelitian lebih lanjut tentang metode-metode forcasting yang lebih praktis, lebih efisien serta menghasilkan forcast error yang lebih kecil dibandingkan dengan metode Exponential Smoothing.",
+    "authors": [
+      "Fadiana Anova, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Ferli pennita",
+    "date_deposited": "30 Oct 2023 04:13",
+    "uri": "http://repository.upi.edu/id/eprint/111589"
+  },
+  {
+    "title": "PENERAPAN METODE KOMPETENSI ANTAR SISWA UNTUK MENINGKATKAN KEMAMPUAN KOGNITIF SISWA PADA AMATA PELAJARAN TIK",
+    "abstract": null,
+    "authors": [
+      "Fernando Maruli Simangunsong, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA76 Computer software T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Ferli pennita",
+    "date_deposited": "16 Sep 2023 15:38",
+    "uri": "http://repository.upi.edu/id/eprint/105721"
+  },
+  {
+    "title": "EFEKTIVITAS MODEL PEMBERAJARAN NOVICK BERBATUAN MULTIMEDIA PEMBERAJARAN DALAM MENINGKATKAN HASIL BERAJAR RANAH KOGNITIF SISWA PADA MATA PELAJARAN TIK",
+    "abstract": "Telah dilakukan penelitian eksperimen semu mengenai penerapan model pembelajaran Novick berbantuan multimedia pembelajaran untuk menguji keefektivitasannya dalam meningkatkan hasil belajar pada ranah kognitif pada topik operasi dasar sistem operasi mata pelajaran Teknologi Informasi dan Komunikasi. Penelitian ini dilakukan terhadap siswa kelas X di salah satu SMA di Kabupaten OKU Timur, Sumatera Selatan dengan desain penelitian Pretest-Posttest Control Group Design. Kelompok eksperimen diterapkan model pembelajaran Novick berbantuan multimedia pembelajaran sedangkan kelompok kontrol diterapkan pembelajaran konvensional. Dari perbandingan rata-rata gain yang dinormalisasi <g> dari tes hasil belajar pada ranah kognitif, dapat disimpulkan bahwa dapat lebih meningkatkan hasil belajar pada ranah kognitif siswa kelas eksperimen dan kelas kontrol. Dengan kata lain, penerapan model pembelajaran Novick berbantuan multimedia pembelajaran lebih signifikan meningkatkan hasil belajar pada ranah kognitif dengan taraf signifikansi 5% dibandingkan dengan pembelajaran konvensional. Respon siswa terhadap model pembelajaran Novick berbantuan multimedia menunjukkan hasil yang positif.Kata kunci : model pembelajaran Novick, multimedia pembelajaran, hasil belajar ranah kognitif",
+    "authors": [
+      "Fitrianto Dedi Vaika, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Rio Muhammad Rahmatuloh",
+    "date_deposited": "31 Oct 2023 07:28",
+    "uri": "http://repository.upi.edu/id/eprint/110648"
+  },
+  {
+    "title": "PERANGKAT LUNAK PERAMALAN PENJUALAN PADA DISTRO CLOTHING DENGAN MENGGUNAKAN METODE DEKOMPOSISI",
+    "abstract": "Forecasting (forecasting) is an important tool in planning an effective and efficient especially in the economic sphere. Forecasting has a direct role in external events which in general are outside the control of management, such as the economy, the Government and other customers. Demand forecasting a prominent role in the planning and decision making in particular areas of production. In doing research on forecasting method of Decomposition is used. The decomposition method is often called also method of time series forecasting method is one that is based on the fact that typically what has happened will happen again with a recurrence or the same pattern. If it used to always go up, in time to come will usually rise as well, which is usually reduced will be reduced as well, which usually fluctuates will fluctuate as well and that is usually not regular then it would be irregular as well. To do forecasting by using the method of decomposition in need 4 components pattern changes, namely: the trend of (T), seasonal fluctuations (M), cyclical fluctuations (S) and the changes are purely random (R). each pattern will be searched one by one the changes after the discovery will be merged into value, estimates or forecasts. In implementation by using Visual Studio 2008 (Vb.Net) Mysql Server 5.1 and SQLyog Enterprise. From the results of research on Decomposition provides an effective solution for specific problems including problems of decision making in production activities and the procurement of goods",
+    "authors": [
+      "Hardinal Farihas, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Ferli pennita",
+    "date_deposited": "18 Oct 2023 08:37",
+    "uri": "http://repository.upi.edu/id/eprint/111164"
+  },
+  {
+    "title": "PENGEMBANGAN CAPTCHA DENGAN SKEMA MOUSE INTERVENTION MENGGUNAKAN HTML5 NATIF DRAG AND DROP",
+    "abstract": null,
+    "authors": [
+      "Herdian, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Ferli pennita",
+    "date_deposited": "22 Sep 2023 01:20",
+    "uri": "http://repository.upi.edu/id/eprint/106856"
+  },
+  {
+    "title": "PENGEMBANGAN MEDIA PEMBELAJARAN VIDEO SIMULASI BERBASIS KOMPUTER SEBAGAI aLAT BANTU PEMBELAJARAN PADA POKOK BAHASAN EMAIL UNTUK KEPERLUAN INFORMASI DAN KOMUNIKASI",
+    "abstract": null,
+    "authors": [
+      "Hermayana, Mohamad Fazrian"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Staf Koordinator 2",
+    "date_deposited": "01 Jul 2014 03:34",
+    "uri": "http://repository.upi.edu/id/eprint/9850"
+  },
+  {
+    "title": "IMPLEMENTASI BLIND SIGNATURE PADA TRANSAKSI DIGITAL CASH MENGGUNAKAN ALGORITMA RSA",
+    "abstract": "Transaction using digital was inspired from the conventional use of paper money which has the property privacy and transferability. Digital cash transactions should be able to maintain the privacy of the owner, either from the bank that issued the digital cash or vendor as a recipient of the digital cash. This privacy property which is the difference between digital cash payment to other payment methods. In addition to privacy concerns, it should be noted also the safety factor in the use of digital cash from crimes such as counterfeiting, copying or theft. Application of blind signature using the RSA algorithm is an appropriate way in this matter, other than the customer privacy is protected using digital cash, digital cash also produce safe for use. The results of the testing was done using randomly generate public and private key on the 100% of the value obtained for the true on authenticity process and update digital cash process, while at the par-added using the same digital cash process, generating 67% of true validation and 33% false validation.",
+    "authors": [
+      "Imam Wiyanto, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Ferli pennita",
+    "date_deposited": "18 Oct 2023 08:36",
+    "uri": "http://repository.upi.edu/id/eprint/111121"
+  },
+  {
+    "title": "PENGGUNAAN SISTEM PAKAR UNTUK DIAGNOSA AWAL GANGGUAN KESEHATAN PADA GINJAL SECARA MANDIRI MENGGUNAKAN METODE DEPSTER-SHAFER",
+    "abstract": null,
+    "authors": [
+      "Lita Meylianti Hadi Puteri, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA76 Computer software T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Ferli pennita",
+    "date_deposited": "16 Sep 2023 15:38",
+    "uri": "http://repository.upi.edu/id/eprint/105747"
+  },
+  {
+    "title": "SISTEM PENDUKUNG KEPPUTUSAN PENERIMAAN TENAGA KERJA MENGGUNAKAN METODE DEMSTER SHAPER ANALITIC HEIRARCHY PROSES : Studi Kasus PT. Rizma Sabillul Harom, Tour and Travel",
+    "abstract": "Penerimaan tenaga kerja adalah suatu proses dalam instansi atau perusahaan. Pemilihan tenaga kerja yang berkualitas merupakan hal yang sangat penting untuk memajukan perusahaan atau instansi itu sendiri. PT. Rizma Sabilul Harom adalah suatu perusahaan yang bergerak di bidang jasa pelayanan pemberangkatan Haji ONH Plus dan Umrah. PT. Rizma Sabilul Harom belum mempunyai sistem penerimaan tenaga kerja dan bahkan belum pernah melakukan perekrutan tenaga kerja. Untuk dapat melakukan perekrutan tenaga kerja secara objektif, maka salah satu caranya yaitu dengan membuat sistem pendukung keputusan penerimaan tenaga kerja. Sistem ini menggunakan metode DS/AHP dan bersifat dinamis, maka dalam penentuan kriteria penilaian perekrutan tenaga kerja ini bebas untuk menentukan berapapun dan apapun jenis kriteria yang akan diambil nantinya (C1, C2, C3,...,Cn). Langkah awal proses DS/AHP yaitu dengan cara menentukan kriteria terlebih dahulu. Dalam penelitian kali ini kriteria yang ditentukan yaitu kepribadian, bakat, intelegensi dan prestasi. Setelah kriteria ditentukan selanjutnya menghitung bobot kriteria. Setelah bobot kriteria ditentukan selanjutnya menentukan alternatif yang akan diproses. Selanjutnya menentukan bobot alternatif, dan yang terakhir yaitu mengiriskan altenatif per kriteria dengan dempster rule’s of combination sehingga didapat urutan penilaian. DS/AHP memasukan faktor plausibility yang di dalamnya ada faktor uncertainty dalam perhitungannya, dikarenakan nilai ketidakpastian selalu ada di dalam setiap penilaian. Sehingga hasil akhir yang akan didapat adalah urutan penilaian tenaga kerja yang berasal dari hasil perhitungan metode DS/AHP yang nantinya akan digunakan sebagai pendukung keputusan penerimaan tenaga kerja bagi perusahan.",
+    "authors": [
+      "lingga Yuda Garniwa, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Nazwa Azalia Sofianti",
+    "date_deposited": "02 Nov 2023 08:27",
+    "uri": "http://repository.upi.edu/id/eprint/110208"
+  },
+  {
+    "title": "PENERAPAN ALGORITMA NAIVE BAYES PADA METODE CERTAINTY FACTOR UNTUK DIAGNOSA ANAK TUNA GRAHITA",
+    "abstract": null,
+    "authors": [
+      "Mayang Ayu Lestari, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Ferli pennita",
+    "date_deposited": "14 Nov 2023 04:46",
+    "uri": "http://repository.upi.edu/id/eprint/112238"
+  },
+  {
+    "title": "SISTEM REKOMENDASI PRODUK ASURANSI MENGGUNAKAN METODE USER-BASED CLLABORATIVE FILTERING",
+    "abstract": "Asuransi merupakan suatu perjanjian antar dua pihak atau lebih yang melibatkan pembayaran premi secara teratur dalam jangka tertentu sebagai ganti polis yang menjamin perlindungan apabila terjadia peristiwa yang tidak terduga seperti kecelakaan, kehilangan, kematian, kerusakan atau sakit. Dari banyaknya produk asuransi yang dimiliki PT. AIA Financial, itu menandakan bahwa perusahaan berusaha memberikan yang terbaik guna memenuhi kebutuhan serta kepuasan nasabahnya. Namun, melihat kebutuhan dan keadaan nasabah yang juga berbeda–beda, terkadang perusahaan menemukan beberapa kasus dimana nasabah mengalami ketidak puasan terhadap suatu produk, selain itu ada juga nasabah yang memiliki keinginan untuk mendapatkan fasilitas yang lebih dari produk yang sudah diambil sebelumnya. Apabila hal tersebut terjadi, tidak menutup kemungkinan ada saja nasabah yang hendak mengganti produk yang sudah diambil dengan produk yang berbeda. Dalam skripsi ini akan dibahas suatu sistem rekomendasi dengan menggunakan metode user-based collaborative filtering. Metode user-based collaborative filtering ini memanfaatkan nilai rating yang diberikan pengguna, yang nantinya akan dicari nilai kedekatan antar user, kemudian nilai tersebut akan digunakan dalam proses menghitung prediksi. Eksperimen dilakukan dengan mencari jumlah N neighbour yang dapat menghasilkan akurasi tertinggi. Eksperimen menggunakan sebanyak 500 instance data rating yang telah didapatkan. Hasil dari eksperimen tersebut diketahui bahwa dengan menggunakan N=40 didapatkan nilai MAE terendah yaitu 1.549.",
+    "authors": [
+      "Meta Triyunanti, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Ferli pennita",
+    "date_deposited": "22 Sep 2023 01:20",
+    "uri": "http://repository.upi.edu/id/eprint/106329"
+  },
+  {
+    "title": "SISTEM PENGENALAN WAJAH 2-D MENGGUNAKAN JARINGAN SYARAF TIRUAN ALGORITMA BACKPROPAGATION DAN METODE EIGENFACE PRINCIPAL COMPONENT ANALYSIS",
+    "abstract": "Sistem biometrika merupakan teknologi pengenalan diri dengan menggunakan bagian tubuh atau perilaku manusia yang memiliki keunikan. Salah satu bagian sistem biometrika adalah face recognition (pengenalan wajah). Salah satu metode kecerdasan buatan yang biasa dipakai dalam pengenalan pola yang dapat digunakan dalam sistem pengenalan wajah yaitu Jaringan Syaraf Tiruan Backpropagation (JST Backpropagation). Dalam proses pengenalan wajah, tahapan yang penting dalam proses pengenalan wajah yaitu pengambilan ciri. Pengambilan ciri (feature extraction) dalam face recognition biasanya menggunakan eigenface. Hasil dari pengambilan ciri menggunakan eigenface mengandung ciri yang kurang signifikan sehingga perlu direduksi. PCA (Principal component analysis) merupakan metode pengambilan ciri yang mampu mereduksi dimensi ciri dari suatu obyek, sehingga ukuran dari obyek akan lebih ringkas dan mampu mengambil karakteristik yang penting saja dari obyek yang diolah. Dengan menggunakan jaringan syaraf tiruan backpropagation dan eigenface PCA menghasilkan tingkat akurasi yang baik yaitu lebih dari 80% dari tahap pengujian.",
+    "authors": [
+      "Miftachul Jannah, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Ferli pennita",
+    "date_deposited": "22 Sep 2023 01:20",
+    "uri": "http://repository.upi.edu/id/eprint/107084"
+  },
+  {
+    "title": "PERBANDINGAN ALGORITMA A* DAN BREADTH FIRST SEARCH PADA BLOCK MAZE",
+    "abstract": null,
+    "authors": [
+      "Mohammad Nur Rahman, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Ferli pennita",
+    "date_deposited": "22 Sep 2023 01:22",
+    "uri": "http://repository.upi.edu/id/eprint/106797"
+  },
+  {
+    "title": "EKSTRAKSI DAN VISUALISASI INFORMASI LALULINTAS KOTA BANDUNG DARI TWITTER",
+    "abstract": "Twitter is a web 2.0 microblogging service. One form is using twitter to share information, especially information about traffic congestion. Twitter hashtag feature provides a means to find specific information. #Lalinbdg hashtag is commonly used for sharing information about Bandung city traffic. The amount of data that contain “lalinbdg” can be processed and managed more relevant information. Lalinbdg data retrieval performed daily every thirty minutes. The data collected, downloaded and converted into a text file. Existing data in the file are then cleared from the data that is not appropriate. After the cleaning process is complete the data and then integrated with the data path and congestion keyword. Keyword data congestion of roads and the results obtained from analysis of data and a list of existing roads. The data has been integrated converted into a form that can be read by XML visualization tools. Traffic visualization using maps allows users to see immediately the location and circumstances of the site. Users are also easier to specify information than reading the data one by one.",
+    "authors": [
+      "Muhamad Yusuf Kadir, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Nazwa Azalia Sofianti",
+    "date_deposited": "02 Nov 2023 09:07",
+    "uri": "http://repository.upi.edu/id/eprint/110214"
+  },
+  {
+    "title": "SISTEM PAKAR DIAGNOSA PENYAKIT HEPATITIS DENGAN MENGGUNAKAN METODE CASE BASED REASONING (CBR)",
+    "abstract": null,
+    "authors": [
+      "Muhammad Azhar Fauzi, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Nazwa Azalia Sofianti",
+    "date_deposited": "31 Oct 2023 08:18",
+    "uri": "http://repository.upi.edu/id/eprint/110582"
+  },
+  {
+    "title": "SISTEM PAKAR DIAGNOSA PENYAKIT HEPATITIS DENGAN MENGGUNAKAN METODE CASE BASED REASONING (CBR)",
+    "abstract": null,
+    "authors": [
+      "Muhammad Azhar Fauzi, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Nazwa Azalia Sofianti",
+    "date_deposited": "31 Oct 2023 08:18",
+    "uri": "http://repository.upi.edu/id/eprint/110616"
+  },
+  {
+    "title": "SISTEM PENDUKUNG KEPUTUSAN PEMILIHAN MOBIL BARU DAN MOBIL BEKAS TERBAIK MENGGUNAKAN METODE SAW (SIMPLE ADDITIVE WEIGHTING)",
+    "abstract": null,
+    "authors": [
+      "Muhammad Hilmy Purnama, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Ferli pennita",
+    "date_deposited": "22 Sep 2023 01:20",
+    "uri": "http://repository.upi.edu/id/eprint/106957"
+  },
+  {
+    "title": "SISTEM PENDUKUNG KEPUTUSAN PEMILIHAN PONSEL DENGAN MENGGUNAKAN METODE SMART BERBASIS WEB",
+    "abstract": "Pesatnya perkembangan kebutuhan informasi ini menyebabkan masyarakat membutuhkan adanya teknologi informasi. Ponsel merupakan salah satu yang menjadi kebutuhan masyarakat dewasa ini. Ponsel yang semakin modern menjadikan ponsel sebagai kebutuhan primer dengan perkembangan modern dengan kriteria-kriteria yang sangat modern. Setiap konsumen memiliki kebutuhan akan ponsel yang berbeda-beda, sehingga faktor-faktor yang menjadi pertimbangan dalam proses pengambilan keputusannya pun berbeda untuk setiap konsumen, banyak kriteria yang dijadikan penilaian pemilihan ini. Salah satu metode sistem pengambilan keputusan dalam menentukan persoalan yang melibatkan multi kriteria adalah dengan metode Simple Multi-Attribute Rating Technique (SMART). Sistem ini dibangun dengan bahasa pemrograman PHP dan MySQL sebagai database. Sistem yang berjalan Web-Server ini akan membantu konsumen melakukan proses pengambilan keputusan dengan menggunakan model keputusan analitik yang akan menghasilkan alternatif pilihan ponsel dan nilai total ponsel sesuai dengan hasil perhitungan yang dilakukan dengan menggunakan metode SMART yang mana dapat dijadikan masukan bagi pengguna dalam mengambil keputusan pemilihan ponsel yang layak menjadi yang terbaik secara cepat dan efisien.",
+    "authors": [
+      "Muhammad Rifqi Banani, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Nazwa Azalia Sofianti",
+    "date_deposited": "02 Nov 2023 08:46",
+    "uri": "http://repository.upi.edu/id/eprint/111889"
+  },
+  {
+    "title": "PENGARUH KINERJA MENGAJAR GURU TEKNOLOGI INFORMASI DAN KOMUNIKASI TERHADAP HASIL BELAJAR SISWA",
+    "abstract": null,
+    "authors": [
+      "Nurwahidah, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Ferli pennita",
+    "date_deposited": "18 Oct 2023 08:34",
+    "uri": "http://repository.upi.edu/id/eprint/111071"
+  },
+  {
+    "title": "EFEKTIVITAS MODEL PEMBELAJARAN KONSTRUKTIVISME LIMA FASE NEEDHAM BERBANTUAN MULTIMEDIA UNTUK MENINGKATKAN HASIL BELAJAR RANAH KOGNITIF SISWA SMP KELAS VII PADA MATA PELAJARAN TEKNOLOGI INFORMASI DAN KOMUNIKASI (TIK)",
+    "abstract": null,
+    "authors": [
+      "Octavianus Dominggus, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Ferli pennita",
+    "date_deposited": "22 Sep 2023 01:25",
+    "uri": "http://repository.upi.edu/id/eprint/106799"
+  },
+  {
+    "title": "IMPLEMENTASI METODE BISECTING K-EANS UNTUK PENGELOMPOKAN DIKUMEN ELEKTRONIK BERBAHASA INDONESIA",
+    "abstract": "Dokumen elektronik sudah menjadi hal yang biasa bila berurusan dengan komputer. Komputer-komputer yang sekarang telah terhubung oleh suatu jaringan semakin memudahkan pengguna komputer untuk mendapatkan dokumen elektronik yang diinginkan. Tidak hanya dokumen dengan teks berbahasa asing, dokumen dengan teks berbahasa Indonesia pun sudah tidak jarang ditemui. Semakin banyak jumlah dokumen elektronik yang dimiliki maka semakin sulit pula untuk mencari dokumen-dokumen elektronik yang diinginkan pada ruang penyimpanan yang dimiliki. Hal ini juga dipersulit karena kebiasaan penyimpanan dokumen yang tidak terstruktur atau terkelompokan sesuai isinya. Teknik yang dapat digunakan untuk memecahkan masalah tersebut salah satunya yaitu dengan teknik document clustering. Document clustering atau pengelompokan dokumen dapat mengelompokan dokumen-dokumen yang memiliki isi yang mirip ke dalam kelompok-kelompok. Metode pengelompokan dokumen yang banyak digunakan yaitu metode K-Means. Metode K-Means memiliki berbagai pengembangan contohnya metode Bisecting K-Means, yang dalam pengembangannya ditujukan utuk memperbaiki kualitas pengelompokan menjadi lebih baik. Kata Kunci: Bisecting K-Means, Clustering, Dokumen, Bahasa Indonesia",
+    "authors": [
+      "Pranajati, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Rio Muhammad Rahmatuloh",
+    "date_deposited": "31 Oct 2023 07:29",
+    "uri": "http://repository.upi.edu/id/eprint/110490"
+  },
+  {
+    "title": "SISTEM PENJADWALAN MENGGUNAKAN 'GENETIC ALGORITHM'",
+    "abstract": null,
+    "authors": [
+      "Prastina Dwi Utami, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Rio Muhammad Rahmatuloh",
+    "date_deposited": "31 Oct 2023 07:32",
+    "uri": "http://repository.upi.edu/id/eprint/110567"
+  },
+  {
+    "title": "PENGEMBANGAN LEARNING MANAGEMENT SYSTEM (LMS) BERBASIS ANDROID",
+    "abstract": null,
+    "authors": [
+      "Pratama, Basytyan Kardinal"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Staf Koordinator 2",
+    "date_deposited": "07 Jul 2014 01:54",
+    "uri": "http://repository.upi.edu/id/eprint/10153"
+  },
+  {
+    "title": "PENERAPAN METODE CIRC COOPERATIVE INTEGRATED READING AND COMPOSITION BERBANTUAN MULTIMEDIA INTERAKTIF UNTUK MENINGKATKAN HASIL BELAJAR SISWA SMK KELAS XI PADA MATA PELAJARAN SISTEM OPERASI JARINGAN SOJ",
+    "abstract": null,
+    "authors": [
+      "RANGKUTI, Muthi Akbar"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Staf Koordinator 2",
+    "date_deposited": "07 Jul 2014 02:47",
+    "uri": "http://repository.upi.edu/id/eprint/8420"
+  },
+  {
+    "title": "PENGEMBANGAN MODEL EBOOK BERBASIS MULTIMEDIA PADA MATA PELAJARAN TEKNOLOGI INFORMASI DAN KOMUNIKASI (TIK)",
+    "abstract": null,
+    "authors": [
+      "Rachmawati, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Ferli pennita",
+    "date_deposited": "18 Oct 2023 08:34",
+    "uri": "http://repository.upi.edu/id/eprint/111033"
+  },
+  {
+    "title": "IMPLEMENTASI ALGORITMA APRIORI PADA MOBILE COMMERCE USAHA MIKRO KECIL DAN MENENGAH",
+    "abstract": null,
+    "authors": [
+      "Rahmadani, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Nazwa Azalia Sofianti",
+    "date_deposited": "02 Nov 2023 08:46",
+    "uri": "http://repository.upi.edu/id/eprint/111893"
+  },
+  {
+    "title": "SISTEM PENJADWALAN KULIAH MENGGUNAKAN ALGORITMA GENETIKA : STUDI KASUS PROGRAM STUDI PENDIDIKAN GURU SEKOLAH DASAR UNIVERSITAS PENDIDIKAN INDONESIA KAMPUS BUMI SILIWANGI",
+    "abstract": null,
+    "authors": [
+      "Rahman Anggara, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Ferli pennita",
+    "date_deposited": "22 Sep 2023 01:21",
+    "uri": "http://repository.upi.edu/id/eprint/107063"
+  },
+  {
+    "title": "PENGEMBANGAN MEDIA BROSUR BERBASIS AUGMENTED REALITY PADA PEMBUATAN GEDUNG FAKULTAS VIRTUAL UNIVERSITAS PENDIDIKAN INDONESIA DALAM BANTUK OBJEK 3D",
+    "abstract": null,
+    "authors": [
+      "Riki Amaliana Suryana, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Nazwa Azalia Sofianti",
+    "date_deposited": "31 Oct 2023 08:18",
+    "uri": "http://repository.upi.edu/id/eprint/110625"
+  },
+  {
+    "title": "PENERAPAN MODEL LEARNING CYCLCE 7E BERBASIS MULTIMEDIA UNTUK MENINGKATKAN PEMAHAMAN SISWA PADA POKOK BAHASAN PERANGKAT KERAS UNTUK AKSES INTERNET",
+    "abstract": null,
+    "authors": [
+      "Rivan Arifiyansyah, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Rio Muhammad Rahmatuloh",
+    "date_deposited": "31 Oct 2023 07:30",
+    "uri": "http://repository.upi.edu/id/eprint/110421"
+  },
+  {
+    "title": "SISTEM PAKAR DIAGNOSIS KERUSAKAN MOBIL MENGGUNAKAN VARIABLE CENTERED INTELLIGENT RULE SYSTEM",
+    "abstract": "Mobil dan motor saat ini sudah menjadi kebutuhan pokok masyarakat sebagai sarana transportasi di Indonesia. Kerusakan pada suatu komponen mobil terjadi akibat kelalaian dalam melakukan perawatan. Pemilik mobil baru menyadari kerusakan setelah mobil tidak dapat beroperasi sebagaimana mestinya. Oleh karena itu dalam penggunaan mobil kemungkinan besar membutuhkan perawatan berkala dengan cara mendeteksi kerusakan apa yang terjadi pada mobil. Diagnosis kerusakan mobil yang akan diterapkan dalam aplikasi ini berdasarkan buku “Servis dan Reparasi Auto Mobil” (Suratman, Juhana, 2001). Karena banyaknya kemungkinan penyebab pada satu gangguan atau kerusakan mobil, pada studi kasus ini akan mengimplementasikan metode Variable-Centered Intelligent Rule System (VCIRS). Elemen fundamental dari Variable-Centered Rule Structure adalah variabel.VCIRS mengelola secara cermat mengenai nilai, struktur dan kejadian dari sebuah variabel.Rangkaian dari variabel akan membentuk node dan rangkaian dari node akan membentuk sebuah rule. Sistem ini dibangun dengan bahasa pemrograman PHP dan MySQL sebagai basis data. Sistem yang berjalan di Web-Server ini akan membantu pengguna melakukan proses diagnosa kerusakan mobil yang akan menghasilkan hasil diagnosa berupa penyebab dan solusi untuk penanggulangan awal gangguan pada mobil. Rules yang terdapat pada sistem ini telah divalidasi berupa wawancara pada mekanik mobil dan mekanik menyetujui hasil diagnosis dari rules yang terdapat dalam sistem. Kata Kunci: Diagnosis Kerusakan Mobil, Sistem Pakar, VCIRS",
+    "authors": [
+      "Rizki Surya Faisal, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Rio Muhammad Rahmatuloh",
+    "date_deposited": "31 Oct 2023 07:30",
+    "uri": "http://repository.upi.edu/id/eprint/110375"
+  },
+  {
+    "title": "SISTEM PENDUKUNG KEPUTUSAN PEMILIHAN TABLET PC DENGAN METODE FUZZY QUERY DATABASE",
+    "abstract": "Semakin banyak dan berkembangnya Tablet PC membuat pemilihan Tablet PC menjadi proses yang lama dan rumit dalam penyelesaiannya untuk menghasilkan pilihan terbaik. Hal tersebut disebabkan karena banyaknya variabel yang berpengaruh terhadap sejumlah pilihan yang ada. Sebuah Tablet PC umumnya memiliki data yang bernilai pasti seperti harga, kecepatan processor, RAM, internal memory, ukuran layar, kapasitas baterai, dan resolusi kamera. Data tersebut dapat diubah kedalam suatu himpunan fuzzy yang akan dijadikan sebagai acuan dalam proses pemilihan Tablet PC. Maka dari itu dibuatlah suatu sistem pendukung keputusan pemilihan Tablet PC. Pada sistem ini akan mengimplementasikan logika fuzzy ke dalam query, yang disebut Fuzzy Query Database. Yaitu suatu query yang memiliki variable-variabel yang bernilai fuzzy. Langkah-langkah yang dilakukan yaitu menentukan domain fuzzy, fungsi keanggotaan untuk menghitung derajat keanggotaan, dan operator Zadeh (AND) yang akan menghasilkan firestrength yang digunakan sebagai nilai rekomendasi dan merupakan hasil dari pengkombinasian derajat keanggotaan dengan range antara 0 - 1. Semakin nilai rekomendasi mendekati satu maka Tablet PC tersebut semakin direkomendasikan. Kata Kunci : Logika Fuzzy, Himpunan Fuzzy, Domain Fuzzy, Fungsi Keanggotaan, Firestrength, Fuzzy Query Database, Tablet PC",
+    "authors": [
+      "Sandra Boby Purbaya, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Rio Muhammad Rahmatuloh",
+    "date_deposited": "31 Oct 2023 07:31",
+    "uri": "http://repository.upi.edu/id/eprint/110496"
+  },
+  {
+    "title": "PENERAPAN ACCELERATED LEARNING PADA MODEL PEMBELAJARAN BERBASIS MASALAH UNTUK MENINGKATKAN KEMAMPUAN BERPIKIR KREATIF MATEMATIS SISWA SMP : Penelitian Eksperimen Terhadap Siswa Kelas VIII SMP Negeri 1 Lembang",
+    "abstract": null,
+    "authors": [
+      "Siti Nurlalif, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Ferli pennita",
+    "date_deposited": "22 Sep 2023 01:32",
+    "uri": "http://repository.upi.edu/id/eprint/105786"
+  },
+  {
+    "title": "PENGEMBANGAN SOCIAL MEDIA BERBASIS DIGITAL ASSET MANAGEMENT SYSTEM UNTUK SHARING INFORMASI",
+    "abstract": null,
+    "authors": [
+      "Taufik Sulaeman Puspanegara, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Rio Muhammad Rahmatuloh",
+    "date_deposited": "31 Oct 2023 07:31",
+    "uri": "http://repository.upi.edu/id/eprint/110587"
+  },
+  {
+    "title": "IMPLEMENTASI METODE PEMBELAJRAN SQ4R MENGGUNAKAN TALKING STICK UNTUK MENINGKATKAN HASIL BELAJAR SISWA PADA MATA PELAJARAN TIK",
+    "abstract": null,
+    "authors": [
+      "Ulfah Latifah, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General) Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Rio Muhammad Rahmatuloh",
+    "date_deposited": "31 Oct 2023 07:32",
+    "uri": "http://repository.upi.edu/id/eprint/110440"
+  },
+  {
+    "title": "IMPLEMENTASI DECISION TREE UNTUK MEMPREDIKSI KELULUSAN SNMPTN",
+    "abstract": null,
+    "authors": [
+      "Viki Andrianto, -"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Ferli pennita",
+    "date_deposited": "18 Oct 2023 08:36",
+    "uri": "http://repository.upi.edu/id/eprint/111078"
+  },
+  {
+    "title": "PENERAPAN MODEL PEMBELAJARAN CORE (CONNECTING, ORGANIZING, REFLECTING, EXTENDING) BERBANTU MULTIMEDIA INTERAKTIF UNTUK MENINGKATKAN HASIL BELAJAR KOGNITIF SISWA:Studi Kasus Di SMP Negri 29 Bandung No Panggil SKOM WIH p-2012",
+    "abstract": "Penelitian ini adalah tentang penerapan model pembelajaran CORE (Connecting, Organizing, Reflecting, Extending) untuk meningkatkan hasil belajar kognitif pada mata pelajaran TIK. Model penelitian yang digunakan adalah model quasi eksperimen dengan populasi penelitiannya adalah siswa kelas VIII SMP Negeri 29 Bandung, sedangkan sampel penelitian adalah kelas VIII-J dan VIII-I dengan desain nonequivalent control group design. Instrumen yang digunakan dalam penelitian ini berupa pretes dan postes, angket, dan lembar observasi. Dalam penelitian ini ditemukan beberapa kesimpulan, diantaranya adalah hasil belajar kognitif siswa dengan penerapan model pembelajaran CORE lebih baik dari pada hasil belajar kognitif siswa yang menggunakan model pembelajaran konvensional. Dengan model pembelajaran CORE ini rerata hasil belajar kognitif siswa lebih tinggi yaitu 68.50 dibandingkan rerata pembelajaran konvensional sebesar 50.87. Persentasi Normalized gain kelas dengan model pembelajaran CORE berkriteria sedang yaitu 0.48 sedangkan kelas konvensional berkriteria rendah yaitu 0.19. Berdasarkan data diatas terlihat bahwa model pembelajaran CORE dapat meningkatkan hasil belajar kognitif siswa dari pada model konvesional.",
+    "authors": [
+      "Wiharja, Heri"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Staf Koordinator 2",
+    "date_deposited": "30 Jun 2014 06:50",
+    "uri": "http://repository.upi.edu/id/eprint/8946"
+  }
+]

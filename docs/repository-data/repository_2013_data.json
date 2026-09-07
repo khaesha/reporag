@@ -1,0 +1,886 @@
+[
+  {
+    "title": "PEMBANGUNAN SISTEM JUAL BELI ONLINE DENGAN MENGGUNAKAN PENDEKATAN SOCIAL COMMERCE",
+    "abstract": null,
+    "authors": [
+      "Adiputra Kresna, Lingga"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Riki N Library ICT",
+    "date_deposited": "25 Sep 2013 01:22",
+    "uri": "http://repository.upi.edu/id/eprint/1468"
+  },
+  {
+    "title": "SISTEM PENDUKUNG KEPUTUSAN KELAYAKAN MITRA PEMBIAYAAN SYARIAH DENGAN METODE MULTI ATTRIBUT GLOBAL INFERENCE OF QUALITY (MAGIQ) DAN ANALYTICAL HIERARCHY PROCESS (AHP)",
+    "abstract": null,
+    "authors": [
+      "Andy, Muhammad"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "14 Nov 2013 03:21",
+    "uri": "http://repository.upi.edu/id/eprint/3106"
+  },
+  {
+    "title": "PENERAPAN METODE CONTINUOUS REVIEW SYSTEM (METODE Q) PADA SISTEM PENGELOLAAN PERSEDIAAN BARANG BERBASIS WEB DI TOKO BAROKAH",
+    "abstract": null,
+    "authors": [
+      "Anggaran, Wisnu"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "10 Feb 2014 06:47",
+    "uri": "http://repository.upi.edu/id/eprint/6293"
+  },
+  {
+    "title": "EFEKTIVITAS MODEL PEMBELAJARAN CIRCLE OF LEARNING (CL) BERBANTU MULTIMEDIA PEMBELAJARAN INTERAKTIF TERHADAP PENINGKATAN KEMAMPUAN VISUAL-SPATIAL INTELLIGENCE SISWA",
+    "abstract": null,
+    "authors": [
+      "Anggun, Gumilang"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "26 Nov 2013 07:25",
+    "uri": "http://repository.upi.edu/id/eprint/3437"
+  },
+  {
+    "title": "RANCANG BANGUN SISTEM PENDUKUNG KEPUTUSAN SELEKSI PENERIMA JAMINAN KESEHATAN MASYARAKAT DENGAN KOMBINASI METODE ANALYTHICAL HIERARCHY PROCESS DAN LOGIKA FUZZY TSUKAMOTO",
+    "abstract": null,
+    "authors": [
+      "Anosa, Ayu Febri"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer ?? MIPA ??",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Riki N Library ICT",
+    "date_deposited": "27 Aug 2013 07:24",
+    "uri": "http://repository.upi.edu/id/eprint/376"
+  },
+  {
+    "title": "RANCANG BANGUN VIRTUAL LABORATORY EXPERIMENTATION FISIKA DALAM POKOK BAHASAN INDUKSI MAGNET DAN ELEKTROMAGNET",
+    "abstract": null,
+    "authors": [
+      "Ansori, Muhammad Singgih Zulfikar"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "23 Dec 2013 02:08",
+    "uri": "http://repository.upi.edu/id/eprint/4373"
+  },
+  {
+    "title": "SISTEM PENGENALAN ENTITAS DENGAN PERCEPTRON PADA TWEETS",
+    "abstract": "Ketersediaan informasi yang melimpah pada twitter menjadi masalah tersendiri jika informasi yang diterima sebenarnya tidak terlalu dibutuhkan. Untuk itu diperlukan teknik untuk memilah informasi yang dikenal sebagai ektraksi informasi. Ekstraksi informasi ini berkaitan erat dengan Named Entity Recognition (NER). NER merupakan komponen dasar dari ekstraksi informasi yang berfungsi untuk mengenali entitas pada kumpulan teks berbahasa alami. Skripsi ini meneliti tentang NER pada twitter dengan metode perceptron untuk mengenali entitas nama orang dan lokasi. Pelaksanaan penelitian dimulai dari pembuatan data set, eksperimen, evaluasi hasil eksperimen dan penarikan kesimpulan. Eksperimen dilakukan untuk mendapatkan kondisi terbaik pada perceptron dalam mengenali entitas. Parameter yang diuji adalah nilai threshold, kelompok data set yang digunakan sebanyak tiga kelompok (nama orang, nama lokasi dan gabungan), jenis data set (preprocessing dan non-preprocessing), jumlah data training dan teknik pengujian. Hasil eksperimen memperlihatkan bahwa perceptron dapat mengenali entitas nama orang dan lokasi yang ditunjukkan dengan nilai f-measure yang baik pada setiap tipe entitas dengan memperhatikan parameter yang diuji. Kata kunci: Ekstraksi Informasi, NER, Perceptron The availability of twitter information that overflow, can cause problem if the information that received is not much needed. Therefore, the technique to sort the information is required, it known as information extraction. Information extraction is closely related to Named Entity Recognition (NER). NER is a basic component of information extraction, it function is to identify the entities the set of common language text. The core of the research on this thesis is to determine how perceptron method can be used to recognize the entity names and location on twitter. The implementation of research starts from generate of data sets, experiments, and evaluation of experimental result and conclusion. That experiment carried out to obtain the best condition of perceptron recognition entities. The parameters that tested is a value of threshold, group of data sets that used are (people name, location name, and combination of both), the type of data set (preprocessing and non preprocessing), the amount of data training and the technical testing. Result of the experiment shows that perceptron can recognize entities of people name, and location that shown but f-measure value, which can be good to all the type of entities with shown the parameters that tested. Keywords: Information Extraction, Named Entity Recognition, Perceptron",
+    "authors": [
+      "Ardiansyah, Adryan"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "23 Dec 2013 01:57",
+    "uri": "http://repository.upi.edu/id/eprint/4370"
+  },
+  {
+    "title": "RANCANG BANGUN SISTEM ESTIMASI MENU FAVORIT UNTUK MENINGKATKAN PENJUALAN DENGAN MENGGUNAKAN METODE WINTERS : Studi Kasus Pada Restoran Payo",
+    "abstract": "Makan dan minum merupakan kebutuhan pokok manusia yang tidak bisa dipisahkan dalam kehidupan sehari-hari. Oleh karena itu, banyak restoran yang berlomba-lomba dalam menyediakan berbagai menu denganvariasi harga yang berbeda pula. Dari banyaknya menu yang ditawarkan, tentu terdapat menu spesial atau menu favorit yang ditetapkan oleh pihak restoran. Namun, dalam penerapannya banyak restoran yang menetapkan secara sepihak dan tidak berdasarkan historis data-data penjualannya, akibatnya banyak stok bahan-bahan produksi yang menumpuk. Untuk mengatasi masalah tersebut, dibutuhkan sebuah sistem estimasi menu favorit yang dapat menampilkan menu yang paling laku terjual pada setiap bulannya, untuk ditetapkan sebagai menu favorit serta dapat mengestimasi permintaan penjualan menu favorit tersebut di bulan berikutnya. Sistem ini dibangun dengan menggunakan metode winters, memanfaatkan historis database penjualan, 3 parameter dalam perhitungan yaitu level, trend, dan stationer, dan apresiasi konsumen terhadap menu favorit yang akan ditetapkan. Dari hasil penelitian dengan menggunakan data penjualan selama 6 bulan (Januari-Juni) dan 110 menu yang ada pada restoran, didapatkan menu favorit untuk diterapkan pada restoran beserta estimasi banyaknya penjualan pada bulan berikutnya dengan tingkat kesalahan estimasi sebesar -36. Artinya, penjualan menu favorit melebihi dari target estimasi penjualan yang diperkirakan, sehingga omset pendapatannya meningkat sebesar 31,4% dibandingkan omset pendapatan pada bulan lalu. Kata kunci: historis data-data penjualan,level, trend, stationer, apresiasi konsumen terhadap menu.",
+    "authors": [
+      "Aryanti, Luthfia Fauzia Dewi"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "20 Nov 2013 08:51",
+    "uri": "http://repository.upi.edu/id/eprint/3280"
+  },
+  {
+    "title": "PENERAPAN ALGORITMA GENETIKA DALAM OPTIMASI RUTE DARI RUMAH SAKIT UMUM KOTA BANDUNG MENUJU RUMAH SAKIT HASAN SADIKIN BANDUNG",
+    "abstract": "Kota Bandung merupakan kota besar yang memiliki banyak rumah sakit. Oleh karena tidak semua rumah sakit memiliki fasilitas dan tenaga ahli yang lengkap, maka pasien yang tidak dapat ditangani oleh rumah sakit umum asal akan dirujuk ke Rumah Sakit Hasan Sadikin yang memiliki fasilitas dan tenaga ahli yang paling lengkap. Agar pasien segera ditangani, pengantar pasien harus dapat memilih rute tercepat yang dilalui untuk sampai ke Rumah Sakit Hasan Sadikin. Algoritma genetika merupakan salah satu metode yang dapat memecahkan permasalahan optimasi rute. Beberapa proses yang dilalui yaitu pembangkitan populasi, hitung nila fitness, seleksi, crossover, mutasi dan elitisme. Dalam penelitian ini satu populasi terdapat 20 kromosom yang merepresentasikan 20 rute yang dapat dilalui, probabilitas crossover 0.2 dan probabilitas mutasi 0. Kesimpulan yang didapat bahwa algoritma genetika dapat menghsilkan rute optimum meuju Rumah Sakit Hasan Sadikin walaupun tidak ada kromosom yang mengalami proses mutasi. Kata kunci: algoritma genetika, rute optimum, rumah sakit, kota Bandung. Bandung as a big city has many hospitals. But not of all hospital have complete facilities and experts, so patient who can’t be handled in that hospital will be moved to Hasan Sadikin Hospital as the most complete hopital in Bandung. Because patient must be handled quickly, familly should choose the shortest route to Hasan Sadikin. Genetic algorithm was the one of method wich can solve the optimation route problem. there are several process in genetic algorithm such as create population, fitness function, selection, crossover, mutation and elitism. On this research, population size 20 chromosomes, crossover rate 0.2 and mutation rate 0 are used as genetic parameters. Genetic algorithm can solve optimation route problem from a general hospital in Bandung to Hasan Sadikin hospital even there are no chromosome with mutation process. Key word : genetic algorithm, optimation route, hospital, Bandung city.",
+    "authors": [
+      "Asri, Tira Mutiara"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Riki N Library ICT",
+    "date_deposited": "27 Aug 2013 07:24",
+    "uri": "http://repository.upi.edu/id/eprint/372"
+  },
+  {
+    "title": "IMPLEMENTASI ALGORITMA RUN LENGTH ENCODING (RLE) UNTUK KOMPRESI CITRA DIGITAL PADA SMARTPHONE BLACKBERRY",
+    "abstract": null,
+    "authors": [
+      "Bisri, Aria"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Riki N Library ICT",
+    "date_deposited": "03 Feb 2014 02:08",
+    "uri": "http://repository.upi.edu/id/eprint/5907"
+  },
+  {
+    "title": "SISTEM PENDUKUNG KEPUTUSAN ANGGOTA KEPOLISIAN TERHADAP CALON SELEKSI ALIH GOLONGAN (SAG) MENGGUNAKAN METODE SMART",
+    "abstract": null,
+    "authors": [
+      "Budiman, Harpen Dwi"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Riki N Library ICT",
+    "date_deposited": "14 Aug 2013 10:24",
+    "uri": "http://repository.upi.edu/id/eprint/123"
+  },
+  {
+    "title": "PENERAPAN MULTIMEDIA INTERAKTIF MODEL TUTORIAL TERHADAP PENINGKATAN PEMAHAMAN KONSEP SISWA PADA MATA PELAJARAN TEKNOLOGI INFORMASI DAN KOMUNIKASI",
+    "abstract": null,
+    "authors": [
+      "Diansyah, Alifia Nurilmi"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Pendidikan Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Riki N Library ICT",
+    "date_deposited": "25 Sep 2013 01:31",
+    "uri": "http://repository.upi.edu/id/eprint/1589"
+  },
+  {
+    "title": "SISTEM PENDUKUNG KEPUTUSAN PEREKRUTAN PEMAIN SEPAKBOLA MENGGUNAKAN METODE ELECTRE DAN PROMETHEE",
+    "abstract": null,
+    "authors": [
+      "Fajar, Nugraha Saeful"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Riki N Library ICT",
+    "date_deposited": "23 Aug 2013 01:42",
+    "uri": "http://repository.upi.edu/id/eprint/659"
+  },
+  {
+    "title": "PENERAPAN METODE COOPERATIVE LEARNING TIPE STUDENT TEAM ACHIEVEMENT DIVISION (STAD) BERBANTUAN MULTIMEDIA DALAM MENINGKATKAN HASIL BELAJAR SISWA PADA MATA PELAJARAN TIK MATERI PENGOPERASIAN SOFTWARE PENGOLAH GAMBAR DIGITAL",
+    "abstract": null,
+    "authors": [
+      "Febriandi,"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "23 Oct 2013 02:54",
+    "uri": "http://repository.upi.edu/id/eprint/2497"
+  },
+  {
+    "title": "SISTEM PENDUKUNG KEPUTUSAN PEMILIHAN RUMAH MENGGUNAKAN METODE WEIGHTED PRODUCT (WP)",
+    "abstract": null,
+    "authors": [
+      "Febriani, Ayu Laila"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "23 Dec 2013 01:54",
+    "uri": "http://repository.upi.edu/id/eprint/4369"
+  },
+  {
+    "title": "SISTEM PENDUKUNG KEPUTUSAN SELEKSI PELAMAR BERDASARKAN PSIKOGRAM DENGAN METODE PROFILE MATCHING : PT. CIPAGANTI CITRA GRAHA",
+    "abstract": null,
+    "authors": [
+      "Fernando T, Yohansen Yundi"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Riki N Library ICT",
+    "date_deposited": "25 Sep 2013 01:38",
+    "uri": "http://repository.upi.edu/id/eprint/1653"
+  },
+  {
+    "title": "IMPLEMENTASI JARINGAN SYARAF TIRUAN UNTUK MENGIDENTIFIKASI TELAPAK TANGAN DENGAN MENGGUNAKAN METODE LEARNING VECTOR QUANTIZATION",
+    "abstract": null,
+    "authors": [
+      "Firmansyah, Husni"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Riki N Library ICT",
+    "date_deposited": "23 Aug 2013 04:16",
+    "uri": "http://repository.upi.edu/id/eprint/678"
+  },
+  {
+    "title": "PENINGKATAN KEMAMPUAN PEMAHAMAN SISWA DALAM MATA PELAJARAN TIK DENGAN MENGGUNAKAN METODE PEMBELAJARAN IMPROVE BERBANTU MULTIMEDIA",
+    "abstract": null,
+    "authors": [
+      "Gaol, Andar Donal Lumban"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "26 Nov 2013 07:32",
+    "uri": "http://repository.upi.edu/id/eprint/3440"
+  },
+  {
+    "title": "ANALISIS PAKET DATA DALAM PROSES DOWNLOAD DENGAN MENGGUNAKAN METODE PER CONNECTION QUEUE (PCQ) PADA MIKROTIK ROUTER",
+    "abstract": null,
+    "authors": [
+      "Gumilar, Harry Rachmat"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Riki N Library ICT",
+    "date_deposited": "25 Sep 2013 01:30",
+    "uri": "http://repository.upi.edu/id/eprint/1575"
+  },
+  {
+    "title": "PENERAPAN MODEL PEMBELAJARAN ARIAS (ASSURANCE, RELEVANCE, INTEREST, ASSESSMENT AND SATISFACTION) BERBANTUAN MULTIMEDIA INTERAKTIF TERHADAP PENINGKATAN KEMAMPUAN APLIKASI PADA MATA PELAJARAN TIK SMA",
+    "abstract": null,
+    "authors": [
+      "Handayani, Nita Tursina"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Riki N Library ICT",
+    "date_deposited": "14 Aug 2013 10:52",
+    "uri": "http://repository.upi.edu/id/eprint/131"
+  },
+  {
+    "title": "PENERAPAN PENDEKATAN CONTEXTUAL TEACHING AND LEARNING (CTL) DALAM UPAYA MENINGKATKAN HASIL BELAJAR KOGNITIF SISWA PADA MATA PELAJARAN KKPI : Penelitian Eksperimen Terhadap Siswa Kelas X di SMK Negeri 2 Baleendah Tahun Ajaran 2012/2013",
+    "abstract": null,
+    "authors": [
+      "Hartanto, Tri"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Riki N Library ICT",
+    "date_deposited": "05 Feb 2014 07:28",
+    "uri": "http://repository.upi.edu/id/eprint/6152"
+  },
+  {
+    "title": "PENGARUH METODE PEMBELAJARAN UNPLUGGED DALAM KONSEP DASAR TIK TERHADAP HASIL BELAJAR SISWA SMK KELAS X : Studi Kasus Pada Siswa Kelas X Jurusan Komputer dan Teknik Jaringan di SMK Pasundan 1 Cimahi",
+    "abstract": null,
+    "authors": [
+      "Hikmawan, Rizki"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "07 Jan 2014 03:37",
+    "uri": "http://repository.upi.edu/id/eprint/4372"
+  },
+  {
+    "title": "PENERAPAN MODEL DISCOVERY LEARNING BERBANTUAN MMI TERHADAP PENINGKATAN HASIL BELAJAR RANAH KOGNITIF PADA MATA PELAJARAN TEKNOLOGI INFORMASI DAN KOMUNIKASI (TIK)",
+    "abstract": null,
+    "authors": [
+      "Husein, Hasbi Al-Mauritsa"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "01 Nov 2013 04:00",
+    "uri": "http://repository.upi.edu/id/eprint/2800"
+  },
+  {
+    "title": "IMPLEMENTASI MODEL PEMBELAJARAN THINK-PAIR-SHARE (TPS) MELALUI PENDEKATAN INKUIRI BERBANTUAN MULTIMEDIA PEMBELAJARAN DALAM UPAYA MENINGKATKAN HASIL BELAJAR KOGNITIF SISWA PADA MATA PELAJARAN TIK",
+    "abstract": null,
+    "authors": [
+      "Imanudin, Muhamad"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "04 Feb 2014 03:40",
+    "uri": "http://repository.upi.edu/id/eprint/6111"
+  },
+  {
+    "title": "SISTEM PAKAR DIAGNOSIS AWAL KANKER USUS MENGGUNAKAN METODE CERTAINTY FACTOR",
+    "abstract": null,
+    "authors": [
+      "Indrawan, Rizky"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Riki N Library ICT",
+    "date_deposited": "27 Aug 2013 06:46",
+    "uri": "http://repository.upi.edu/id/eprint/284"
+  },
+  {
+    "title": "PENERAPAN METODE SIMULASI BERBANTU MULTIMEDIA UNTUK MENINGKATKAN KEMAMPUAN ANALISIS DALAM PEMBELAJARAN TIK",
+    "abstract": null,
+    "authors": [
+      "Irfana, Dede"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "27 Jan 2014 03:37",
+    "uri": "http://repository.upi.edu/id/eprint/5863"
+  },
+  {
+    "title": "IMPLEMENTASI ALGORITMA ENTROPY PADA METODE CERTAINTY FACTOR (CF) DALAM SISTEM PAKAR UNTUK DETEKSI DINI DISLEKSIA",
+    "abstract": null,
+    "authors": [
+      "Khasyogi, Mohammad"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "10 Feb 2014 05:54",
+    "uri": "http://repository.upi.edu/id/eprint/6291"
+  },
+  {
+    "title": "PENERAPAN PROJECT BASED LEARNING BERBATUAN VIDEO TUTORIAL UNTUK MENINGKATKAN HASIL BELAJAR SISWA PADA MATA PELAJARAN TEKONOLOGI INFORMASI DAN KOMUNIKASI",
+    "abstract": null,
+    "authors": [
+      "Kosasih, _"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Staf Koordinator 2",
+    "date_deposited": "27 Jul 2015 07:37",
+    "uri": "http://repository.upi.edu/id/eprint/15163"
+  },
+  {
+    "title": "PENERAPAN METODE SIMPLE ADDITIVE WEIGHTING (SAW) UNTUK PEMILIHAN SUPERVISOR PADA PERUSAHAAN KONSTRUKSI",
+    "abstract": null,
+    "authors": [
+      "Kurniawan, Jagatullah Wardhani"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "13 Dec 2013 04:05",
+    "uri": "http://repository.upi.edu/id/eprint/4128"
+  },
+  {
+    "title": "PENERAPAN MODEL PEMBELAJARAN PICTURE AND PICTURE UNTUK MENINGKATKAN HASIL BELAJAR SISWA PADA PELAJARAN TEKNOLOGI INFORMASI DAN KOMUNIKASI DI SMP",
+    "abstract": null,
+    "authors": [
+      "Kusuma, Dika Aprilia"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Riki N Library ICT",
+    "date_deposited": "27 Aug 2013 06:46",
+    "uri": "http://repository.upi.edu/id/eprint/290"
+  },
+  {
+    "title": "OPTIMISASI DELAY LAMPU HIJAU LALU LINTAS PADA PERSIMPANGAN DENGAN LOGIKA FUZZY METODE MAMDANI : Studi Kasus di Persimpangan Jalan Soekarno Hatta – Jalan Ibrahim Adjie",
+    "abstract": "Penelitian ini bertujuan mengurangi tingkat kemacetan dan kejenuhan pengendara pada saat menunggu di bawah lampu merah yang menyala di persimpangan antara jalan Soekarno-Hatta dan jalan Ibrahim Adjie atau yang dikenal dengan persimpangan Samsat, dengan menjadwalkan pembagian delay lampu hijau lalu lintas yang optimal untuk persimpangan tersebut. Dalam penelitian ini Logika Fuzzy metode Mamdani digunakan untuk memperoleh delay lampu hijau yang optimal. Logika fuzzy merupakan logika yang mengenal konsep kesamaran sehingga memiliki penalaran yang adil. Sedangkan metode Mamdani merupakan metode yang bekerja berdasarkan aturan-aturan linguistik yang ditentukan oleh peneliti. Hasil implementasi menunjukkan, logika fuzzy metode Mamdani telah berhasil diimplementasikan dalam pencarian delay lampu hijau yang optimal, sehingga diperoleh penjadwalan delay lampu lalu lintas untuk persimpangan Samsat yang cukup baik. ;---In this research, optimal green light delay distribution schedule for intersection of Soekarno-Hatta Street and Ibrahim Adjie Street will be obtained to reduce congestion of vehicles rates and drivers’ saturation during wait for the light turns to green. The process to obtain optimal green light delays use fuzzy logic Mamdani method. Fuzzy logic is the logic that recognize the concept of ambiguity concept so that is has a fair reason. While Mamdani method is a method that works based on linguistik rules defined by the researcher. The implementation result shows, fuzzy logic Mamdani method has been successfully implemented in the research of optimal green light delay and obtained passable traffic light delay schedule for Samsat intersection.",
+    "authors": [
+      "Megasari, Riska"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > QA Mathematics Q Science > QA Mathematics > QA76 Computer software",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Isma Anggini Saktiani",
+    "date_deposited": "16 Mar 2018 08:16",
+    "uri": "http://repository.upi.edu/id/eprint/30021"
+  },
+  {
+    "title": "NILAI KEMIRIPAN TERTINGGI DENGAN MENGGUNAKAN METODE CASE BASED REASONING (CBR)",
+    "abstract": null,
+    "authors": [
+      "Mudarris, Mariam"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "23 Dec 2013 02:11",
+    "uri": "http://repository.upi.edu/id/eprint/4374"
+  },
+  {
+    "title": "PENERAPAN METODE PEMBELAJARAN IMPROVE BERBASIS MULTIMEDIA INTERAKTIF UNTUK MENINGKATKAN INTRAPERSONAL INTELLIGENCES SISWA DALAM MATA PELAJARAN TEKNOLOGI INFORMASI DAN KOMUNIKASI",
+    "abstract": null,
+    "authors": [
+      "Murtikah, Dwi"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Riki N Library ICT",
+    "date_deposited": "16 Aug 2013 09:38",
+    "uri": "http://repository.upi.edu/id/eprint/182"
+  },
+  {
+    "title": "PEMBANGUNAN SISTEM TES BEBASIS KOMPUTER MENGGUNAKAN METODE PERHITUNGAN SIMPLE ADDITIVE WEIGHTING UNTUK PELAKSANAAN PLACEMENT TEST",
+    "abstract": null,
+    "authors": [
+      "NUR'ANISHA, Diah Ayu"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Staf Koordinator 2",
+    "date_deposited": "06 Jul 2014 04:35",
+    "uri": "http://repository.upi.edu/id/eprint/9695"
+  },
+  {
+    "title": "SISTEM PENDUKUNG KEPUTUSAN SELEKSI PENERIMAAN SISWA BARU (PSB) MTS DARUL MA’ARIF MENGGUNAKAN METODE FUZZY ANALYTICAL HIERARCHI PROCESS (FAHP)",
+    "abstract": null,
+    "authors": [
+      "Nadzir, Moch. Rifaudin"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "04 Feb 2014 04:02",
+    "uri": "http://repository.upi.edu/id/eprint/6114"
+  },
+  {
+    "title": "PEMBANGUNAN SISTEM REKOMENDASI PEMILIHAN PEKERJAAN BERDASARKAN KEPRIBADIAN DENGAN METODE KNOWLEDGE BASED RECOMMENDATION BERBASIS WEB",
+    "abstract": null,
+    "authors": [
+      "Novianti, Emilia"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Riki N Library ICT",
+    "date_deposited": "27 Aug 2013 08:02",
+    "uri": "http://repository.upi.edu/id/eprint/542"
+  },
+  {
+    "title": "PENGGUNAAN MULTIMEDIA PEMBELAJARAN E-GLOBE DALAM MENINGKATKAN HASIL BELAJAR ILMU PENGETAHUAN SOSIAL DI SEKOLAH DASAR",
+    "abstract": null,
+    "authors": [
+      "Nugraha, Adam"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "11 Oct 2013 07:38",
+    "uri": "http://repository.upi.edu/id/eprint/2250"
+  },
+  {
+    "title": "ANALISIS PENGGUNAAN LDAP DAN RADIUS DALAM SINGLE SIGN ON PADA CENTRAL AUTHENTICATION SERVICE",
+    "abstract": null,
+    "authors": [
+      "Onggo, Jeffrey"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "11 Oct 2013 07:41",
+    "uri": "http://repository.upi.edu/id/eprint/2251"
+  },
+  {
+    "title": "UPAYA MENINGKATKAN PEMAHAMAN SISWA KELAS XI SMAN 1 CIPATAT PADA POKOK BAHASAN FUNGSI LOGIKA DALAM PERANGKAT LUNAK PENGOLAH ANGKA MENGGUNAKAN TUTOR SEBAYA",
+    "abstract": null,
+    "authors": [
+      "Permana, Ega"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "10 Feb 2014 06:11",
+    "uri": "http://repository.upi.edu/id/eprint/6292"
+  },
+  {
+    "title": "SISTEM INFORMASI GEOGRAFIS PENDIDIKAN SEKOLAH MENENGAH ATAS NEGERI KABUPATEN SUMEDANG",
+    "abstract": null,
+    "authors": [
+      "Permana, Gilang"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "28 Nov 2013 04:09",
+    "uri": "http://repository.upi.edu/id/eprint/3557"
+  },
+  {
+    "title": "PENERAPAN MODEL KOOPERATIF GROUP INVESTIGATION BERBANTUAN MULTIMEDIA INTERAKTIF DALAM MENINGKATKAN KEMAMPUAN PEMAHAMAN KONSEP SISWA",
+    "abstract": null,
+    "authors": [
+      "Pranarti, Gita"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "26 Nov 2013 07:04",
+    "uri": "http://repository.upi.edu/id/eprint/3433"
+  },
+  {
+    "title": "IMPLEMENTASI KECERDASAN BUATAN PADA PERMAINAN DAMDAMAN MENGGUNAKAN ALGORITMA MINIMAX",
+    "abstract": "Sistem komputerisasi saat ini telah merambah di berbagai aspek dalam bagian kehidupan manusia. Permainan merupakan suatu sarana hiburan yang diminati oleh banyak orang baik dari kalangan anak-anak, remaja, maupun orang dewasa. Oleh karena itu perlu dibuat permainan dengan kecerdasan buatan supaya dapat mengikuti perkembangan teknologi. Ada banyak algoritma yang dapat digunakan untuk mengimplementasikan kecerdasan buatan, salah satunya adalah minimax. Minimax merupakan salah satu implementasi dari depth first search. Dimana dengan algoritma ini computer dapat mengambil keputusan terbaik untuk menyelesaikan masalah. Dalam kasus ini akan diangkat mengenai kecerdasan buatan untuk permainan damdaman. Damdaman merupakan permainan berbasis games board yang mengandalkan strategi dan ketelitian. Pada permainan ini minimax bekerja dengan bantuan pohon pencarian dan fungsi heuristik. Fungsi heuristik dan pohon pencarian menggunakan algoritma minimax untuk memberikan informasi kepada agen komputer. Pada skripsi ini, peneliti mencoba untuk menganalisa pokok-pokok bahasan tersebut dan menerapkannya pada prototype permainan damdaman. Sehingga membuat agen komputer lebih cerdas. Disamping itu, peneliti juga menganjurkan kepada pihak yang akan mengembangkan aplikasi ini lebih lanjut untuk dapat menambah fungsi heuristik dari permainan damdaman ini. Kata Kunci Damdaman, depth first search, kecerdasan buatan, minimax, fungsi heuristik, pohon pencarian, agen komputer. Computerized system currently has penetrated in various aspects of human life. Game is a means of entertainments preffered by many people , children , adolescent and adults. Therefore, there is a need to built a game with artificial intelligence to keep up with the technological development. There are many algorithms that can be used to implement the artificial intelligence, one of which is minimax. Minimax is one of the implementation of the depth first search. This algorithm can take the best decision to solve the problem. In this case, it will be appointed on artificial intelligence for damdaman game. Damdaman is a games board - based that relies on strategy and accuracy. In this game, minimax works with the help of tree search and heuristic function. Heuristic function and tree search use minimax algorithm to provide information to the computer agent. In this thesis, the researcher tried to analyze those main points of discussion and apply it to the prototype of damdaman game. Thereby making the computer agent more intelligent. In addition, researcher also advised to the parties who will develop this application further to add heuristic function from this damdaman game. Keywords Damdaman, depth first search, artificial intelligence, minimax, heuristic functions, tree search, computer agent.",
+    "authors": [
+      "Prasetyo, Agung"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "23 Dec 2013 02:00",
+    "uri": "http://repository.upi.edu/id/eprint/4371"
+  },
+  {
+    "title": "IMPLEMENTASI TEKNIK GAMIFIKASI PADA SISTEM ELEARNING",
+    "abstract": null,
+    "authors": [
+      "Prasetyo, Ardika"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Riki N Library ICT",
+    "date_deposited": "08 Nov 2013 02:39",
+    "uri": "http://repository.upi.edu/id/eprint/2942"
+  },
+  {
+    "title": "PEMBANGUNAN SISTEM PENDUKUNG KEPUTUSAN PROMOSI JABATAN MENGGUNAKAN METODE WEIGHTED PRODUCT (WP) : Studi Kasus Badan Kepegawaian Negara Kantor Wilayah III Bandung",
+    "abstract": null,
+    "authors": [
+      "Primarizky, Aulia"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "13 Dec 2013 03:31",
+    "uri": "http://repository.upi.edu/id/eprint/4123"
+  },
+  {
+    "title": "SISTEM INFORMASI EKSEKUTIF ASPIRASI MASYARAKAT KOTA BANDUNG",
+    "abstract": null,
+    "authors": [
+      "Priyadi, Oki"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Riki N Library ICT",
+    "date_deposited": "27 Jan 2014 02:21",
+    "uri": "http://repository.upi.edu/id/eprint/5773"
+  },
+  {
+    "title": "PENERAPAN METODE PROFILE MATCHING DALAM PENGAMBILAN KEPUTUSAN SELEKSI PEMAIN INTI BERDASARKAN KOMPETENSI PADA POSISI TERTENTU DALAM SEPAKBOLA:Studi Kasus Pelita Bandung Raya (PBR)",
+    "abstract": null,
+    "authors": [
+      "Putra, Fadhli Eka"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "13 Apr 2015 06:48",
+    "uri": "http://repository.upi.edu/id/eprint/14305"
+  },
+  {
+    "title": "PENERAPAN STRATEGI PROBLEM SOLVING MENGGUNAKAN MICROBLOGGING UNTUK MENINGKATKAN PEMAHAMAN KONSEP SISWA PADA MATA PELAJARAN TIK",
+    "abstract": null,
+    "authors": [
+      "Qudsy, Dede Dindin"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Pendidikan Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "06 Nov 2013 02:16",
+    "uri": "http://repository.upi.edu/id/eprint/2689"
+  },
+  {
+    "title": "MEMBANGUN CUSTOMER TRUST DI DALAM SISTEM E-COMMERCE DENGAN PENDEKATAN THREE DIMENSION OF TRUST",
+    "abstract": null,
+    "authors": [
+      "RAMADHANY, Nugraha"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "L Education > L Education (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Staf Koordinator 2",
+    "date_deposited": "07 Jul 2014 02:42",
+    "uri": "http://repository.upi.edu/id/eprint/9268"
+  },
+  {
+    "title": "MEMBANGUN CUSTOMER TRUST DI DALAM SISTEM E-COMMERCE DENGAN PENDEKATAN THREE DIMENSION OF TRUST",
+    "abstract": "Customer trust merupakan nilai penting yang harus dimiliki oleh suatu sistem e-commerce, hal tersebut dimaksudkan agar pelanggan merasa aman dan nyaman dalam melakukan transaksi jual/beli. Untuk membangun nilai customer trust di dalam sistem e-commerce maka dalam proses perancangan dan pembangunan sistem harus disesuaikan dengan kaidah-kaidah keilmuan tentang kepercayaan (trust) yang dibangun berdasarkan tiga dimensi yaitu, kemampuan (ability), kemurahan hati (benevolence), dan integritas (integrity) serta membangun berbagai fitur pada sistem yang berkaitan dengan 7C framework Kearney (content, convinience, customer care, communication, connectivity, community, dan customization). Dengan menggunakan CMS (Content Management System) sebagai dasar sistem, bantuan jQuery untuk beberapa fitur pada sistem, serta membangun fasilitas-fasilitas penting yang berkaitan dengan 7C framework pada sisi sarana komunikasi pelanggan dan vendor, informasi vendor yang jelas, informasi produk yang jelas, informasi tata cara melakukan transaksi, fasilitas klaim kerusakan produk yang dibeli, dukungan komunitas, dan berbagai fasilitas lainnya, kemudian diukur menggunakan dimensi kepercayaan maka sistem yang dibangun berhasil memiliki nilai customer trust yang cukup baik. Kata Kunci: e-commerce, customer trust, 7C framework. Customer trust is an important value that must be possessed by an e-commerce system, it is intended that customers feel safe and comfortable in the transaction. To establish the value of customer trust in e-commerce systems then in the process of designing and building the system must be adapted to the rules of science on trust that was built based on three dimensions that is, the capacity (ability), generosity (benevolence), and integrity (integrity) and to build various features to the system associated with the 7C framework Kearney (content, convinience, customer care, communication, connectivity, community and customization). By using a CMS (Content Management System) as the system base, jQuery support for several features of the system, and to build essential facilities associated with the 7C framework on customer and vendor communication media, detail vendor information, explicit product information, transaction information procedures, purchased products damage claims facility, community support, and other facilities, measured using the dimensions of trust then the system has successfully built good enough customer trust value. Keywords: e-commerce, customer trust, 7C framework.",
+    "authors": [
+      "Ramadhany, Nugraha"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "23 Dec 2013 08:05",
+    "uri": "http://repository.upi.edu/id/eprint/4478"
+  },
+  {
+    "title": "EVENT DETECTIONPADA MICROBLOGGING TWITTER DENGAN ALGORITMA DBSCAN(STUDI KASUS: BANJIR)",
+    "abstract": null,
+    "authors": [
+      "Rendy,"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer ?? MIPA ??",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Riki N Library ICT",
+    "date_deposited": "27 Aug 2013 07:26",
+    "uri": "http://repository.upi.edu/id/eprint/393"
+  },
+  {
+    "title": "IMPLEMENTASI METODE LOGIKA FUZZY MODEL SUGENO PADA PENGATURAN SUHU RUANG PENYIMPANAN BERBASIS MIKROKONTROLER",
+    "abstract": null,
+    "authors": [
+      "Saifulloh, Miftah"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "13 Nov 2013 03:24",
+    "uri": "http://repository.upi.edu/id/eprint/3073"
+  },
+  {
+    "title": "PERANCANGAN DAN IMPLEMENTASI ROBOT LIGHT FOLLOWER MENGGUNAKAN ALGORITMA FUZZY LOGIC BERBASIS MIKROKONTROLER",
+    "abstract": null,
+    "authors": [
+      "Sheida, Ryza"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Riki N Library ICT",
+    "date_deposited": "27 Aug 2013 06:46",
+    "uri": "http://repository.upi.edu/id/eprint/280"
+  },
+  {
+    "title": "PENGEMBANGAN SISTEM PENGENALAN WAJAH 2D DENGAN IMPLEMENTASI ALGORITMA EIGENFACE DAN MANHATTAN DISTANCE",
+    "abstract": null,
+    "authors": [
+      "Sholeh, Alfin"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > Q Science (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Staf Koordinator 2",
+    "date_deposited": "07 Jul 2014 07:57",
+    "uri": "http://repository.upi.edu/id/eprint/8391"
+  },
+  {
+    "title": "PENGEMBANGAN SISTEM PENGENALAN WAJAH 2D DENGAN IMPLEMENTASI ALGORITMA EIGENFACE DAN MANHATTAN DISTANCE",
+    "abstract": null,
+    "authors": [
+      "Sholeh, Alfin"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "24 Dec 2013 02:57",
+    "uri": "http://repository.upi.edu/id/eprint/4493"
+  },
+  {
+    "title": "PERAMALAN HARGA EMAS DENGAN MENGGUNAKAN METODE FUZZY TIME SERIES FORECASTING USING PERCENTAGE CHANGE AS THE UNIVERSE OF DISCOURSE",
+    "abstract": null,
+    "authors": [
+      "Siddiq, Shendy Faizal"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "04 Feb 2014 02:39",
+    "uri": "http://repository.upi.edu/id/eprint/6112"
+  },
+  {
+    "title": "SISTEM REKOMENDASI WISATA BERNILAI SEJARAH DI JAWA BARAT DENGAN METODE COLLABORATIVE FILTERING MENGGUNAKAN ALGORITMA SLOPE ONE",
+    "abstract": null,
+    "authors": [
+      "Sitedu, Suori Yanita"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "18 Oct 2013 04:20",
+    "uri": "http://repository.upi.edu/id/eprint/2376"
+  },
+  {
+    "title": "PENERAPAN ALGORITMA GENETIKA PADA PENCARIAN NILAI SISWA",
+    "abstract": null,
+    "authors": [
+      "Sriwijayani, Nuni"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > Q Science (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Staf Koordinator 2",
+    "date_deposited": "30 Jun 2014 07:09",
+    "uri": "http://repository.upi.edu/id/eprint/9493"
+  },
+  {
+    "title": "PENERAPAN QUESTION ANSWER SISTEM DENGAN METODE BERBASIS ATURAN DAN SELEKSI KALIMAT",
+    "abstract": "Question Answer merupakan disiplin ilmu komputer dalam bidang information retrieval dan Natural Language Processing (NLP) yang berkaitan dengan pembangunan sistem yang secara otomatis menjawab pertanyaan yang diajukan oleh pengguna dalam bahasa alami. Tujuan utamanya adalah memberikan jawaban singkat melalui masukan bahasa alami yang didukung oleh dokumen yang mendasarinya. Basis Aturan merupakan salah satu metode dalam QA. Metode Basis Aturan memberikan pembobotan terhadap kandidat jawaban berdasarkan tipe pertanyaan yang digunakan. Beberapa tipe pertanyaan yang digunakan yakni siapa, kapan, mana, mengapa dan apa. Setiap tipe pertanyaan memiliki aturan dan nilai masing-masing. Kandidat jawaban yang memiliki bobot tertinggi maka akan dikembalikan sebagai jawaban. Penelitian ini menguji hasil penerapan QA dengan metode berbasis aturan dengan sumber informasi dari berbagai dokumen yang berisi berita, cerita atau penjelasan. Guna menanggulangi kelemahan pada metode basis aturan yang disebutkan sebelumnya maka penulis mengkolaborasikan teknik seleksi pada level kalimat yang menekankan pada perbandingan jumlah kata kunci pada pertanyaan dan kandidat jawaban. Hasilnya dari 20 pertanyaan yang diajukan sistem dapat menjawab benar pertanyaan siapa sebesar 17, 19 untuk pertanyaan kapan, 18 untuk pertanyaan mana sedangkan untuk pertanyaan mengapa dan apa dari 10 pertanyaan yang diajukan sistem mampu menjawab dengan benar masing-masing sebesar 5 dan 4. Kata kunci: question answering system, basis aturan, seleksi kalimat. Question Answer is discipline of computer science in the field of information retrieval and Natural Language Processing (NLP) relating to the development of systems that automatically answer the question posed by the user in natural language. Its main purpose to provide short answers through natural language input is supported by the underlying documents. Rule Base is one of the methods in QA. Rule Base method gives weighting to the candidates answer questions based on the type used. Some types of questions used the who, when, where, why and what. Each type of question has rules and values respectively. The candidate answer which has the highest weight then it will be returned as an answer. This study examined the results of the application of QA with rule-based method with the resources of the various documents that contains news, stories or explanations. To address the weaknesses in the rule base method mentioned previously, the authors collaborate selection techniques at the level of sentences that highlight the comparative number of keywords in the question and the candidate answer. The results of the 20 questions correctly the system can answer the question of who at 17, 19 to the question of when, where, while 18 to question to question why and what of the 10 questions posed system is able to answer correctly, respectively by 5 and 4. Key Word : Question Answer, Ruled Based, Selection Sentence.",
+    "authors": [
+      "Sulistiyono, Ari"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > Q Science (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Users 80277 not found.",
+    "date_deposited": "25 Sep 2017 05:47",
+    "uri": "http://repository.upi.edu/id/eprint/26153"
+  },
+  {
+    "title": "IMPLEMENTASI MODEL PEMBELAJARAN EXPERIENTIAL KOLB BERBANTU MULTIMEDIA INTERAKTIF UNTUK MENINGKATKAN KEMAMPUAN APLIKASI SISWA SMK PADA BIDANG REKAYASA PERANGKAT LUNAK (RPL)",
+    "abstract": null,
+    "authors": [
+      "Suprianti, Ayu Dwi"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "26 Nov 2013 07:14",
+    "uri": "http://repository.upi.edu/id/eprint/3435"
+  },
+  {
+    "title": "IMPLEMENTASI KRIPTOGRAFI DIFFIE-HELLMAN DAN RSA DALAM OTENTIKASI TOKEN PADA INTERNET BANKING",
+    "abstract": null,
+    "authors": [
+      "Sutiana, Janwar"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Riki N Library ICT",
+    "date_deposited": "25 Sep 2013 01:45",
+    "uri": "http://repository.upi.edu/id/eprint/1670"
+  },
+  {
+    "title": "PENERAPAN DRILL METHOD BERBANTU MULTIMEDIA PEMBELAJARAN INTERAKTIF UNTUK MENINGKATKAN PEMAHAMAN SISWA SMA PADA MATA PELAJARAN TEKNOLOGI INFORMASI DAN KOMUNIKASI (TIK)",
+    "abstract": null,
+    "authors": [
+      "Taufik, Indra Akbar"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "28 Nov 2013 08:07",
+    "uri": "http://repository.upi.edu/id/eprint/3590"
+  },
+  {
+    "title": "IMPLEMENTASI ALGORITMA BLOWFISH PADA AUDIO STEGANOGRAFI BERBASIS MP3",
+    "abstract": null,
+    "authors": [
+      "Taufik, Muhamad"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "11 Nov 2013 04:29",
+    "uri": "http://repository.upi.edu/id/eprint/3003"
+  },
+  {
+    "title": "SISTEM PAKAR PENGANGGARAN MODAL DENGAN KECERDASAN RESIKO DAN ANALISIS BISNIS PADA ASET TETAP",
+    "abstract": null,
+    "authors": [
+      "Triyantoro, Rizky Probo"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Pendidikan Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "29 Oct 2013 07:40",
+    "uri": "http://repository.upi.edu/id/eprint/2657"
+  },
+  {
+    "title": "RANCANG BANGUN SISTEM MODEL SELEKSI SNMPTN BERBASIS PORTOFOLIO PRODUCT ORIENTED",
+    "abstract": "Penelitian yang berjudul “Rancang Bangun Sistem Model Seleksi Snmptn Berbasis Portofolio Product oriented. Studi Kasus: Fakultas Pendidikan Matematika Dan Ilmu Pengetahuan Alam Universitas Pendidikan Indonesia” ini dilatarbelakangi oleh seleksi masuk PTN jalur SNMPTN yang mulai tahun 2013 kuotanya akan bertambah sehingga kebutuhan terhadap sebuah sistem yang dapat membantu mengefektifkan proses seleksi akan sangat diperlukan. Proses seleksi SNMPTN ini dilakukan dengan menggunakan portofolio prestasi peserta sebagai parameter penilaian. Dalam kasus ini, sistem komputer sebagai aplikasi yang membantu panitia SNMPTN dalam menentukan kelulusan peserta seleksi dituntut untuk dapat bekerja sesuai dengan prisnsip-prinsip yang berlaku dalam penilaian berbasis Portofolio Product oriented. Dari hasil analisis terhadap portofolio peserta seleksi, maka ditentukan tiga parameter utama yang akan diperhitungkan dalam proses seleksi SNMPTN. Parameter-parameter tersebut adalah nilai prestasi akademik, prestasi non-akademik dan prestasi akademik sekolah. Nilai prestasi akademik diolah dengan melakukan proses standarisasi nilai menggunakan formula Z Score dan skor standar. Prestasi non-akademik dan prestasi akademik sekolah dikonversi menjadi nilai angka dengan menggunakan skala interval. Dengan menghitung akumulasi seluruh skor dilakukan proses seleksi. erdasarkan pada hasil simulasi sistem dengan menggunakan 160 data peserta seleksi dan 55 diantaranya dinyatakan lolos seleksi. Kata Kunci: Seleksi, Seleksi SNMPTN, Portofolio, Portofolio Product oriented The research by the title “Designed-Built The System Of SNMPTN’s Selection Based on Portofolio Product oriented. Case Study: Faculity Of Mathematics And Sciense Universitas Pendidikan Indonesia ” is taken because of the process of selection to join state university through SNMPTN which by the year 2013 its quota will increase countinuisly so the system that can make the selection process more effectevie wil be needed. SNMPTN’s selection process done by calculating participant’s portofolio of achievements as a main scoring selection parameter. In this case, computer system as an application which assist SNMPTN’s committee in determaining the selected participants to be able to work based on portofolio product oriented’s principles. From the analysis of participants’s portofolio, it is determained three main parameters will be calculate in the SNMPTN’s selection process. Those principles are academic achievements, non-akademic achievements and school’s academic achievements. The academic achievements processed by make it standard using z Score formula and standard Score. Non-academic and school’s academic achievements converted into numeric form by using interval scale. After accumulate all of participant’s Score, the process of SNMPTN’s selection done. Based in the result of simulation by using 160 participants, 55 of them passed the selection. Key Word: Selection, SNMPTN’s Selection, Portofolio, Portofolio Produt Oriented",
+    "authors": [
+      "Utami, Ami Ridho"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "23 Jan 2014 02:35",
+    "uri": "http://repository.upi.edu/id/eprint/5689"
+  },
+  {
+    "title": "SISTEM PENGENALAN HALAMAN WEB PORNOGRAFI MENGGUNAKAN ALGORITMA BOYER MOORE UNTUK MEMBANTU KINERJA SQUID DALAM MELAKUKAN FILTERING",
+    "abstract": null,
+    "authors": [
+      "Wafa, Husnul"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Riki N Library ICT",
+    "date_deposited": "27 Aug 2013 08:02",
+    "uri": "http://repository.upi.edu/id/eprint/541"
+  },
+  {
+    "title": "SISTEM REKOMENDASI PENGAMANAN WILAYAH TINDAK KEJAHATAN PENCURIAN KENDARAAN BERMOTOR MENGGUNAKAN METODE SIMULATED ANNEALING : Studi Kasus Polrestabes Bandung",
+    "abstract": null,
+    "authors": [
+      "Wibowo, Gilang Pratomo"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "06 Feb 2014 08:29",
+    "uri": "http://repository.upi.edu/id/eprint/6227"
+  },
+  {
+    "title": "PERBANDINGAN ALGORITMA HEXAGON DAN LEAST SIGNIFICANT BIT UNTUK PENYISIPAN PESAN PADA APLIKASI DIGITAL WATERMARKING",
+    "abstract": null,
+    "authors": [
+      "Widodo, Muhammad Alfiandi"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "DAM STAF Editor",
+    "date_deposited": "13 Dec 2013 03:43",
+    "uri": "http://repository.upi.edu/id/eprint/4125"
+  },
+  {
+    "title": "RANCANG BANGUN MODEL WAJAH UNTUK MENDUKUNG PROSES IDENTIFIKASI WAJAH DENGAN METODE MODIFIED HAUSDORFF DISTANCE (MHD) DAN PRINCIPAL COMPONTENT ANALYSIS (PCA) PADA IMAGE SEQUENCE",
+    "abstract": null,
+    "authors": [
+      "Yopi, _"
+    ],
+    "item_type": "Thesis (S1)",
+    "subjects": "Q Science > Q Science (General) T Technology > T Technology (General)",
+    "divisions": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+    "depositing_user": "Mr mhsinf 2017",
+    "date_deposited": "27 Dec 2017 23:56",
+    "uri": "http://repository.upi.edu/id/eprint/28380"
+  }
+]

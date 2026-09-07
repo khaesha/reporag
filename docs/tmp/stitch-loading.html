@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centered Loading Modal - AI Search</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'system-ui', 'sans-serif'],
+          },
+          colors: {
+            primary: '#e60023',
+            'primary-pressed': '#cc001f',
+            ink: '#000000',
+            'ink-soft': '#211922',
+            body: '#33332e',
+            mute: '#62625b',
+            ash: '#91918c',
+            stone: '#c8c8c1',
+            hairline: '#dadad3',
+            'hairline-soft': '#e5e5e0',
+            canvas: '#ffffff',
+            'surface-soft': '#fbfbf9',
+            'surface-card': '#f6f6f3',
+            'secondary-bg': '#e5e5e0',
+          },
+          borderRadius: {
+            'md': '16px',
+            'lg': '32px',
+            'full': '9999px',
+          },
+          boxShadow: {
+            'modal-ambient': '0 16px 32px -4px rgba(0, 0, 0, 0.12), 0 8px 16px -4px rgba(0, 0, 0, 0.08)',
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    @keyframes pulse-subtle {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.85; transform: scale(1.15); }
+    }
+    .animate-retrieved-dot {
+      animation: pulse-subtle 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+      transform-origin: 376px 174px;
+    }
+    @keyframes progress-slide {
+      0% { width: 12%; }
+      50% { width: 68%; }
+      100% { width: 88%; }
+    }
+    .loading-fill {
+      animation: progress-slide 3.5s ease-in-out infinite alternate;
+    }
+  </style>
+</head>
+<body class="bg-[#fbfbf9] min-h-screen text-[#33332e] antialiased overflow-hidden relative">
+
+  <!-- Underlying Page (RAG search screen context softly blurred / dimmed) -->
+  <div class="filter blur-[1px] select-none pointer-events-none opacity-80 max-w-5xl mx-auto pt-8 px-6">
+    <!-- Top Nav Mock -->
+    <header class="flex items-center justify-between py-4 border-b border-[#dadad3] mb-12">
+      <div class="flex items-center gap-2">
+        <div class="w-8 h-8 rounded-full bg-[#e60023] flex items-center justify-center text-white font-bold text-sm">P</div>
+        <span class="font-bold text-lg tracking-tight text-[#000000]">SearchLens RAG</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="text-xs text-[#62625b]">Knowledge Base Active</span>
+        <div class="h-9 px-4 rounded-md bg-[#e60023] text-white text-sm font-bold flex items-center">Sign up</div>
+      </div>
+    </header>
+
+    <!-- Search Hero Content -->
+    <div class="max-w-2xl mx-auto text-center mt-8">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#f6f6f3] text-xs font-semibold text-[#000000] mb-4">
+        <span class="w-2 h-2 rounded-full bg-[#e60023]"></span>
+        Retrieval-Augmented Discovery
+      </div>
+      <h1 class="text-4xl font-bold tracking-tight text-[#000000] mb-4">Ask anything across knowledge.</h1>
+      <p class="text-[#62625b] text-base mb-8">Synthesize multimodal sources, documents, and visual ideas with enterprise-grade retrieval.</p>
+      
+      <div class="w-full h-14 rounded-full bg-[#f6f6f3] border border-[#dadad3] px-6 flex items-center gap-3">
+        <svg class="w-5 h-5 text-[#91918c]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+        </svg>
+        <span class="text-[#000000] text-sm">Searching academic vectors across 14 indexed clusters...</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 1. Full-Page Background Scrim: 50% opacity dark overlay per DESIGN.md ({colors.surface-dark} / rgba(0,0,0,0.5)) -->
+  <div class="fixed inset-0 bg-black/50 backdrop-blur-[2px] z-40 flex items-center justify-center p-4 transition-all duration-300">
+    
+    <!-- 2. Centered Modal Card: {component.modal-card} specs:
+         - Background: {colors.canvas} (#ffffff)
+         - Border radius: {rounded.lg} (32px)
+         - Padding: 32px (p-8)
+         - Shadow: soft 16px ambient shadow lifting it above the scrim
+    -->
+    <div 
+      class="relative w-full max-w-[440px] bg-white rounded-[32px] p-8 shadow-modal-ambient z-50 flex flex-col items-center text-center transition-transform transform scale-100"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="loading-heading"
+    >
+
+      <!-- Close / Cancel subtle top-right icon button (Pinterest circular icon button) -->
+      <button 
+        type="button"
+        aria-label="Close" 
+        class="absolute top-5 right-5 w-8 h-8 rounded-full bg-[#f6f6f3] text-[#000000] flex items-center justify-center hover:bg-[#e5e5e0] transition-colors focus:outline-none focus:ring-2 focus:ring-[#435ee5]"
+      >
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+
+      <!-- 2. Logo Element ("Vector Book"):
+           Centered at the top inside the modal.
+           Abstract open book composed of horizontal lines breaking apart into circular data dots on the right.
+           16px radius ({rounded.md}) outer edges aesthetic.
+           Lines & dots in {colors.ink} (#000000).
+           Exactly ONE single data dot in saturated {colors.primary} (#e60023).
+      -->
+      <div class="w-28 h-28 mb-6 flex items-center justify-center relative">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-full h-full drop-shadow-sm" fill="none">
+          <!-- Subtle outer boundary glow -->
+          <g transform="translate(48, 56)">
+            <!-- Spine Centerfold -->
+            <path d="M 208 48 C 208 48 208 190 208 344" stroke="#000000" stroke-width="4.5" stroke-linecap="round"/>
+
+            <!-- Left Book Spine Curve Base / Softly rounded outer boundary (16px radius aesthetic) -->
+            <path d="M 204 344 C 150 330 80 334 32 344 C 23 346 16 339 16 330 L 16 70 C 16 61 23 54 32 52 C 80 42 150 46 204 60" 
+                  stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+            <!-- Right Book Spine Curve Base -->
+            <path d="M 212 344 C 266 330 336 334 384 344 C 393 346 400 339 400 330 L 400 70 C 400 61 393 54 384 52 C 336 42 266 46 212 60" 
+                  stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+            <!-- LEFT PAGE: Structured Horizontal Lines (#000000) -->
+            <path d="M 48 96 C 96 88 152 90 192 100" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+            <path d="M 48 132 C 96 124 152 126 192 136" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+            <path d="M 48 168 C 96 160 152 162 192 172" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+            <path d="M 48 204 C 96 196 152 198 192 208" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+            <path d="M 48 240 C 96 232 152 234 192 244" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+            <path d="M 48 276 C 96 268 152 270 192 280" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+            <path d="M 64 312 C 104 306 152 308 192 316" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+
+            <!-- RIGHT PAGE: Horizontal Lines breaking into Vector Dots -->
+            <!-- Row 1 -->
+            <path d="M 224 100 C 260 92 290 92 316 95" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+            <circle cx="338" cy="97" r="3.5" fill="#000000"/>
+            <circle cx="360" cy="100" r="3.5" fill="#000000"/>
+            <circle cx="384" cy="106" r="3.5" fill="#000000"/>
+
+            <!-- Row 2 -->
+            <path d="M 224 136 C 255 128 280 128 300 130" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+            <circle cx="320" cy="132" r="3.5" fill="#000000"/>
+            <circle cx="344" cy="136" r="4" fill="#000000"/>
+            <circle cx="372" cy="142" r="3.5" fill="#000000"/>
+            <circle cx="400" cy="150" r="2.5" fill="#000000"/>
+
+            <!-- Row 3: Target Retrieval Row with EXACTLY ONE SINGLE RED DOT (#e60023) -->
+            <path d="M 224 172 C 262 164 294 164 322 167" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+            <circle cx="344" cy="170" r="4" fill="#000000"/>
+            <!-- Single Red Retrieved Vector Dot (#e60023) with subtle pulse -->
+            <circle class="animate-retrieved-dot" cx="376" cy="174" r="8" fill="#e60023"/>
+            <circle cx="408" cy="182" r="3.5" fill="#000000"/>
+
+            <!-- Row 4 -->
+            <path d="M 224 208 C 252 200 274 200 292 202" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+            <circle cx="312" cy="204" r="3.5" fill="#000000"/>
+            <circle cx="334" cy="207" r="3.5" fill="#000000"/>
+            <circle cx="362" cy="214" r="4" fill="#000000"/>
+            <circle cx="392" cy="222" r="3" fill="#000000"/>
+
+            <!-- Row 5 -->
+            <path d="M 224 244 C 258 236 288 236 312 239" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+            <circle cx="332" cy="242" r="3.5" fill="#000000"/>
+            <circle cx="356" cy="247" r="3.5" fill="#000000"/>
+            <circle cx="384" cy="255" r="3.5" fill="#000000"/>
+
+            <!-- Row 6 -->
+            <path d="M 224 280 C 250 272 272 272 290 274" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+            <circle cx="310" cy="276" r="3.5" fill="#000000"/>
+            <circle cx="336" cy="281" r="3.5" fill="#000000"/>
+            <circle cx="366" cy="290" r="3.5" fill="#000000"/>
+
+            <!-- Row 7 -->
+            <path d="M 224 316 C 255 310 282 310 304 313" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+            <circle cx="326" cy="316" r="3" fill="#000000"/>
+            <circle cx="352" cy="322" r="3" fill="#000000"/>
+          </g>
+        </svg>
+      </div>
+
+      <!-- 3. Typography:
+           - Loading status heading: {typography.heading-lg} -> 22px, weight 600, {colors.ink} (#000000), line-height 1.25
+           - Secondary helper text: {typography.body-md} -> 16px, weight 400, {colors.mute} (#62625b), line-height 1.4
+           - Font: Inter with standard spacing
+      -->
+      <h2 
+        id="loading-heading" 
+        class="text-[22px] font-semibold text-[#000000] leading-[1.25] tracking-normal mb-2"
+      >
+        Searching academic vectors...
+      </h2>
+      <p class="text-[16px] font-normal text-[#62625b] leading-[1.4] mb-6">
+        This might take a few seconds.
+      </p>
+
+      <!-- 4. Loading Progress Bar:
+           - Track: {colors.surface-card} (#f6f6f3) with {rounded.full} (9999px) pill shape
+           - Active loading fill: {colors.primary} (#e60023) with {rounded.full} edges
+      -->
+      <div class="w-full bg-[#f6f6f3] h-2 rounded-full overflow-hidden mb-5">
+        <div class="bg-[#e60023] h-full rounded-full loading-fill"></div>
+      </div>
+
+      <!-- Live telemetry status pill -->
+      <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#f6f6f3] text-xs text-[#62625b]">
+        <span class="w-1.5 h-1.5 rounded-full bg-[#e60023] animate-ping"></span>
+        <span>Retrieving semantic chunks (embedding rank 0.94+)</span>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>

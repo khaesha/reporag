@@ -1,0 +1,527 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - link [ref=e6] [cursor=pointer]:
+        - /url: http://repository.upi.edu/
+        - img "UPI Repository" [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - link "Home" [ref=e11] [cursor=pointer]:
+            - /url: http://repository.upi.edu
+          - link "|" [ref=e12] [cursor=pointer]:
+            - /url: "#"
+          - link "Contact" [ref=e13] [cursor=pointer]:
+            - /url: http://repository.upi.edu/contact.html
+        - generic [ref=e15]: Answer at its best to any Quests
+    - navigation [ref=e16]:
+      - list [ref=e19]:
+        - listitem [ref=e20]:
+          - link "Home" [ref=e21] [cursor=pointer]:
+            - /url: http://repository.upi.edu
+        - listitem [ref=e22]:
+          - link "About" [ref=e23] [cursor=pointer]:
+            - /url: http://repository.upi.edu/information.html
+        - listitem [ref=e24]:
+          - link "Browse" [ref=e25] [cursor=pointer]:
+            - /url: http://repository.upi.edu/view/
+        - listitem [ref=e26]
+    - generic [ref=e27]:
+      - generic:
+        - generic:
+          - list
+  - generic [ref=e28]:
+    - heading "Items where Division is \"Program Studi Ilmu Komputer\" and Year is 2024" [level=1] [ref=e29]
+    - link [ref=e31] [cursor=pointer]:
+      - /url: ./
+      - img "[up]" [ref=e32]
+      - text: Up a level
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e37]: Export as
+        - combobox "Export as" [ref=e38]:
+          - option "ASCII Citation" [selected]
+          - option "BibTeX"
+          - option "Dublin Core"
+          - option "EP3 XML"
+          - option "EndNote"
+          - option "HTML Citation"
+          - option "JSON"
+          - option "METS"
+          - option "Multiline CSV"
+          - option "Object IDs"
+          - option "OpenURL ContextObject"
+          - option "RDF+N-Triples"
+          - option "RDF+N3"
+          - option "RDF+XML"
+          - option "Refer"
+          - option "Reference Manager"
+        - button "Export" [ref=e39] [cursor=pointer]
+      - generic [ref=e40]:
+        - link [ref=e42] [cursor=pointer]:
+          - /url: /cgi/exportview/divisions/ILKOM/2024/Atom/ILKOM_2024.xml
+          - img "[Atom feed]" [ref=e43]
+          - text: Atom
+        - link [ref=e45] [cursor=pointer]:
+          - /url: /cgi/exportview/divisions/ILKOM/2024/RSS/ILKOM_2024.rss
+          - img "[RSS feed]" [ref=e46]
+          - text: RSS 1.0
+        - link [ref=e48] [cursor=pointer]:
+          - /url: /cgi/exportview/divisions/ILKOM/2024/RSS2/ILKOM_2024.xml
+          - img "[RSS2 feed]" [ref=e49]
+          - text: RSS 2.0
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - text: "Group by: Creators |"
+        - link "Item Type" [ref=e52] [cursor=pointer]:
+          - /url: 2024.type.html
+        - text: "|"
+        - link "No Grouping" [ref=e53] [cursor=pointer]:
+          - /url: 2024.default.html
+      - generic [ref=e55]:
+        - text: "Jump to:"
+        - link "A" [ref=e56] [cursor=pointer]:
+          - /url: "#group_A"
+        - text: "|"
+        - link "B" [ref=e57] [cursor=pointer]:
+          - /url: "#group_B"
+        - text: "|"
+        - link "D" [ref=e58] [cursor=pointer]:
+          - /url: "#group_D"
+        - text: "|"
+        - link "E" [ref=e59] [cursor=pointer]:
+          - /url: "#group_E"
+        - text: "|"
+        - link "F" [ref=e60] [cursor=pointer]:
+          - /url: "#group_F"
+        - text: "|"
+        - link "G" [ref=e61] [cursor=pointer]:
+          - /url: "#group_G"
+        - text: "|"
+        - link "H" [ref=e62] [cursor=pointer]:
+          - /url: "#group_H"
+        - text: "|"
+        - link "J" [ref=e63] [cursor=pointer]:
+          - /url: "#group_J"
+        - text: "|"
+        - link "L" [ref=e64] [cursor=pointer]:
+          - /url: "#group_L"
+        - text: "|"
+        - link "M" [ref=e65] [cursor=pointer]:
+          - /url: "#group_M"
+        - text: "|"
+        - link "N" [ref=e66] [cursor=pointer]:
+          - /url: "#group_N"
+        - text: "|"
+        - link "R" [ref=e67] [cursor=pointer]:
+          - /url: "#group_R"
+        - text: "|"
+        - link "S" [ref=e68] [cursor=pointer]:
+          - /url: "#group_S"
+        - text: "|"
+        - link "U" [ref=e69] [cursor=pointer]:
+          - /url: "#group_U"
+        - text: "|"
+        - link "V" [ref=e70] [cursor=pointer]:
+          - /url: "#group_V"
+        - text: "|"
+        - link "W" [ref=e71] [cursor=pointer]:
+          - /url: "#group_W"
+        - text: "|"
+        - link "Y" [ref=e72] [cursor=pointer]:
+          - /url: "#group_Y"
+      - generic [ref=e73]:
+        - text: "Number of items:"
+        - strong [ref=e74]: "57"
+        - text: .
+      - heading "A" [level=2] [ref=e75]
+      - paragraph [ref=e76]:
+        - text: Achmad Priyadi, - (2024)
+        - link [ref=e77] [cursor=pointer]:
+          - /url: http://repository.upi.edu/122760/
+          - emphasis [ref=e78]: Visualisasi Data untuk Dashboard Operasional Income Generating Unit (IGU) Menggunakan Google Cloud Platform.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e79]:
+        - text: Adinda Salsabilla, - (2024)
+        - link [ref=e80] [cursor=pointer]:
+          - /url: http://repository.upi.edu/129601/
+          - emphasis [ref=e81]: PENGEMBANGAN WEBSITE KLINIK OXYBARIC BINTARO CENTER MENGGUNAKAN METODE LEAN UX DAN RELATIONSHIP MARKETING.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e82]:
+        - text: Ahmad Daffa Muttaqin, - (2024)
+        - link [ref=e83] [cursor=pointer]:
+          - /url: http://repository.upi.edu/124000/
+          - emphasis [ref=e84]: PENGEMBANGAN WEBSITE PROMOSI MENGGUNAKAN METODE UX LEAN DAN MARKETING REFERRAL (STUDI KASUS TOKO RUMAH KUE HAVIYYA).
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e85]:
+        - text: Ahmad Fauzan, - (2024)
+        - link [ref=e86] [cursor=pointer]:
+          - /url: http://repository.upi.edu/117441/
+          - emphasis [ref=e87]: PENGUKURAN CAPABILITY LEVEL PROSES MANAJEMEN PROYEK DAN KUALITAS PRODUK MENGGUNAKAN FRAMEWORK COBIT 5.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e88]:
+        - text: Aji Muhammad Zapar, - (2024)
+        - link [ref=e89] [cursor=pointer]:
+          - /url: http://repository.upi.edu/119852/
+          - emphasis [ref=e90]: PEMBANGUNAN SISTEM REKOMENDASI PADA SMARTENGTEST DENGAN PEMANFAATAN ASSOCIATION RULES MENGGUNAKAN ALGORITMA APRIORI DAN FP-GROWTH.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e91]:
+        - text: Aldian Fallahakbar Nuriza, - (2024)
+        - link [ref=e92] [cursor=pointer]:
+          - /url: http://repository.upi.edu/123532/
+          - emphasis [ref=e93]: PENGEMBANGAN BASIS DATA GEN UNTUK VISUALISASI DAN ANALISIS INTERAKSI GEN KANKER.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e94]:
+        - text: Alief Muhammad Abdillah, - (2024)
+        - link [ref=e95] [cursor=pointer]:
+          - /url: http://repository.upi.edu/122358/
+          - emphasis [ref=e96]: RANCANG BANGUN WEBSITE TOURISM UNTUK MEDIA PROMOSI PARIWISATA DI KABUPATEN PURWOREJO DENGAN FOGG BEHAVIOUR MODEL DAN USER-GENERATED CONTENT (UGC).
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e97]:
+        - text: Alifia Isti Fadhila, - (2024)
+        - link [ref=e98] [cursor=pointer]:
+          - /url: http://repository.upi.edu/122369/
+          - emphasis [ref=e99]: PERINGKASAN BERITA SECARA OTOMATIS MENGGUNAKAN METODE TRANSFORMER.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e100]:
+        - text: Amirah Dzatul Himmah, - (2024)
+        - link [ref=e101] [cursor=pointer]:
+          - /url: http://repository.upi.edu/129577/
+          - emphasis [ref=e102]: IMPLEMENTASI MODEL KLASIFIKASI PENYAKIT CABAI DENGAN DATA AUGMENTASI DAN TRANSFER LEARNING.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e103]:
+        - text: Andum Pangestu, - (2024)
+        - link [ref=e104] [cursor=pointer]:
+          - /url: http://repository.upi.edu/122920/
+          - emphasis [ref=e105]: DETEKSI BUZZER PADA MEDIA SOSIAL TWITTER MENGGUNAKAN PENDEKATAN SOCIAL NETWORK ANALYSIS.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e106]:
+        - text: Arik Rizki Akbar, - (2024)
+        - link [ref=e107] [cursor=pointer]:
+          - /url: http://repository.upi.edu/121740/
+          - emphasis [ref=e108]: RANCANG BANGUN SISTEM PENGELOLAAN BANK SAMPAH MENGGUNAKAN FRAMEWORK DATA MANAGEMENT.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e109]:
+        - text: Axel Eldrian Hadiwibowo, - (2024)
+        - link [ref=e110] [cursor=pointer]:
+          - /url: http://repository.upi.edu/117748/
+          - emphasis [ref=e111]: PERANCANGAN DASHBOARD PRESTASI MAHASISWA DENGAN SISTEM PENDATAAN BERBASIS ON-DEMAND SERVICE MENGGUNAKAN PRINSIP DATA MANAGEMENT.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e112]:
+        - text: Ayurika Sinambela, - (2024)
+        - link [ref=e113] [cursor=pointer]:
+          - /url: http://repository.upi.edu/121732/
+          - emphasis [ref=e114]: "PENGEMBANGAN WEBSITE E-MARKETING UMKM KULINER FROZEN FOOD MENGGUNAKAN METODE LEAN UX DAN AIDA MARKETING MODEL (STUDI KASUS: TABASYUK)."
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "B" [level=2] [ref=e115]
+      - paragraph [ref=e116]:
+        - text: Bobby Mochamad Ilham, - (2024)
+        - link [ref=e117] [cursor=pointer]:
+          - /url: http://repository.upi.edu/124141/
+          - emphasis [ref=e118]: "IMPLEMENTASI MEDIA ROLE-PLAYING GAME UNTUK MENINGKATKAN KETERAMPILAN BELAJAR SISWA PADA MATERI PENGALAMATAN IP DI SMK KARTIKA XIX-1 KOTA BANDUNG: Implementasi Media Pembelajaran RPG untuk Meningkatkan Keterampilan Problem Sovling Siswa SMK."
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "D" [level=2] [ref=e119]
+      - paragraph [ref=e120]:
+        - text: Deva Shofa Al Fathin, - (2024)
+        - link [ref=e121] [cursor=pointer]:
+          - /url: http://repository.upi.edu/123251/
+          - emphasis [ref=e122]: SISTEM PEMANTAUAN POLUSI UDARA BERBASIS INTERNET OF THINGS DENGAN ALGORITMA LONG SHORT-TERM MEMORY.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e123]:
+        - text: Dheya Hamida, - (2024)
+        - link [ref=e124] [cursor=pointer]:
+          - /url: http://repository.upi.edu/129508/
+          - emphasis [ref=e125]: KOMPUTASI DAN VISUALISASI DATA ALUMNI UNTUK PEMETAAN PROGRAM PRAKTISI MENGAJAR.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "E" [level=2] [ref=e126]
+      - paragraph [ref=e127]:
+        - text: Eva Nurkhofifah, - (2024)
+        - link [ref=e128] [cursor=pointer]:
+          - /url: http://repository.upi.edu/121454/
+          - emphasis [ref=e129]: ANALISIS SENTIMEN DESTINASI SUPER PRIORITAS BERBASIS STREAM PROCESSING DENGAN MENGGUNAKAN BIG DATA PLATFORM.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "F" [level=2] [ref=e130]
+      - paragraph [ref=e131]:
+        - text: Fajri Maulana Iskandar, - (2024)
+        - link [ref=e132] [cursor=pointer]:
+          - /url: http://repository.upi.edu/121455/
+          - emphasis [ref=e133]: IMPLEMENTASI MODEL FLAN-T5 DALAM PENILAIAN SKOR URAIAN LITERASI MEMBACA INDIVIDU.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e134]:
+        - text: Farah Dwi Ameliani, - (2024)
+        - link [ref=e135] [cursor=pointer]:
+          - /url: http://repository.upi.edu/123235/
+          - emphasis [ref=e136]: "PENGEMBANGAN WEBSITE MENGGUNAKAN METODE USER EXPERIENCE DOUBLE DIAMOND DAN MODEL MARKETING AISAS STUDI KASUS: UMKM Guyam Gayem."
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e137]:
+        - text: Farhan Dwian Saputra, - (2024)
+        - link [ref=e138] [cursor=pointer]:
+          - /url: http://repository.upi.edu/121737/
+          - emphasis [ref=e139]: "IMPLEMENTASI METODE DESIGN THINKING DAN MODEL UX HONEYCOMB PADA RANCANG BANGUN WEBSITE BIMBINGAN BELAJAR ONLINE UNTUK SELEKSI MASUK SEKOLAH TINGGI KEDINASAN: Studi Kasus Startup CSW."
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e140]:
+        - text: Fawwaz Kautsar, - (2024)
+        - link [ref=e141] [cursor=pointer]:
+          - /url: http://repository.upi.edu/117003/
+          - emphasis [ref=e142]: QUALITY OF SERVICE SISTEM PENCATATAN IJAZAH MENGGUNAKAN SMART CONTRACT DAN NFT JARINGAN POLYGON PADA LAYER-2 ETHEREUM BLOCKCHAIN.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e143]:
+        - text: Ferdiansyah, - (2024)
+        - link [ref=e144] [cursor=pointer]:
+          - /url: http://repository.upi.edu/124315/
+          - emphasis [ref=e145]: "KOMPARASI LINEAR REGRESSION DAN POLYNOMIAL REGRESSION UNTUK PREDIKSI PRODUKSI DAGING SAPI : Studi Kasus Indonesia dan Provinsi Jawa Barat."
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "G" [level=2] [ref=e146]
+      - paragraph [ref=e147]:
+        - text: Ghifari Octaverin, - (2024)
+        - link [ref=e148] [cursor=pointer]:
+          - /url: http://repository.upi.edu/121708/
+          - emphasis [ref=e149]: RANCANG BANGUN APLIKASI PEMANTAU LOKASI ANAK BERBASIS ANDROID DENGAN GEOFENCING MENGGUNAKAN ALGORITMA WINDING NUMBER.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "H" [level=2] [ref=e150]
+      - paragraph [ref=e151]:
+        - text: Hakasa Putri, - (2024)
+        - link [ref=e152] [cursor=pointer]:
+          - /url: http://repository.upi.edu/118059/
+          - emphasis [ref=e153]: RANCANG BANGUN SMART GAME EDUKASI BERBASIS BAYESIAN KNOWLEDGE TRACING UNTUK PEMBELAJARAN TENSES BAHASA INGGRIS.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "J" [level=2] [ref=e154]
+      - paragraph [ref=e155]:
+        - text: Jonathan Suara Patty, - (2024)
+        - link [ref=e156] [cursor=pointer]:
+          - /url: http://repository.upi.edu/123350/
+          - emphasis [ref=e157]: ANALISIS DINAMIS DAN DECISION TREE CLASSIFIER UNTUK MALICIOUS OFFICE DAN PDF.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "L" [level=2] [ref=e158]
+      - paragraph [ref=e159]:
+        - text: Listia Ningrum, - (2024)
+        - link [ref=e160] [cursor=pointer]:
+          - /url: http://repository.upi.edu/122281/
+          - emphasis [ref=e161]: DETEKSI BERITA PALSU MENGGUNAKAN BIDIRECTIONAL ENCODER REPRESENTATIONS FROM TRANSFORMERS (BERT).
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "M" [level=2] [ref=e162]
+      - paragraph [ref=e163]:
+        - text: Mochamad Ardiansyah Ramadhani, - (2024)
+        - link [ref=e164] [cursor=pointer]:
+          - /url: http://repository.upi.edu/124399/
+          - emphasis [ref=e165]: RANCANG BANGUN SISTEM PENGETAHUAN PEMBUATAN KOPI BERBASIS GAME ARCADE SIMULATOR MENGGUNAKAN METODE FINITE STATE MACHINE.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e166]:
+        - text: Muhammad Aththar Astaghfiranza, - (2024)
+        - link [ref=e167] [cursor=pointer]:
+          - /url: http://repository.upi.edu/123817/
+          - emphasis [ref=e168]: RANCANG BANGUN WISATA RELIGI BERBASIS VIRTUAL TOURISM MENGGUNAKAN VIRTUAL REALITY DAN GAMIFIKASI DALAM UPAYA MENINGKATKAN MINAT GENERASI Z.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e169]:
+        - text: Muhammad Azar Nuzy, - (2024)
+        - link [ref=e170] [cursor=pointer]:
+          - /url: http://repository.upi.edu/121565/
+          - emphasis [ref=e171]: EVALUASI USABILITY DAN REFINEMENT DESAIN ANTARMUKA PADA SISTEM INFORMASI TRACER STUDY UPI MENGGUNAKAN METODE EVALUASI HEURISTIK.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e172]:
+        - text: Muhammad Fauzan, - (2024)
+        - link [ref=e173] [cursor=pointer]:
+          - /url: http://repository.upi.edu/126377/
+          - emphasis [ref=e174]: ANALISIS SENTIMEN BERITA PEMILU 2024 MENGGUNAKAN KLASIFIKASI NAIVE BAYES.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e175]:
+        - text: Muhammad Iqbal Rynaldi, - (2024)
+        - link [ref=e176] [cursor=pointer]:
+          - /url: http://repository.upi.edu/122423/
+          - emphasis [ref=e177]: PENGEMBANGAN ANIMASI 3D URGENSI PEMINDAHAN IBU KOTA NEGARA MENGGUNAKAN BLENDER DENGAN METODE POSE-TO-POSE.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e178]:
+        - text: Muhammad Melvyn Maunti, - (2024)
+        - link [ref=e179] [cursor=pointer]:
+          - /url: http://repository.upi.edu/124396/
+          - emphasis [ref=e180]: EKSTRAKSI FITUR KOMPETENSI SOAL ERROR IDENTIFICATION TOEFL MENGGUNAKAN NATURAL LANGUAGE PROCESSING.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e181]:
+        - text: Muhammad Naufal Wicaksono, - (2024)
+        - link [ref=e182] [cursor=pointer]:
+          - /url: http://repository.upi.edu/123653/
+          - emphasis [ref=e183]: IMPLEMENTASI NATURAL LANGUAGE PROCESSING DAN ALGORITMA ECLAT UNTUK SISTEM REKOMENDASI PADA SOAL SENTENCE COMPLETION DALAM ENGLISH AS A SECOND LANGUAGE.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e184]:
+        - text: Muhammad Rafi Shidiq, - (2024)
+        - link [ref=e185] [cursor=pointer]:
+          - /url: http://repository.upi.edu/124309/
+          - emphasis [ref=e186]: IMPLEMENTASI BAYESIAN KNOWLEDGE TRACING DALAM APLIKASI PEMBELAJARAN TOEFL BERBASIS GAMIFIKASI DENGAN OCTALYSIS FRAMEWORK.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e187]:
+        - text: Muhammad Rafli Syaputra, - (2024)
+        - link [ref=e188] [cursor=pointer]:
+          - /url: http://repository.upi.edu/129419/
+          - emphasis [ref=e189]: PENERAPAN BUSINESS PROCESS IMPROVEMENT (BPI) PADA PROSES PEMESANAN SURAT KENDARAAN BARU.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e190]:
+        - text: Muhammad Rifqi, - (2024)
+        - link [ref=e191] [cursor=pointer]:
+          - /url: http://repository.upi.edu/122593/
+          - emphasis [ref=e192]: VISUALISASI PEMETAAN TINGKAT KEKERINGAN TANAH DENGAN SUHU PERMUKAAN MENGGUNAKAN CITRA LANDSAT.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e193]:
+        - text: Muhammad Rizal Purnomo Putra Perdana, - (2024)
+        - link [ref=e194] [cursor=pointer]:
+          - /url: http://repository.upi.edu/124013/
+          - emphasis [ref=e195]: EVALUASI DAN PENGEMBANGAN SISTEM PENCEGAHAN GANGGUAN MENTAL MENGGUNAKAN METODE PENGUKURAN USER EXPERIENCE KEY PERFORMANCE INDICATOR.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e196]:
+        - text: Muhammad Zakaria Saputra, - (2024)
+        - link [ref=e197] [cursor=pointer]:
+          - /url: http://repository.upi.edu/123140/
+          - emphasis [ref=e198]: KLASIFIKASI TANAMAN HIAS MENGGUNAKAN INCEPTION V3 PADA FITUR PENCARIAN GAMBAR DI APLIKASI HIAZEE.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "N" [level=2] [ref=e199]
+      - paragraph [ref=e200]:
+        - text: Nadhira Haifa Firdausi, - (2024)
+        - link [ref=e201] [cursor=pointer]:
+          - /url: http://repository.upi.edu/122805/
+          - emphasis [ref=e202]: ANALISIS SENTIMEN ULASAN CANDI BOROBUDUR PADA TRIPADVISOR MENGGUNAKAN SUPPORT VECTOR MACHINE.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e203]:
+        - text: Nelly Joy Christi Simanjuntak, - (2024)
+        - link [ref=e204] [cursor=pointer]:
+          - /url: http://repository.upi.edu/127192/
+          - emphasis [ref=e205]: IMPLEMENTASI ALGORITMA PEWARNAAN GRAF PADA INTERACTIVE DASHBOARD PENDETEKSI KONFLIK PENJADWALAN PERKULIAHAN.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e206]:
+        - text: Non Alyya Yan Hari, - (2024)
+        - link [ref=e207] [cursor=pointer]:
+          - /url: http://repository.upi.edu/116938/
+          - emphasis [ref=e208]: ANALISIS NILAI HASIL EVALUASI PEMBELAJARAN PESERTA DIDIK SMP BERDASARKAN ASSOCIATION RULES MENGGUNAKAN ALGORITMA APRIORI.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "R" [level=2] [ref=e209]
+      - paragraph [ref=e210]:
+        - text: Raden Fadhil Anugerah Ardiwilaga, - (2024)
+        - link [ref=e211] [cursor=pointer]:
+          - /url: http://repository.upi.edu/122010/
+          - emphasis [ref=e212]: IMPLEMENTASI OCTALYSIS FRAMEWORK DALAM APLIKASI GAMIFIKASI PADA PEMBELAJARAN AL-QUR'AN DENGAN CONTENT-BASED FILTERING.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e213]:
+        - text: Rahma Maulida, - (2024)
+        - link [ref=e214] [cursor=pointer]:
+          - /url: http://repository.upi.edu/120348/
+          - emphasis [ref=e215]: DETEKSI PENCILAN PADA DATA STREAM POLUSI CAHAYA LANGIT MALAM DENGAN ALGORITMA EXACT-STORM.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e216]:
+        - text: Regy Saputra, - (2024)
+        - link [ref=e217] [cursor=pointer]:
+          - /url: http://repository.upi.edu/124038/
+          - emphasis [ref=e218]: ANALISIS SENTIMEN MASYARAKAT TERHADAP KEBIJAKAN TABUNGAN PERUMAHAN RAKYAT (TAPERA) BERDASARKAN OPINI DARI TWITTER MENGGUNAKAN METODE NAIVE BAYES DAN SUPPORT VECTOR MACHINE (SVM).
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e219]:
+        - text: Rizal Amri Hidayat, Rizal (2024)
+        - link [ref=e220] [cursor=pointer]:
+          - /url: http://repository.upi.edu/124443/
+          - emphasis [ref=e221]: "PENGEMBANGAN APLIKASI MOBILE BELAJAR BAHASA JAWA MENGGUNAKAN FRAMEWORK GAMIFIKASI OCTALYSIS DAN METODE UX DESIGN THINKING UNTUK ANAK SEKOLAH DASAR : Studi Kasus SD Negeri Buara 01."
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e222]:
+        - text: Rully Nurul Hasanah, - (2024)
+        - link [ref=e223] [cursor=pointer]:
+          - /url: http://repository.upi.edu/123378/
+          - emphasis [ref=e224]: RANCANG BANGUN LEARNING MANAGEMENT SYSTEM BERBASIS GAMIFIKASI DENGAN MENGGUNAKAN MECHANICS, DYNAMICS, AESTHETICS (MDA) FRAMEWORK.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "S" [level=2] [ref=e225]
+      - paragraph [ref=e226]:
+        - text: Sabian Annaya Havid, - (2024)
+        - link [ref=e227] [cursor=pointer]:
+          - /url: http://repository.upi.edu/124212/
+          - emphasis [ref=e228]: INTRUSION DETECTION SYSTEM INTERNET OF THINGS PADA SISTEM PEMANTAUAN PEMAKAIAN ENERGI LISTRIK BERBASIS MACHINE LEARNING.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e229]:
+        - text: Salsabila Kanaya, - (2024)
+        - link [ref=e230] [cursor=pointer]:
+          - /url: http://repository.upi.edu/129327/
+          - emphasis [ref=e231]: "PENGEMBANGAN USER EXPERIENCE WEBSITE E-MARKETING DENGAN METODE EMOTIONAL MARKETING DAN GOAL-DIRECTED DESIGN: Studi Kasus Cokelat Cantique."
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e232]:
+        - text: Sekar Andika Putri, - (2024)
+        - link [ref=e233] [cursor=pointer]:
+          - /url: http://repository.upi.edu/122781/
+          - emphasis [ref=e234]: ANALISIS SENTIMEN PARIWISATA TERHADAP DATA ULASAN TRIPADVISOR TANAH LOT BALI MENGGUNAKAN METODE RANDOM FOREST.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e235]:
+        - text: Sekar Madu Kusumawardani, - (2024)
+        - link [ref=e236] [cursor=pointer]:
+          - /url: http://repository.upi.edu/121075/
+          - emphasis [ref=e237]: RANCANG BANGUN ARSITEKTUR MICROSERVICES MENGGUNAKAN GOOGLE REMOTE PROCEDURE CALL (GRPC) APPLICATION PROGRAMMING INTERFACE (API) DAN METODE DOMAIN-DRIVEN DESIGN.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e238]:
+        - text: Silmi Aulia Rohmah, - (2024)
+        - link [ref=e239] [cursor=pointer]:
+          - /url: http://repository.upi.edu/122307/
+          - emphasis [ref=e240]: PERINGKASAN OTOMATIS RISALAH RAPAT DENGAN METODE TRANSFORMER DAN LONG SHORT-TERM MEMORY.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e241]:
+        - text: Surya Alfin Maoludin, - (2024)
+        - link [ref=e242] [cursor=pointer]:
+          - /url: http://repository.upi.edu/120297/
+          - emphasis [ref=e243]: IMPLEMENTASI DASHBOARD SISTEM PENGELOLAAN PENGAKUAN PENGALAMAN BELAJAR MENGGUNAKAN PENDEKATAN USER CENTERED DESIGN.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - paragraph [ref=e244]:
+        - text: Syachrul Ardhiansyah, - (2024)
+        - link [ref=e245] [cursor=pointer]:
+          - /url: http://repository.upi.edu/122835/
+          - emphasis [ref=e246]: PENGEMBANGAN SELF-SERVICE PATIENT INFORMATION KIOSKS PADA INFORMATION SYSTEM IN HEALTHCARE BERBASIS WEB.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "U" [level=2] [ref=e247]
+      - paragraph [ref=e248]:
+        - text: Ulfa Ashila Hafsari, - (2024)
+        - link [ref=e249] [cursor=pointer]:
+          - /url: http://repository.upi.edu/121563/
+          - emphasis [ref=e250]: IMPLEMENTASI ASSOCIATION RULE MINING DENGAN ALGORITMA APRIORI UNTUK OTOMATISASI PENGELOLAAN KOLEKSI FOTO DIGITAL.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "V" [level=2] [ref=e251]
+      - paragraph [ref=e252]:
+        - text: Vegatama Firdiady, - (2024)
+        - link [ref=e253] [cursor=pointer]:
+          - /url: http://repository.upi.edu/120589/
+          - emphasis [ref=e254]: IMPLEMENTASI MACHINE LEARNING UNTUK DETEKSI PENGENDARA SEPEDA MOTOR UGAL-UGALAN MENGGUNAKAN DATA SENSOR SMARTPHONE.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "W" [level=2] [ref=e255]
+      - paragraph [ref=e256]:
+        - text: Wildan Septi Ramadhan, - (2024)
+        - link [ref=e257] [cursor=pointer]:
+          - /url: http://repository.upi.edu/123381/
+          - emphasis [ref=e258]: ANALISIS SPASIAL MITIGASI RISIKO BENCANA DALAM PENYUSUNAN PETA RISIKO MULTIHAZARD DI KABUPATEN GARUT.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - heading "Y" [level=2] [ref=e259]
+      - paragraph [ref=e260]:
+        - text: Yosafat, - (2024)
+        - link [ref=e261] [cursor=pointer]:
+          - /url: http://repository.upi.edu/123267/
+          - emphasis [ref=e262]: PREDIKSI PERGERAKAN HARGA SAHAM BERDASARKAN LAPORAN TAHUNAN PERUSAHAAN TERBUKA MENGGUNAKAN METODE CONTEXTUAL EMBEDDING BERT DAN LONG SHORT-TERM MEMORY.
+        - text: S1 thesis, Universitas Pendidikan Indonesia.
+      - generic [ref=e263]:
+        - text: This list was generated on
+        - strong [ref=e264]: Thu Sep 3 16:45:04 2026 WIB
+        - text: .
+  - contentinfo [ref=e265]:
+    - generic [ref=e266]:
+      - navigation [ref=e268]:
+        - list [ref=e270]:
+          - listitem [ref=e271]:
+            - link "Home" [ref=e272] [cursor=pointer]:
+              - /url: http://repository.upi.edu
+          - listitem [ref=e273]:
+            - link "About" [ref=e274] [cursor=pointer]:
+              - /url: http://repository.upi.edu/information.html
+          - listitem [ref=e275]:
+            - link "Browse" [ref=e276] [cursor=pointer]:
+              - /url: http://repository.upi.edu/view/
+          - listitem [ref=e277]
+      - generic [ref=e280]:
+        - link "Accesibility" [ref=e281] [cursor=pointer]:
+          - /url: "#"
+        - text: "|"
+        - link "Copyright @ 2022" [ref=e282] [cursor=pointer]:
+          - /url: "#"
+        - text: "|"
+        - link "Disclaimer" [ref=e283] [cursor=pointer]:
+          - /url: "#"
+        - text: "|"
+        - link "Privacy" [ref=e284] [cursor=pointer]:
+          - /url: "#"
+        - text: "|"
+        - link "Right to Information" [ref=e285] [cursor=pointer]:
+          - /url: "#"
