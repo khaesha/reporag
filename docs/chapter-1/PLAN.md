@@ -4,9 +4,11 @@ The plan is ordered so that every phase leaves a runnable, verifiable result.
 
 ## Phase 0: Lock the baseline
 
-- [ ] Add a corpus audit command or test that reports file count, record count, degree programs, missing fields, and duplicate URIs.
-- [ ] Save at least 30 representative search queries with manually expected records; expand the set when a degree program is added.
-- [ ] Agree on the Chapter 1 wording: metadata and available-abstract discovery, not full-document Q&A.
+- [x] Add a corpus audit command or test that reports file count, record count, degree programs, missing fields, and duplicate URIs.
+- [x] Save at least 30 representative search queries with manually expected records; expand the set when a degree program is added.
+- [x] Agree on the Chapter 1 wording: `Search thesis metadata and available abstracts`, not full-document Q&A.
+
+Run `node scripts/audit-corpus.mjs` from the repository root to reproduce the corpus baseline. Run `node --test scripts/audit-corpus.test.mjs` to check the audit and evaluation set.
 
 Exit: corpus numbers are reproducible and the evaluation set exists.
 

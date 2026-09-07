@@ -16,7 +16,7 @@ The checked-in starter corpus currently contains Computer Science records:
 
 - 820 unique records from 18 yearly JSON files (2009–2026).
 - 820 titles and 820 repository URIs.
-- 163 abstracts; 657 records (80%) have no abstract.
+- 820 abstracts; no starter-corpus record has a missing abstract.
 - 818 S1 theses and 2 S2 theses.
 - Authors, subjects, divisions, depositor, and deposit date where supplied by the source.
 

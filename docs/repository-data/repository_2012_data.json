@@ -27,7 +27,7 @@
   },
   {
     "title": "ANALISIS PERILAKU PENGGUNAAN MEDIA PEMBELAJARAN SONY SUGEMA-DIGITAL LEARNING SYSTEM (S2DLS VERS. 2) DENGAN PENDEKATAN TECHNOLOGY ACCEPTANCE MODEL (TAM). : Studi Penerapan Dalam Pembelajaran Di MAN Cianjur",
-    "abstract": null,
+    "abstract": "Penelitian ini bertujuan untuk memperoleh hasil akhir yang dapat menggambarkan variabel-variabel yang signifikan mempengaruhi penerimaan user pada implementasi media pembelajaran Sony Sugema Digital Learning System Vers.2 (S2DLS Vers.2) di lingkungan Madrasah Aliyah Negeri (MAN) Cianjur, dengan menggunakan pendekatan model penerimaan teknologi (Technology Acceptance Model atau TAM) yang telah dikembangkan dengan menambahkan variabel eksternal yang menjadi penyebab (antecendent) perilaku selain variabel internal yang ada pada konstruk TAM. Berdasarkan hasil dari analisis model persamaan struktural (Struktural Equation Modeling atau SEM) dengan menggunakan SPSS ver. 16.0 dan AMOS ver. 18.0, menunjukan bahwa faktor-faktor yang dominan dan saling berhubungan serta berpengaruh terhadap tingkat penerimaan teknologi S2DLS Vers.2 adalah: adanya perbedaan individu pengguna (ID) berpengaruh terhadap persepsi tentang kemudahan penggunaan (PEoU), organisasi bahan ajar elektronik (ErO) dan persepsi tentang kemudahan penggunaan (PEoU) berpengaruh terhadap persepsi tentang kemanfaatan penggunaan (PU), persepsi tentang kemudahan penggunaan (PEoU) dan persepsi tentang kemanfaatan penggunaan (PU) berpengaruh terhadap minat penggunaan (ITU), dan minat penggunaan (ITU) berpengaruh terhadap kondisi nyata penggunaan (ASU).Kata Kunci: Technology Acceptance Model (TAM), Struktural Equation Modeling (SEM), media pembelajaran, Sony Sugema Digital Learning System Version 2 (S2DLS Vers.2).",
     "authors": [
       "Andri Indrawan, -"
     ],
@@ -53,7 +53,7 @@
   },
   {
     "title": "SISTEM PAKAR PROGRAM LATIHAN PENCAK SILAT TINGKAT REMAJA BAGI ASISTEN PELATIH",
-    "abstract": null,
+    "abstract": "Diperlukan program latihan yang sesuai dengan kemampuan individu atlit beladiri pencak silat agar didapat prestasi yang maksimal. Salah satu metode untuk memberikan solusi program latihan yang sesuai bagi atlit pencak silat tingkat remaja selain dari pelatih yaitu dengan menggunakan Adaptive Network Fuzzy Inference System (ANFIS) Handoff Algorithm. Implementasi algortima tersebut berdasarkan 10 parameter masukan tes dasar yang dilakukan terlebih dahulu. Diantaranya jumlah pukulan, tendangan lurus, tendangan sabit, tendangan blok, push up, sit up, back up, squat thrust, lari 15 menit dan shuttle-run. Hasil dari tes tersebut dijadikan parameter masukan ke dalam pelatihan fuzzy handoff algorithm sebagai elemen pelatihan. Algoritma pelatihan untuk ANFIS didasarkan pada algoritma pembelajaran hibrida dimana parameter premis dan konsekuen harus diperbaharui setiap data yang disajikan ke algoritma, yang dikenal sebagai pola pembelajaran. Algoritma pelatihannya terdiri dari maju dan mundur. ANFIS di desain dengan menggunakan aturan sederhana IF-THEN-RULE dengan jaringan umpan maju multilayer dimana setiap node akan melakukan fungsi khusus pada input yang masuk. Setiap node akan beradaptasi dan dilatih dengan mengubah parameter menjadi nilai dan akan melewati 5 layer yang berbeda.",
     "authors": [
       "Dian Ayu Fuji Lestari, -"
     ],
@@ -79,7 +79,7 @@
   },
   {
     "title": "PENERAPAN METODE KOMPETENSI ANTAR SISWA UNTUK MENINGKATKAN KEMAMPUAN KOGNITIF SISWA PADA AMATA PELAJARAN TIK",
-    "abstract": null,
+    "abstract": "Seiring berkembangnya Teknologi Informasi dan Komunikasi (TIK) dan semakin ketatnya persaingan sumber daya manusia (SDM) serta meningkatnya kebutuhan permintaan SDM yang berkompeten dibidang TIK, maka pendidikan diIindonesia diadakan sebuah mata pelajaran TIK, agar siswa dibekali ilmu pengetahuan tentang TIK. Namun ada banyak kendala dalam menunjang tercapainya tujuan ini, salah satunya yaitu tidak tepatnya metode dan model pembelajaran yang digunakan sehingga siswa tidak tertarik untuk mempelajari TIK. Hal ini akan mengakibatkan kemampuan kognitif siswa yang rendah dan dibawah standar kkm yang telah ditentukan. Maka dari itu pentingnya metode pembelajaran yang tepat guna dan sesuai dengan materi yang diajarkan perlu dirancang agar dapat meningkatkan kemampuan kognitif siswa. Penelitian ini membahas tentang penerapan metode kompetisi antar siswa (KAS) untuk meningkatkan kemampuan kognitif siswa dalam mata pelajaran TIK. Penlitian ini menggunakan metode penelitian quasi-experimental. Dengan desain pretest-postest contol group design. populasi dari penelitian ini adalah siswa kelas VIII SMPN 29 Bandung, sedangkan sampel penelitian adalah kelas VIII-E dan VIII-J. Metode pembelajaran KAS membangun cara berpikir siswa yang selalu berkompetisi dan mengetahui bagaimana keadaan nyata dalam dunia pekerjaan terutama di dalam bidang TIK. Dengan metode KAS ini rerata hasil belajar siswa lebih tinggi yaitu 81,3 dibandingkan dengan pembelajaran Konvensional sebesar 6,34. Dan persentasi Normalized gain kelas eksperimen berkriteria tinggi yaitu 0,70 sedangkan kelas kontrol berkriteria sedang yaitu 0,61. Berdasarkan data di atas terlihat bahwa metode KAS lebih meningkatkan kemampuan kognitif siswa dari pada metode konvesional.",
     "authors": [
       "Fernando Maruli Simangunsong, -"
     ],
@@ -118,7 +118,7 @@
   },
   {
     "title": "PENGEMBANGAN CAPTCHA DENGAN SKEMA MOUSE INTERVENTION MENGGUNAKAN HTML5 NATIF DRAG AND DROP",
-    "abstract": null,
+    "abstract": "CAPTCHA merupakan tes yang dibangkitkan secara otomatis di mana mudah dipecahkan oleh manusia dan sulit dipecahkan oleh script komputer. Terdapat banyak jenis CAPTCHA saat ini, selain jenis-jenis CAPTCHA, juga terdapat skema-skema pengembangan CAPTCHA, salah satunya adalah skema mouse intervention yang diajukan oleh Triet Giang dan Fei Liu di dalam jurnal nya yang berjudul Mouse Intervention CAPTCHA yakni sebuah skema pengembangan CAPTCHA yang lebih fokus pada penggunaan mouse pada prosesnya. Skema ini menarik karena tidak rentan terhadap OCR attack, dictionary attack, dan database attack serta aman terhadap simple brute force attack. Berdasarkan hal tersebut maka pada penelitian ini akan dikembangkan sebuah CAPTCHA dengan menggunakan skema mouse intervention menggunakan HTML5 natif drag and drop. CAPTCHA yang telah dihasilkan akan diintegrasikan dengan sebuah form registrasi pada sebuah aplikasi web. Tujuan dari penelitian ini adalah untuk memperoleh gambaran tentang pengembangan CAPTCHA dengan skema mouse intervention menggunakan HTML5 natif drag and drop.",
     "authors": [
       "Herdian, -"
     ],
@@ -131,7 +131,7 @@
   },
   {
     "title": "PENGEMBANGAN MEDIA PEMBELAJARAN VIDEO SIMULASI BERBASIS KOMPUTER SEBAGAI aLAT BANTU PEMBELAJARAN PADA POKOK BAHASAN EMAIL UNTUK KEPERLUAN INFORMASI DAN KOMUNIKASI",
-    "abstract": null,
+    "abstract": "Penelitian ini bertujuan untuk mengembangkan media pembelajaran sebagai alat bantu proses belajar ,dan mengetahui tingkat validitas media pembelajaran tersebut. Penelitian ini menggunakan pendekatan Research and Development (penelitian dan pengembangan). Metode R&D dalam penelitian ini digunakan untuk menghasilkan produk berupa media pembelajaran dan menguji keefektifan media pembelajaran tersebut sehingga dapat digunakan dalam proses pembelajaran. Media pembelajaran ini dirancang untuk memudahkan proses belajar mengajar antara pendidik dan siswa terutama pada mata pelajaran TIK sub bahasan email untuk keperluan unformasi dan komunikasi, dimana terkadang mengalami kendala dalam proses penyampaian materi, salah satunya tidak tersediannya koneksi internet disekolah. Dengan bantuan dari media pembelajaran yang dikembangkan ini diharapkan akan sangat membantu dalam proses pembelajaran secara efektif. Berdasarkan ketiga validator pada penelitian ini, maka diperoleh hasil menurut ahli media sebesar 70,6%, kemudian menurut ahli materi sebesar 83,3%, dan menurut pengguna sebesar 70%. Kata Kunci: Media Pembelajaran, Video simulasi berbasis komputer",
     "authors": [
       "Hermayana, Mohamad Fazrian"
     ],
@@ -157,7 +157,7 @@
   },
   {
     "title": "PENGGUNAAN SISTEM PAKAR UNTUK DIAGNOSA AWAL GANGGUAN KESEHATAN PADA GINJAL SECARA MANDIRI MENGGUNAKAN METODE DEPSTER-SHAFER",
-    "abstract": null,
+    "abstract": "Ginjal merupakan organ tubuh manusia yang sangat vital, merupakan salah satu organ perkemihan. Penyakit ginjal dapat meningkatkan risiko kematian bagi penderita dan dapat juga menjadi pemicu timbulnya penyakit lain. Apabila penyakit ginjal bisa dideteksi secara dini, maka penyakit lain yang menyebabkan kematian bisa segera dicegah. Oleh karena itu, perlu upaya sederhana dan cepat untuk mengetahui jenis-jenis penyakit ginjal yang diderita berdasarkan gejala-gejala yang dirasakan, tanpa mengurangi hasil diagnosa dari dokter spesialis. Salah satu metode untuk memberikan hasil diagnosa yang akurat selain dokter spesialis yaitu dengan menggunakan metode Dempster-Shafer. Metode Dempster-Shafer ini bekerja menghasilkan suatu hasil diagnosa kemungkinan penyakit dan nilai kepercayaan dengan menentukan terlebih dahulu nilai probabilitas setiap penyakit dan nilai densitas tiap gejala. Pengujian kelayakan aplikasi sistem pakar ini, berdasarkan beberapa data sample. Dari 20 data sample rekam medik yang diuji, menunjukan bahwa sistem memiliki keakuratan 99% dalam mengidentifikasi penyakit ginjal. Pengujian selanjutnya, yaitu menunjukan bahwa sistem memiliki keakuratan rata-rata 65% dalam menghasilkan nilai kepercayaan. Diharapkan dengan dibuatnya sistem pakar ini dapat digunakan oleh masyarakat sebagai acuan diagnosa awal terhadap suatu penyakit ginjal dan sebagai alat bantu bagi dokter untuk dapat mendiagnosa pasien dengan lebih tepat dan cermat.",
     "authors": [
       "Lita Meylianti Hadi Puteri, -"
     ],
@@ -183,7 +183,7 @@
   },
   {
     "title": "PENERAPAN ALGORITMA NAIVE BAYES PADA METODE CERTAINTY FACTOR UNTUK DIAGNOSA ANAK TUNA GRAHITA",
-    "abstract": null,
+    "abstract": "Anak tuna grahita merupakan individu yang utuh dan unik. Mereka seperti anak-anak pada umumnya, memiliki hak untuk mendapatkan layanan pendidikan yang sesuai dengan kebutuhan mereka. Secara fisik gejala yang terjadi pada anak tuna grahita tidak terlalu tampak layaknya anak normal lainnya, namun ada pula yang terlihat secara fisik. Anak tuna grahita memiliki gejala yang bervariasi mulai dari yang tidak tampak sama sekali, tampak minimal, sampai muncul tampak yang khas. Oleh karena itu, perlu upaya sederhana dan cepat untuk mengetahui apakah anak tersebut termasuk tuna grahita atau tidak agar orangtua atau keluarga dapat bertindak langsung untuk menangani anak yang tuna grahita dan memberikan pendidikan yang layak bagi anak karena pendidikan bagi anak tuna grahita pun berbeda-beda sesuai dengan kelasnya, yaitu kelas ringan, sedang, dan berat. Salah satu metode untuk memberikan hasil diagnosa yang akurat selain dari dokter spesialis yaitu dengan menggunakan algoritma Naive Bayes pada metode Certainty Factor. Algoritma dan metode ini bekerja dapat menghasilkan suatu hasil diagnosa dengan menentukan terlebih dahulu nilai probabilitas setiap gejala, nilai MB dan MD, dan nilai kepastian. Hasil yang didapat dengan mengimplementasikan algoritma Naive Bayes pada metode Certainty Factor ini untuk menentukan suatu hasil diagnosa yang akurat tanpa mengurangi hasil diagnosa dari dokter spesialis, sehingga dapat digunakan untuk memprediksi apakah anak yang didiagnosa termasuk tuna grahita ringan, sedang, berat atau anak tersebut terdiagnosa normal beserta dengan pendekatan dan pelayanan pendidikan yang tepat bagi anak.",
     "authors": [
       "Mayang Ayu Lestari, -"
     ],
@@ -222,7 +222,7 @@
   },
   {
     "title": "PERBANDINGAN ALGORITMA A* DAN BREADTH FIRST SEARCH PADA BLOCK MAZE",
-    "abstract": null,
+    "abstract": "Pada block maze pencarian jalur merupakan suatu permasalahan dalam mencari jalur dari simpul asal sampai menuju simpul tujuan. Pencarian dilakukan secara 4 arah. Dengan menggunakan algoritma A* yang menemukan jalur berupa simpul yang optimal yaitu simpul yang memiliki nilai heuristik terendah dengan menggunakan fungsi heuristik pada algoritma A* yang memakai nilai heuristik manhattan distance untuk 4 arah yang didapatkan dengan mengunjungi setiap simpul-simpul anak pada simpul yang telah dikunjungi yang berasal dari simpul asal, untuk menuju simpul tujuan, serta terdapat proses runut balik ke simpul sebelumnya yang memiliki simpul-simpul anak apabila pencarian tidak ditemukan, dan algoritma Breadth first search yang menemukan simpul tujuan dengan mengunjungi setiap simpul-simpul yang dikunjungi pada semua simpul-simpul anak yang berasal dari simpul asal untuk menemukan simpul tujuan, pencarian jalur dapat ditemukan. Hasil pencarian yang dilakukan oleh algoritma Breadth first search memiliki waktu eksekusi yang lebih singkat dibandingkan algoritma A* apabila membutuhkan waktu yang singkat untuk mengunjungi simpul-simpul anak, sedangkan dengan adanya algoritma A* simpul yang dikunjungi menjadi lebih sedikit dibandingkan dengan algoritma Breadth first search. Berdasarkan hasil pencarian yang diukur berdasarkan waktu eksekusi, ketuntasan pencarian, data ruang yang berasal dari simpul yang dikunjungi, dan optimalisasi, maka algoritma A* memiliki kinerja yang lebih baik dari pada algoritma Breadth first search.",
     "authors": [
       "Mohammad Nur Rahman, -"
     ],
@@ -248,7 +248,7 @@
   },
   {
     "title": "SISTEM PAKAR DIAGNOSA PENYAKIT HEPATITIS DENGAN MENGGUNAKAN METODE CASE BASED REASONING (CBR)",
-    "abstract": null,
+    "abstract": "Organ hati merupakan organ tubuh manusia yang sangat penting bagi metabolisme tubuh dan penawar racun bagi tubuh. Salah satu penyakit hati yaitu penyakit hepatitis yang bisa menyebabkan kerusakan metabolisme tubuh dan tidak bisa menawar racun bagi tubuh menjadi radang hati dan membahayakan bagi manusia. Apabila penyakit hepatitis bisa dideteksi, maka penyakit ini bisa segera dicegah dan diobati. Oleh karena itu upaya sederhana dan cepat untuk mengetahui jenis-jenis penyakit hepatitis yang diderita berdasarkan gejala-gejala yang dirasakan, tanpa mengurangi hasil diagnosa dari dokter spesialis. Salah satu metode untuk memberikan hasil diagnosa yang akurat selain dokter spesialis yaitu metode Case Based Reasoning (CBR). Metode Case Based Reasoning (CBR) ini bekerja menghasilkan diagnosa berdasarkan solusi kasus baru berdasarkan dari kasus sebelumnya dengan proses membandingkan kasus baru dengan database kasus yang telah tersimpan dalam database komputer dengan perhitungan bayesian indexing model untuk menentukan nilai rekomendasi terbesar. Pengujian validasi sistem pakar diagnosa hepatitis ini, berdasarkan data sampel rekam medis. Dari 20 data sampel rekam medis yang dibagi menjadi data training dan data testing lalu diuji dengan konfigurasi 70:30, 50:50, dan 30:70 dari uji konfigurasi tersebut didapat akurasi 72% untuk konfigurasi 70:30, akurasi 55% untuk konfigurasi 50:50, dan akurasi 23 % untuk konfigurasi 30:70, meskipun uji tersebut tidak mencapai 100% akurat tetapi sistem tersebut telah bisa digunakan dalam mengidentifikasi penyakit hepatitis. Diharapkan dengan dibuatnya sistem pakar ini dapat digunakan sebagai alat bantu bagi dokter untuk mendiagnosa pasien dengan cepat.",
     "authors": [
       "Muhammad Azhar Fauzi, -"
     ],
@@ -261,7 +261,7 @@
   },
   {
     "title": "SISTEM PAKAR DIAGNOSA PENYAKIT HEPATITIS DENGAN MENGGUNAKAN METODE CASE BASED REASONING (CBR)",
-    "abstract": null,
+    "abstract": "Organ hati merupakan organ tubuh manusia yang sangat penting bagi metabolisme tubuh dan penawar racun bagi tubuh. Salah satu penyakit hati yaitu penyakit hepatitis yang bisa menyebabkan kerusakan metabolisme tubuh dan tidak bisa menawar racun bagi tubuh menjadi radang hati dan membahayakan bagi manusia. Apabila penyakit hepatitis bisa dideteksi, maka penyakit ini bisa segera dicegah dan diobati. Oleh karena itu upaya sederhana dan cepat untuk mengetahui jenis-jenis penyakit hepatitis yang diderita berdasarkan gejala-gejala yang dirasakan, tanpa mengurangi hasil diagnosa dari dokter spesialis. Salah satu metode untuk memberikan hasil diagnosa yang akurat selain dokter spesialis yaitu metode Case Based Reasoning (CBR). Metode Case Based Reasoning (CBR) ini bekerja menghasilkan diagnosa berdasarkan solusi kasus baru berdasarkan dari kasus sebelumnya dengan proses membandingkan kasus baru dengan database kasus yang telah tersimpan dalam database komputer dengan perhitungan bayesian indexing model untuk menentukan nilai rekomendasi terbesar. Pengujian validasi sistem pakar diagnosa hepatitis ini, berdasarkan data sampel rekam medis. Dari 20 data sampel rekam medis yang dibagi menjadi data training dan data testing lalu diuji dengan konfigurasi 70:30, 50:50, dan 30:70 dari uji konfigurasi tersebut didapat akurasi 72% untuk konfigurasi 70:30, akurasi 55% untuk konfigurasi 50:50, dan akurasi 23 % untuk konfigurasi 30:70, meskipun uji tersebut tidak mencapai 100% akurat tetapi sistem tersebut telah bisa digunakan dalam mengidentifikasi penyakit hepatitis. Diharapkan dengan dibuatnya sistem pakar ini dapat digunakan sebagai alat bantu bagi dokter untuk mendiagnosa pasien dengan cepat.",
     "authors": [
       "Muhammad Azhar Fauzi, -"
     ],
@@ -274,7 +274,7 @@
   },
   {
     "title": "SISTEM PENDUKUNG KEPUTUSAN PEMILIHAN MOBIL BARU DAN MOBIL BEKAS TERBAIK MENGGUNAKAN METODE SAW (SIMPLE ADDITIVE WEIGHTING)",
-    "abstract": null,
+    "abstract": "Pada masa sekarang kebutuhan transportasi bagi manusia sangatlah diperlukan baik itu transportasi umum atau pun transportasi pribadi. Selain bisa mempercepat waktu perjalanan, transportasi juga bisa memberi kenyamanan bagi penggunanya. Salah satu transportasi yang banyak digunakan yaitu mobil. Mobil sekarang bukanlah barang langka, dan bagi kaum yang memiliki uang berlebih merupakan sebuah kebutuhan yang harus dipenuhi karena fungsi dari mobil sangatlah bermanfaat. Karena banyaknya variasi, merk dan jenis mobil beredar membuat para konsumen bingung untuk memilih mobil yang terbaik. Untuk membantu para calon pembeli atau konsumen mobil dalam memilih mobil terbaik maka dibutuhkan sebuah sistem pendukung keputusan. Metode yang dapat digunakan untuk Sistem Pendukung Keputusan ini adalah dengan menggunakan SAW (Simple Additive Weighting). Pada penelitian ini akan diangkat suatu kasus yaitu menentukan alternatif terbaik berdasarkan kriteria-kriteria yang telah ditentukan dengan mengggunakan metode SAW. Dari perhitungan menggunakan metode SAW secara manual dengan banyak kriteria dan bobot yang sudah ditentukan dari pakarnya hasilnya sudah sesuai dengan perhitungan pada sistem aplikasi yang dibuat dan telah memberi rekomendasi terbaik pada kasus ini. Dengan adanya sistem ini maka dalam pemilihan mobil baru dan mobil bekas terbaik mendapatkan hasil yang bisa menjadi bahan pertimbangan untuk calon pembeli atau konsumen mobil.",
     "authors": [
       "Muhammad Hilmy Purnama, -"
     ],
@@ -300,7 +300,7 @@
   },
   {
     "title": "PENGARUH KINERJA MENGAJAR GURU TEKNOLOGI INFORMASI DAN KOMUNIKASI TERHADAP HASIL BELAJAR SISWA",
-    "abstract": null,
+    "abstract": "Penelitian yang berjudul “Pengaruh Kinerja Mengajar Guru TIK Terhadap Hasil Belajar Siswa” ini merupakan sebuah penelitian yang bertujuan untuk mengetahui pengaruh kinerja mengajar guru TIK terhadap hasil belajar siswa yang diukur dari nilai UAS yang diperoleh siswa. Kinerja mengajar guru TIK meliputi perencanaan, pelaksanaan, dan penilaian/evaluasi pembelajaran. Dalam penelitian ini terdapat empat sekolah yang menjadi tempat penelitian dengan responden siswa SMP. Dari hasil penelitian diperoleh gambaran kinerja mengajar guru berdasarkan persepsi siswa berada pada rentang baik yaitu sebesar 2.74, gambaran kinerja mengajar guru berdasarkan penilaian observer berada pada rentang baik yaitu sebesar 2.96, sedangkan untuk penilaian dokumentasi pembelajaran berupa RPP adalah sangat baik yaitu sebesar 3.01. rata-rata untuk keseluruhan gambaran variabel Kinerja Guru TIK yang meliputi perencanaan, pelaksanaan, dan evaluasi pembelajaran berdasarkan persepsi siswa, hasil penilaian dokumen pembelajaran (RPP), dan penilaian oleh observer adalah sebesar 2.96 dan berada pada kategori baik. Untuk penilaian hasil belajar terbanyak yang diperoleh siswa pada mata pelajaran TIK berada pada rentang 71-80, hal ini menunjukkan bahwa setidaknya materi dapat diterima oleh siswa dengan baik sampai lebih dari 50% siswa. Sedangkan hasil perhitungan koefisien korelasi antara kinerja mengajar guru dengan hasil belajar siswa adalah sebesar 0.504 (arah positif) artinya hubungan antara kinerja mengajar guru TIK terhadap hasil belajar siswa pada mata pelajaran TIK berada pada kategori sedang. Selanjutnya dari hasil pengujian hipotesis dengan dua pihak diperoleh kesimpulan bahwa H0 ditolak dan artinya kinerja mengajar guru TIK berpengaruh terhadap hasil belajar siswa. Hal ini didukung dengan hasil uji koefisien determinasi untuk mengetahui berapa persentase pengaruh kinerja mengajar guru terhadap hasil belajar siswa yang akhirnya diperoleh besaran koefisien determinasi sebesar 25.4% sedangkan sisanya 74.6% hasil belajar siswa dipengaruhi oleh faktor lain yang tidak menjadi bagian dari penelitian ini.",
     "authors": [
       "Nurwahidah, -"
     ],
@@ -313,7 +313,7 @@
   },
   {
     "title": "EFEKTIVITAS MODEL PEMBELAJARAN KONSTRUKTIVISME LIMA FASE NEEDHAM BERBANTUAN MULTIMEDIA UNTUK MENINGKATKAN HASIL BELAJAR RANAH KOGNITIF SISWA SMP KELAS VII PADA MATA PELAJARAN TEKNOLOGI INFORMASI DAN KOMUNIKASI (TIK)",
-    "abstract": null,
+    "abstract": "Perkembangan Teknologi Informasi dan Komunikasi telah melahirkan inovasi-inovasi pembelajaran dan media pembelajaran yang dapat membantu para pengajar untuk mencapai tujuan pembelajaran. Dengan perkembangan tersebut, maka dinilai penting untuk melakukan migrasi dari pembelajaran yang berpusat pada guru ke pembelajaran yang berpusat pada siswa (children center) untuk membangun pemahamannya secara mandiri. Maka dari itu penting adanya model dan media yang mampu membuat siswa belajar seutuhnya secara mandiri dan dapat meningkatkan hasil belajarnya. Penelitian ini termasuk dalam kategori quasi-experimental dengan desain penelitiannya adalah pretest-postest control group design. Penelitian ini meneliti tentang efektivitas model pembelajaran konstruktivisme lima fase Needham berbantuan multimedia untuk meningkatkan hasil belajar ranah kognitif siswa SMP kelas VII pada mata pelajaran TIK. Dalam model ini, kegiatan belajar dilakukan dalam lima fase yaitu : fase orientasi (engage); fase pencetusan ide (explore); fase penstrukturan semua ide (explain), fase aplikasi ide (elaborate) dan fase refleksi (evaluate) . Analisis data dengan uji beda rerata gain, didapatkan informasi bahwa kelas dengan model konstruktivisme lima fase Needham berbantuan multimedia memiliki rerata peningkatan yang lebih baik dibandingkan kelas dengan pendekatan konvensional dan memiliki kriteria efektivitas “sedang” dibandingkan kelas kontrol dengan kriteria efektivitas “kurang”. Ini diperkuat dengan kriteria effect size Cohen yang menunjukan kategori “sedang”. Persentase Normalized gain siswa kelas eksperimen sebesar 45% lebih baik dibandingkan dengan kelas kontrol yang memiliki normalized gain sebesar 28%. Berdasarkan perhitungan uji gain, terlihat bahwa model pembelajaran konstruktivisme lima fase Needham berbantuan multimedia lebih efektif diterapkan pada kelompok siswa bagian atas.",
     "authors": [
       "Octavianus Dominggus, -"
     ],
@@ -339,7 +339,7 @@
   },
   {
     "title": "SISTEM PENJADWALAN MENGGUNAKAN 'GENETIC ALGORITHM'",
-    "abstract": null,
+    "abstract": "Penjadwalan kereta api memegang peranan penting dalam hal tercapainya kondisi optimal pada perjalanan kereta api. Multiconstraint yang seluruhnya bersifat tidak boleh dilanggar (hard constraint) pada penjadwalan kereta api menjadikan masalah penjadwalan ini tidak mudah. Hasil penelitian komputasi sebelumnya mengatakan bahwa Genetic Agorithm merupakan metode yang tepat dalam menjelajahi ruang pencarian dari masalah kompleks. Melalui penelitian ini, penulis bermaksud untuk menerapkan algoritma genetika pada masalah penjadwalan kereta api yang dianggap kompleks dengan fungsi objektif minimasi makespan. Adapun multiconstraint yang diperhitungkan dalam penelitian ini adalah jadwal kereta fix, yaitu jadwal kereta-kereta dari dan ke luar daerah operasi Bandung, ketersediaan jumlah fisik kereta setiap jenis kereta yang tidak sama dengan jumlah perjalanan kereta dan jumlah jalur yang dimiliki tiap stasiun yang tidak sama. Sedangkan nilai fungsi fitness yang digunakan adalah perbandingan lamanya perjalanan kereta api (waktu tiba kereta dikurangi waktu keberangkatan kereta) dengan lamanya waktu minimum perjalanan (total waktu tempuh antar stasiun yang dilalui oleh kereta). Gen dideskripsikan sebagai waktu keberangkatan tiap kereta lokal, sedangkan kromosom sebagai solusi adalah waktu keberangkatan kereta per hari. Perhitugan nilai fungsi fitness akan dilakukan pada setiap kromosom yang lalu akan dikenai operator seleksi, crossover dan mutasi. Individu terbaik adalah, individu dengan nilai fungsi fitness dari kromosom yang terkecil. Proses algoritma genetika tersebut akan menghasilkan jadwal keberangkatan dan tiba dari 16 kereta lokal dengan perhitungan waktu tunggu masing-masing kereta yang paling minimum.Dari hasil percobaan yang telah dilakukan dan telah di-valid-asi oleh pihak PT.Kereta Api (Persero) dapat disimpukan bahwa algoritma genetika telah berhasil diterapkan pada masalah penjadwalan kereta api dengan tujuan minimasi makespan. Hasil generate dari sistem penjadwalan kereta api menggunakan Genetic Algorithm menghasilkan jadwal kereta api dengan ketersediaan fisik kereta saat jam keberangkatan kereta, serta memiliki nilai fungsi fitness paling minimum, yaitu 0.00",
     "authors": [
       "Prastina Dwi Utami, -"
     ],
@@ -352,7 +352,7 @@
   },
   {
     "title": "PENGEMBANGAN LEARNING MANAGEMENT SYSTEM (LMS) BERBASIS ANDROID",
-    "abstract": null,
+    "abstract": "Perkembangan teknologi informasi (TI) yang berkembang sangat pesat menawarkan paradigma baru dalam pembelajaran di perguruan tinggi (PT) di Indonesia yang disebut dengan e-learning. E-learning dapat diadopsi fungsinya untuk digunakan pada teknologi mobile yang dikenal dengan m-learning. Teknologi mobile telah banyak digunakan di berbagai lingkungan pembelajaran dan projek m-learning. Meskipun saat ini telah banyak dikembangkan aplikasi untuk mendukung e-learning atau dikenal sebagai Learning Management System (LMS) namun umumnya aplikasi-aplikasi LMS tersebut masih mahal. Oleh karenanya dirasa perlu mengembangkan aplikasi LMS pada teknologi mobile yang fully-customized dan sesuai dengan konteks institusional sehingga diharapkan nantinya aplikasi ini dapat membantu dalam meningkatkan kualitas proses belajar mengajar di Indonesia. Aplikasi ini nantinya tidak ditujukan untuk menggantikan aktivitas pembelajaran konvensional melainkan hanya bersifat sebagai komplementer. Adapun penggunaan metode berorientasi objek dalam pengembangan aplikasi ini dimaksudkan untuk mempermudah proses pengembangan sistem secara keseluruhan karena fasilitas-faslitas yang ada pada aplikasi ini dapat dibentuk sebagai modul-modul yang nantinya dapat ditambahkan ke dalam sistem sesuai dengan kebutuhan. Pengujian non-teknis akan dilakukan untuk mendapatkan masukan perbaikan LMS pada masa yang akan datang.Kata Kunci: Teknologi Mobile, Mobile Learning, Learning Management System",
     "authors": [
       "Pratama, Basytyan Kardinal"
     ],
@@ -365,7 +365,7 @@
   },
   {
     "title": "PENERAPAN METODE CIRC COOPERATIVE INTEGRATED READING AND COMPOSITION BERBANTUAN MULTIMEDIA INTERAKTIF UNTUK MENINGKATKAN HASIL BELAJAR SISWA SMK KELAS XI PADA MATA PELAJARAN SISTEM OPERASI JARINGAN SOJ",
-    "abstract": null,
+    "abstract": "Tujuan penelitian ini untuk mengetahui apakah hasil belajar siswa dengan menggunakan metode pembelajaran CIRC (Cooperatif Integrated Reading And Composition ) berbantuan multimedia interaktif lebih meningkat daripada model pembelajaran konvensional pada mata pelajaran sistem operasi jaringan (SOJ). Metode pembelajaran CIRC merupakan model pembelajaran kooperatif terpadu membaca dan menulis. Metode ini dikolaborasikan dengan bantuan multimedia interaktif dalam proses penyampaian materi kepada siswa. Sampel penelitian ini adalah siswa kelas TKJ XI-1( kelas eksperimen) dan TKJ XI-2( kelas kontrol) dengan jumlah 30 siswa setiap kelasnya. Metode penelitian yang digunakan adalah metode quasi eksperimen. Desain penelitiannya adalah Nonekivalen Pretest – Posttest Control Group Design dengan menggunakan teknik Cluster Random Sampling. Keberhasilan penerapan metode CIRC berbantuan multimedia interaktif sebagai alat bantu dalam penyampaian materi yang disampaikan dapat dilihat dari perbedaan nilai tes kelompok eksperimen dan kelompok kontrol serta hasil belajar siswa dengan diterapkannya metode CIRC berbantuan multimedia interaktif lebih meningkat daripada pembelajaran konvensional.",
     "authors": [
       "RANGKUTI, Muthi Akbar"
     ],
@@ -378,7 +378,7 @@
   },
   {
     "title": "PENGEMBANGAN MODEL EBOOK BERBASIS MULTIMEDIA PADA MATA PELAJARAN TEKNOLOGI INFORMASI DAN KOMUNIKASI (TIK)",
-    "abstract": null,
+    "abstract": "Tujuan penelitian ini adalah untuk mengembangkan media pembelajaran berupa ebook berbasis multimedia yang dapat digunakan sebagai media alternatif pendukung pembelajaran. Ebook berbasis multimedia merupakan perpaduan antara buku cetak dan unsur multimedia berupa teks, gambar, suara, animasi dan grafik yang dikemas dalam bentuk digital. Teori pembelajaran yang melandasi pengembangan ebook berbasis multimedia ini adalah model teori kognitif pembelajaran multimedia Mayer, yang menyatakan korelasi antara kemampuan pemrosesan informasi visual dan audio secara bersamaan menunjukkan kedalaman pemahaman yang baik sehingga proses pembelajaraan siswa dapat lebih berkualitas.",
     "authors": [
       "Rachmawati, -"
     ],
@@ -391,7 +391,7 @@
   },
   {
     "title": "IMPLEMENTASI ALGORITMA APRIORI PADA MOBILE COMMERCE USAHA MIKRO KECIL DAN MENENGAH",
-    "abstract": null,
+    "abstract": "Usaha Kecil dan Menengah merupakan salah satu jenis usaha yang sangat berkembang di Indonesia saat ini. Jenis usaha ini mengalami kesulitan di bidang teknologi informasi sehingga cakupan pemasarannya terbatas. Oleh karena itu penelitian ini bertujuan agar membuat mobile commerce yang dapat membantu pemasaran produk-produk UMKM.",
     "authors": [
       "Rahmadani, -"
     ],
@@ -404,7 +404,7 @@
   },
   {
     "title": "SISTEM PENJADWALAN KULIAH MENGGUNAKAN ALGORITMA GENETIKA : STUDI KASUS PROGRAM STUDI PENDIDIKAN GURU SEKOLAH DASAR UNIVERSITAS PENDIDIKAN INDONESIA KAMPUS BUMI SILIWANGI",
-    "abstract": null,
+    "abstract": "Penjadwalan adalah sesuatu hal yang sangat rumit dan kompleks dalam penyusunannya, dikarenakan harus melibatkan beberapa komponen. Dalam konteks perkuliahan, penjadwalan setidaknya perlu memperhatikan beberapa hal diantaranya dosen, mahasiswa, mata kuliah, ruangan, waktu dan batasan dalam penyusunan jadwal kuliah atau constraints. Terdapat dua kategori constraints pada penjadwalan kuliah, yaitu hard constraints (batasan yang tidak boleh dilanggar) dan soft constraints (batasan yang boleh dilanggar). Untuk menentukan hard constrains dan soft constraints peneliti menganalisis permasalahan penjadwalan di Program Studi Pendidikan Guru Sekolah Dasar Universitas Pendidikan Indonesia Kampus Bumi Siliwangi. Kemudian membangun sistem penjadwalan perkuliahan untuk menghasilkan penjadwalan yang memenuhi hard constraints dan soft constaints. Dalam memproses sistem penjadwalan perkuliahan digunakan algoritma genetika, didalam algoritma genetika sendiri terdapat beberapa tahapan yaitu pembangkitan populasi, penghitungan fungsi fitness, seleksi, crossover, dan mutasi yang nantinya memproses hard cosntraints dan soft constraints.",
     "authors": [
       "Rahman Anggara, -"
     ],
@@ -417,7 +417,7 @@
   },
   {
     "title": "PENGEMBANGAN MEDIA BROSUR BERBASIS AUGMENTED REALITY PADA PEMBUATAN GEDUNG FAKULTAS VIRTUAL UNIVERSITAS PENDIDIKAN INDONESIA DALAM BANTUK OBJEK 3D",
-    "abstract": null,
+    "abstract": "Penelitian ini merupakan sebuah pengembangan media brosur berbasis augmented reality pada pembuatan gedung virtual fakultas Universitas Pendidikan Indonesia. Selain itu, penelitian ini bertujuan untuk melihat validitas atau kelayakan media brosur berbasis augmented reality yang telah dikembangkan, serta untuk melihat penilaian pengguna terhadap media yang telah dikembangkan. Penelitian dilakukan di Universitas Pendidikan Indonesia dengan subjek penelitian pengguna pada penggunaan brosur. Instrumen penelitian yang digunakan antara lain angket survei yang diberikan kepada pengguna pada tahap analisis, angket validasi ahli pada tahap pengembangan yang diberikan kepada dosen-dosen ahli media, serta angket penilaian pengguna terhadap media pada tahap uji coba terbatas. Dari penelitian ini didapatkan hasil: 1) Proses pengembangan media brosur berbasis augmented reality meliputi hasil studi pendahuluan, perancangan dan pengembangan media, validasi oleh ahli dan pengguna, revisi media, ujicoba terbatas, revisi akhir dan pelaporan, 2) media brosur berbasis augmented reality yang telah dikembangkan dinilai Baik dan layak digunakan dengan rata-rata persentase kelayakan 71.74% oleh ahli media, serta kelayakan sangat baik 76.75% oleh pengguna, 3)media brosur berbasis augmented reality yang telah dikembangkan mendapat penilaian Baik dengan persentase penilaian sebesar 74.075 % oleh pengguna.",
     "authors": [
       "Riki Amaliana Suryana, -"
     ],
@@ -430,7 +430,7 @@
   },
   {
     "title": "PENERAPAN MODEL LEARNING CYCLCE 7E BERBASIS MULTIMEDIA UNTUK MENINGKATKAN PEMAHAMAN SISWA PADA POKOK BAHASAN PERANGKAT KERAS UNTUK AKSES INTERNET",
-    "abstract": null,
+    "abstract": "Telah dilakukan penelitian untuk menjajaki model Learning Cycle 7E berbasis multimedia pada pembelajaran materi perangkat keras untuk akses internet untuk mendapatkan gambaran potensinya dalam meningkatkan pemahaman konsep siswa SMA. Metode penelitian yang digunakan adalah metode quasi eksperiment dengan desain “Nonequivalent Control Group Design”. Metode eksperimen digunakan untuk melihat perbandingan kemampuan pemahaman konsep siswa yang menggunakan model Learning Cycle 7E berbasis multimedia dengan siswa yang menggunakan pembelajaran konvensional. Penelitian dilakukan terhadap siswa kelas X pada salah satu SMA Negeri di Kabupaten Garut. Sampel penelitian terdiri dari dua kelas yaitu kelas eksperimen dan kelas kontrol. Kelas eksperimen menggunakan model Learning Cycle 7E berbasis multimedia sedangkan kelas kontrol menggunakan pembelajaran konvensional dalam mempelajari materi perangkat keras untuk akses internet. Instrumen yang digunakan dalam penelitian ini adalah tes objektif berupa pilihan ganda. Dari hasil penelitian diketahui bahwa model pembelajaran Learning Cycle 7E berbasis multimedia efektif meningkatkan hasil belajar siswa dari aspek pemahaman dilihat dari selisih rata-rata nilai kelas eksperimen sebesar G = 41,50 atau <g> = 0,57 dan selisih rata-rata nilai kelompok kontrol sebesar G = 19,58 atau <g> = 0,28. Dapat disimpulkan bahwa penerapan model pembelajaran Learning Cycle 7E berbasis multimedia lebih baik dari pembelajaran konvensional dalam meningkatkan pemahaman siswa pada mata pelajaran TIK.",
     "authors": [
       "Rivan Arifiyansyah, -"
     ],
@@ -469,7 +469,7 @@
   },
   {
     "title": "PENERAPAN ACCELERATED LEARNING PADA MODEL PEMBELAJARAN BERBASIS MASALAH UNTUK MENINGKATKAN KEMAMPUAN BERPIKIR KREATIF MATEMATIS SISWA SMP : Penelitian Eksperimen Terhadap Siswa Kelas VIII SMP Negeri 1 Lembang",
-    "abstract": null,
+    "abstract": "Penelitian ini dilatarbelakangi oleh tujuan pembelajaran matematika untuk membekali kemampuan berpikir kreatif. Dengan berpikir kreatif, siswa dapat memiliki kemampuan memperoleh, mengelola dan memanfaatkan informasi untuk kehidupannya yang selalu berubah. Namun pada kenyataan yang diperoleh, berpikir kreatif yang dikembangkan pada pembelajaran matematika belum memperoleh hasil yang memuaskan. Dalam upaya untuk meningkatkan kemampuan berpikir kreatif matematis, dilakukan pembelajaran matematika dengan penerapan accelerated learning pada model pembelajaran berbasis masalah. Pembelajaran ini erat kaitannya dengan keterampilan berpikir siswa dalam memecahkan masalah yang bisa dilakukan jika siswa memiliki kemampuan berpikir kreatif. Sehingga diharapkan penerapan accelerated learning pada model pembelajaran berbasis masalah dapat meningkatkan kemampuan berpikir kreatif matematis siswa. Penelitian ini menggunakan metode eksperimen dengan populasi seluruh siswa kelas VIII SMP Negeri 1 Lembang. Adapun desain penelitian yang digunakan adalah pretes-postes control group design dengan teknik acak kelompok. Instrumen yang digunakan berupa instrumen tes dan nontes. Instrumen tes berupa soal uraian berdasarkan indikator kemampuan berpikir kreatif matematis dan instrumen nontes berupa lembar observasi, jurnal harian dan angket. Berdasarkan penelitian diperoleh bahwa peningkatan kemampuan berpikir kreatif matematis siswa yang mendapat penerapan accelerated learning pada model pembelajaran berbasis masalah lebih baik dari siswa yang mendapat pembelajaran dengan ekspositori. Berdasarkan data kualitatif yang diperoleh, menyatakan bahwa siswa memiliki respon positif terhadap pembelajaran ini.",
     "authors": [
       "Siti Nurlalif, -"
     ],
@@ -482,7 +482,7 @@
   },
   {
     "title": "PENGEMBANGAN SOCIAL MEDIA BERBASIS DIGITAL ASSET MANAGEMENT SYSTEM UNTUK SHARING INFORMASI",
-    "abstract": null,
+    "abstract": "Tantangan teknologi informasi untuk para penyedia informasi adalah bagaimana cara menyampaikan informasi dengan cepat, tepat dan global. Universitas merupakan tempat berbagai karya tulis ilmiah dihasilkan dalam bentuk digital asset. Universitas sebagai intistusi pendidikan harus dapat menyampaikan digital asset dengan cepat, tepat dan global. Konsep ditawarkan untuk menjawab tantangan tersebut diantaranya adalah Digital Asset Management System dan Social Media. Digital Asset management System dapat digunakan sebagai konsep pengelolaan asset sedangkan Social Media melengkapi proses publikasi informasi/asset knowledge yang cepat, tepat dan global. Metode penelitian yang digunakan adalah metode R&D yang disesuaikan menjadi tiga langkah utama, yaitu studi pendahuluan, perencanaan dan pengembangan serta pelaksanaan. Hasil penelitian berupa model sistem yang mengelola informasi/asset knowledge di Universitas dengan beberapa panduan pelaksanaan.",
     "authors": [
       "Taufik Sulaeman Puspanegara, -"
     ],
@@ -495,7 +495,7 @@
   },
   {
     "title": "IMPLEMENTASI METODE PEMBELAJRAN SQ4R MENGGUNAKAN TALKING STICK UNTUK MENINGKATKAN HASIL BELAJAR SISWA PADA MATA PELAJARAN TIK",
-    "abstract": null,
+    "abstract": "Penelitian ini adalah tentang implementasi metode Survey, Question, Read, Recite, Review and Reflect (SQ4R) dengan menggunakan Talking Stick untuk meningkatkan hasil belajar siswa pada mata pelajaran TIK. Metode penelitian ini menggunakan metode quasi-experimental, sedangkan desain penelitiannnya adalah pretest-postest kontrol group design. Populasi dari penelitian ini adalah siswa kelas X SMA YAPI Al-Husaeni Ciparay, sedangkan sampel penelitian adalah kelas X-1 dan X-2. Metode pembelajaran SQ4R berfungsi untuk meningkatkan hasil belajar siswa pada mata pelajaran TIK terutama materi yang berbentuk wacana. Dengan metode SQ4R ini rerata hasil belajar siswa lebih tinggi yaitu 9.60 dibandingkan rerata pembelajaran konvensional sebesar 8.30. Persentasi Normalized gain kelas dengan metode SQ4R menggunakan Talking Stick berkriteria sedang yaitu 0.36 sedangkan kelas konvensional berkriteria rendah yaitu 0.09. Berdasarkan data diatas terlihat bahwa metode SQ4R dapat meningkatkan hasil belajar siswa daripada metode konvesional.",
     "authors": [
       "Ulfah Latifah, -"
     ],
@@ -508,7 +508,7 @@
   },
   {
     "title": "IMPLEMENTASI DECISION TREE UNTUK MEMPREDIKSI KELULUSAN SNMPTN",
-    "abstract": null,
+    "abstract": "Ujian SNMPTN adalah salah satu ujian yang diselenggarakan oleh pemerintah sebagai ajang seleksi masuk perguruan tinggi negeri di Indonesia. Ketatnya persaingan untuk mendapatkan kursi di perguruaan tinggi ini mengakibatkan tidak sedikit siswa yang gagal menempuh ujian tersebut. Banyak faktor yang dapat mempengaruhi hasil ujian khususnya ujian SNMPTN , salah satunya faktor yang berhubungan dengan aktifitas siswa yaitu akademik siswa semasa menempuh pendidikan di tingkat SMA. dengan harapan dapat memprediksi hasil kelulusan dari data akademik siswa maka dilakukan penelitian yang berjudul “Implementasi Decision Tree Untuk Memprediksi Kelulusan SNMPTN”. Dengan mengimplementasikan algoritma klasifikasi Decision Tree, keseluruhan data akademik siswa dengan hasil kelulusannya akan dibentuk model classifier, kemudian dengan menggunakan model tersebut kelulusan SNMPTN akan diprediksi dari data akademik siswa. Setelah mengimplementasikan decision tree didapatkan bahwa data akademik bisa dijadikan dasar prediksi kelulusan SNMPTN dengan hasil akurasi yang baik.",
     "authors": [
       "Viki Andrianto, -"
     ],
