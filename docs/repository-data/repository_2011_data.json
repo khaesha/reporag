@@ -1,7 +1,7 @@
 [
   {
     "title": "SELF ASSESSMENT TATA KELOLA TEKNOLOGI INFORMASI BERDASARKAN FRAMEWORK INFORMATION TECHNOLOGY INFRASTRUCTURE LIBRARY (ITIL)",
-    "abstract": null,
+    "abstract": "Skripsi ini berjudul ”Self Assessment Tata Kelola TI Berdasarkan Framework ITIL”. Masalah yang dibahas dalam skripsi ini dipecah menjadi 3 bagian, yaitu 1) bagaimana framework ITIL dapat diimplementasikan pada perusahaan. 2) bagaimana membangun perangkat lunak yang membantu auditor dalam melakukan aktifitas audit yang mengacu kepada framework ITIL. 3) sejauh mana perangkat lunak yang dibangun memberikan hasil yang dapat digunakan sebagai sumber kajian oleh para auditor. Metode yang digunakan dalam penelitian ini adalah metode kepustakaan, sementara pendekatan yang digunakan dalam membangun perangkat lunak menggunakan pendekatan berorientasi objek serta metode pengujian yang dilakukan menggunakan metode black box testing. Proses implementasi TI pada perusahaan tidak selamanya selaras dengan strategi dan tujuan perusahaan., padahal implementasi TI pada perusahaan memerlukan biaya yang cukup besar. Untuk itu perlu dilakukan analisis terhadap infrastruktur dan pengelolaan TI yang ada agar dapat selalu dipastikan kesesuainnya dengan tujuan perusahaan. Analisis terhadap infrastruktur dan pengelolaan TI dapat dilakukan melalui penggunaan framework tata kelola TI, khususnya ITIL. Proses implementasi framework ITIL ini diawali dengan melakukan proses assessment pada perusahaan tersebut untuk diketahui sudah sejauh mana perusahaan melakukan tata kelola TI. Proses assessment dalam implementasinya memerlukan alat bantu untuk membantu auditor mendapatkan hasil yang maksimal dan rancangan perbaikan yang menyeluruh. Alat bantu berupa perangkat lunak yang dikembangkan ini disesuaikan dengan framework ITIL baik pertanyaan maupun parameter nilai yang digunakan. Alat bantu yang dikembangkan ini menghasilkan keluaran yang berguna bagi auditor berupa nilai-nilai keunggulan dan kelemahan sistem eksisting perusahaan serta beberapa poin potensi solusi. Hasil keluaran ini merupakan sumber masukan bagi auditor untuk melakukan kajian analisanya lebih dalam lagi sehingga dengan efektif dan efisien auditor mampu memberikan masukan yang optimal kepada perusahaan.",
     "authors": [
       "APRILIAWAN, Egie Hendra"
     ],
@@ -14,7 +14,7 @@
   },
   {
     "title": "IMPLEMENTASI ALGORITMA ã€–MAXã€—^n PADA PERMAINAN CONNECT FOUR",
-    "abstract": null,
+    "abstract": "Algoritma ã€–Maxã€—^n banyak digunakan untuk memecahkan suatu aplikasi permainan. Algoritma ã€–Maxã€—^n merupakan algoritma yang dikhususkan untuk permainan yang dimainkan oleh pemain berjumlah di atas dua player atau n-player (minimal tiga player). Algoritma ã€–Maxã€—^n dapat melihat langkah ke depan atau meramalkan langkah yang akan datang dari suatu permainan. Dengan menggunakan heuristik atau tuple dan metode pencarian Depth First Search (DFS) Algoritma ã€–Maxã€—^n dapat menentukan langkah yang terbaik. Pada saat pengambilan langkah, algoritma ã€–Maxã€—^n menggunakan nilai n-tuples bernilai max. Dengan mengimplementasikan algoritma ã€–Maxã€—^n ke dalam permainan Connect Four kemudian diuji coba sebanyak 12 kali percobaan (enam kali percobaan level Hard, dan enam kali percobaan level Normal), Algoritma ã€–Maxã€—^n menghasilkan delapan kali memenangkan permainan dari 12 kali bermain (lima kali memenangkan permainan untuk level Hard, dan tiga kali memenangkan permainan dalam level Normal).",
     "authors": [
       "Aby Al Khudri, -"
     ],
@@ -27,7 +27,7 @@
   },
   {
     "title": "PENERAPAN JARINGAN SARAF TIRUAN BACKPROPAGATION UNTUK PERAMALAN CURAH HUJAN",
-    "abstract": null,
+    "abstract": "Hujan merupakan salah satu unsur cuaca yang penting dalam kehidupan. Banyak bidang kehidupan yang tergantung pada banyaknya hujan yang turun atau dikenal dengan curah hujan. Walaupun demikian, curah hujan yang terlalu rendah atau terlalu tinggi dapat menyebabkan bencana. Untuk itulah dilakukan peramalan untuk mengetahui jumlah curah hujan di waktu mendatang, sehingga dapat dilakukan perencanaan dan antisipasi.",
     "authors": [
       "Aceng Mu'min, -"
     ],
@@ -40,7 +40,7 @@
   },
   {
     "title": "INTEGRASI PERANGKAT LUNAK E-COMMERCE DENGAN WEB SERVICE PAYMENT GATEWAY",
-    "abstract": null,
+    "abstract": "Sebuah system E-commerce membutuhkan modul realtime transaction untuk melaksanakan operasionalnya. Tanpa modul tersebut transaksi akan berjalan secara manual, hal tersebut menimbulkan berbagai permasalahan. Permasalahan yang terjadi salah satunya adalah adanya jeda waktu yang cukup lama antara pembayaran dengan kontent delivery hal ini dikarenakan masih adanya keterlibatan penjual dalam proses transaksi. Jeda waktu bisa menjadi sangat lama, bilamana transaksi dilakukan diluar jam kerja. Untuk mengatasi masalah ini, e-commerce akan diintegrasikan dengan payment gateway. Integrasi dilakukan dengan cara memanfaatkan service Intstant Payment Notification yang dimiliki oleh paypal sebagai penanda untuk system bahwa transaksi telah terjadi. Dari integrasi yang dilakukan , dihasilkan dua cara pembayaran, yaitu express checkout dengan menggunakan web payment paypal dan pembayaran Credit card. Kedua cara transaksi tersebut memungkinkan terjadinya transaksi secara realtime. Pihak penjual pun sudah tidak dilibatkan dalam proses transaksi karena proses transaksi sudah bisa berjalan automatis sampai dengan content delivery.",
     "authors": [
       "Adhitia Hidayat Saputra, -"
     ],
@@ -53,7 +53,7 @@
   },
   {
     "title": "PENERAPAN MODEL LEARNING BY DOING AND TEACHING DALAM MATA PELAJARAN KETERAMPILAN KOMPUTER DAN PENGELOLAAN INFORMASI (KKPI) UNTUK MENINGKATKAN HASIL BELAJAR SISWA DI SMK NEGERI 1 GARUT",
-    "abstract": null,
+    "abstract": "Penelitian ini bertujuan untuk menerapkan model pembelajaran Learning by Doing and Teaching untuk meningkatkan hasil belajar siswa pada mata pelajaran Keterampilan Komputer dan Pengelolaan Informasi. Metode penelitian yang diapakai adalah metode quasi eksperimen dengan desain penelitian adalah desain kelompok kontrol tidak ekuivalen (the non equivalent control group design). Teknik pengumpulan data dilakukan dengan tes, lembar observasi dan angket. Berdasarkan penelitian yang dilakukan, sebelum diberi perlakuan didapat rata-rata nilai pretest kelas eksperimen adalah 50, dan kelas kontrol 49,5. Setelah kedua kelas diberi perlakuan yang berbeda yaitu kelas kontrol dengan model pembelajaran konvensional, dan kelas eksperimen dengan model pembelajaran Learning by Doing and Teaching. Maka diketahui rata-rata nilai posttest kelas kontrol adalah 68,38 dan untuk kelas eksperimen adalah 81,32. Berdasarkan penelitian yangtelah dilakukan, maka dapat ditarik kesimpulan bahwa model pembelajaran Learning by Doing and Teaching mampu meningkatkan hasil belajar siswa.",
     "authors": [
       "Albia Kinayung Maulid, -"
     ],
@@ -66,7 +66,7 @@
   },
   {
     "title": "SISTEM PENDUKUNG KEPUTUSAN DOSEN BERPRESTASI MENGGUNAKAN METODE PROMETHEE",
-    "abstract": null,
+    "abstract": "Pemilihan dosen berprestasi merupakan kegiatan yang dilakukan untuk memberikan penghargaan terhadap kinerja dosen. Kegiatan ini tak lepas dari proses evaluasi Beban Kerja Dosen (BKD) dimana hasil Beban Kerja Dosen (BKD) merupakan syarat wajib bagi peserta pemilihan dosen berprestasi dan dijadikan sebagai salah satu kriteria penilaian dosen berprestasi. Sistem evaluasi Beban Kerja Dosen (BKD) dan proses pemilihan dosen berprestasi yang telah ada sebelumnya masih belum optimal dan memiliki permasalahan diantaranya adalah kurang efisiensinya proses, kemungkinan terjadinya human error masih cukup besar, masih tingginya kemungkinan terjadinya kecurangan karena kurangnya kontrol, koordinasi, serta publikasi, masih kentalnya subjektifitas dalam pemilihan dosen berprestasi, serta masih minimnya eksplorasi informasi dari hasil evaluasi Beban Kerja Dosen (BKD) dan pemilihan dosen berprestasi. Berdasarkan hal tersebut maka dibuatlah sistem pendukung keputusan dosen berprestasi yang didalamnya melibatkan proses evaluasi.BKD dan pemilihan dosen berprestasi. Proses pemilihan dosen berprestasi melibatkan banyak kriteria penilaian (multikriteria) sehingga dalam penerapannya menggunakan metode PROMETHEE dalam mendukung pengambilan keputusan, karena metode PROMETHEE merupakan metode pendukung keputusan multikriteria. Dengan adanya sistem pendukung keputusan dosen berprestasi yang memanfaatkan metode PROMETHEE ini maka proses evaluasi BKD dan pemilihan dosen berprestasi akan berjalan lebih efektif dan efisien.Kata kunci : Dosen Berprestasi, Beban Kerja Dosen (BKD), Sistem Pendukung Keputusan, Promethee",
     "authors": [
       "Angga Permana, -"
     ],
@@ -79,7 +79,7 @@
   },
   {
     "title": "PENGEMBANGAN MODUL CAI TIPE TUTORIAL BERBASIS WEB UNTUK MENINGKATKAN HASIL BELAJAR KOGNITIF SISWA SMP PADA MATA PELAJARAN TIK",
-    "abstract": null,
+    "abstract": "Penelitian yang berjudul \" Pengembangan Modul Cai Tipe Tutorial Berbasis Web Untuk Meningkatkan Hasil Belajar Kognitif Siswa SMP pada Mata Pelajaran TIK \"adalah penelitian dan pengembangan yang bertujuan untuk mengembangkan modul CAI tipe tutorial berbasis web yang dapat digunakan di mana saja selama terhubung dengan internet. Penelitian ini juga memiliki tujuan untuk mengetahui peningkatan hasil belajar kognitif siswa setelah menggunakan media ini. Serta untuk didapatkannya kajian berkaitan dengan tanggapan siswa mengenai penggunaan media ini. Dari fase penelitian dan pengembangan yang telah dilakukan, diperoleh data penelitian dari kuesioner yang terdiri dari: kuesioner survei lapangan yang telah diberikan kepada 40 siswa kelas VIII-B di SMP Negeri 29 Bandung di tahap analisis, kuesioner validasi pakar dalam fase pengembangan yang telah diberikan kepada dosen dan guru TIK, kuesioner penilaian siswa terhadap penggunaan media di tahap implementasi. Serta instrumen tes tertulis untuk mengetahui tingkat pemahaman siswa sebelum dan setelah tahap implementasi. Dari penelitian ini, diperoleh beberapa hasil, yaitu: 1) media yang telah dikembangkan dinilai sangat baik dan tepat untuk digunakan dengan rata-rata persentase kelayakan sebesar 89.58% oleh para ahli rekayasa perangkat lunak dan 87.71% oleh para ahli inovasi pendidikan, 2) Hampir seluruh siswa memberikan respon positif terhadap terhadap penggunaan media yang telah dikembangkan dengan persentase penilaian sebesar 96.8%, 3) Terdapat peningkatan hasil belajar kognitif siswa sebesar 63% antara sebelum dan setelah menggunakan media ini.",
     "authors": [
       "Aries Ardiansyah, -"
     ],
@@ -92,7 +92,7 @@
   },
   {
     "title": "PENERAPAN LOGIKA FUZZY UNTUK MENGUKUR STATUS KESEHATAN MASYARAKAT BERDASARKAN KECUKUPAN GIZI",
-    "abstract": null,
+    "abstract": "Untuk mengukur status kesehatan masyarakat dibutuhkan faktor-faktor yang dapat mendukung suatu keputusan pada masalah tersebut. Dari berbagai faktor yang paling sering disorot adalah kecukupan gizi. Kecukupan gizi seseorang dapat dipengaruhi oleh banyak hal diantaranya latar belakang ekonomi, pekerjaan, keadaan fisik, bahkan kecukupan makanan yang dikonsumsi. Setiap variabel-variabel tersebut memiliki standar kecukupan tersendiri yang telah diatur oleh pemerintah ataupun organisasi tertinggi kesehatan dunia atau WHO. Hanya saja nilai-nilai yang ditetapkan pada variabel-variabel tersebut bersifat baku sehingga tidak ada toleransi. Oleh karena itu perbedaan ukuran variabel walau hanya sedikit dapat mempengaruhi kepusan status kesehatan seseorang bahkan dalam sebuah masyarakat. Hal ini menjadi dasar dikembangkannya aplikasi yang berjudul “Penerapan Logika Fuzzy untuk Mengukur Status Kesehatan Masyarakat Berdasarkan Kecukupan Gizi”.",
     "authors": [
       "D Alfian Afriliyandy, -"
     ],
@@ -105,7 +105,7 @@
   },
   {
     "title": "SISTEM PAKAR PEMERIKSAAN JEMBATAN BAHAN BETON DAN BESI/BAJA",
-    "abstract": null,
+    "abstract": "Jembatan adalah bagian terpenting dari suatu sistem jaringan jalan karena pengaruhnya yang berarti, apabila jembatan tidak berfungsi lagi dengan baik dapat mengganggu kenyamanan masyarakat berlalu lintas dan hubungan perekonomian. Sistem pengelolaan jembatan di Indonesia yang digunakan oleh Bina Marga merujuk pada Bridge Management System (BMS). Di dalam BMS terdapat banyak tahapan yang dilakukan secara komputerisasi ataupun manual. Pada tahapan ini ada bagian khusus yang merupakan bagian dari BMS yaitu berkaitan menangani inspeksi jembatan untuk menentukan langkah apa yang harus diambil terhadap penanganan jembatan. Persoalan muncul ketika volume jembatan dan inspeksi dilakukan cukup banyak sementara keputusan harus segera diambil dan pada waktu bersamaan seorang tenaga ahli yang melakukan penilaian atau pemberi evaluasi keputusan hasil inspeksi jembatan terbatas. Untuk itu dibutuhkan kepakaran agar seorang ahli jembatan dapat digantikan ke dalam sistem pakar. Dalam hal ini penulis mencoba sebuah metode sistem pakar menggunakan forward chaining dengan penelusuran breadth-first search, keputusan menggunakan forward chaining karena yang diperlukan adalah tindak lanjut dari inspeksi jembatan bukan mengapa dan penyebab dari kerusakan jembatan sebagai salah satu alternatif pemberian keputusan jembatan. Penelusuran menggunakan breadth-first search lebih efektif karena melakukan pencarian data pada semua node dalam satu level atau satu tingkatan sebelum ke level atau tingkatan di bawahnya, dimana semua node akan dicek secara menyeluruh pada setiap tingkatan node. Setelah sistem pakar ini dibuat dan diuji kepakarannya, maka dihasilkan pencocokan sistem pakar terhadap penilaian data fisik pemeriksaan jembatan dilapangan dengan presentase keberhasilan jembatan bahan beton dan besi/baja pada saat ini sebesar 100% benar.",
     "authors": [
       "Deasy Rosanti Nurjannah, -"
     ],
@@ -118,7 +118,7 @@
   },
   {
     "title": "IMPLEMENTASI WEB CRAWLER DENGAN ALGORITMA BREADTH-FIRST SEARCH SEBAGAI SITEMAP GENERATOR",
-    "abstract": null,
+    "abstract": "Perkembangan pesat internet merupakan sebuah era baru teknologi informasi. Trend internet ini menyebabkan banyak bermunculan website baru dan semakin banyaknya informasi yang tersebar di dunia maya. Oleh karena itu, banyak search engine dalam skala besar maupun kecil bermunculan dan berlomba-lomba memberikan kemudahan pengguna internet, untuk mencari informasi yang diinginkan dari sekian banyak informasi yang bertebaran. Setiap search engine akan melakukan crawling informasi dari setiap web yang ada untuk dimasukkan kedalam indeks databasenya agar dapat dicari oleh pengguna search engine tersebut. Proses crawling ini dilakukan oleh web crawler dengan cara menelusuri semua website yang ada di dunia maya secara otomatis. Adanya web crawler ini membuat para webmaster mulai menerapkan metode Search Engine Optimization (SEO) agar websitenya cepat terindex oleh search engine dan membuka peluang untuk semakin sering dikunjungi. Sitemap adalah salah satu alternatif penerapan SEO yang paling mudah diterapkan. Penelitian ini menunjukkan bahwa 100% sitemap yang dihasilkan dari sitemap generator yg menggunakan web crawler dengan algoritma Breadth-First Search ini bersifat valid. Selain itu website yang menggunakan sitemap hanya membutuhkan waktu rata-rata 43 jam 9 menit 2 detik untuk dikenali oleh Google, sedangkan website yang tidak menggunakan sitemap butuh waktu lebih lama dengan rata-rata 103 jam 10 detik.",
     "authors": [
       "Deni Heriyana, -"
     ],
@@ -131,7 +131,7 @@
   },
   {
     "title": "SELF ASSESSMENT TATA KELOLA TEKNOLOGI INFORMASI BERDASARKAN FRAMEWORK INFORMATION TECHNOLOGY INFRASTRUCTURE LIBRARY (ITIL)",
-    "abstract": null,
+    "abstract": "Skripsi ini berjudul ”Self Assessment Tata Kelola TI Berdasarkan Framework ITIL”. Masalah yang dibahas dalam skripsi ini dipecah menjadi 3 bagian, yaitu 1) bagaimana framework ITIL dapat diimplementasikan pada perusahaan. 2) bagaimana membangun perangkat lunak yang membantu auditor dalam melakukan aktifitas audit yang mengacu kepada framework ITIL. 3) sejauh mana perangkat lunak yang dibangun memberikan hasil yang dapat digunakan sebagai sumber kajian oleh para auditor. Metode yang digunakan dalam penelitian ini adalah metode kepustakaan, sementara pendekatan yang digunakan dalam membangun perangkat lunak menggunakan pendekatan berorientasi objek serta metode pengujian yang dilakukan menggunakan metode black box testing. Proses implementasi TI pada perusahaan tidak selamanya selaras dengan strategi dan tujuan perusahaan., padahal implementasi TI pada perusahaan memerlukan biaya yang cukup besar. Untuk itu perlu dilakukan analisis terhadap infrastruktur dan pengelolaan TI yang ada agar dapat selalu dipastikan kesesuainnya dengan tujuan perusahaan. Analisis terhadap infrastruktur dan pengelolaan TI dapat dilakukan melalui penggunaan framework tata kelola TI, khususnya ITIL. Proses implementasi framework ITIL ini diawali dengan melakukan proses assessment pada perusahaan tersebut untuk diketahui sudah sejauh mana perusahaan melakukan tata kelola TI. Proses assessment dalam implementasinya memerlukan alat bantu untuk membantu auditor mendapatkan hasil yang maksimal dan rancangan perbaikan yang menyeluruh. Alat bantu berupa perangkat lunak yang dikembangkan ini disesuaikan dengan framework ITIL baik pertanyaan maupun parameter nilai yang digunakan. Alat bantu yang dikembangkan ini menghasilkan keluaran yang berguna bagi auditor berupa nilai-nilai keunggulan dan kelemahan sistem eksisting perusahaan serta beberapa poin potensi solusi. Hasil keluaran ini merupakan sumber masukan bagi auditor untuk melakukan kajian analisanya lebih dalam lagi sehingga dengan efektif dan efisien auditor mampu memberikan masukan yang optimal kepada perusahaan.",
     "authors": [
       "Egie Hendra Apriliawan, -"
     ],
@@ -144,7 +144,7 @@
   },
   {
     "title": "PENERAPAN CONCEPT ATTAINMENT MODELS MENGGUNAKAN MULTIMEDIA UNTUK MENINGKATKAN KEMAMPUAN BERPIKIR KRITIS SISWA",
-    "abstract": null,
+    "abstract": "Penelitian ini bertujuan untuk mengetahui peningkatan kemampuan berpikir kritis siswa pada pembelajaran setelah menggunakan Concept Attainment Models menggunakan multimedia Selain itu, diharapkan setelah menggunakan Concept Attainment Models menggunakan multimedia ini siswa mendapatkan pengalaman baru mengenai cara belajar dan dapat meningkatkan motivasi belajarnya. Penerapan konsep ini dapat menciptakan pembelajaran yang menyenangkan sehingga membantu siswa untuk lebih kritis terhadap materi pembelajaran yang didapatkannya dan pada akhirnya dapat meningkatkan kemampuan berpikir kritis siswa. Metode penelitian yang digunakan adalah metode kuasi eksperimen dengan populasi penelitiannya adalah siswa kelas X SMK Badan Perguruan Indonesia. Desain penelitian yang digunakan adalah Pretest-Posttest Nonequivalent Control Group Design. Untuk memperoleh data yang sesuai dalam penelitian ini digunakanlah instrumen tes dalam bentuk uraian. Dari penelitian ini diperoleh informasi bahwa peningkatan kemampuan berpikir kritis siswa yang dalam pembelajarannya menggunakan Concept Attainment Models menggunakan multimedia lebih baik dibandingkan dengan kemampuan berpikir kritis siswa dalam pembelajaran konvensional. Dengan perbandingan peningkatan kemampuan berpikir kritis sebesar 0,26 untuk pembelajaran menggunakan penerapan Concept Attainment Models menggunakan multimedia dan 0,16 untuk pembelajaran konvensional.",
     "authors": [
       "Era Susilawati, -"
     ],
@@ -170,7 +170,7 @@
   },
   {
     "title": "IMPLEMENTASI ALOGARITMA ANT BASED CLUSTERING UNTUK MENETUKAN LOKASI PENGEBORAN MINYAK BUMI.",
-    "abstract": null,
+    "abstract": "Membandingkan kualitas sifat batuan pada grid blok dan saturasi minyak adalah praktek umum yang dilakukan untuk menemukan pengisi lokasi sumur baru atau mengembangkan sumur-sumur untuk mengoptimalkan perkembangan lapangan minyak dengan menggunakan simulasi reservoir. Teknik konvensional biasanya dilakukan dengan proses trial and error untuk menemukan lokasi sumur baru dengan membandingkan parameter utama yang sangat memakan waktu, terutama pada lokasi yang luas. Oleh karena itu dalam penelitian ini, diusulkan suatu penggunaan metode baru dengan ant based clustering. Algoritma ini bekerja dengan menggunakan semut buatan (agen) dalam membentuk cluster. Properti reservoir yang digunakan adalah porositas, permeabilitas dan saturasi. Studi ini meneliti penentuan lokasi optimal pada sebuah bidang-X. Dari hasil cluster didapatkan lokasi region A pada koordinat X = 5-8 dan koordinat Y = 27-31, direkomendasikan sebagai lokasi pengeboran.",
     "authors": [
       "Fitri Deningsih, -"
     ],
@@ -209,7 +209,7 @@
   },
   {
     "title": "PENERAPAN PBL (PROJECT BASED LEARNING) DENGAN MULTIMEDIA BERBASIS CAI ( COMPUTER ASSISTED INSTRUCTION) TIPE TUTORIAL UNTUK MENINGKATKAN KOGNITIF SISWA KEJUMAN",
-    "abstract": null,
+    "abstract": "Penelitian kuasi eksperimen ini dilatarbelakangi oleh adanya fakta bahwa hasil belajar Keahlian Komputer dan Pengelolaan Informasi (KKPI) masih belum memuaskan. Tujuan siswa SMK yang harus langsung siap terjun ke dunia kerja membuat model pembelajaran yang selama ini diterapkan belum terasa efektifitasnya. Penelitian ini difokuskan pada upaya peningkatan hasil belajar melalui penerapan model pembelajaran berbasis proyek yang dikolaborasikan dengan penggunaan tutorial. Siswa dituntut untuk dapat mencari suatu permasalahan dan membuat penyelesaiannya dengan proyek yang mereka buat. Penelitian ini dilaksanakan di salah satu SMK di kota Bandung. Tujuan penelitian ini adalah untuk mendapatkan gambaran tentang model pembelajaran yang cocok untuk siswa kejuruan. Pretest-Posttest Nonequivalent Control Group Design, dimana dalam desain ini terdapat dua kelompok yaitu kelompok kontrol dan kelompok eksperimen yang tidak dipilih secara random. Kedua kelompok tersebut kemudian diberi prestest untuk mengetahui keadaan awal masing-masing kelompok yang selanjutnya diberi posttest kepada masing-masing kelompok setelah memperoleh perlakuan yang berbeda. Kelompok eksperimen diberi perlakuan dengan Penerapan PBL (Project Based Learning) dan Multimedia Berbasis CAI (Computer Assisted Instruction) Model Tutorial, sedangkan kelompok kontrol diberi perlakuan biasa yaitu pembelajaran secara konvensional. Hasil posttest tersebut digunakan untuk mengetahui keadaan akhir dari masing-masing kelompok. Pengaruh model pembelajaran yang diterapkan terhadap peningkatan kognitifsiswa diketahui dari perbandingan gain ternormalisasi antara kelompok eksperimen dan kelompok kontrol. Hasil analisis menunjukkan rata-rata gain yang dinormalisasi kelas eksperimen lebih besar daripada kelas kontrol. Hasil uji hipotesis menggunakan Uji-t pada taraf keberartian α = 0.01 diperoleh bahwa penerapan PBL (Project Based Learning) dan Multimedia Berbasis CAI (Computer Assisted Instruction) Model Tutorial secara signifikan lebih meningkatkan hasil belajar dibanding penerapan model pembelajaran konvensional. Dengan demikian, penerapan PBL (Project Based Learning) dengan Multimedia Berbasis CAI (Computer Assisted Instruction) Model Tutorial lebih efektif dalam meningkatkan kognitif siswa dibanding penerapan model pembelajaran konvensional.",
     "authors": [
       "Gina Rahayu, -"
     ],
@@ -222,7 +222,7 @@
   },
   {
     "title": "IMPLEMENTASI METODE EOQ (ECONOMIC ORDER QUANTITY) DALAM SISTEM PENENTUAN JUMLAH PEMESANAN BARANG YANG OPTIMAL Studi Kasus : Bagian Aset dan Fasilitas UPI",
-    "abstract": null,
+    "abstract": "Pemesanan barang merupakan salah satu kegiatan yang dilakukan oleh bagian pengendalian persediaan barang (inventory control) dalam suatu perusahaan atau organisasi baik barang tersebut merupakan bahan baku yang digunakan sebagai bahan produksi ataupun sebagai barang yang digunakan dalam kegiatan sehari-hari. Perencanaan pemesanan barang yang tepat dapat menghasilkan jumlah barang yang optimal dengan mengeluarkan biaya seminimal mungkin. Sehingga tidak ada penumpukkan atau kekurangan barang yang terjadi di organisasi. Hal ini yang akan diterapkan bagian aset dan fasilitas UPI dalam kegiatan pemesanan barang. Dalam penentuan jumlah pemesanan barang digunakan salah satu model pengendalian persediaan yaitu metode economic order quantity (EOQ). Metode EOQ ini menentukan jumlah barang yang optimal dalam satu periode dengan meminimalkan total biaya persediaan. Biaya persediaan itu terdiri dari ordering cost (Biaya Pemesanan) dan carrying cost (Biaya Penyimpanan). Kemudian Metode EOQ diimplementasikan ke dalam sistem penentuan jumlah pemesanan barang yang optimal. Sistem ini membantu organisasi dalam menentukan jumlah pemesanan barang setiap kali melakukan kegiatan pemesanan dalam satu tahun, frekuensi pemesanan barang dalam satu tahun, titik pemesanan kembali dan kapan pemesanan dapat dilakukan (jarak antar tiap pesanan).",
     "authors": [
       "gema ambun Suri, -"
     ],
@@ -235,7 +235,7 @@
   },
   {
     "title": "PEMANFAATAN REMOTE DESKTOP UNTUK OPTIMALISASI SISTEM UJIAN ONLINE",
-    "abstract": null,
+    "abstract": "Sistem ujian konvensional yang sering dipakai dalam kegiatan akademik sering kali mempunyai banyak kendala. Faktor kecurangan dan kebiasaan mencontek merupakan kendala yang paling besar. Namun seiring dengan berkembangnya teknologi informasi, sistem ujian konvensional bergeser menjadi sistem ujian online. Adapun sistem ujian online masih tidak bisa dilepaskan dari budaya curang dalam ujian karena ketiadaan pengawasan langsung dalam ujian. Selain itu faktor perlengkapan jaringan serta biaya yang mahal juga merupakan kekurangan sistem ini. Oleh karena itu keberadaan pengawas, sistem yang ekonomis, serta kemudahan dalam mengontrol para peserta ujian masih menjadi tuntutan. Berangkat dari masalah tersebut, perlu dibangun suatu sistem ujian online dengan pengawasan, dimana para pengawas bisa langsung mengamati dan mengontrol para peserta ujian langsung pada komputer pengawas. Optimalisasi sistem ujian online ini dapat dilakukan dengan pemanfaatan remote desktop sebagai fitur pengawasan dalam sistem ujian online. Sistem yang bersifat lokalisir ini dapat diterapkan baik secara LAN, ataupun nirkabel/ Wifi.",
     "authors": [
       "HANDRI, Rully"
     ],
@@ -248,7 +248,7 @@
   },
   {
     "title": "PENERAPAN METODE HILL CLIMBING UNTUK MENENTUKAN BAHAN MAKANAN YANG TEPAT BERDASARKAN LATAR BELAKANG PENYAKIT YANG DIDERITA",
-    "abstract": null,
+    "abstract": "Sebagai negara berkembang, Indonesia masih tergolong negara yang kurang peduli dengan kualitas kesehatan masyarakatnya. Dengan dibuktikan, tingginya tingkat kematian setiap tahun yang dialami oleh masyarakat. Hal ini disebabkan karena masyarakat kita sering tidak menghiraukan kesehatannya dan kurangnya informasi tentang penanganan dari gejala – gejala yang dialami. Oleh karena itu sebaiknya kita harus menjaga kesehatan kita masing – masing walaupun terdapat penyakit didalam tubuh kita, dengan menjaga pola makan dan memilih makanan yang sehat untuk dikonsumsi. Untuk membantu masyarakat dalam memilih makanan yang tepat untuk dikonsumsi maka dibutuhkan sebuah perangkat lunak yaitu sebuah sistem untuk menentukan bahan makanan beserta takaran yang tepat berdasarkan latar belakang penyakit yang diderita. Metode yang dapat digunakan dalam Sistem Penentuan Bahan Makanan Yang Tepat Berdasarkan Latar Belakang Penyakit ini adalah dengan menggunakan metode Hill Climbing dan Algoritma Simple Hill Climbing. Pada penelitian ini akan diangkat suatu kasus yaitu menentukan bahan makanan sesuai dengan kebutuhan user. Metode ini dipilih karena mampu mencari dan memilih bahan makanan yang tepat yang mencukupi kebutuhan user dengan aturan – aturan yang sudah di tentukan. Hasil pencarian makanan ini mampu memberikan bahan makanan yang tepat sesuai dengan kebutuhan user dan latar belakang penyakit yang sedang diderita.",
     "authors": [
       "Hera Desiana, -"
     ],
@@ -261,7 +261,7 @@
   },
   {
     "title": "IMPLEMENTASI ALGORITMA RC6 PADA SISTEM UJIAN ONLINE",
-    "abstract": null,
+    "abstract": "Pada tugas akhir ini, dibangun suatu perangkat lunak yang berguna untuk meningkatkan keamanan data pada aplikasi ujian online. Aplikasi yang dibangun diimplementasikan di lingkungan sekolah, aplikasi ini dibuat untuk menangani sejumlah masalah yang kerap kali muncul dalam pelaksanaan ujian saringan masuk secara manual. Dalam aplikasi ini siswa dapat melaksanakan ujian secara online sesuai dengan jadwal yang telah ditentukan sebelumnya, selain itu siswa juga dapat melihat hasil ujian dan daftar nilai secara langsung tanpa harus datang ke sekolah. Keamanan data siswa atau peserta saat proses ujian merupakan hal yang penting karena data jawaban ujian bisa bocor atau dimodifikasi oleh orang yang tidak bertanggung jawab. Oleh karena itu kriptografi sangat dibutuhkan dalam menjaga kerahasian data atau informasi, maka dari itu perangkat lunak yang dibangun dilengkapi dengan keamanan data melalui enkripsi / dekripsi terhadap data yang dikirim.Perangkat lunak yang dibangun menggunakan algoritma RC6 untuk melakukan proses enkripsi/dekripsi data, proses enkripsi dekripsi dilakukan pada jawaban soal ujian yang diinputkan siswa, sebelum data tersebut ditransmisikan ke database. Algoritma RC6 adalah algoritma blok kode (block cipher) yang sangat aman, padat, sederhana, dan menawarkan performansi yang sangat bagus dan fleksibel. Algoritma RC6 merupakan algoritma dengan parameter yang dapat bekerja pada panjang kunci yang beragam. Selain itu algoritma ini merupakan salah satu kandidat dalam penentuan algoritma standart untuk kriptografi DES yang sekarang disebut AESPerangkat lunak yang dibangun berbasis web dan menggunakan bahasa pemograman PHP dan MySQL untuk databasenya. Berdasarkan hasil pengujian dapat dilihat bahwa algoritma RC6 dapat diimplementasikan dengan baik untuk proses enkripsi/dekripsi data pada aplikasi ujian online.",
     "authors": [
       "Imania Nurmala, -"
     ],
@@ -300,7 +300,7 @@
   },
   {
     "title": "SISTEM PAKAR DIAGNOSIS PENYAKIT SISTEM PERNAFASAN",
-    "abstract": null,
+    "abstract": "Kesehatan merupakan aset manusia yang paling penting yang harus dijaga dengan baik. Oleh karena itu, bila kita terkena gejala-gejala yang bisa menyebabkan terjangkitnya penyakit, kita harus dapat menanganinya dengan cepat, agar tidak menjadi penyakit yang lebih serius. Dalam penelitian kali ini, penulis mengambil penyakit pada sistem pernafasan dengan menggunakan metode forward chaining. Forward Chaining adalah suatu metode penyelesaian masalah yang digunakan untuk mendapatkan solusi dari suatu problem berdasarkan kondisi yang ada, atau suatu proses yang memulai pencarian dari premis atau data menuju pada konklusi (data-driven). Tujuan penelitian ini agar peneliti dapat mengimplementasikan metode forward chaining dengan tepat, sehingga dapat digunakan untuk mendiagnosa penyakit pada sistem pernafasan dan dapat diakses secara mobile. Berdasarkan hasil pengujian, sistem ini berhasil menerapkan metode forward chaining dan dapat menampilkan hasil diagnosis penyakit dengan cepat dan tepat.",
     "authors": [
       "luciana embarsari setiawan, -"
     ],
@@ -313,7 +313,7 @@
   },
   {
     "title": "PENERAPAN MODEL PEMBELAJARAN LEARNING CYCLE TERHADAP PENINGKATAN HASIL BELAJAR ASPEK KOGNITIF SISWA",
-    "abstract": null,
+    "abstract": "Judul penelitian : “Penerapan Model Pembelajaran Learning Cycle Terhadap Peningkatan Hasil Belajar Aspek Kognitif Siswa”. Metode penelitian yang digunakan dalam penelitian ini adalah metode kuasi eksperimen dengan sampel penelitiannya yaitu kelas IXA dan IXB SMP Negeri 29 Bandung dengan desain penelitian Pretest-Posttest Control Group Design.Tujuan penelitian ini adalah untuk melihat adanya perbedaan peningkatan kemampuan kognitif siswa setelah mendapat kanperlakuan model pembelajaran learning cycle dibandingkan dengan model pembelajaran konvensional. Dari penelitian ini diketahui bahwa kualitas peningkatan kemampuan kognitif siswa kelas eksperimen lebih tinggi yaitu 0.510 dibandingkan dengan kemampuan kognitif siswa di kelas control yaitu 0,02. Ini membuktikan bahwa model pembelajaran learning cycle dapat digunakan untuk meningkatkan kemampuan kognitif siswa dalam pembelajaran.",
     "authors": [
       "M. Shofiyudin, -"
     ],
@@ -326,7 +326,7 @@
   },
   {
     "title": "PENGEMBANGAN PERANGKAT LUNAK DENGAN MENGGUNAKAN METODE RATIONAL UNIFIED PROCESS (RUP) DALAM RANCANG BANGUN SISTEM PENJUALAN BARANG",
-    "abstract": null,
+    "abstract": "Dewasa ini, perkembangan komputer dan teknologi semakin pesat. Tidak lagi termotor pada perusahaan besar saja, namun banyak perusahaan atau instansi baik itu besar atau kecil, swasta atau pemerintah, yang menggunakan komputer sebagai sarana untuk meningkatkan efektifitas kerja. Fanesta Fashion n Bouthique adalah sebuah badan usaha yang bergerak di bidang fashion, dimana Fanesta Fashion n Bouthique ini ingin menerapkan suatu sistem yang berbasis Teknologi Informasi dalam segala kegiatannnya terutama dalam hal penjualan barang atau keuangan. Selama ini, Fanesta Fashion n Bouthique masih menggunakan cara manual dalam pencatatan penjualannya tersebut, sehingga yang dilakukan dirasa masih kurang tepat. Maka dari itu, penulis mencoba membuat sebuah sistem yang dapat menyimpan data transaksi penjualan yang diperlukan oleh Fanesta Fashion n Bouthique. Agar sistem yang dihasilkan maksimal, maka dalam pembuatan sistem ini diperlukan suatu metode penunjang. Metode penunjang yang penulis gunakan yaitu dengan pendekatan metode pengembangan perangkat lunak berbasis OOP, yaitu metode Rational Unified Process (RUP). Karena dengan menggunakan metode ini sebuah sistem atau program dapat berinteraksi antara pengguna dan sistem lain yang akan dibuat. Penggambaran dengan diagram yang sederhana membuat identifikasi kebutuhan dengan use case dapat lebih mudah untuk dipahami. Dalam metode RUP ini terdapat empat tahapan atau aktifitas yang harus dilakukan, yaitu inception, elaboration, construction, dan trantition. Keempat fase atau aktifitas ini diimplementasikan kedalam sistem yang dibuat, dan setelah diimplementasikan ternyata metode ini menghasilkan sebuah sistem atau perangkat lunak yang dapat membantu proses transaksi penjualan toko tersebut.",
     "authors": [
       "Marini Eka Prasetiawati, -"
     ],
@@ -339,7 +339,7 @@
   },
   {
     "title": "IMPLEMENTASI WAKE ON LAN DAN PREBOOT EXECUTION ENVIRONMENT UNTUK OPTIMASI PEMELIHARAAN KOMPUTER",
-    "abstract": null,
+    "abstract": "Teknologi Wake On LAN (WOL) merupakan teknologi berupa hardware dan software untuk \"membangunkan\" sistem komputer yang \"tertidur\". Dalam teknologi ini terdapat paket pesan khusus yang disebut magic packet. Paket ini dikirim kepada klien melalui jaringan dan akan menginisiasi sistem (klien) untuk menyala. Selain itu, terdapat teknologi Preboot eXecution Environment (PXE). PXE adalah environment (lingkungan) yang memungkinkan device untuk bootstraping sistem operasi melalui interface jaringan.",
     "authors": [
       "Maya Dewi Mustika, -"
     ],
@@ -352,7 +352,7 @@
   },
   {
     "title": "PENERAPAN MULTIMEDIA PEMBELAJARAN INTERAKTIF BERBASIS SIMULASI UNTUK MENINGKATKAN KEMAMPUAN APLIKASI DAN MANIPULASI SISWA SMA",
-    "abstract": null,
+    "abstract": "Penelitian ini bertujuan untuk mengetahui peningkatan kemampuan aplikasi dan manipulasi siswa setelah menggunakan Multimedia Pembelajaran Interaktif Berbasis Simulasi. Selain itu, diharapkan setelah menggunakan Multimedia Pembelajaran Interaktif Berbasis Simulasi ini siswa mendapatkan pengalaman baru dalam kegiatan pembelajaran sehingga dapat meningkatkan motivasi belajarnya dan dapat menciptakan pembelajaran yang menyenangkan, interaktif, berpusat pada siswa dan membantu siswa untuk lebih memahami materi pengenalan internet dan dasar jaringan komputer dalam pembelajaran TIK. Metode penelitian yang digunakan adalah metode kuasi eksperimen dengan sampel penelitiannya adalah siswa kelas XI SMA Negeri 1 Pelabuhanratu. Desain penelitian yang digunakan adalah Pretest-Posttest Nonequivalent Control Group Design. Untuk memperoleh data yang sesuai dalam penelitian ini digunakan instrumen tes dalam bentuk uraian. Dari penelitian ini diperoleh hasil bahwa peningkatan kemampuan aplikasi dan manipulasi siswa yang dalam pembelajarannya menggunakan Multimedia Pembelajaran Interaktif Berbasis Simulasi lebih baik daripada siswa dengan pembelajaran metode konvensional. Untuk siswa dengan Multimedia Pembelajaran Interaktif Berbasis Simulasi, peningkatan kemampuan aplikasi sebesar 0,68 dan kemampuan manipulasi sebesar 0,81 sedangkan untuk siswa dengan metode konvensional, kemampuan aplikasi sebesar 0,43 dan kemampuan manipulasi sebesar 0,61. Hal ini menunjukan bahwa peningkatan kemampuan aplikasi dan manipulasi siswa dengan Multimedia Pembelajaran Interaktif Berbasis Simulasi berada pada level tinggi sementara pembelajaran konvensional hanya berada pada level sedang.",
     "authors": [
       "Meliza Putri Dwi Pebriani, -"
     ],
@@ -365,7 +365,7 @@
   },
   {
     "title": "PENERAPAN METODE CLUSTERING K-MEANS PADA APLIKASI PENGELOMPOKAN SISWA BERDASARKAN KARAKTERISTIK PRESTASI DAN KEADAAN EKONOMI",
-    "abstract": null,
+    "abstract": "Sekolah merupakan organisasi yang didalamnya memiliki komponen SDM yang sangat penting diantaranya adalah guru. Salah satu jenis guru yang strategis di sekolah dalam mengembangkan pribadi siswa adalah guru BK (Bimbingan Konseling). Terkait dengan peran dan tugas guru BK di SMA Negeri 2 Purwakarta dalam mengembangkan pribadi siswa masih ada tugas-tugas yang belum efektif dan efesien.",
     "authors": [
       "Minda Noor Marchelinda, -"
     ],
@@ -378,7 +378,7 @@
   },
   {
     "title": "PENGEMBANGAN APLIKASI PENENTUAN PENJURUSAN SMA DENGAN ANALISIS MULTIPLE INTELLIGENCE MENGGUNAKAN METODE FUZZY LOGIC :Studi Kasus SMA Negeri 1 Sumber Kab. Cirebon",
-    "abstract": null,
+    "abstract": "Menarik untuk dipahami bahwa permasalahan penjurusan merupakan masalah yang unik. Unik karena banyak yang melibatkan faktor emosi, kurang memfasilitasi keragaman minat dan bakat siswa. Padahal penjurusan yang dilakukan ketika SMA, secara tidak langsung akan berdampak pada pola fikir kehidupan dan masa depan anak. Tes penjurusan yang umum digunakan hanya memfokuskan pada kecerdasan logika (matematika) dan bahasa. Teori multiple intelligence merubah pandangan tersebut dengan mengukur 8 kecerdasan siswa yaitu matematika logika, bahasa, musikal, visual spasial, kinestetik, interpersonal, intrapersonal dan naturalis. Kesesuaian antara multiple intelligence siswa dengan program jurusan yang dipilih, akan sangat mempengaruhi proses penerimaan dan pemahaman materi pada satu mata pelajaran. Aplikasi yang dikembangkan merupakan sistem pendukung keputusan menggunakan metode fuzzy logic. Setelah melalui proses fuzzy yaitu fuzzyfikasi, inference, dan defuzzyfikasi akan mendapatkan hasil yaitu layak atau tidak layak seorang siswa untuk masuk jurusan baik IPA maupun IPS. Perbandingan antara proses penentuan penjurusan cara sekolah dengan aplikasi analisis multiple intelligence dari data sample 35 siswa, ternyata memiliki perbedaan dalam hasil penjurusan sebanyak 2 siswa untuk siswa IPA dan 2 siswa untuk siswa IPS. Pengembangan aplikasi ini menjadikan proses penjurusan lebih bervariatif karena menggunakan analisis multiple intelligence sehingga dapat meminimalisir terjadinya siswa yang menginginkan untuk pindah jurusan.",
     "authors": [
       "Muh Selamet Firdaus, -"
     ],
@@ -391,7 +391,7 @@
   },
   {
     "title": "MENDETEKSI TOPIK BERITA PADA ALIRAN BERITA ONLINE BERBAHASA INDONESIA",
-    "abstract": null,
+    "abstract": "Pengelompokan dokumen-dokumen berita kedalam topik-topik yang lebih spesifik membutuhkan waktu dan sumber daya manusia yang tidak sedikit. Untuk mengatasi permasalahan waktu dan sumber daya manusia tersebut, dibutuhkan pengelompokan dokumen-dokumen berita berdasarkan topik-topiknya secara otomatis, selain itu, untuk lebih memudahkan dalam menemukan informasi yang diinginkan, dibutuhkan juga pemberian deskripsi dari kelompok berita. Penelitian ini mencoba untuk mengatasi permasalahan tersebut dengan menjadikan pengelompokan topik-topik berita secara otomatis dengan algoritma Group-Average Hierarchical Aglomerative Clustering (GA-HAC) dan pemberian deskripsi secara otomatis dengan Mutual Information (MI). Eksperimen implementasi dari algoritma ini terhadap 509 dokumen berita menunjukkan bahwa GA-HAC dapat mengelompokkan dokumen-dokumen berita yang memiliki topik yang sama dengan nilai akurasi precision 84,4% dan MI dapat memberikan nilai akurasi rata-rata partial match Match@N 70,81% untuk seluruh topik dan 90% untuk 10 topik terpopuler.",
     "authors": [
       "Muhammad Ammar Shaqid, -"
     ],
@@ -404,7 +404,7 @@
   },
   {
     "title": "EFEKTIVITAS PENGGUNAAN METODE EKSPERIMEN VERIFIKASI BERBASIS MULTIMEDIA INTERAKTIF TERHADAP HASIL BELAJAR SISWA PADA MATA PELAJARAN TIK (STUDI KUASI EKSPERIMEN DI SMAN 2 CIMAHI)",
-    "abstract": null,
+    "abstract": "Penelitian ini berjudul “Efektivitas Penggunaan Metode Eksperimen Verifikasi Berbasis Multimedia Interaktif Terhadap Hasil Belajar Siswa pada Mata Pelajaran TIK”. Penelitian ini dilakukan untuk mengetahui efektivitas penggunaan metode eksperimen verifikasi berbasis multimedia interaktif terhadap hasil belajar siswa yang kemudian dibandingkan dengan metode pembelajaran konvensional yang biasa dilakukan oleh guru di sekolah. Selain itu, penelitian ini juga dilakukan untuk mengetahui respon siswa terhadap penggunaan multimedia interaktif dalam meningkatkan hasil belajar siswa di kelas. Metode penelitian yang digunakan adalah metode Kuasi Eksperimen dengan sampel penelitiannya adalah siswa kelas XI IPA 7 dan XI IPA 8 SMAN 2 Cimahi dengan desain penelitian pretest-posttest nonequivalent control group design. Instrumen penelitian yang digunakan adalah tes objektif pilihan ganda untuk pretes dan postes, lembar observasi, dan angket respon siswa. Multimedia interaktif dirancang sesuai dengan metode pembelajaran, disertai dengan evaluasi pembelajaran yang harus dikerjakan oleh siswa untuk dapat mengakses materi berikutnya. Berdasarkan hasil penelitian dan pembahasan terdapat perbedaan dan peningkatan hasil belajar antara kelas eksperimen dan kelas kontrol, dimana hasil belajar siswa yang menggunakan metode eksperimen verifikasi berbasis multimedia interaktif lebih baik dibandingkan dengan siswa yang menggunakan metode konvensional. Uji Gain ternormalisasi untuk melihat keefektivitasan dari metode eksperimen verifikasi berbasis multimedia interaktif yang digunakan pada kelas eksperimen termasuk kategori tinggi dengan perolehan indeks gain sebesar 0,739 dan pada kelas kontrol sebesar 0,376 termasuk kategori sedang. Kelompok siswa pada kelas eksperimen memberikan respon positif terhadap penggunaan media pembelajaran multimedia interaktif dalam meningkatkan hasil belajar siswa di kelas. Respon positif siswa terlihat dari pendapat siswa dalam angket respon siswa yang menyatakan bahwa multimedia yang digunakan cukup membantu proses pembelajaran dan dapat meningkatkan motivasi belajar siswa.",
     "authors": [
       "Novita Wandasari, -"
     ],
@@ -456,7 +456,7 @@
   },
   {
     "title": "PEMODELAN TINGKAH LAKU PENGUNJUNG SITUS E-COMMERCE MENGGUNAKAN APLIKASI PENGOLAH LOG WEB SERVER DENGAN PENDEKATAN CUSTOMER BEHAVIOR MODEL GRAPH (CBMG)",
-    "abstract": null,
+    "abstract": "Setiap pengunjung sebuah situs web memiliki serangkaian permintaan (request) dalam melakukan sebuah kunjungan tunggal (session). Data mengenai rangkaian permintan (request) pengunjung pada setiap session dapat diperoleh dari log akses terhadap situs Web yang tersimpan pada Web server, situs e-commerce www.palasarionline.com memiliki log askes yang belum dimanfaatkan dengan baik. Berdasakan data log tersebut kita dapat memprediksikan tingkah laku pengunjung yang dapat dlihat dari nilai kemungkinan transisi dari sebuah fungsi ke fungsi yang lainya. Transisi yang mungkin terjadi di antara setiap keadaan dapat dimodelkan ke dalam suatu graf yang disebut dengan Customer Behavior Model Graph (CBMG) yang dikenalkan oleh Menasce dan Almeyda. Berdasarkan pemodelan ini diperoleh informasi fungsi mana-saja yang sering diakses dan memiliki kedekatan, sehingga informasi tersebut menjadi bahan pertimbangan dalam optimalisasi distribusi beban terhadap fungsi-fungsi didalam situs dan pengaturan tata letak layar yang baik agar meningkatkan performa situs www.palasarionline.com.",
     "authors": [
       "PRABOWO, Sigit Aedayu Agung"
     ],
@@ -469,7 +469,7 @@
   },
   {
     "title": "RANCANG BANGUN SISTEM PENDUKUNG KEPUTUSAN PENENTUAN TEMA SKRIPSI MENGGUNAKAN METODE TECHNIQUE FOR ORDER PREFERENCE BY SIMILARITY TO IDEAL SOLUTION PADA PROGRAM STUDI ILMU KOMPUTER",
-    "abstract": null,
+    "abstract": "Salah satu topik hangat pembicaraan dikalangan mahasiswa tingkat akhir saat sedang berkumpul maupun sedang berdiskusi dengan teman seangkatannya biasanya tidak jauh adalah tentang topik tugas akhir atau skripsi yang akan mereka ambil. Pada kenyataan dilapangan biasanya untuk menentukan tema skripsi setidaknya ada dua kasus yang mungkin terjadi, yaitu topik / tema skripsi itu ditentukan oleh dosen atau mahasiswa diminta untuk mengembangkan idenya dalam mencari tema / topik untuk skripsinya. Untuk kasus yang kedua ini, banyak mahasiswa yang menjadi kebingungan dalam menentukan tema skripsinya. Oleh karena itu dibutuhkan sebuah sistem pendukung keputusan yang dapat membantu mahasiswa dalam menentukan tema skripsi. Metode yang akan digunakan untuk Sistem Pendukung Keputusan ini adalah dengan menggunakan Technique Order Preference by Similarity To Ideal Solution (TOPSIS). Pada penelitian ini, kasus yang akan diangkat yaitu menentukan alternatif terbaik berdasarkan kriteria-kriteria berbasis intuisi dengan menggunakan metode TOPSIS. Metode ini dipilih karena mampu menyeleksi alternatif terbaik dari sejumlah alternatif, dalam hal ini alternatif yang dimaksud yaitu tema skripsi yang bisa diambil oleh mahasiswa untuk tugas skripsinya. Hasil dari penelitian ini bahwa metode TOPSIS yang diterapkan pada sistem sudah mampu untuk menyelesaikan dan memberi rekomendasi tema skripsi pada kasus ini.",
     "authors": [
       "Rendi Aperian, -"
     ],
@@ -482,7 +482,7 @@
   },
   {
     "title": "ANALISIS PENGGUNAAN SISTEM UJIAN ONLINE TERINTEGRASI YANG TEROPTIMALISASI OLEH REMOTE DESKTOP DENGAN MENGGUNAKAN TECHNOLOGY ACCEPTED MODEL (TAM) (Studi Kasus di SMA Pasundan 3 Bandung)",
-    "abstract": null,
+    "abstract": "Penelitian ini bertujuan untuk menganalisis tingkat penerimaan peserta didik terhadap penggunaan sistem ujian online terintegrasi yang teroptimalisasi oleh remote desktop pada pelaksanaan ujian. Teknologi ini dibuat sebagai langkah untuk mereduksi kecurangan-kecurangan yang mungkin muncul pada saat pelaksanaan ujian. Untuk mengetahui tingkat penerimaan penggunaan sistem ujian online terintegrasi yang teroptimalisasi oleh remote desktop sebagai salah satu media evaluasi pembelajaran maka dilakukan penelitian dengan menggunakan Technology Accepted Model (TAM) yang meliputi lima variabel yaitu persepsi kemudahan penggunaan (perceived ease of use/PEOU), persepsi kegunaan (perceived usefulness/PU), sikap terhadap penggunaan teknologi (attitude toward using technology/ATUT), minat perilaku menggunakan teknologi (behavioral intention to use/BITU), dan penggunaan teknologi sesungguhnya (actual use/AU). Uji statistik dilakukan dengan menggunakan Struktural Equation Model (SEM) dengan program statistik AMOS 18. Hasil penelitian menunjukkan bahwa Faktor-faktor yang berhubungan atau berpengaruh secara signifikan berdasarkan model fit adalah antara faktor persepsi kegunaan (Perceived Usefullness) terhadap penggunaan sesungguhnya (Actual Use/AU) dan sikap penggunaan (Attitude Toward Using Technology/ATUT), faktor sikap terhadap penggunaan teknologi (Attitude Towards Using Technology/ATUT) terhadap faktor minat perilaku menggunakan teknologi (Behavioural Intention to Use/BITU).",
     "authors": [
       "Ririn Apridola, -"
     ],
@@ -495,7 +495,7 @@
   },
   {
     "title": "Rancang Bangun Digital Satuan Kegiatan Harian (SKH) Guru dengan Relational Database Model: Studi Kasus: Taman Kanak-Kanak Assalaam Bandung",
-    "abstract": null,
+    "abstract": "Database merupakan komponen penting dalam suatu sistem informasi, karena sistem informasi menyediakan kumpulan data yang nantinya menjadi sebuah informasi bagi pengguna sistem. Satuan Kerja Harian (SKH) sebagai salah satu kelengkapan administrasi kelas yang harus dilakukan oleh para guru Taman Kanak-kanak (TK) setiap hari sebagai bagian dari proses belajar mengajar. Satuan Kerja Harian (SKH) merupakan bagian yang sangat penting dalam proses belajar mengajar, apabila lupa membuat Satuan Kerja Harian (SKH) ini maka dipastikan skenario pembelajaran akan tidak terarah. Maka kurikulum sekolah tidak akan mencapai target. Dalam upaya menghindari kelalaian yang bisa terjadi maka dibutuhkan program yang dapat membantu guru dalam pembuatan Satuan Kerja Harian (SKH) secara terkomputerisasi. Penelitian ini membahas rancang bangun digital Satuan Kerja Harian (SKH) guru dengan Relational Model . Relational model pada perancangan database merepresentasikan hasilnya berupa tabel yang mudah digunakan dan fleksibel dalam pemakaian.",
     "authors": [
       "Rizka Manarul Fuadah, -"
     ],
@@ -508,7 +508,7 @@
   },
   {
     "title": "PENERAPAN MODEL PEMBELAJARAN MODIFIED INQUIRY UNTUK MENINGKATKAN HASIL BELAJAR SISWA PADA MATA PELAJARAN TIK :STUDI KUASI EKSPERIMEN TERHADAP SISWA KELAS X SMAN 1 MARTAPURA",
-    "abstract": null,
+    "abstract": "Penelitian ini berjudul “Penerapan Model Pembelajaran Modified Inquiry untuk Meningkatkan Hasil Belajar Siswa pada Mata Pelajaran TIK”. Bertujuan untuk mengetahui sejauh mana model pembelajaran Modified Inquiry dapat meningkatkkan hasil belajar siswa. Metode penelitian yang digunakan adalah kuasi eksperimen dengan desain penelitian nonequivalent control grup. Sampel penelitiannya adalah siswa kelas X-F dan X-G SMA N 1 Martapura. Instrumen yang digunakan adalah pretest dan posttest untuk mengukur penilaian kognitif, praktikum untuk mengukur aspek psikomotorik, angket untuk mengukur pendapat siswa, dan lembar observasi. Hasil uji-t data postes adalah thitung = 4,977 ≥ t(0,95;62) = 1,669 yang berarti bahwa hasil belajar aspek kognitif siswa yang menggunakan model pembelajaran modified inquiry lebih tinggi daripada yang pembelajarannya konvensional. Rata-rata gain normalisasi pada kelas kontrol adalah 0,1 yang termasuk dalam kategori rendah, sedangkan kelas eksperimen rata-rata gain normalisasinya termasuk dalam kategori sedang yaitu 0,5. Hasil uji-t pada data gain normalisasi yaitu thitung = 5,714 ≥ t(0,95;62) = 1,669 yang menjelaskan bahwa peningkatan hasil belajar aspek kongnitif siswa yang menggunakan model pembelajaran modified inquiry lebih tinggi daripada yang pembelajarannya konvensional. Hasil belajar ranah psikomotorik yang diukur dari tes praktikum rata-rata yang didapat pada kelas kontrol adalah 91,75 sedangkan pada kelas eksperimen rata-rata yang didapat adalah 98,47. Nilai thitung hasil belajar ranah psikomotorik yaitu thitung = 3,90 ≥ t(0,95;62) = 1,669, hal ini berarti hasil belajar aspek psikomotorik siswa yang menggunakan model pembelajaran modified inquiry lebih tinggi daripada yang pembelajarannya konvensional.",
     "authors": [
       "Rizki Amalia, -"
     ],
@@ -521,7 +521,7 @@
   },
   {
     "title": "PERBANDINGAN ALGORITMA A* DAN DIJKSTRA BERBASIS WEBGIS UNTUK PENCARIAN RUTE TERPENDEK",
-    "abstract": null,
+    "abstract": "Peta konvensional masih banyak digunakan untuk mencari rute paling optimum dari suatu tempat ke tempat lainnya. Tetapi pencarian rute menggunakan peta konvensional memerlukan ketelitian yang tinggi dan cukup memakan waktu. Dalam penelitian ini dibuat perangkat lunak yang dapat memberikan rute jalan paling optimum pada sebuah peta berbasis webgis. Algoritma yang digunakan untuk pencarian rute adalah algoritma A* dan Dijkstra. Peneliti menggunakan engine Mapserver yang memadukan fungsi map dan webserver sekaligus. Hal pertama yang dilakukan adalah penyesuaian peta digital dengan konfigurasi MapServer. Langkah selanjutnya adalah dengan menyimpan file peta digital ke dalam postGIS yang merupakan modul dari postgreSQL untuk mendukung data spasial. Kemudian untuk dapat melakukan fungsi routing pada data spasial, perlu ditambahkan engine routing pada postgreSQL, dalam database didefinisikan fungsi algoritma A* dan Dijkstra menggunaan pgRouting. Dari hasil pengujian membandingkan antara algoritma A* dan Dijkstra dapat disimpulkan bahwa hasil rute yang dihasilkan sama. Algoritma A* memiliki lama proses yang lebih cepat rata-rata 0.8 ms, dibanding Djikstra rata-rata 1.46 ms. Hal ini disebabkan karena algoritma A* menggunakan metode heuristic berbeda dengan algoritma Dijkstra menggunakan metode konvensional.",
     "authors": [
       "rian putra pratama, -"
     ],
@@ -534,7 +534,7 @@
   },
   {
     "title": "PENERAPAN METODE TOPSIS PADA APLIKASI PENDUKUNG KEPUTUSAN SELEKSI PENYALURAN KERJA DALAM BURSA ALUMNI :Studi Kasus : Bursa Kerja Khusus Ariyanti Bandung",
-    "abstract": null,
+    "abstract": "Proses seleksi penyaluran kerja di bursa alumni merupakan proses pencocokan antara kriteria lowongan dengan data alternatif (data pelamar alumni) yang melamar. Sebuah bursa alumni menyalurkan alumninya ke perusahaan mitra merupakan upaya agar para alumni atau lulusan lebih mudah mendapatkan pekerjaan. Dengan berpijak pada hal tersebut aplikasi penunjang keputusan seleksi penyaluran alumni membantu koordinator bursa kerja alumni untuk melakukan penilaian alumni mana yang lebih memenuhi kriteria untuk suatu lowongan. Pada penelitian ini telah dibuat rancangan Aplikasi Penunjang Keputusan Seleksi Penyaluran Kerja di Bursa Alumni yang berfungsi untuk membantu pihak bursa alumni dalam mengambil keputusan alumni yang lebih memenuhi kriteria suatu lowongan dengan menerapkan perhitungan metode multi-kriteria TOPSIS. TOPSIS adalah salah satu metode pengambilan keputusan multikriteria yang pertama kali diperkenalkan oleh Yoon dan Hwang tahun 1981. TOPSIS didasarkan pada konsep dimana alternatif yang terpilih atau terbaik tidak hanya mempunyai jarak terdekat (terpendek) dari solusi ideal positif, namun juga memiliki jarak terjauh (terpanjang) dari solusi ideal negatif. Fungsi utama aplikasi ini adalah mengolah data-data seleksi penyaluran kerja sehingga menghasilkan urutan alternatif pelamar dari yang paling tinggi nilai preferensinya. Nilai preferensi tersebut di dapatkan dari perhitungan TOPSIS yang di implementasikan dengan menggunakan tools Visual Studio 2008, dan untuk basisdatanya menggunakan SQLyogEnterprise. Dari hasil penelitian metode TOPSIS dapat memberikan solusi yang efektif untuk masalah-masalah tertentu diantaranya masalah multikriteria yang range nilai kriterianya berjauhan atau range yang luas. Hal ini terlihat dari tahapan perhitungan jarak antara nilai setiap alternatif dengan matriks solusi ideal positif dan matrik ideal negatif",
     "authors": [
       "rina meliana, -"
     ],
@@ -547,7 +547,7 @@
   },
   {
     "title": "SISTEM PENGOLAHAN DATA PENERIMAAN MAHASISWA BARU DI UNIVERSITAS PENDIDIKAN INDONESIA DENGAN MENGGUNAKAN METODE FUZZY LOGIC",
-    "abstract": null,
+    "abstract": "Sistem penerimaan mahasiswa baru dalam suatu perguruan tinggi adalah suatu hal yang penting apalagi terhadap perguruan tinggi negeri khusunya UPI yang mempunyai banyak peminat calon mahasiswa. Untuk itu diperlukan suatu sistem yang dapat membantu perguruan tinggi dimana sistem ini dapat memberikan keputusan kepada pengambilan keputusan sehingga mendapatkan data yang cepat dan efisien serta calon-calon mahasiswa yang berkwalitas sesuai dengan yang diharapkan para pengambil keputusan. Salah satu metode untuk memberikan keputusan yang akurat mengenai sistem penerimaan mahasiswa baru yaitu dengan menggunakan metode fuzzy logic. Metode ini bekerja dengan menggunakan data mahasiswa, aturan dan fungsi. Hasil yang didapat dari metode tersebut berupa keterangan diterima atau tidaknya calon mahasiswa tersebut beserta nilai yang didapatkanya.. Dengan adanya sistem menentukan keputusan dengan fuzzy logic penerimaan mahasiswa baru, dapat mempermudah pihak universitas dalam proses penerimaan mahasiswa baru dan calon mahasiswa yang diterima dapat memenuhi serta sesuai dengan standar kriteria yang telah ditetapkan oleh Universitas Pendidikan Indonesia.",
     "authors": [
       "rina rizki harfatiana, -"
     ],
@@ -560,7 +560,7 @@
   },
   {
     "title": "IMPLEMENTASI RESILIENT PROPAGATION NEURAL NETWORK DALAM APLIKASI OCR DAN OMR UNTUK PEMBACAAN LEMBAR NILAI",
-    "abstract": null,
+    "abstract": "Students’ grade data filing at Universitas Pendidikan Indonesia (UPI) is conducted by Biro Administrasi Akademik dan Kemahasiswaan (BAAK) using Assessment Form that has been filled by the lecturer and returned to BAAK to be processed with Optical Mark Reader machine, the yellow-colored copy of Assessment Form are kept by the lecturer as an archive. All the students’ grades data is stored at BAAK, so if the lecturer needs digital data of the college students’ grades, the lecturer must request data to BAAK, buy an expensive OMR machine, or entry the data from Assessment Form manually. Therefore, this research produces software that can retrieve data automatically from the yellow-colored copy of Assessment Form with an ordinary image scanner. There are two kind of data retrieval used by this software, Optical Character Recognition (OCR) to read the Lecturers Code, Course Code, the NIM, and Optical Mark Reader (OMR) to read mark of the grades. To measure accuracy level there are four kind of feature extractions are tested in this OCR research; Matrix Matching, Vertical/Horizontal Projection, Fundamental Features, and Hybrid. The output of this feature extraction will be used as input to the Artificial Neural Network and will be trained using Resilient Propagation to adjust its weight. As for OMR, used a simple method of pixel counting to determine where the mark is located. In the first experiment, with the expected error level less than 0.0001 or 0.01%, with Resilient Propagation training, the Matrix Matching method is failed, Vertical/Horizontal Projection required 190 iteration, Fundamental Features required 195 iteration, and the Hybrid required 97 iteration. As for the reading the actual data test, accuracy of Matrix Matching is less than 70%, accuracy of Vertical/Horizontal Projection is 94%, Fundamental Features 94% and Hybrid 96% of accuracy, as for OMR accuracy level reach 100% under suggested circumstances.",
     "authors": [
       "Teja Sophista V Rusyana, -"
     ],
@@ -573,7 +573,7 @@
   },
   {
     "title": "EXECUTIVE INFORMATION SYSTEM (EIS) DATA BENCANA MENGGUNAKAN METODOLOGI DESINVENTAR",
-    "abstract": null,
+    "abstract": "Bencana adalah peristiwa atau rangkaian peristiwa yang mengancam dan mengganggu kehidupan dan penghidupan masyarakat yang disebabkan oleh faktor alam dan/atau faktor non alam maupun faktor manusia sehingga mengakibatkan timbulnya korban jiwa manusia, kerusakan lingkungan, kerugian harta benda, dan dampak psikologis. Peran pemerintah sangatlah penting dalam penanggulangan bencana, keputusan atau kebijakan yang diambil oleh pemerintah dalam penanggulangan bencana tidak bisa hanya berdasarkan intuisi karena menyangkut kehidupan masyarakat, tetapi keputusan yang diambil harus berdasarkan histori kejadian bencana. Maka dari itu perlu upaya untuk menyelesaikan permasalahan di atas, yaitu dengan perancangan sistem inventarisasi bencana yang bisa menjadi penunjang keputusan bagi pemerintah dalam menetapkan kebijakan-kebijakan strategis. Salah satu metodologi inventarisasi bencana sebagai bahan analisis dan pendukung keputusan strategis adalah menggunakan metodologi Desinventar pada Executive Information System (EIS). Metodologi ini dapat menghasilkan beberapa tipe analisis data bencana, yaitu analisis komposisi, analisis temporal, analisis spasial dan analisis statistik. Dan analisis drill down serta pivot table sebagai ciri khas dari Executive Information System (EIS). Fitur-fitur analisis yang dihasilkan dapat digunakan untuk menganalisis data bencana sehingga menghasilkan informasi yang berguna bagi eksekutif penyelenggara penanggulangan bencana dalam pengambilan kebijakan dan keputusan strategis.",
     "authors": [
       "Titan Firman, -"
     ],
@@ -586,7 +586,7 @@
   },
   {
     "title": "PENYEMBUNYIAN PESAN RAHASIA DALAM CITRA DIGITAL BERFORMAT GIF MENGGUNAKAN ALGORITMA GIFSHUFFLE",
-    "abstract": null,
+    "abstract": "Dalam Perkembangan teknologi informasi, keamanan data merupakan hal yang penting, apalagi data yang dikirimkan adalah pesan yang sangat rahasia. Dalam dunia keamanan data istilah steganografi sangat dikenal. Steganografi adalah seni atau teknik menyembunyikan atau menyamarkan keberadaan pesan rahasia dalam suatu media penampungnya. Seiring beragamnya pilihan media penampung yang digunakan pada steganografi dalam dunia modern sekarang ini, maka makin beragam pula algoritma steganografi yang digunakan. Algoritma GifShuffle yang dikembangkan oleh Matthew Kwan adalah salah satu algoritma steganografi yang menggunakan berkas citra dengan format GIF. Algoritma ini melakukan penyisipan pesan dengan cara mengganti susunan palet warna yang ada dalam sebuah berkas citra dengan format GIF. Akan dibahas bagaimana proses encoding dan decoding pesan dalam citra dengan menggunakan algoritma GifShuffle. Selain itu akan dilakukan pula pengujian terhadap citra yang telah disisipi oleh pesan. Hal ini dilakukan untuk memperoleh kesimpulan bagaimana ketahanan pesan yang telah disisipkan ke dalam berkas GIF tersebut. Pengujian terhadap berbagai ukuran berkas citra dan jumlah warna yang dikandung dalam berkas tersebut pun dilakukan untuk memperoleh bagaimana kriteria berkas citra dengan format GIF.",
     "authors": [
       "Triptofan Maulidi Karno Pari, -"
     ],
@@ -599,7 +599,7 @@
   },
   {
     "title": "PENERAPAN MODEL PEMBELAJARAN PROBLEM POSING DENGAN MEMANFAATKAN MULTIMEDIA INTERAKTIF UNTUK MENINGKATKAN KEMAMPUAN BERPIKIR KREATIF SISWA SMK",
-    "abstract": null,
+    "abstract": "Penelitian ini bertujuan untuk mengetahui peningkatan kemampuan berpikir kreatif siswa SMK setelah mendapatkan perlakuan model pembelajaran problem posing dengan memanfaatkan multimedia interaktif. Selain itu, diharapkan setelah diterapkannya model pembelajaran problem posing dengan memanfaatkan multimedia interaktif ini siswa mendapatkan pengalaman baru mengenai cara belajar sehingga dapat turut serta secara aktif dalam pembelajaran dengan menuangkan ide dan pemikiran baru melalui pertanyaan sehingga dapat meningkatkan kemampuan berpikir kreatifnya. Metode penelitian yang digunakan adalah metode kuasi eksperimen dengan populasi penelitiannya adalah siswa kelas X SMK Badan Perguruan Indonesia (BPI) Bandung. Desain penelitian yang digunakan adalah Pretest-Posttest Nonequivalent Control Group Design. Untuk memperoleh data yang sesuai dalam penelitian ini digunakanlah instrumen tes dalam bentuk pilihan ganda dan uraian. Dari penelitian ini diperoleh informasi bahwa peningkatan kemampuan berpikir kreatif siswa yang dalam pembelajarannya menggunakan model pembelajaran problem posing dengan memanfaatkan multimedia interaktif lebih baik dibandingkan dengan kemampuan berpikir kreatif siswa yang dalam pembelajarannya menggunakan metode konvensional. Dengan perbandingan peningkatan sebesar 0,40 untuk model pembelajaran problem posing dengan memanfaatkan multimedia interaktif dan 0,21 untuk metode konvensional. Hal ini menunjukan bahwa peningkatan kemampuan berpikir kreatif siswa pada kelas yang dalam pembelajarannya menggunakan model pembelajaran problem posing dengan memanfaatkan multimedia interaktif berada pada level sedang sementara pembelajaran konvensional hanya berada pada level rendah.",
     "authors": [
       "Triwahyuni Kusman, -"
     ],
@@ -612,7 +612,7 @@
   },
   {
     "title": "PENGEMBANGAN MULTIMEDIA PEMBELAJARAN INTERAKTIF MODEL SIMULASI TENTANG TOPOLOGI JARINGAN UNTUK MENINGKATKAN HASIL BELAJAR KOGNITIF SISWA",
-    "abstract": null,
+    "abstract": "Penelitian yangberjudul\"pengembangan multimedia pembelajaran interaktif model simulasi tentang topologi jaringan untuk meningkatkan hasil belajar kognitif siswa \"adalahpenelitian dan pengembanganyangbertujuanuntukmengembangkanmultimedia interaktif model simulasi untuk pembelajaran tentang topologi jaringan. Penelitian ini jugamemiliki tujuanuntuk mengetahui peningkatan hasil belajar kognitif siswa setelah menggunakan multimedia ini . Serta untuk didapatkannya kajian berkaitan dengan tanggapan siswa mengenai penggunaan media ini.Darifasepenelitiandan pengembanganyang telah dilakukan,diperolehdata penelitiandarikuesioneryang: kuesioner surveilapanganyang telahdiberikan kepada40 siswakelasXI diSMK YKTB 2 Bogor ditahap analisis, kuesionervalidasi pakardalam fasepengembangan yangtelahdiberikan kepadadosendan guruTKJ, kuesioner penilaianmahasiswaterhadappenggunaan multimediaditahap implementasi.Serta instrumentes tertulis untukmengetahui tingkatpemahamansiswasebelum dansetelah tahapimplementasiDaripenelitian ini, diperolehbeberapa hasilyaitu: 1)multimediayang telahdikembangkan dinilai sangat baikdan tepatuntuk digunakan denganrata-rata persentasekelayakansebesar84.51% oleh para ahlirekayasa perangkat lunak dan80.83% oleh paraahlimateri, 2)Hampir seluruh siswa memberikan respon positifterhadap terhadap penggunaanmultimediayangtelah dikembangkan denganpersentasepenilaiansebesar84.37%, 3)Terdapat peningkatanhasil belajar kognitifsebesar73,5% antara sebelum dansetelah menggunakanmultimediaini",
     "authors": [
       "Tubagus Mukhamad Perdah, -"
     ],
@@ -625,7 +625,7 @@
   },
   {
     "title": "IMPLEMENTASI SISTEM REKOMENDASI TEMPAT WISATA DENGAN MENGGUNAKAN METODE KNOWLEDGE-BASED RECOMMENDATION STUDI KASUS PT. TAMA PUTERA WISATA",
-    "abstract": null,
+    "abstract": "Sistem rekomendasi merupakan bagian dari sistem pakar yang mengadopsi pengetahuan berdasarkan akuisisi seorang pakar ke dalam komputer, agar sistem yang ada di dalam komputer dapat menyelesaikan permasalah sesuai yang biasa dilakukan oleh seorang pakar. Sistem rekomendasi tempat wisata (SRTW) ini mendukung pengguna dalam identifikasi produk tempat wisata yang menarik berdasarkan karakteristiknya. rekomendasi teknologi berbasis pengetahuan mendapatkan peningkatan penting karena kemampuan yang berasal dari rekomendasi seorang pakar untuk menentukan produk yang kompleks seperti jenis wisata, kategori wisata, fasilitas dan lokasi tempatnya. Identifikasi karakteristik tempat wisata yang kompleks yang membuat pengguna untuk turun kembali ke berbagai jenis heuristik keputusan. Pada penelitian skripsi ini, peneliti bertujuan untuk merancang sistem rekomendasi pemilihan tempat wisata di kota Bandung dengan menggunakan metode knowledge-based recommendation. Dengan metode knowledge-based recommendation ini, dapat memberikan rekomendasi tempat wisata sesuai dengan kebutuhan kondisi wisatawan. Implementasi sistem rekomendasi ini berbasis web dengan menggunakan bahasa pemprograman php. Pengembangan yang berkelanjutan, diharapkan sistem ini dapat menjadi sempurna dan berguna untuk pariwisata kota Bandung.",
     "authors": [
       "tigin nurmajid habibie, -"
     ],
@@ -651,7 +651,7 @@
   },
   {
     "title": "PENERAPAN MODEL PEMBELAJARAN INKUIRI MODIFIKASI BERBANTU CLASSROOM BLOGGING UNTUK MENINGKATKAN HASIL BELAJAR SISWA",
-    "abstract": null,
+    "abstract": "Penelitian ini beranjak dari permasalahan yaitu pasifnya siswa dalam membangun ilmu pengetahuan yang ia dapatkan dalam proses belajar mengajar. Untuk mengatasi permasalahan tersebut peneliti menerapkan model pembelajaran Inkuiri Modifikasi berbantu Classroom Blogging. Model pembelajaran ini merupakan model yang menekankan pada proses penemuan dan pembangunan pengetahuan yang dilakukan secara aktif oleh siswa. Penelitian kuasi eksperimen ini bertujuan untuk mengetahui peningkatan hasil belajar siswa pada mata pelajaran KKPI setelah diterapkannya model pembelajaran Inkuiri Modifikasi berbantu Classroom Blogging. Desain penelitian yang digunakan adalah Pretest-Posttest Nonequivalent Control Group Design dimana dalam desain ini terdapat kelompok eksperimen dan kontrol. Sampel yang digunakan dalam penelitian ini adalah siswa-siswi kelas XI SMK Negeri 12 Bandung yang ditentukan secara Cluster Sampling. Pretest dilakukan pada kelompok eksperimen dan kontrol untuk mengetahui keadaan awal masing-masing kelompok dan kemudian diberi posttest kepada kedua kelompok setelah memperoleh perlakuan yang berbeda. Hasil posttest tersebut digunakan untuk mengetahui keadaan akhir dari masing-masing kelompok. Berdasarkan hasil uji hipotesis menggunakan uji-t pada taraf keberartian α=0,01 diperoleh nilai thitung > ttabel yang mengindikasikan bahwa hasil belajar siswa yang dalam pembelajarannya menggunakan Metode Pembelajaran Inkuiri Modifikasi Berbantu Classroom Blogging lebih baik dibandingkan dengan hasil belajar siswa yang dalam pembelajarannya menggunakan metode konvensional.",
     "authors": [
       "Wulan Sukmawati, -"
     ],
@@ -664,7 +664,7 @@
   },
   {
     "title": "IMPLEMENTASI ALGORITMA BOYER-MOORE DALAM SISTEM PENELUSURAN KATALOG PERPUSTAKAAN SEKOLAH",
-    "abstract": null,
+    "abstract": "Perpustakaan sekolah merupakan sumber pengetahuan siswa yang dapat meningkatkan kualitas pengetahuan siswa. Sebagian besar perpustakaan sekolah masih menggunakan sistem pencarian manual untuk mencari katalog perpustakaan. Sistem yang belum terkomputerisasi tersebut menyebabkan kegiatan operasional perpustakaan berjalan lambat dan tidak efektif terutama pada penelusuran katalog perpustakaan. Maka dari itu untuk mengatasi masalah penelusuran katalog dibuat sistem penelusuran katalog perpustakaan sekolah dengan mengimplementasikan algoritma Boyer-Moore. Algoritma Boyer-Moore merupakan algoritma pencarian string dengan melakukan perbandingan karakter mulai dari karakter paling kanan dari string yang dicari. Sistem penelusuran katalog perpustakaan sekolah dengan mengimplementasikan algoritma Boyer-Moore dapat mempermudah pengunjung perpustakaan sekolah untuk mengetahui jumlah dan keberadaan buku yang akan dipinjam dan mempermudah pustakawan untuk mengelola buku perpustakaan.",
     "authors": [
       "YUGIANUS, Pausta"
     ],
@@ -677,7 +677,7 @@
   },
   {
     "title": "SISTEM PENILAIAN JAWABAN ESAI SECARA OTOMATIS MENGGUNAKAN METODE PROBABILISTIC LATENT SEMANTIC ANALYSIS",
-    "abstract": null,
+    "abstract": "Untuk mengukur keberhasilan suatu proses pembelajaran dibutuhkan sistem penilaian atau evaluasi yang baik. Dari berbagai bentuk penilaian yang ada, penilaian tertulis esai merupakan bentuk penilaian yang dapat merepresentasikan tingkat pemahaman peserta didik, karena menuntut peserta didik untuk menguraikan, mengorganisasikan, dan menyatakan jawaban dengan kata-katanya sendiri dalam bentuk teknik, dan gaya yang berbeda-beda. Namun bentuk penilaian ini akan menghasilkan bentuk jawaban yang beranekaragam, sehingga sangat sulit dilaksanakan untuk peserta didik dalam jumlah yang besar, karena akan membutuhkan tenaga pengoreksi yang banyak, yang berakibat pada tingginya tingkat subjektivitas penilaian. Hal ini menjadi dasar dikembangkannya Sistem Penilaian Jawaban Esai secara Otomatis.Sistem yang dibangun mengimplementasikan metode Probabilistic Latent Semantic Analysis (PLSA). Metode ini dikenal baik dalam domain document indexing dan dianggap memiliki unjuk kerja yang lebih baik dibanding metode lainnya, karena merupakan penyempurnaan dari metode Latent Semantic Analysis (LSA). Dalam implementasinya PLSA menggunakan teknik statistik, untuk melakukan pengambilan makna dari suatu paragraf.Penelitian ini membahas pengimplementasian metode PLSA dan melihat pengaruh penggunaan stemming pada kinerja sistem. Pengujian akurasi dilakukan dengan membandingkan hasil penilaian sistem terhadap hasil penilaian manusia. Untuk mengukur nilai kesamaan vektor jawaban dan kunci jawaban digunakan fungsi Cosine Similarity. Dari hasil pengujian didapat tingkat akurasi berkisar antara 78.38% sampai dengan 78.89%.Kata Kunci: Penilaian Jawaban Esai, Probabilistic Latent Semantic Analysis",
     "authors": [
       "Yaya Wihardi, -"
     ],
@@ -690,7 +690,7 @@
   },
   {
     "title": "PENERAPAN PEMBELAJARAN INKUIRI MODEL ALBERTA UNTUK MENINGKATKAN HASIL BELAJAR SISWA SMP PADA MATA PELAJARAN TIK",
-    "abstract": null,
+    "abstract": "Penelitian ini bertujuan untuk mengetahui hasil belajar siswa setelah penerapan pembelajaran inkuiri Model Alberta. Metode Penelitian yang digunakan adalah metode kuasi eksperimen. Penelitian dilakukan pada siswa kelas VIII SMP Negeri 1 Margaasih Tahun Ajaran 2010-2011 pada standar kompetensi menggunakan perangkat lunak pengolah angka untuk menyajikan informasi. Objek penelitian terdiri atas dua kelas, yaitu kelas eksperimen yang menggunakan pembelajaran inkuiri model Alberta dengan jumlah sampel sebanyak 38 siswa dan kelas kontrol yang menggunakan metode pembelajaran konvensional dengan jumlah siswa 38 orang. Hasil penelitian menunjukkan peningkatan hasil belajar siswa pada kelas dengan pembelajaran inkuiri Model Alberta dengan pencapaian nilai rata-rata 3,45 dengan nilai indeks gain sebesar 0,37. Sedangkan peningkatan hasil belajar pada kelas konvensional dengan pencapaian nilai rata-rata 2,24 dengan nilai indeks gain sebesar 0,24. Hasil ini menunjukkan adanya peningkatan hasil belajar dengan pembelajaran inkuiri Model Alberta dibandingkan dengan pembelajaran konvensional. Berdasarkan hasil tersebut penerapan pembelajaran inkuiri model Alberta berpengaruh positif terhadap hasil belajar siswa.",
     "authors": [
       "Yeni Rahmawati, -"
     ],
@@ -703,7 +703,7 @@
   },
   {
     "title": "PENGEMBANGAN MULTIMEDIA PEMBELAJARAN PERMAINAN ULAR TANGGA PADA MATERI BANGUN RUANG DISEKOLAH DASAR",
-    "abstract": null,
+    "abstract": "Penelitian yang berjudul “Pengembangan Multimedia Pembelajaran Permainan Ular Tangga pada Materi Bangun Ruang di Sekolah Dasar” ini merupakan sebuah penelitian dan pengembangan yang bertujuan untuk mengembangkan multimedia pembelajaran permainan ular tangga. Penelitian ini juga bertujuan untuk mengetahui pandangan dan ketertarikan siswa terhadap pembelajaran yang menggunakan multimedia permainan ular tangga dan untuk melihat validitas atau kelayakan multimedia permainan ular tangga yang telah dikembangkan serta untuk melihat penilaian siswa terhadap multimedia yang telah dikembangkan. Dari tahapan-tahapan penelitian dan pengembangan yang telah dilakukan, didapatkan data penelitian dari angket yakni angket survey lapangan yang diberikan kepada Guru Mata Pelajaran Matematika kelas V di SD Negeri Percobaan Cileunyi pada tahap analisis, angket validasi ahli pada tahap pengembangan yang diberikan kepada dosen-dosen dan guru Matematika, dan angket penilaian siswa terhadap. Dari penelitian ini didapatkan hasil: 1) hampir seluruh siswa memberikan respon positif mengenai pembelajaran yang menggunakan multimedia pembelajaran permainan ular tangga, 2) multimedia pembelajaran permainan ular tangga yang telah dikembangkan dinilai Sangat Baik dan layak digunakan dengan rata-rata persentase kelayakan 88,51% oleh ahli media dan 92,7% oleh ahli materi, 3) siswa memberikan penilaian Sangat Baik terhadap multimedia pembelajaran permainan ular tangga dengan persentase penilaian yang diuraikan menjadi 3 aspek, 78,19 % untuk aspek RPL, 81,74 % untuk aspek pembelajaran dan 78,31 % untuk aspek antar muka.",
     "authors": [
       "Yoga Rizki Prayoga, -"
     ],
@@ -716,7 +716,7 @@
   },
   {
     "title": "MEMBANGUN SISTEM INFORMASI PERAMALAN PERMINTAAN BARANG DENGAN METODE BOX JENKINS",
-    "abstract": null,
+    "abstract": "Peramalan permintaan barang merupakan salah satu dari beberapa critical input dalam proses perencanaan produksi. Ketika hasil peramalan tidak akurat, rencana produksi akan menimbulkan masalah dalam persediaan. Masalah tersebut berupa penumpukan barang atau kekurangan barang. Dengan adanya sistem informasi peramalan permintaan barang, diharapkan perusahaan dapat melakukan produksi barang dengan efisien. Untuk menghasilkan peramalan yang akurat, maka diperlukan ketelitian dalam memilih metode yang akan digunakan. Metode yang kurang tepat dapat mempengaruhi kondisi perusahaan. Oleh sebab itu diperlukan metode peramalan yang dapat diandalkan untuk berbagai tipe data runtut waktu, yaitu metode Box Jenkins. Kata kunci : peramalan, sistem informasi peramalan permintaan barang, Box Jenkins",
     "authors": [
       "Yolla Elvira, -"
     ],
@@ -729,7 +729,7 @@
   },
   {
     "title": "PENERAPAN MODEL GUIDED DISCOVERY INQUIRY UNTUK MENINGKATKAN PRESTASI BELAJAR SISWA KELAS XI PADA MATERI DASAR PEMROGRAMAN PASCAL",
-    "abstract": null,
+    "abstract": "Skripsi dengan judul “Penerapan Model Guided Discovery Inquiry untuk Meningkatkan Prestasi Belajar Siswa Kelas XI pada Materi Dasar Pemrograman Pascal” merupakan penelitian quasi eksperimen dengan desain nonequivalent control group design. Tujuan penelitian ini adalah 1) Mengetahui apakah peningkatan prestasi belajar siswa kelas XI dengan menggunakan model pembelajaran Guided Discovery Inquiry lebih baik dari peningkatan prestasi belajar siswa kelas XI dengan menggunakan metode konvensional pada materi dasar pemrograman Pascal. 2) Mengetahui perbedaan antara peningkatan prestasi belajar siswa kelas XI yang menggunakan model Guided Discovery Inquiry dengan yang menggunakan metode konvensional pada materi dasar pemrograman Pascal. Instrumen yang digunakan dalam penelitian ini adalah tes objektif berupa pilihan ganda. Dari hasil penelitian diketahui bahwa rata-rata nilai pretest kelas eksperimen sebesar 40,80 dan kelas kontrol sebesar 41,87. Rata-rata nilai posttest kelas eksperimen 82,80 dan rata-rata kelas kontrol sebesar 70,80. Dengan selisih rata-rata nilai kelas eksperimen sebesar G = 42,00 atau <g> = 0,71 dengan kriteria “Tinggi”, sedangkan selisih rata-rata nilai kelas kontrol sebesar G = 28,93 atau <g> = 0,41 dengan kriteria “Sedang”. Dapat disimpulkan bahwa peningkatan prestasi belajar siswa kelas XI dengan menggunakan model Guided Discovery Inquiry lebih baik dari peningkatan prestasi belajar siswa kelas XI dengan menggunakan metode konvensional. Dari analisis data statistik diketahui nilai uji t-test gain sebesar 5,173 sehingga lebih besar dari t tabel sebesar 2,002. Maka dapat disimpulkan bahwa terdapat perbedaan yang signifikan antara peningkatan prestasi belajar siswa kelas XI yang menggunakan model Guided Discovery Inquiry dengan yang menggunakan metode konvensional pada materi dasar pemrograman Pascal.",
     "authors": [
       "Zetha Alfiany Lestari Santoso, -"
     ],

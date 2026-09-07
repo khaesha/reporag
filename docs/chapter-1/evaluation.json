@@ -1,0 +1,182 @@
+[
+  {
+    "query": "ROBOT LINE FOLLOWER (PENGIKUT GARIS) BERBASIS MIKROKONTROLER",
+    "kind": "exact_title",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/107059"],
+    "max_rank": 1
+  },
+  {
+    "query": "PENERAPAN ALGORITMA LINE MAZE PADA ROBOT LINE FOLLOWER UNTUK MENYELESAIKAN LINE MAZE DENGAN MENGGUNAKAN LEFT HAND RULE",
+    "kind": "exact_title",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/11913"],
+    "max_rank": 1
+  },
+  {
+    "query": "PEMBANGUNAN SISTEM JUAL BELI ONLINE DENGAN MENGGUNAKAN PENDEKATAN SOCIAL COMMERCE",
+    "kind": "exact_title",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/1468"],
+    "max_rank": 1
+  },
+  {
+    "query": "SISTEM PENDUKUNG KEPUTUSAN PEMILIHAN KOMPUTER TABLET MENGGUNAKAN METODE FUZZY MULTIPLE ATTRIBUTE DECISION MAKING",
+    "kind": "exact_title",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/17357"],
+    "max_rank": 1
+  },
+  {
+    "query": "SISTEM REKOMENDASI TEMPAT WISATA MENGGUNAKAN METODE KNOWLEDGE-BASED RECOMMENDATION DAN AHP-TOPSIS",
+    "kind": "exact_title",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/31888"],
+    "max_rank": 1
+  },
+  {
+    "query": "SISTEM ANALISIS DATA MENGGUNAKAN DESCRIPTIVE STATISTIC BERBASIS WEB",
+    "kind": "exact_title",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/61192"],
+    "max_rank": 1
+  },
+  {
+    "query": "IMPLEMENTASI DIFFIE-HELLMAN, AES-128 DAN ECDSA PADA APLIKASI INSTANT MESSAGING",
+    "kind": "exact_title",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/59363"],
+    "max_rank": 1
+  },
+  {
+    "query": "PENGUKURAN INDEKS KEPUASAN MASYARAKAT (IKM) TERHADAP PELAYANAN PUBLIK PADA BIDANG PELAYANAN INFORMASI MENGGUNAKAN METODE WEIGHTED AVERAGE BERBASIS WEBSITE",
+    "kind": "exact_title",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/114032"],
+    "max_rank": 1
+  },
+  {
+    "query": "NON-PLAYABLE CHARACTER BERBASIS LARGE LANGUAGE MODEL UNTUK GAME ROLE PLAYING GAME",
+    "kind": "exact_title",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/138064"],
+    "max_rank": 1
+  },
+  {
+    "query": "PENGEMBANGAN GAME STORYTELLING UNTUK MEMBERIKAN WAWASAN LITERASI KEUANGAN",
+    "kind": "exact_title",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/149720"],
+    "max_rank": 1
+  },
+  {
+    "query": "Adi Kurniawan",
+    "kind": "exact_author",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/107059"],
+    "max_rank": 1
+  },
+  {
+    "query": "Kamil Andri",
+    "kind": "exact_author",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/11913"],
+    "max_rank": 1
+  },
+  {
+    "query": "Adiputra Kresna Lingga",
+    "kind": "exact_author",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/1468"],
+    "max_rank": 1
+  },
+  {
+    "query": "Abdilah Taufik Ismail",
+    "kind": "exact_author",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/17357"],
+    "max_rank": 1
+  },
+  {
+    "query": "Agustina Wina",
+    "kind": "exact_author",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/31888"],
+    "max_rank": 1
+  },
+  {
+    "query": "Aksan Maulana",
+    "kind": "exact_author",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/61192"],
+    "max_rank": 1
+  },
+  {
+    "query": "Ammar Ashshiddiqi",
+    "kind": "exact_author",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/59363"],
+    "max_rank": 1
+  },
+  {
+    "query": "Abighail Shafira Ihsani",
+    "kind": "exact_author",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/114032"],
+    "max_rank": 1
+  },
+  {
+    "query": "Ade Mulyana",
+    "kind": "exact_author",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/138064"],
+    "max_rank": 1
+  },
+  {
+    "query": "Achmad Fauzan",
+    "kind": "exact_author",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/149720"],
+    "max_rank": 1
+  },
+  {
+    "query": "robot pengikut garis mikrokontroler",
+    "kind": "topic",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/107059"],
+    "max_rank": 5
+  },
+  {
+    "query": "line maze left hand rule",
+    "kind": "topic",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/11913"],
+    "max_rank": 5
+  },
+  {
+    "query": "jual beli online social commerce",
+    "kind": "topic",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/1468"],
+    "max_rank": 5
+  },
+  {
+    "query": "pemilihan komputer tablet fuzzy multiple attribute",
+    "kind": "topic",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/17357"],
+    "max_rank": 5
+  },
+  {
+    "query": "rekomendasi tempat wisata AHP TOPSIS",
+    "kind": "topic",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/31888"],
+    "max_rank": 5
+  },
+  {
+    "query": "analisis data descriptive statistic web",
+    "kind": "topic",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/61192"],
+    "max_rank": 5
+  },
+  {
+    "query": "Diffie Hellman AES ECDSA instant messaging",
+    "kind": "topic",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/59363"],
+    "max_rank": 5
+  },
+  {
+    "query": "indeks kepuasan masyarakat pelayanan publik",
+    "kind": "topic",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/114032"],
+    "max_rank": 5
+  },
+  {
+    "query": "non-playable character large language model",
+    "kind": "topic",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/138064"],
+    "max_rank": 5
+  },
+  {
+    "query": "game storytelling literasi keuangan",
+    "kind": "topic",
+    "expected_uris": ["http://repository.upi.edu/id/eprint/149720"],
+    "max_rank": 5
+  }
+]

@@ -1,7 +1,7 @@
 [
   {
     "title": "ROBOT LINE FOLLOWER (PENGIKUT GARIS) BERBASIS MIKROKONTROLER",
-    "abstract": null,
+    "abstract": "Robot line follower merupakan suatu jenis robot bergerak (mobile robot) yang mempunyai misi mendeteksi dan mengikuti suatu garis pandu yang telah dibuat pada bidang lintasan. Dalam perancangan dan implementasinya, masalah-masalah yang harus dipecahkan adalah bagaimana membuat robot line follower yang mampu mengikuti garis pandu, mampu melalui lintasan setengah lingkaran dengan jari-jari kurang dari 20 cm, mampu melintasi tanjakan dengan sudut kemiringan lebih dari 15 derajat dan mampu menghadapi rintangan berupa balok dengan ketinggian lebih dari 1 cm. Oleh karena itu, melalui penelitian ini disajikan implementasi robot line follower berbasis mikrokontroler.",
     "authors": [
       "Adi Kurniawan, -"
     ],
@@ -14,7 +14,7 @@
   },
   {
     "title": "PENERAPAN MODEL PEMBELAJARAN INKUIRI TERBIMBING UNTUK MENINGKATKAN HASIL BELAJAR SISWA KELAS XI DALAM PEMBELAJARAN TIK",
-    "abstract": null,
+    "abstract": "Penelitian \"Penerapan Model Pembelajaran Inkuiri Terbimbing UntukMeningkatkan Hasil Belajar Siswa Kelas XI Dalam Pembelajaran \"tHC\" iniditujukan untuk mengetahui peningkatan hasii belajar TIK siswa selamapenerapan model pembelajaran inkuiri terbimbing dan untuk mengetahui tingkatefektifitas model pembelajaran inkuiri terbimbing yang dilaksanakan. Hasilbelajar yang dimaksud mencakup hasil belajar pada ranah kognitif, ranahpsikomotor, dan ranah afektif. Hasil belajar ranah kognitif dilihat dari rata-ratagain dari seri satu sampai tiga. Sedangkan hasil belajar pada ranah afektif danpsikomotor diperoleh dari rata-rata skor tiap aspek dari seri satu sampai seri tiga.Penelitian ini dilaksanakan di SMA Laboratorium UPI Bandung dengan populasidalam penelitian ini adalah siswa kelas XI tahun ajaran 2008/2009 dan sampelkelas XI IPA 2. Model pembelajaran inkuiri terbimbing adalah suatu modelpembelajaran yang berpusat pada siswa (student-centered-strategy^) dimanakelompok-kelompok siswa mencari jawaban terhadap pertanyaan-pertanyaandidalam suatu prosedur dan struktur kelompok yang digariskan secara jeias.Metode penelitian yang digunakan adalah Kuasi eksperimen yang dilakukandalam tiga seri. Instrumen yang digunakan antara lain (1) Prestasi belajar siswauntuk aspek kognitif (2) Pedoman observasi aktivitas siswa (3) Pedomanobservasi guru (4) Pedoman observasi aspek psikomotor dan afektif. Adapun hasilpenelitian diperoleh bahwa persentase peningkatan aspek kognitifuntuk tiap seriadalah 11%, 11% dan 13 % , aspek psikomotor siswa pada tiap seri dengan 54%,75% dan 75% dan aspek afektif siswa pada tiap seri dengan 65%, 66%, dan 68%Berdasarkan pengolahan dan analisis data diperoleh informasi bahwa penerapanmodel pembelajaran inkuiri terbimbing mempengaruhi peningkatan hasil belajarsiswa.",
     "authors": [
       "Agung Wicaksono, -"
     ],
@@ -27,7 +27,7 @@
   },
   {
     "title": "SISTEM OPTIMALISASI PRODUKSI STUDI KASUS PT. PINDAD (PERSERO)",
-    "abstract": null,
+    "abstract": "Skripsi ini berisi materi penelitian dalam membuat sistem informasi optimalisasi produksi. Objek penelitian adalah perusahaan manufaktur PT. PINDAD (Persero). Optimalisasi yang akan dicapai dengan menggunakan sistem optimalisasi produksi ini adalah optimalisasi pada solusi fisibel basis awal atau disebut juga dengan optimum lokal. Ada tiga metode pemecahan dalam menemukan optimum lokal persoalan optimalisasi produksi ini, yaitu: metode northwest corner, metode least cost, dan metode pendekatan vogel. Hasil pemecahan menggunakan ketiga metode ini akan dibandingkan satu sama lain dalam beberapa studi kasus. Hasil akhir penelitian akan ditemukan metode yang paling cocok untuk diterapkan pada sistem informasi Optimalisasi Produksi.",
     "authors": [
       "Fadhil Hidayat, -"
     ],
@@ -53,7 +53,7 @@
   },
   {
     "title": "PENERAPAN METODE USER CENTERED DESIGN (UCD) UNTUK MENCAPAI TINGKAT USABILITY YANG TINGGI",
-    "abstract": null,
+    "abstract": "Tingkat usability yang tinggi pada website merupakan hal yang harus dipenuhi agar website tersebut mencapai tujuan awal pembuatannya. Banyak sekali fakta yang menunjukkan bahwa usability yang rendah pada suatu website memberikan dampak negatif. User Centered Design (UCD) yang muncul dengan membawa konsep pengembangan suatu produk baik itu perangkat lunak (website) maupun perangkat keras berorientasi pada pengguna, telah terbukti berhasil membuat tingkat usability dari produk menjadi tinggi. UCD dalam hal ini dicoba untuk meningkatkan tingkat usability. Dasar ukuran tingkat usability meliputi : effectiveness (efektivitas), efficiency (efisiensi), satisfaction (kepuasan). Penerapan UCD dilakukan dengan melaksanakan aktivitas-aktivitas dengan menggunakan metode-metode UCD yang ada. Metode tersebut adalah : Kuisioner, focus group, interview, task modeling dan prototyping. Hasil dari kuisioner dan interview adalah 66% koresponden mengerti dengan penggunaan internet, 66% koresponden sering berinteraksi dengan situs, dan 80% koresponden memiliki pengetahuan situs dengan baik bahkan 16% darinya pernah membuat situs. Hasil kuisioner, focus group, interview, task modelling dan prototyping adalah sebuah aplikasi e-learning bernama F-ROOM yang akan diukur tingkat usability terhadap pengguna. Uji usability ke-1, F-ROOM memperoleh 88% tes performansi dan 490 nilai tes preferensi. Pada uji usability ke-2, F-ROOM memperoleh 96% tes performansi dan 569 nilai tes preferensi.",
     "authors": [
       "M. Salman Alfarisi, -"
     ],
@@ -66,7 +66,7 @@
   },
   {
     "title": "KLASIFIKASI POSTING BLOG BERBAHASA INDONESIA DENGAN MENGGUNAKAN ALGORITMA NAÏVE BAYES",
-    "abstract": null,
+    "abstract": "Pemilik akun blog di Indonesia semakin hari semakin banyak, begitu pula dengan posting blog yang di publish. Hal tersebut membuat tumpukan posting blog semakin banyak dan tidak teratur. Dewasa ini, masyarakat umum banyak menulis blog dengan isi yang lebih beragam. Blog juga menjadi salahsatu sumber masyarakat dalam mendapatkan informasi dan memperluas wawasan. Dengan adanya pengklasifikasian posting blog secara otomatis ini, diharapkan dapat mempermudah pengguna dalam mendapatkan posting blog yang dibutuhkan. Terbukti dengan Naïve Bayes Classifier dapat mengklasifikasikan posting blog dengan nilai akurasi 84,9%. Nilai akurasi tersebut didapat dari pengujian dengan metode 10 folds cross validation.",
     "authors": [
       "Oktariani Nurul Pratiwi, -"
     ],
@@ -79,7 +79,7 @@
   },
   {
     "title": "IMPLEMENTASI ALGORITMA PEWARNAAN GRAF DALAM SISTEM PENJADWALAN KULIAH",
-    "abstract": null,
+    "abstract": "Permasalahan penjadwalan kuliah atau disebut juga University Timetabling Problem (UTP) merupakan permasalahan yang kompleks karena terdiri dari banyak batasan dan syarat (multiconstraint). Salah satu metode yang dapat digunakan untuk menyelesaikannya adalah dengan memandang bahwa hardconstraint yang harus lebih dulu dipecahkan adalah dari sisi mahasiswa. Sebagai langkah awal penyelesaian, persoalan ditransformasikan ke dalam model matematis yang disebut graf, untuk selanjutnya diwarnai menggunakan suatu algoritma pewarnaan graf. Algoritma ini sering dipakai dalam berbagai kasus scheduling atau penjadwalan karena mempunyai suatu tujuan untuk keluarannya yaitu mewarnai semua simpul dalam graf tanpa ada warna yang bentrok antar simpul yang bertetangga serta dengan menggunakan warna yang seminimum mungkin atau disebut bilangan kromatik. Hasil dari pewarnaan graf didistribusikan ke dalam timeslot penjadwalan kuliah dan digunakan sebagai acuan dalam pemenuhan constraint-constraint lainnya.",
     "authors": [
       "Rani Megasari, -"
     ],
