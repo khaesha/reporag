@@ -15,6 +15,7 @@ import (
 
 	"github.com/khaesha/reporag/apps/backend/internal/config"
 	"github.com/khaesha/reporag/apps/backend/internal/httpapi"
+	"github.com/khaesha/reporag/apps/backend/internal/store"
 )
 
 func main() {
@@ -40,9 +41,10 @@ func run() error {
 		return errors.New("database pool initialization failed")
 	}
 	defer pool.Close()
+	database := store.New(pool)
 
 	timeoutHandler := http.TimeoutHandler(
-		httpapi.New(pool.Ping, cfg.FrontendOrigin),
+		httpapi.New(pool.Ping, database.Search, database.Filters, cfg.FrontendOrigin),
 		cfg.RequestTimeout,
 		`{"error":{"code":"request_timeout","message":"request timed out"}}`,
 	)

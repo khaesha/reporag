@@ -49,6 +49,15 @@ curl -i http://localhost:8080/healthz
 curl -i http://localhost:8080/readyz
 ```
 
+Search and list available filters:
+
+```sh
+curl --get http://localhost:8080/api/v1/search --data-urlencode "q=machine learning" --data "page=1" --data "limit=10" --data "sort=relevance"
+curl http://localhost:8080/api/v1/filters
+```
+
+Search accepts exact `year`, `division`, `item_type`, and `has_abstract` filters. Sort values are `relevance`, `title`, and `date`; date means newest deposits first.
+
 Import the corpus explicitly after the migration is applied:
 
 ```sh
