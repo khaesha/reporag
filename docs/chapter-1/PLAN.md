@@ -14,12 +14,12 @@ Exit: corpus numbers are reproducible and the evaluation set exists.
 
 ## Phase 1: Bootstrap the backend
 
-- [ ] Initialize the Go module under `apps/backend`.
-- [ ] Add Gin and pgx only.
-- [ ] Add configuration for database URL, frontend origin, port, and request timeout.
-- [ ] Implement graceful startup and shutdown.
-- [ ] Add `/healthz` and `/readyz`.
-- [ ] Add Docker Compose PostgreSQL and the initial migration.
+- [x] Initialize the Go module under `apps/backend`.
+- [x] Add Gin and pgx only.
+- [x] Add configuration for database URL, frontend origin, port, and request timeout.
+- [x] Implement graceful startup and shutdown.
+- [x] Add `/healthz` and `/readyz`.
+- [x] Add Docker Compose PostgreSQL and the initial migration.
 
 Check: the service starts, readiness fails without PostgreSQL, and succeeds with it.
 
