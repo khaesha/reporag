@@ -131,7 +131,7 @@ func (store *Store) Search(ctx context.Context, params SearchParams) (SearchResu
 	}
 
 	arguments := []any{params.Query}
-	conditions := []string{"search_vector @@ websearch_to_tsquery('simple', $1)"}
+	conditions := []string{"search_vector @@ plainto_tsquery('simple', $1)"}
 	addCondition := func(expression string, value any) {
 		arguments = append(arguments, value)
 		conditions = append(conditions, fmt.Sprintf(expression, len(arguments)))
@@ -159,7 +159,7 @@ func (store *Store) Search(ctx context.Context, params SearchParams) (SearchResu
 	query := fmt.Sprintf(`
 		SELECT title, abstract, authors, item_type, subjects, divisions,
 		       date_deposited, source_year, uri,
-		       ts_rank_cd(search_vector, websearch_to_tsquery('simple', $1)) AS score
+		       ts_rank_cd(search_vector, plainto_tsquery('simple', $1)) AS score
 		FROM documents
 		WHERE %s
 		ORDER BY %s
