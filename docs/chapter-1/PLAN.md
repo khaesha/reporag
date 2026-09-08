@@ -25,12 +25,12 @@ Check: the service starts, readiness fails without PostgreSQL, and succeeds with
 
 ## Phase 2: Import the corpus
 
-- [ ] Define the typed source record and database record.
-- [ ] Recursively discover yearly JSON files, derive `source_year` from filenames, and retain degree program in `divisions`.
-- [ ] Normalize fields and parse deposit dates.
-- [ ] Upsert records by URI in one transaction per file.
-- [ ] Print inserted, updated, rejected, and total counts.
-- [ ] Add one integration check proving a second import leaves the record count unchanged.
+- [x] Define the typed source record and database record.
+- [x] Recursively discover yearly JSON files, derive `source_year` from filenames, and retain degree program in `divisions`.
+- [x] Normalize fields and parse deposit dates.
+- [x] Upsert records by URI in one transaction per file.
+- [x] Print inserted, updated, rejected, and total counts.
+- [x] Add one integration check proving a second import leaves the record count unchanged.
 
 Check: every valid unique record in the configured corpus imports; malformed input identifies its exact location.
 
