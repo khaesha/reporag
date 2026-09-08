@@ -45,12 +45,12 @@ Check: one root `.env` drives Compose and Go commands, stays untracked, and a re
 
 ## Phase 3: Build retrieval
 
-- [ ] Implement full-text search across weighted metadata.
-- [ ] Add year, division, item-type, and abstract-availability filters.
-- [ ] Add relevance, title, and date sorts.
-- [ ] Add pagination and filter-value endpoints.
-- [ ] Validate query length, page, limit, filters, and sort values.
-- [ ] Test exact title, author, no-result, filter, sorting, and pagination cases.
+- [x] Implement full-text search across weighted metadata.
+- [x] Add year, division, item-type, and abstract-availability filters.
+- [x] Add relevance, title, and date sorts.
+- [x] Add pagination and filter-value endpoints.
+- [x] Validate query length, page, limit, filters, and sort values.
+- [x] Test exact title, author, no-result, filter, sorting, and pagination cases.
 
 Check: at least 24 of the 30 evaluation queries return a relevant result in the top 5.
 

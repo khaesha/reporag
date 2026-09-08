@@ -84,6 +84,8 @@ The importer constructs `search_text` with repeated title text followed by autho
 5. A count query supplies pagination metadata.
 6. Gin returns a stable JSON response.
 
+Relevance ties use title and URI for stable pagination. Title sort is case-insensitive ascending. Date sort is newest first with missing dates last. The filter endpoint reads distinct global values directly from `documents`; it does not depend on a search query.
+
 User values are always passed as pgx parameters. Sort columns are selected from a fixed server-side allowlist and never interpolated from arbitrary input.
 
 ## 6. Import flow

@@ -103,13 +103,15 @@ Optional parameters:
 
 | Parameter | Values |
 | --- | --- |
-| `year` | 2009–2026 |
+| `year` | 1900–2100; use the filter endpoint for available values |
 | `division` | Exact division value |
 | `item_type` | Exact item type value |
 | `has_abstract` | `true` or `false` |
 | `sort` | `relevance`, `title`, or `date` |
 | `page` | Positive integer |
 | `limit` | 1–50 |
+
+The trimmed query must contain 1–200 characters. Supplied division and item-type values must contain 1–200 characters. Unknown but valid exact filter values return an empty result set. `date` sorts newest deposits first with missing dates last.
 
 ### Search response
 
@@ -137,6 +139,20 @@ Optional parameters:
 ```
 
 The score is meaningful only within the current result set and must not be displayed as a calibrated percentage match.
+
+### Filter values
+
+`GET /api/v1/filters` returns global values available in the imported corpus:
+
+```json
+{
+  "years": [2026, 2025],
+  "divisions": ["Program Studi Ilmu Komputer"],
+  "item_types": ["Thesis (S1)", "Thesis (S2)"]
+}
+```
+
+Years are newest first. Division and item-type values are case-insensitively sorted, unique, and exclude missing values.
 
 ## 9. UX requirements
 
