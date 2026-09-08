@@ -67,13 +67,26 @@ Check: a user can search, filter, paginate, and open a source record without a c
 
 ## Phase 5: Release gate
 
-- [ ] Run Go tests and frontend lint/build.
-- [ ] Import the full corpus into a clean database.
-- [ ] Confirm all PRD acceptance criteria.
-- [ ] Measure local search p95 against the 30-query evaluation set.
-- [ ] Document setup, import, run, test, and backup commands.
+- [x] Run Go tests and frontend lint/build.
+- [x] Import the full corpus into a clean database.
+- [x] Confirm all PRD acceptance criteria.
+- [x] Measure local search p95 against the 30-query evaluation set.
+- [x] Add a root README covering the project, architecture, setup, import, run, test, backup, and restore workflows.
+- [x] License original code and project documentation under MIT while explicitly excluding the UPI corpus data.
+- [x] Record the release environment, retrieval result, and latency measurement below.
 
 Exit: Chapter 1 is deployable and its retrieval measurements are recorded.
+
+### Release evidence
+
+Measured 2026-09-08 on macOS 15.7.5 arm64 with Go 1.27.1, Node.js 24.15.0, npm 11.12.1, Docker Compose 5.2.0, and PostgreSQL 18.6.
+
+- Clean import: 820 inserted, 0 rejected; repeated import: 0 inserted, 820 updated.
+- Exact-title searchability: 820/820 corpus URIs.
+- Retrieval evaluation: 30/30 expected records within their required rank.
+- Search latency: 150 measured complete responses, p50 3.22 ms, p95 3.52 ms, maximum 3.84 ms.
+- Browser smoke: search, filter, pagination, keyboard submission, and source navigation passed with zero SearchLens console messages.
+- PostgreSQL custom-format backup smoke: 694,227-byte dump created successfully.
 
 ## Recommended implementation order
 

@@ -178,13 +178,31 @@ func TestCorpusRetrievalEvaluation(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
+	var corpus []records.Document
 	for _, file := range files {
 		documents, _, err := records.Read(file)
 		if err != nil {
 			t.Fatal(err)
 		}
+		corpus = append(corpus, documents...)
 		if _, err := store.ImportFile(ctx, documents); err != nil {
 			t.Fatal(err)
+		}
+	}
+	for _, document := range corpus {
+		result, err := store.Search(ctx, SearchParams{Query: document.Title, Sort: "relevance", Page: 1, Limit: 50})
+		if err != nil {
+			t.Fatalf("exact title %q: %v", document.Title, err)
+		}
+		found := false
+		for _, match := range result.Documents {
+			if match.URI == document.URI {
+				found = true
+				break
+			}
+		}
+		if !found {
+			t.Errorf("exact title %q did not return %s", document.Title, document.URI)
 		}
 	}
 

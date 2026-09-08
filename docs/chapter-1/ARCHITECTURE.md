@@ -78,7 +78,7 @@ The importer constructs `search_text` with repeated title text followed by autho
 ## 5. Search flow
 
 1. Gin binds and validates query parameters.
-2. The store converts the query with `websearch_to_tsquery('simple', $1)`.
+2. The store converts the query with `plainto_tsquery('simple', $1)` so punctuation in repository titles is treated as text, not as search operators.
 3. PostgreSQL applies full-text matching and optional filters.
 4. Relevance uses `ts_rank_cd`; alternate sorts use normalized title or deposit date.
 5. A count query supplies pagination metadata.
