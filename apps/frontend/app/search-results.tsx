@@ -1,74 +1,202 @@
-const results = [
-  ["Optimal Chunk Sizing & Sliding Window Overlap in Enterprise RAG Systems", "By Dr. Aris Thorne • Updated 2 days ago • AI Architecture", "98%", "Empirical evaluation comparing 256, 512, and 1024 token chunk sizes with recursive character boundary splitting. Demonstrates how a 15% sliding window overlap preserves multi-sentence context and resolves coreference resolution gaps in sparse document retrieval pipelines."],
-  ["Hybrid Retrieval: Merging Dense Vector Embeddings with BM25 Sparse Indexing", "By Vector Systems Team • Updated yesterday • Search Infrastructure", "96%", "A production implementation of reciprocal rank fusion (RRF) marrying HNSW dense k-NN vector indexes with term-frequency BM25 scores. Fixes exact keyword domain misses while retaining conceptual semantic matching across multimodal documents."],
-  ["Two-Stage RAG: Cross-Encoder Re-Ranking Architecture & Latency Benchmarks", "By Research Engineering • Updated 4 days ago • Model Optimization", "94%", "Assessing latency tradeoffs when filtering top-100 bi-encoder candidates through a quantized MiniLM cross-encoder. Results demonstrate a 24% boost in MRR@10 with only 18ms p95 latency overhead on clustered inference nodes."],
-  ["Hierarchical Document Chunking with Parent-Child Vector Associations", "By Maya Lin, Staff ML Scientist • Updated 5 days ago • Data Ingestion", "91%", "Index micro-chunks (128 tokens) for hyper-precise vector discovery while passing larger parent segments (2048 tokens) to the generative context window. Eliminates truncation artifacts while ensuring fine-grained vector similarity matches."],
-  ["Hallucination Guardrails: Grounding Evaluation Metrics via RAGAS & TruLens", "By Quality Assurance Guild • Updated 1 week ago • Evaluation Frameworks", "89%", "Automated evaluation workflows for measuring context relevance, answer groundedness, and hallucination frequency. Integrates synthetic test set generation across multi-tenant knowledge bases with automated citation attribution scores."],
-  ["Token Budget Management & Context Compression Strategies for LLM Prompts", "By Platform Scalability Group • Updated 1 week ago • Cost & Performance", "87%", "Techniques for dynamic prompt context pruning using semantic sentence encoders and extractive summarization. Achieves 40% reduction in generation token costs without compromising factuality or answer completeness in domain QA benchmarks."],
-  ["Multimodal RAG: Image-Text Interleaved Ingestion & CLIP Vector Alignment", "By Visual Intelligence Team • Updated 2 weeks ago • Vision & Multimodal", "85%", "Strategies for parsing complex PDF diagrams, flowcharts, and technical tables into joint vector spaces. Combines OCR extraction, layout detection transformers, and dual-projection embedding spaces for cohesive cross-modal question answering."],
-  ["Adaptive Query Rewriting & HyDE (Hypothetical Document Embeddings) Analysis", "By Cognitive Retrieval Lab • Updated 2 weeks ago • Query Engineering", "83%", "A deep dive into zero-shot query expansion where an LLM generates speculative answers prior to vector search. Explores trade-offs in hallucination propagation versus recall improvement for ambiguous and shorthand developer search queries."],
-  ["GraphRAG: Augmenting Vector Retrieval with Knowledge Graph Traversal", "By Knowledge Systems Group • Updated 3 weeks ago • Graph Architectures", "81%", "Overcoming k-NN retrieval blindness in complex multi-hop reasoning by combining entity relationship graph communities with dense embeddings. Enables deep inductive summarization across disconnected institutional datasets."],
-  ["Vector Database Sharding & Distributed HNSW Index Maintenance at Scale", "By Cloud Infrastructure Core • Updated 1 month ago • Database Engineering", "79%", "Operational principles for updating live HNSW vector indexes without query degradation. Covers partition clustering, incremental centroid recalculation, and memory-mapped file techniques for hundred-million vector collections."],
+export type SearchResult = {
+  title: string;
+  abstract: string | null;
+  authors: string[];
+  item_type: string | null;
+  subjects: string | null;
+  divisions: string | null;
+  date_deposited: string | null;
+  source_year: number;
+  uri: string;
+  score: number;
+};
+
+export type SearchResponse = {
+  query: string;
+  page: number;
+  limit: number;
+  total: number;
+  results: SearchResult[];
+};
+
+export type FilterValues = {
+  years: number[];
+  divisions: string[];
+  item_types: string[];
+};
+
+export type SearchSelection = {
+  year: string;
+  division: string;
+  itemType: string;
+  hasAbstract: "" | "true" | "false";
+  sort: "relevance" | "title" | "date";
+};
+
+type Props = {
+  response: SearchResponse | null;
+  status: "idle" | "loading" | "success" | "error";
+  error: string;
+  selection: SearchSelection;
+  filterValues: FilterValues;
+  filterStatus: "loading" | "success" | "error";
+  filterError: string;
+  onSelectionChange: (selection: SearchSelection) => void;
+  onPageChange: (page: number) => void;
+  onRetry: () => void;
+  onResetFilters: () => void;
+  onRetryFilters: () => void;
+};
+
+const sortOptions = [
+  ["relevance", "Relevance"],
+  ["title", "Title A–Z"],
+  ["date", "Newest deposit"],
 ] as const;
 
-export default function SearchResults() {
+export default function SearchResults({
+  response,
+  status,
+  error,
+  selection,
+  filterValues,
+  filterStatus,
+  filterError,
+  onSelectionChange,
+  onPageChange,
+  onRetry,
+  onResetFilters,
+  onRetryFilters,
+}: Props) {
+  const filtersDisabled = filterStatus !== "success";
+  const totalPages = response
+    ? Math.max(1, Math.ceil(response.total / response.limit))
+    : 1;
+  const hasFilters = Boolean(
+    selection.year ||
+      selection.division ||
+      selection.itemType ||
+      selection.hasAbstract,
+  );
+
   return (
-    <section className="mt-8 w-full max-w-3xl text-left" aria-label="Search results">
-      <div className="mb-4 flex flex-col gap-3 border-b border-[#dadad3] py-3 sm:flex-row sm:items-center sm:justify-between">
-        <div className="flex items-center gap-2">
-          <span className="text-sm font-bold text-[#62625b]">Sort by:</span>
-          <span className="text-xs font-medium text-[#91918c]">(10 results)</span>
+    <section className="mt-6 w-full max-w-3xl text-left" aria-label="Search results" aria-busy={status === "loading"}>
+      <div className="mb-4 space-y-4 border-b border-[#dadad3] py-4">
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          <label className="text-xs font-semibold text-[#62625b]">
+            Year
+            <select value={selection.year} disabled={filtersDisabled} onChange={(event) => onSelectionChange({ ...selection, year: event.target.value })} className="mt-1 block min-h-11 w-full rounded-2xl border border-[#dadad3] bg-[#f6f6f3] px-3 text-sm text-black focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-[#435ee5] disabled:cursor-not-allowed disabled:text-[#91918c]">
+              <option value="">All years</option>
+              {filterValues.years.map((year) => <option key={year} value={year}>{year}</option>)}
+            </select>
+          </label>
+          <label className="text-xs font-semibold text-[#62625b]">
+            Degree program
+            <select value={selection.division} disabled={filtersDisabled} onChange={(event) => onSelectionChange({ ...selection, division: event.target.value })} className="mt-1 block min-h-11 w-full rounded-2xl border border-[#dadad3] bg-[#f6f6f3] px-3 text-sm text-black focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-[#435ee5] disabled:cursor-not-allowed disabled:text-[#91918c]">
+              <option value="">All programs</option>
+              {filterValues.divisions.map((division) => <option key={division} value={division}>{division}</option>)}
+            </select>
+          </label>
+          <label className="text-xs font-semibold text-[#62625b]">
+            Item type
+            <select value={selection.itemType} disabled={filtersDisabled} onChange={(event) => onSelectionChange({ ...selection, itemType: event.target.value })} className="mt-1 block min-h-11 w-full rounded-2xl border border-[#dadad3] bg-[#f6f6f3] px-3 text-sm text-black focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-[#435ee5] disabled:cursor-not-allowed disabled:text-[#91918c]">
+              <option value="">All item types</option>
+              {filterValues.item_types.map((itemType) => <option key={itemType} value={itemType}>{itemType}</option>)}
+            </select>
+          </label>
+          <label className="text-xs font-semibold text-[#62625b]">
+            Abstract
+            <select value={selection.hasAbstract} onChange={(event) => onSelectionChange({ ...selection, hasAbstract: event.target.value as "" | "true" | "false" })} className="mt-1 block min-h-11 w-full rounded-2xl border border-[#dadad3] bg-[#f6f6f3] px-3 text-sm text-black focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-[#435ee5]">
+              <option value="">Any availability</option>
+              <option value="true">Available</option>
+              <option value="false">Unavailable</option>
+            </select>
+          </label>
         </div>
-        <div className="flex flex-wrap items-center gap-2">
-          {["Similarity Score", "Alphabetical", "Date"].map((label, index) => (
-            <button
-              key={label}
-              type="button"
-              className={`min-h-11 rounded-full px-4 text-sm font-bold focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-[#435ee5] ${
-                index === 0
-                  ? "bg-black text-white"
-                  : "bg-[#f6f6f3] text-black hover:bg-[#dadad3]"
-              }`}
-            >
-              {label}
-            </button>
-          ))}
+
+        {filterStatus === "error" && (
+          <p className="text-sm text-[#62625b]" role="status">
+            {filterError}{" "}
+            <button type="button" onClick={onRetryFilters} className="min-h-11 rounded-2xl px-2 font-semibold text-black underline decoration-[#91918c] underline-offset-4 focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-[#435ee5]">Retry filters</button>
+          </p>
+        )}
+
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+          <span className="text-sm font-bold text-[#62625b]">Sort by</span>
+          <div className="flex flex-wrap gap-2" aria-label="Sort results">
+            {sortOptions.map(([value, label]) => (
+              <button key={value} type="button" aria-pressed={selection.sort === value} onClick={() => onSelectionChange({ ...selection, sort: value })} className={`min-h-11 rounded-full px-4 text-sm font-bold focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-[#435ee5] ${selection.sort === value ? "bg-black text-white" : "bg-[#f6f6f3] text-black hover:bg-[#dadad3]"}`}>
+                {label}
+              </button>
+            ))}
+          </div>
         </div>
       </div>
 
-      <div className="space-y-3">
-        {results.map(([title, meta, match, description]) => (
-          <article key={title} className="rounded-2xl border border-[#dadad3] bg-white p-5 hover:border-[#91918c]">
-            <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between sm:gap-4">
-              <div>
-                <h2 className="text-lg leading-snug font-semibold text-black">{title}</h2>
-                <p className="mt-1 text-sm text-[#62625b]">{meta}</p>
-              </div>
-              <span className="w-fit shrink-0 rounded-full border border-[#dadad3] bg-[#f6f6f3] px-3 py-1 text-xs font-semibold text-[#e60023]">
-                {match} Match
-              </span>
-            </div>
-            <p className="mt-2.5 text-base leading-[1.4] text-[#33332e]">{description}</p>
-          </article>
-        ))}
-      </div>
+      {status === "loading" && (
+        <div className="rounded-[32px] border border-[#dadad3] bg-white p-8 text-center" role="status" aria-live="polite">
+          <div className="mx-auto mb-4 size-10 rounded-full border-4 border-[#dadad3] border-t-black motion-safe:animate-spin" />
+          <h2 className="text-xl font-semibold text-black">Searching thesis metadata…</h2>
+          <p className="mt-2 text-sm text-[#62625b]">Checking titles, authors, subjects, degree programs, and available abstracts.</p>
+        </div>
+      )}
 
-      <nav aria-label="Search result pages" className="mt-8 mb-12 flex flex-wrap items-center justify-center gap-2">
-        {["Previous", "1", "2", "3", "4", "Next"].map((label) => (
-          <button
-            key={label}
-            type="button"
-            aria-current={label === "1" ? "page" : undefined}
-            className={`min-h-11 rounded-full text-sm font-bold focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-[#435ee5] ${
-              label === "1"
-                ? "min-w-11 bg-black text-white"
-                : "bg-[#e5e5e0] px-4 text-black hover:bg-[#c8c8c1]"
-            }`}
-          >
-            {label}
-          </button>
-        ))}
-      </nav>
+      {status === "error" && (
+        <div className="rounded-[32px] border border-[#dadad3] bg-white p-8 text-center" role="alert">
+          <h2 className="text-xl font-semibold text-black">Search failed</h2>
+          <p className="mt-2 text-sm text-[#62625b]">{error}</p>
+          <button type="button" onClick={onRetry} className="mt-5 min-h-11 rounded-2xl bg-[#e5e5e0] px-5 text-sm font-bold text-black hover:bg-[#c8c8c1] focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-[#435ee5]">Try again</button>
+        </div>
+      )}
+
+      {status === "success" && response?.total === 0 && (
+        <div className="rounded-[32px] border border-[#dadad3] bg-white p-8 text-center" aria-live="polite">
+          <h2 className="text-xl font-semibold text-black">No theses found</h2>
+          <p className="mt-2 text-sm text-[#62625b]">Try different keywords or remove some filters.</p>
+          {hasFilters && (
+            <button type="button" onClick={onResetFilters} className="mt-5 min-h-11 rounded-2xl bg-[#e5e5e0] px-5 text-sm font-bold text-black hover:bg-[#c8c8c1] focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-[#435ee5]">Reset filters</button>
+          )}
+        </div>
+      )}
+
+      {status === "success" && response && response.total > 0 && (
+        <>
+          <p className="mb-4 text-sm font-medium text-[#62625b]" aria-live="polite">
+            {response.total.toLocaleString()} result{response.total === 1 ? "" : "s"} for “{response.query}”
+          </p>
+          <ol className="space-y-3">
+            {response.results.map((result) => (
+              <li key={result.uri}>
+                <article className="rounded-2xl border border-[#dadad3] bg-white p-5 hover:border-[#91918c]">
+                  <h2 className="text-lg leading-snug font-semibold text-black">
+                    <a href={result.uri} className="rounded-sm hover:underline focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-[#435ee5]">{result.title}</a>
+                  </h2>
+                  <p className="mt-1 text-sm text-[#62625b]">{result.authors.length > 0 ? result.authors.join(", ") : "Author unavailable"}</p>
+                  <div className="mt-3 flex flex-wrap gap-2 text-xs font-semibold text-[#62625b]">
+                    <span className="rounded-full bg-[#f6f6f3] px-3 py-1.5">{result.source_year}</span>
+                    <span className="rounded-full bg-[#f6f6f3] px-3 py-1.5">{result.item_type ?? "Item type unavailable"}</span>
+                    <span className="rounded-full bg-[#f6f6f3] px-3 py-1.5">{result.divisions ?? "Degree program unavailable"}</span>
+                  </div>
+                  {result.abstract ? (
+                    <p className="mt-3 line-clamp-4 text-base leading-[1.5] text-[#33332e]">{result.abstract}</p>
+                  ) : (
+                    <p className="mt-3 text-sm font-semibold text-[#62625b]">Abstract unavailable</p>
+                  )}
+                  <a href={result.uri} className="mt-4 inline-flex min-h-11 items-center rounded-2xl px-1 text-sm font-bold text-[#33332e] underline decoration-[#91918c] underline-offset-4 focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-[#435ee5]">
+                    Open repository record <span aria-hidden="true" className="ml-1">→</span>
+                  </a>
+                </article>
+              </li>
+            ))}
+          </ol>
+
+          <nav aria-label="Search result pages" className="mt-8 mb-12 flex items-center justify-center gap-3">
+            <button type="button" disabled={response.page <= 1} onClick={() => onPageChange(response.page - 1)} className="min-h-11 rounded-2xl bg-[#e5e5e0] px-4 text-sm font-bold text-black hover:bg-[#c8c8c1] focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-[#435ee5] disabled:cursor-not-allowed disabled:opacity-50">Previous</button>
+            <span className="text-sm font-semibold text-[#62625b]" aria-current="page">Page {response.page} of {totalPages}</span>
+            <button type="button" disabled={response.page >= totalPages} onClick={() => onPageChange(response.page + 1)} className="min-h-11 rounded-2xl bg-[#e5e5e0] px-4 text-sm font-bold text-black hover:bg-[#c8c8c1] focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-[#435ee5] disabled:cursor-not-allowed disabled:opacity-50">Next</button>
+          </nav>
+        </>
+      )}
     </section>
   );
 }

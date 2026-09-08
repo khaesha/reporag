@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SearchLens frontend
 
-## Getting Started
+## Local development
 
-First, run the development server:
+Start PostgreSQL, import the corpus, and run the backend from the repository root:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```sh
+make db-up
+make import
+make api
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Create the public frontend environment once, then start Next.js:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+cd apps/frontend
+cp .env.local.example .env.local
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+`NEXT_PUBLIC_API_URL` is the browser-visible backend origin and is fixed when Next.js builds the app. Set it before `npm run build`. Never put database credentials in this file.
 
-## Learn More
+Open [http://localhost:3000](http://localhost:3000). Search requests go directly to the backend, whose `FRONTEND_ORIGIN` must allow this frontend origin.
 
-To learn more about Next.js, take a look at the following resources:
+## Checks
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```sh
+npm test
+npm run lint
+npx tsc --noEmit
+npm exec -- next build --webpack
+```

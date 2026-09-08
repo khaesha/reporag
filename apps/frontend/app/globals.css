@@ -45,24 +45,3 @@ body {
   background: #e60023;
   color: #ffffff;
 }
-
-@keyframes loading-progress {
-  from {
-    width: 12%;
-  }
-
-  to {
-    width: 88%;
-  }
-}
-
-.loading-progress {
-  animation: loading-progress 3.5s ease-in-out infinite alternate;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .loading-progress {
-    animation: none;
-    width: 88%;
-  }
-}
