@@ -46,6 +46,21 @@ curl -i http://localhost:8080/healthz
 curl -i http://localhost:8080/readyz
 ```
 
+Import the corpus explicitly after the migration is applied:
+
+```sh
+go run ./cmd/import -corpus ../../docs/repository-data
+```
+
+The command prints `inserted`, `updated`, `rejected`, and `total` counts. It updates existing records by URI, so repeated imports do not create duplicates. A malformed record rolls back its file and exits with its filename and zero-based array position.
+
+Set `TEST_DATABASE_URL` to a disposable PostgreSQL database to include the importer integration test:
+
+```sh
+export TEST_DATABASE_URL="$DATABASE_URL"
+go test ./...
+```
+
 Run checks from this directory:
 
 ```sh
