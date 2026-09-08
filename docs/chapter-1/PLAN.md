@@ -56,12 +56,12 @@ Check: at least 24 of the 30 evaluation queries return a relevant result in the 
 
 ## Phase 4: Connect the frontend
 
-- [ ] Replace the timeout and hard-coded result array with the search API.
-- [ ] Render loading, results, empty, and error states.
-- [ ] Add filters, sort controls, and working pagination.
-- [ ] Link each result to its repository URI.
-- [ ] Label missing abstracts and remove unsupported RAG/LLM claims.
-- [ ] Preserve keyboard and screen-reader behavior.
+- [x] Replace the timeout and hard-coded result array with the search API.
+- [x] Render loading, results, empty, and error states.
+- [x] Add filters, sort controls, and working pagination.
+- [x] Link each result to its repository URI.
+- [x] Label missing abstracts and remove unsupported RAG/LLM claims.
+- [x] Preserve keyboard and screen-reader behavior.
 
 Check: a user can search, filter, paginate, and open a source record without a console or accessibility error.
 

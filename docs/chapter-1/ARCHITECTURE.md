@@ -121,6 +121,8 @@ Cross-cutting behavior:
 
 Local development runs the frontend, Go service, and PostgreSQL through documented commands. Production uses one stateless Go container and a managed PostgreSQL instance or one PostgreSQL container for a small private deployment.
 
+The browser reads the backend origin from `NEXT_PUBLIC_API_URL`; local frontend settings live in `apps/frontend/.env.local` and contain no database credentials.
+
 Only the API receives public traffic. Database credentials remain server-side. The JSON corpus is imported during an explicit release step, not every API startup.
 
 ## 9. Verification
