@@ -34,6 +34,15 @@ Check: the service starts, readiness fails without PostgreSQL, and succeeds with
 
 Check: every valid unique record in the configured corpus imports; malformed input identifies its exact location.
 
+## Phase 2.5: Add the local environment workflow
+
+- [x] Add an ignored root `.env` with a committed, secret-free template for PostgreSQL and backend settings.
+- [x] Add Make targets to create the file once, validate required values, run PostgreSQL, start the API, import the corpus, and run backend tests.
+- [x] Document the GVM and Make workflow without adding a dotenv dependency.
+- [x] Reserve `apps/frontend/.env.local` for Phase 4 public frontend settings; never put database credentials there.
+
+Check: one root `.env` drives Compose and Go commands, stays untracked, and a repeated setup does not overwrite local values.
+
 ## Phase 3: Build retrieval
 
 - [ ] Implement full-text search across weighted metadata.
