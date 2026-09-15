@@ -1,0 +1,27 @@
+{
+  "divisions": {
+    "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer": "Program Studi Ilmu Komputer",
+    "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Pendidikan Ilmu Komputer": "Program Studi Pendidikan Ilmu Komputer",
+    "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Fisika - S1": "Program Studi Fisika - S1"
+  },
+  "item_types": {
+    "Thesis (S1)": "Thesis (S1)",
+    "Thesis (S2)": "Thesis (S2)",
+    "Article": "Article"
+  },
+  "subject_classes": {
+    "B Philosophy": "B Philosophy, Psychology, Religion",
+    "G Geography": "G Geography, Anthropology, Recreation",
+    "H Social sciences": "H Social Sciences",
+    "J Political science": "J Political Science",
+    "K Law": "K Law",
+    "L Education": "L Education",
+    "M Music": "M Music",
+    "P Language": "P Language and Literature",
+    "Q Science": "Q Science",
+    "S Agriculture": "S Agriculture",
+    "T Technology": "T Technology",
+    "V Naval science": "V Naval Science",
+    "Z Bibliography": "Z Bibliography and Information Resources"
+  }
+}

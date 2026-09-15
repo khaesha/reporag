@@ -2,7 +2,7 @@
 
 ## 1. Decision
 
-Extend the Chapter 1 Go/Gin service and PostgreSQL database. Add `pgvector` to the existing database, one embedding per thesis record, reciprocal-rank hybrid retrieval, metadata aggregation, and one concrete external model client used for query embeddings and grounded synthesis. Keep Docker PostgreSQL for local development and support Supabase PostgreSQL as the production database target.
+Extend the Chapter 1 Go/Gin service and PostgreSQL database. Add `pgvector` to the existing database, one embedding per thesis record, reciprocal-rank hybrid retrieval, metadata aggregation, and one concrete OpenRouter client used for query embeddings and grounded synthesis. Keep Docker PostgreSQL for local development and support Supabase PostgreSQL as the production database target.
 
 ```mermaid
 flowchart LR
@@ -20,14 +20,14 @@ flowchart LR
     M --> E
 ```
 
-No second database or application service is needed for the target corpus. Model API choice, model identifiers, vector dimensions, limits, and pricing must be locked and recorded in Phase 0 before the schema migration is written.
+No second database or application service is needed for the target corpus. OpenRouter is the model API provider. Phase 0 selected `google/gemini-embedding-2` at 1,536 dimensions after comparing it with `openai/text-embedding-3-small` and `openai/text-embedding-3-large`. Grounded synthesis uses `openai/gpt-5.6-luna` with a 16,000-token input budget, 800-token output limit, 30-second timeout, and maximum concurrency of four. Do not write the vector migration until the embedding benchmark passes.
 
 ## 2. Runtime stack
 
 - Existing Go, Gin, PostgreSQL, `pgx/v5`, Next.js, React, TypeScript, and Tailwind stack.
 - `pgvector` PostgreSQL extension and matching pgx vector codec only if raw pgx encoding would add more code.
 - Go standard library for hashing, JSON, HTTP, logging, batching, timeouts, and tests.
-- One concrete model API client; no provider framework, factory, or interface with one implementation.
+- One concrete OpenRouter API client; no provider framework, factory, or interface with one implementation.
 - Existing Docker Compose PostgreSQL image extended or replaced with a compatible pgvector image.
 - Supabase-hosted PostgreSQL as a deployment target, accessed through pgx rather than a Supabase SDK.
 
@@ -188,14 +188,14 @@ Readiness continues to test PostgreSQL only. External model outages degrade sema
 
 Add only values required by the selected model integration:
 
-- Model API credential.
-- Embedding model identifier and fixed dimensions.
-- Generation model identifier.
-- Outbound timeout.
-- Synthesis input and output limits.
-- Maximum concurrent model requests.
+- `OPENROUTER_API_KEY`.
+- Embedding model identifier: `google/gemini-embedding-2`, 1,536 dimensions.
+- Generation model identifier: `openai/gpt-5.6-luna`.
+- Outbound timeout: 30 seconds.
+- Synthesis input and output limits: 16,000 and 800 tokens.
+- Maximum concurrent model requests: four.
 
-Model API URL and organization/project identifiers are added only if the selected provider requires them. Defaults belong in code when they are not deployment choices. Public frontend configuration continues to contain no model credentials.
+Keep OpenRouter's API URL and locked limits in code. Public frontend configuration continues to contain no model credentials.
 
 ## 12. Deployment and migration
 

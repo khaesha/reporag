@@ -4,15 +4,15 @@ Each phase is a separate delivery unit. Before starting one, update local `main`
 
 ## Phase 0: Lock corpus, models, and evaluation
 
-- [ ] Finish collecting and audit at least 2,000 valid unique records.
-- [ ] Report files, records, unique URIs, years, degree programs, missing fields, invalid fields, duplicate URIs, and probable duplicate titles.
-- [ ] Review deterministic normalization mappings for divisions, item types, and subjects; preserve original source values.
-- [ ] Expand the judged retrieval set to at least 100 queries covering every included program and lexical, conceptual, bilingual, abbreviation, exact-title, and exact-author intents.
-- [ ] Allow multiple relevant URIs and graded relevance judgments per query.
-- [ ] Record Chapter 1 lexical `Recall@10`, `MRR@10`, `nDCG@10`, top-5 success, and p95 on the expanded corpus.
-- [ ] Benchmark candidate embedding models on a representative Indonesian-English subset.
-- [ ] Lock one embedding model, dimensions, one generation model, API provider, token limits, timeout, and expected cost.
-- [ ] Document that generated output uses metadata and available abstracts only.
+- [x] Finish collecting and audit at least 2,000 valid unique records.
+- [x] Report files, records, unique URIs, years, degree programs, missing fields, invalid fields, duplicate URIs, and probable duplicate titles.
+- [x] Review deterministic normalization mappings for divisions, item types, and subjects; preserve original source values.
+- [x] Expand the judged retrieval set to at least 100 queries covering every included program and lexical, conceptual, bilingual, abbreviation, exact-title, and exact-author intents.
+- [x] Allow multiple relevant URIs and graded relevance judgments per query.
+- [x] Record Chapter 1 lexical `Recall@10`, `MRR@10`, `nDCG@10`, top-5 success, and p95 on the expanded corpus.
+- [x] Benchmark candidate embedding models on the full representative Indonesian-English corpus.
+- [x] Lock one embedding model, dimensions, one generation model, API provider, token limits, timeout, and expected cost.
+- [x] Document that generated output uses metadata and available abstracts only.
 
 Checks:
 
@@ -21,7 +21,9 @@ node scripts/audit-corpus.mjs
 node --test scripts/audit-corpus.test.mjs
 ```
 
-Add the smallest evaluation command needed to reproduce the new baseline.
+Run `node scripts/evaluate-search.mjs` against the Chapter 1 API to reproduce the lexical baseline. Run `node scripts/benchmark-embeddings.mjs` with `OPENROUTER_API_KEY` after the judged set is approved.
+
+Current status: Phase 0 accepted. Corpus, audit, normalization mappings, judged evaluation, lexical baseline, OpenRouter provider, embedding benchmark, and model locks are recorded.
 
 Exit: corpus facts are reproducible, every degree program has judged queries, lexical baseline is saved, and model choices are explicit. Do not write the vector migration before dimensions are locked.
 

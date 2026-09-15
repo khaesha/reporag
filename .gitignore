@@ -1,6 +1,7 @@
 /.env
 /.env.*
 !/.env.example
+/.cache/
 
 /docs/repository-data/*
 !/docs/repository-data/.gitkeep
