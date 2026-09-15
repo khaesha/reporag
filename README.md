@@ -91,6 +91,23 @@ node scripts/benchmark-search.mjs
 
 An alternate API base URL may be supplied as the first argument.
 
+## Chapter 2 Phase 0
+
+With the expanded corpus in `docs/repository-data`, reproduce its audit and lexical baseline:
+
+```sh
+rtk node scripts/audit-corpus.mjs docs/repository-data docs/chapter-2/corpus-audit.json
+rtk node scripts/evaluate-search.mjs http://localhost:8080 docs/chapter-2/evaluation.json docs/chapter-2/lexical-baseline.json
+```
+
+After manually reviewing the judged set, configure `OPENROUTER_API_KEY` and compare the locked 1,536-dimension embedding candidates:
+
+```sh
+rtk node scripts/benchmark-embeddings.mjs
+```
+
+Cached vectors stay under ignored `.cache/embeddings`; the benchmark report records model usage, cost, latency, retrieval metrics, and winner.
+
 ## Database backup
 
 Create a custom-format PostgreSQL backup:

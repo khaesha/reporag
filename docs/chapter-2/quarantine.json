@@ -1,0 +1,14 @@
+[
+  {
+    "uri": "http://repository.upi.edu/id/eprint/110535",
+    "reason": "Duplicate URI with a concatenated Computer Science division value"
+  },
+  {
+    "uri": "http://repository.upi.edu/id/eprint/35100",
+    "reason": "PGSD record outside the three collected degree programs"
+  },
+  {
+    "uri": "http://repository.upi.edu/id/eprint/80790",
+    "reason": "Physics record with a malformed concatenated Biology and Physics division value"
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-09-15T10:09:24.590Z",
+  "provider": "OpenRouter",
+  "corpus_records": 2187,
+  "dimensions": 1536,
+  "lexical_subset_ndcg_at_10": 0.0857,
+  "candidates": [
+    {
+      "model": "openai/text-embedding-3-small",
+      "dimensions": 1536,
+      "metrics": {
+        "recall_at_10": 0.7867,
+        "mrr_at_10": 0.6827,
+        "ndcg_at_10": 0.7002,
+        "top_5_success": 0.77
+      },
+      "subset_ndcg_at_10": 0.6891,
+      "tokens": 1366992,
+      "estimated_cost_usd": 0.02734,
+      "p95_ms": 3652.84
+    },
+    {
+      "model": "openai/text-embedding-3-large",
+      "dimensions": 1536,
+      "metrics": {
+        "recall_at_10": 0.9367,
+        "mrr_at_10": 0.8805,
+        "ndcg_at_10": 0.8871,
+        "top_5_success": 0.94
+      },
+      "subset_ndcg_at_10": 0.8267,
+      "tokens": 1366992,
+      "estimated_cost_usd": 0.177709,
+      "p95_ms": 4040.31
+    },
+    {
+      "model": "google/gemini-embedding-2",
+      "dimensions": 1536,
+      "metrics": {
+        "recall_at_10": 0.9767,
+        "mrr_at_10": 0.9148,
+        "ndcg_at_10": 0.9237,
+        "top_5_success": 0.99
+      },
+      "subset_ndcg_at_10": 0.904,
+      "tokens": 1062961,
+      "estimated_cost_usd": 0.212592,
+      "p95_ms": 1564.77
+    }
+  ],
+  "selection": {
+    "model": "google/gemini-embedding-2",
+    "dimensions": 1536,
+    "passed": true,
+    "rule": "highest conceptual+bilingual nDCG@10; differences below 0.01 use lower cost then p95"
+  },
+  "generation": {
+    "model": "openai/gpt-5.6-luna",
+    "input_token_limit": 16000,
+    "output_token_limit": 800,
+    "timeout_seconds": 30,
+    "max_concurrency": 4,
+    "estimated_max_cost_usd": 0.00416,
+    "basis": "Repository metadata and available abstracts only."
+  },
+  "pricing_checked_at": "2026-09-15"
+}
