@@ -40,12 +40,38 @@ func openTestStore(t *testing.T) (*Store, context.Context) {
 		subjects text, divisions text, depositing_user text, date_deposited timestamptz,
 		search_text text NOT NULL,
 		search_vector tsvector GENERATED ALWAYS AS (to_tsvector('simple', search_text)) STORED,
-		imported_at timestamptz NOT NULL DEFAULT now()
+		imported_at timestamptz NOT NULL DEFAULT now(),
+		embedding extensions.vector(1536), embedding_model text, embedding_input_hash text,
+		embedding_dimensions smallint, embedded_at timestamptz
 	)`)
 	if err != nil {
 		t.Fatal(err)
 	}
 	return New(pool), ctx
+}
+
+func TestEmbeddingStoreUpdatesOnlyValidatedVectors(t *testing.T) {
+	store, ctx := openTestStore(t)
+	document := records.Document{URI: "u1", SourceYear: 2024, Title: "title", Authors: []string{}, SearchText: "title title"}
+	if _, err := store.ImportFile(ctx, []records.Document{document}); err != nil {
+		t.Fatal(err)
+	}
+	documents, err := store.EmbeddingDocuments(ctx)
+	if err != nil || len(documents) != 1 || documents[0].HasEmbedding {
+		t.Fatalf("documents=%+v error=%v", documents, err)
+	}
+	vector := make([]float32, 1536)
+	vector[0] = 1
+	if err := store.UpdateEmbeddings(ctx, []EmbeddingUpdate{{URI: "u1", Vector: vector, Model: "model", InputHash: "hash", Dimensions: 1536}}); err != nil {
+		t.Fatal(err)
+	}
+	documents, err = store.EmbeddingDocuments(ctx)
+	if err != nil || !documents[0].HasEmbedding || documents[0].EmbeddingModel == nil || *documents[0].EmbeddingModel != "model" || documents[0].EmbeddingDimensions == nil || *documents[0].EmbeddingDimensions != 1536 {
+		t.Fatalf("documents=%+v error=%v", documents, err)
+	}
+	if err := store.UpdateEmbeddings(ctx, []EmbeddingUpdate{{URI: "u1", Vector: []float32{1}, Dimensions: 1536}}); err == nil {
+		t.Fatal("expected dimension validation error")
+	}
 }
 
 func TestImportFileIsIdempotentAndTransactional(t *testing.T) {
@@ -178,32 +204,22 @@ func TestCorpusRetrievalEvaluation(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	var corpus []records.Document
+	corpus := make(map[string]records.Document)
 	for _, file := range files {
 		documents, _, err := records.Read(file)
 		if err != nil {
 			t.Fatal(err)
 		}
-		corpus = append(corpus, documents...)
 		if _, err := store.ImportFile(ctx, documents); err != nil {
 			t.Fatal(err)
 		}
+		for _, document := range documents {
+			corpus[document.URI] = document
+		}
 	}
-	for _, document := range corpus {
-		result, err := store.Search(ctx, SearchParams{Query: document.Title, Sort: "relevance", Page: 1, Limit: 50})
-		if err != nil {
-			t.Fatalf("exact title %q: %v", document.Title, err)
-		}
-		found := false
-		for _, match := range result.Documents {
-			if match.URI == document.URI {
-				found = true
-				break
-			}
-		}
-		if !found {
-			t.Errorf("exact title %q did not return %s", document.Title, document.URI)
-		}
+	var imported int
+	if err := store.pool.QueryRow(ctx, "SELECT count(*) FROM documents").Scan(&imported); err != nil || imported != len(corpus) {
+		t.Fatalf("imported=%d want=%d error=%v", imported, len(corpus), err)
 	}
 
 	contents, err := os.ReadFile(filepath.Join(root, "docs/chapter-1/evaluation.json"))

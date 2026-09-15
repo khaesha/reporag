@@ -98,3 +98,17 @@ func TestNormalizeRejectsRequiredFieldsAndDates(t *testing.T) {
 		}
 	}
 }
+
+func TestEmbeddingInputAndHash(t *testing.T) {
+	abstract := "abstract"
+	subjects := "subjects"
+	division := "division"
+	document := Document{Title: "title", Authors: []string{"Ada", "Budi"}, Abstract: &abstract, Subjects: &subjects, Divisions: &division}
+	want := "Title: title\nAuthors: Ada, Budi\nSubjects: subjects\nDivision: division\nAbstract: abstract"
+	if got := document.EmbeddingInput(); got != want {
+		t.Fatalf("input=%q", got)
+	}
+	if got := document.EmbeddingInputHash(); got != "37545067ddec9a9d7e88dcd9766f30045496bcc51bf27e4c1db563b4c8e8b8f2" {
+		t.Fatalf("hash=%s", got)
+	}
+}

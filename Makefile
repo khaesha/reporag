@@ -1,7 +1,7 @@
 SHELL := /bin/sh
 ENV_FILE := .env
 
-.PHONY: env check-env db-up db-down api import backend-test
+.PHONY: env check-env db-up db-down migrate-002 api import embed backend-test
 
 env:
 	@if test -e "$(ENV_FILE)"; then \
@@ -25,11 +25,17 @@ db-up: check-env
 db-down: check-env
 	@docker compose --env-file "$(ENV_FILE)" down
 
+migrate-002: check-env
+	@set -a; . ./$(ENV_FILE); set +a; docker compose --env-file "$(ENV_FILE)" exec -T db psql -v ON_ERROR_STOP=1 -U "$$POSTGRES_USER" -d "$$POSTGRES_DB" -f /docker-entrypoint-initdb.d/002_semantic_search.sql
+
 api: check-env
 	@set -a; . ./$(ENV_FILE); set +a; cd apps/backend && exec go run ./cmd/api
 
 import: check-env
 	@set -a; . ./$(ENV_FILE); set +a; cd apps/backend && exec go run ./cmd/import -corpus ../../docs/repository-data
+
+embed: check-env
+	@set -a; . ./$(ENV_FILE); set +a; cd apps/backend && exec go run ./cmd/embed
 
 backend-test: check-env
 	@set -a; . ./$(ENV_FILE); set +a; cd apps/backend && go vet ./... && go test ./...

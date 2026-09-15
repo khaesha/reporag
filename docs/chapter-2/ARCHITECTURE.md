@@ -66,10 +66,11 @@ ALTER TABLE documents
     ADD COLUMN embedding extensions.vector(D),
     ADD COLUMN embedding_model text,
     ADD COLUMN embedding_input_hash text,
+    ADD COLUMN embedding_dimensions smallint,
     ADD COLUMN embedded_at timestamptz;
 ```
 
-`D` is replaced by the locked model dimension in the committed migration. Embedding metadata stays on `documents` because there is one active embedding per record. Model changes use an explicit re-embedding run; an embeddings history table is unnecessary.
+`D` is replaced by the locked model dimension in the committed migration. `embedding_dimensions` records the provider response dimension alongside the model and input hash. Embedding metadata stays on `documents` because there is one active embedding per record. Model changes use an explicit re-embedding run; an embeddings history table is unnecessary.
 
 At roughly 2,000 records, begin with exact cosine search:
 

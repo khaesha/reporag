@@ -1,6 +1,8 @@
 package records
 
 import (
+	"crypto/sha256"
+	"encoding/hex"
 	"encoding/json"
 	"errors"
 	"fmt"
@@ -49,6 +51,33 @@ type Document struct {
 	DepositingUser *string
 	DateDeposited  *time.Time
 	SearchText     string
+}
+
+func (document Document) EmbeddingInput() string {
+	abstract := ""
+	if document.Abstract != nil {
+		abstract = *document.Abstract
+	}
+	subjects := ""
+	if document.Subjects != nil {
+		subjects = *document.Subjects
+	}
+	divisions := ""
+	if document.Divisions != nil {
+		divisions = *document.Divisions
+	}
+	return strings.Join([]string{
+		"Title: " + document.Title,
+		"Authors: " + strings.Join(document.Authors, ", "),
+		"Subjects: " + subjects,
+		"Division: " + divisions,
+		"Abstract: " + abstract,
+	}, "\n")
+}
+
+func (document Document) EmbeddingInputHash() string {
+	sum := sha256.Sum256([]byte(document.EmbeddingInput()))
+	return hex.EncodeToString(sum[:])
 }
 
 func Discover(root string) ([]File, error) {

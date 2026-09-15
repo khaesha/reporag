@@ -4,6 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"strconv"
 	"strings"
 	"time"
 
@@ -76,6 +77,22 @@ type FilterValues struct {
 	Years     []int32  `json:"years"`
 	Divisions []string `json:"divisions"`
 	ItemTypes []string `json:"item_types"`
+}
+
+type EmbeddingDocument struct {
+	Document            records.Document
+	HasEmbedding        bool
+	EmbeddingModel      *string
+	EmbeddingInputHash  *string
+	EmbeddingDimensions *int16
+}
+
+type EmbeddingUpdate struct {
+	URI        string
+	Vector     []float32
+	Model      string
+	InputHash  string
+	Dimensions int
 }
 
 type Store struct {
@@ -194,4 +211,76 @@ func (store *Store) Filters(ctx context.Context) (FilterValues, error) {
 		return FilterValues{}, fmt.Errorf("list filter values: %w", err)
 	}
 	return filters, nil
+}
+
+func (store *Store) EmbeddingDocuments(ctx context.Context) ([]EmbeddingDocument, error) {
+	rows, err := store.pool.Query(ctx, `
+		SELECT uri, source_year, title, abstract, authors, item_type, subjects,
+		       divisions, depositing_user, date_deposited, search_text,
+		       embedding IS NOT NULL, embedding_model, embedding_input_hash, embedding_dimensions
+		FROM documents
+		ORDER BY uri`)
+	if err != nil {
+		return nil, fmt.Errorf("list embedding documents: %w", err)
+	}
+	defer rows.Close()
+
+	documents := make([]EmbeddingDocument, 0)
+	for rows.Next() {
+		var document EmbeddingDocument
+		if err := rows.Scan(
+			&document.Document.URI, &document.Document.SourceYear, &document.Document.Title,
+			&document.Document.Abstract, &document.Document.Authors, &document.Document.ItemType,
+			&document.Document.Subjects, &document.Document.Divisions, &document.Document.DepositingUser,
+			&document.Document.DateDeposited, &document.Document.SearchText, &document.HasEmbedding,
+			&document.EmbeddingModel, &document.EmbeddingInputHash, &document.EmbeddingDimensions,
+		); err != nil {
+			return nil, fmt.Errorf("scan embedding document: %w", err)
+		}
+		documents = append(documents, document)
+	}
+	if err := rows.Err(); err != nil {
+		return nil, fmt.Errorf("read embedding documents: %w", err)
+	}
+	return documents, nil
+}
+
+func (store *Store) UpdateEmbeddings(ctx context.Context, updates []EmbeddingUpdate) error {
+	if len(updates) == 0 {
+		return nil
+	}
+	tx, err := store.pool.Begin(ctx)
+	if err != nil {
+		return err
+	}
+	defer tx.Rollback(ctx) //nolint:errcheck -- rollback is harmless after commit
+
+	for _, update := range updates {
+		if len(update.Vector) != update.Dimensions {
+			return errors.New("embedding dimensions are invalid")
+		}
+		tag, err := tx.Exec(ctx, `
+			UPDATE documents
+			SET embedding = $2::extensions.vector,
+			    embedding_model = $3,
+			    embedding_input_hash = $4,
+			    embedding_dimensions = $5,
+			    embedded_at = now()
+			WHERE uri = $1`, update.URI, vectorLiteral(update.Vector), update.Model, update.InputHash, update.Dimensions)
+		if err != nil {
+			return fmt.Errorf("update %s: %w", update.URI, err)
+		}
+		if tag.RowsAffected() != 1 {
+			return fmt.Errorf("update %s: document not found", update.URI)
+		}
+	}
+	return tx.Commit(ctx)
+}
+
+func vectorLiteral(vector []float32) string {
+	values := make([]string, len(vector))
+	for index, value := range vector {
+		values[index] = strconv.FormatFloat(float64(value), 'g', -1, 32)
+	}
+	return "[" + strings.Join(values, ",") + "]"
 }

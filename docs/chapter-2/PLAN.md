@@ -29,15 +29,15 @@ Exit: corpus facts are reproducible, every degree program has judged queries, le
 
 ## Phase 1: Add embedding lifecycle
 
-- [ ] Add pgvector to local PostgreSQL and apply one additive migration.
-- [ ] Add embedding, model, input-hash, and timestamp columns to `documents`.
-- [ ] Implement canonical embedding input from existing record fields.
-- [ ] Add one concrete model API client with response-dimension validation, timeouts, redacted errors, and bounded retry for transient failures.
-- [ ] Add `cmd/embed` to process missing or stale rows in bounded batches.
-- [ ] Skip unchanged rows when input hash and model identifier match.
-- [ ] Preserve metadata and lexical search when any embedding fails.
-- [ ] Print embedded, skipped, failed, and total counts.
-- [ ] Add deterministic tests using a fake HTTP model server.
+- [x] Add pgvector to local PostgreSQL and apply one additive migration.
+- [x] Add embedding, model, input-hash, dimension, and timestamp columns to `documents`.
+- [x] Implement canonical embedding input from existing record fields.
+- [x] Add one concrete model API client with response-dimension validation, timeouts, redacted errors, and bounded retry for transient failures.
+- [x] Add `cmd/embed` to process missing or stale rows in bounded batches.
+- [x] Skip unchanged rows when input hash and model identifier match.
+- [x] Preserve metadata and lexical search when any embedding fails.
+- [x] Print embedded, skipped, failed, and total counts.
+- [x] Add deterministic tests using a fake HTTP model server.
 
 Checks from `apps/backend`:
 
@@ -48,6 +48,8 @@ go test ./...
 ```
 
 Operational check: import the full corpus, embed it twice, and confirm the second run performs no embedding requests for unchanged rows.
+
+Current status: complete. Local pgvector migration applied; 2,190 imported unique-URI records embedded with `google/gemini-embedding-2` at 1,536 dimensions. The second run reported `embedded=0 skipped=2190 failed=0 total=2190`.
 
 Exit: every eligible record has a current valid vector or an explicit reported failure; repeated runs are idempotent.
 
