@@ -28,6 +28,12 @@ make db-up
 
 The initial migration runs when Compose creates a fresh database volume.
 
+Phase 1 uses pgvector. Existing local database volumes need the additive migration once after `make db-up`:
+
+```sh
+make migrate-002
+```
+
 Start the API:
 
 ```sh
@@ -65,6 +71,14 @@ make import
 ```
 
 The command prints `inserted`, `updated`, `rejected`, and `total` counts. It updates existing records by URI, so repeated imports do not create duplicates. A malformed record rolls back its file and exits with its filename and zero-based array position.
+
+Set `OPENROUTER_API_KEY` in the root `.env`, then embed missing or stale records:
+
+```sh
+make embed
+```
+
+The command uses `google/gemini-embedding-2` at 1,536 dimensions. It prints `embedded`, `skipped`, `failed`, and `total`; a nonzero `failed` count exits unsuccessfully. Re-run it unchanged to confirm the corpus is skipped without provider requests.
 
 Uncomment `TEST_DATABASE_URL` in `.env` to include the importer integration test against a disposable database. Then run:
 
