@@ -69,7 +69,8 @@ const grouped = (evaluation, scores, key) => {
   return Object.fromEntries([...groups].sort().map(([name, entries]) => [name, { queries: entries.length, ...aggregate(entries) }]));
 };
 
-async function run(baseURL, evaluationPath) {
+async function run(baseURL, evaluationPath, mode) {
+	if (!['lexical', 'semantic', 'hybrid'].includes(mode)) throw new Error('mode must be lexical, semantic, or hybrid');
   const contents = await readFile(evaluationPath);
   const evaluation = JSON.parse(contents);
   validateEvaluation(evaluation);
@@ -83,8 +84,9 @@ async function run(baseURL, evaluationPath) {
       url.searchParams.set("page", "1");
       url.searchParams.set("limit", "10");
       url.searchParams.set("sort", "relevance");
+		url.searchParams.set("mode", mode);
       const start = performance.now();
-      const response = await fetch(url, { signal: AbortSignal.timeout(10_000) });
+      const response = await fetch(url, { signal: AbortSignal.timeout(40_000) });
       if (!response.ok) throw new Error(`${url}: HTTP ${response.status}`);
       const body = await response.json();
       if (!Array.isArray(body.results)) throw new Error(`${url}: invalid search response`);
@@ -97,6 +99,7 @@ async function run(baseURL, evaluationPath) {
   return {
     generated_at: new Date().toISOString(),
     corpus_api: baseURL,
+		mode,
     evaluation_sha256: createHash("sha256").update(contents).digest("hex"),
     queries: evaluation.length,
     metrics: aggregate(scores),
@@ -114,14 +117,15 @@ async function run(baseURL, evaluationPath) {
 
 const script = fileURLToPath(import.meta.url);
 if (process.argv[1] && path.resolve(process.argv[1]) === script) {
-  if (process.argv.length > 5) {
-    console.error("usage: node scripts/evaluate-search.mjs [api-base-url] [evaluation-file] [output-file]");
+  if (process.argv.length > 6) {
+    console.error("usage: node scripts/evaluate-search.mjs [api-base-url] [evaluation-file] [output-file] [mode]");
     process.exitCode = 2;
   } else {
     const root = path.resolve(path.dirname(script), "..");
     const baseURL = process.argv[2] ?? "http://localhost:8080";
     const evaluationPath = path.resolve(process.argv[3] ?? path.join(root, "docs/chapter-2/evaluation.json"));
-    run(baseURL, evaluationPath)
+    const mode = process.argv[5] ?? "lexical";
+    run(baseURL, evaluationPath, mode)
       .then(async (result) => {
         const output = `${JSON.stringify(result, null, 2)}\n`;
         if (process.argv[4]) await writeFile(path.resolve(process.argv[4]), output);

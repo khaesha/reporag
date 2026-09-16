@@ -13,8 +13,10 @@ import (
 
 	"github.com/jackc/pgx/v5/pgxpool"
 
+	"github.com/khaesha/reporag/apps/backend/internal/ai"
 	"github.com/khaesha/reporag/apps/backend/internal/config"
 	"github.com/khaesha/reporag/apps/backend/internal/httpapi"
+	"github.com/khaesha/reporag/apps/backend/internal/search"
 	"github.com/khaesha/reporag/apps/backend/internal/store"
 )
 
@@ -42,9 +44,10 @@ func run() error {
 	}
 	defer pool.Close()
 	database := store.New(pool)
+	searchService := search.New(database, ai.New(cfg.OpenRouterAPIKey))
 
 	timeoutHandler := http.TimeoutHandler(
-		httpapi.New(pool.Ping, database.Search, database.Filters, cfg.FrontendOrigin),
+		httpapi.New(pool.Ping, searchService.Search, database.Filters, cfg.FrontendOrigin),
 		cfg.RequestTimeout,
 		`{"error":{"code":"request_timeout","message":"request timed out"}}`,
 	)

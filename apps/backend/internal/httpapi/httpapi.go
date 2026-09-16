@@ -15,11 +15,13 @@ import (
 
 	"github.com/gin-gonic/gin"
 
+	"github.com/khaesha/reporag/apps/backend/internal/search"
 	"github.com/khaesha/reporag/apps/backend/internal/store"
 )
 
 type searchRequest struct {
 	Query       string  `form:"q"`
+	Mode        string  `form:"mode,default=hybrid"`
 	Year        *int    `form:"year"`
 	Division    *string `form:"division"`
 	ItemType    *string `form:"item_type"`
@@ -63,7 +65,7 @@ func New(
 	return router
 }
 
-func searchHandler(search func(context.Context, store.SearchParams) (store.SearchResult, error)) gin.HandlerFunc {
+func searchHandler(execute func(context.Context, store.SearchParams) (store.SearchResult, error)) gin.HandlerFunc {
 	return func(c *gin.Context) {
 		var request searchRequest
 		if err := c.ShouldBindQuery(&request); err != nil {
@@ -75,12 +77,20 @@ func searchHandler(search func(context.Context, store.SearchParams) (store.Searc
 			writeError(c, http.StatusBadRequest, "invalid_query", err.Error())
 			return
 		}
-		result, err := search(c.Request.Context(), params)
+		result, err := execute(c.Request.Context(), params)
 		if err != nil {
 			slog.Error("search failed", "request_id", c.GetString("request_id"), "error", err)
+			if errors.Is(err, search.ErrSemanticUnavailable) {
+				writeError(c, http.StatusServiceUnavailable, "semantic_unavailable", "semantic search unavailable")
+				return
+			}
 			writeError(c, http.StatusInternalServerError, "internal_error", "search unavailable")
 			return
 		}
+		if result.Degraded {
+			slog.Warn("search degraded", "request_id", c.GetString("request_id"), "mode", params.Mode)
+		}
+		slog.Info("search timing", "request_id", c.GetString("request_id"), "mode", params.Mode, "model_duration", result.ModelTime, "retrieval_duration", result.SearchTime)
 		c.JSON(http.StatusOK, searchResponse{
 			Query: params.Query, Page: params.Page, Limit: params.Limit,
 			Total: result.Total, Results: result.Documents,
@@ -130,6 +140,9 @@ func (request searchRequest) params() (store.SearchParams, error) {
 	if request.Sort != "relevance" && request.Sort != "title" && request.Sort != "date" {
 		return store.SearchParams{}, errors.New("sort must be relevance, title, or date")
 	}
+	if request.Mode != "lexical" && request.Mode != "semantic" && request.Mode != "hybrid" {
+		return store.SearchParams{}, errors.New("mode must be lexical, semantic, or hybrid")
+	}
 	if request.Page < 1 {
 		return store.SearchParams{}, errors.New("page must be a positive integer")
 	}
@@ -140,7 +153,7 @@ func (request searchRequest) params() (store.SearchParams, error) {
 		return store.SearchParams{}, errors.New("page is too large")
 	}
 	return store.SearchParams{
-		Query: query, Year: request.Year, Division: division, ItemType: itemType,
+		Query: query, Mode: request.Mode, Year: request.Year, Division: division, ItemType: itemType,
 		HasAbstract: hasAbstract, Sort: request.Sort, Page: request.Page, Limit: request.Limit,
 	}, nil
 }

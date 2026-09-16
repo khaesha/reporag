@@ -24,7 +24,12 @@ const (
 		UPDATE documents SET
 			source_year = $2, title = $3, abstract = $4, authors = $5,
 			item_type = $6, subjects = $7, divisions = $8, depositing_user = $9,
-			date_deposited = $10, search_text = $11, imported_at = now()
+			date_deposited = $10, search_text = $11, imported_at = now(),
+			embedding = CASE WHEN ROW(title, abstract, authors, subjects, divisions) IS DISTINCT FROM ROW($3, $4, $5, $7, $8) THEN NULL ELSE embedding END,
+			embedding_model = CASE WHEN ROW(title, abstract, authors, subjects, divisions) IS DISTINCT FROM ROW($3, $4, $5, $7, $8) THEN NULL ELSE embedding_model END,
+			embedding_input_hash = CASE WHEN ROW(title, abstract, authors, subjects, divisions) IS DISTINCT FROM ROW($3, $4, $5, $7, $8) THEN NULL ELSE embedding_input_hash END,
+			embedding_dimensions = CASE WHEN ROW(title, abstract, authors, subjects, divisions) IS DISTINCT FROM ROW($3, $4, $5, $7, $8) THEN NULL ELSE embedding_dimensions END,
+			embedded_at = CASE WHEN ROW(title, abstract, authors, subjects, divisions) IS DISTINCT FROM ROW($3, $4, $5, $7, $8) THEN NULL ELSE embedded_at END
 		WHERE uri = $1`
 	filterValuesQuery = `
 		SELECT
@@ -46,6 +51,7 @@ type Counts struct {
 
 type SearchParams struct {
 	Query       string
+	Mode        string
 	Year        *int
 	Division    string
 	ItemType    string
@@ -69,8 +75,17 @@ type SearchDocument struct {
 }
 
 type SearchResult struct {
-	Total     int
-	Documents []SearchDocument
+	Total      int
+	Documents  []SearchDocument
+	Degraded   bool
+	ModelTime  time.Duration
+	SearchTime time.Duration
+}
+
+type SearchCandidate struct {
+	Document SearchDocument
+	Rank     int
+	Exact    bool
 }
 
 type FilterValues struct {
@@ -203,6 +218,91 @@ func (store *Store) Search(ctx context.Context, params SearchParams) (SearchResu
 		return SearchResult{}, fmt.Errorf("read search results: %w", err)
 	}
 	return result, nil
+}
+
+func (store *Store) LexicalCandidates(ctx context.Context, params SearchParams, limit int) ([]SearchCandidate, error) {
+	arguments := []any{params.Query}
+	conditions := []string{"search_vector @@ plainto_tsquery('simple', $1)"}
+	where := appendSearchFilters(&arguments, conditions, params)
+	query := fmt.Sprintf(`
+		SELECT title, abstract, authors, item_type, subjects, divisions,
+		       date_deposited, source_year, uri,
+		       ts_rank_cd(search_vector, plainto_tsquery('simple', $1)) AS score,
+		       (lower(title) = lower($1) OR $1 = ANY(authors)) AS exact
+		FROM documents
+		WHERE %s
+		ORDER BY score DESC, lower(title), uri
+		LIMIT $%d`, where, len(arguments)+1)
+	arguments = append(arguments, limit)
+	return scanCandidates(ctx, store.pool, query, arguments)
+}
+
+func (store *Store) SemanticCandidates(ctx context.Context, params SearchParams, vector []float32, model string, dimensions, limit int) ([]SearchCandidate, error) {
+	arguments := []any{vectorLiteral(vector), model, dimensions, params.Query}
+	conditions := []string{
+		"embedding IS NOT NULL",
+		"embedding_input_hash IS NOT NULL",
+		"embedding_model = $2",
+		"embedding_dimensions = $3",
+	}
+	where := appendSearchFilters(&arguments, conditions, params)
+	query := fmt.Sprintf(`
+		SELECT title, abstract, authors, item_type, subjects, divisions,
+		       date_deposited, source_year, uri,
+		       1 - (embedding OPERATOR(extensions.<=>) $1::extensions.vector) AS score,
+		       (lower(title) = lower($4) OR $4 = ANY(authors)) AS exact
+		FROM documents
+		WHERE %s
+		ORDER BY embedding OPERATOR(extensions.<=>) $1::extensions.vector, lower(title), uri
+		LIMIT $%d`, where, len(arguments)+1)
+	arguments = append(arguments, limit)
+	return scanCandidates(ctx, store.pool, query, arguments)
+}
+
+func appendSearchFilters(arguments *[]any, conditions []string, params SearchParams) string {
+	add := func(expression string, value any) {
+		*arguments = append(*arguments, value)
+		conditions = append(conditions, fmt.Sprintf(expression, len(*arguments)))
+	}
+	if params.Year != nil {
+		add("source_year = $%d", *params.Year)
+	}
+	if params.Division != "" {
+		add("divisions = $%d", params.Division)
+	}
+	if params.ItemType != "" {
+		add("item_type = $%d", params.ItemType)
+	}
+	if params.HasAbstract != nil {
+		add("(abstract IS NOT NULL) = $%d", *params.HasAbstract)
+	}
+	return strings.Join(conditions, " AND ")
+}
+
+func scanCandidates(ctx context.Context, pool *pgxpool.Pool, query string, arguments []any) ([]SearchCandidate, error) {
+	rows, err := pool.Query(ctx, query, arguments...)
+	if err != nil {
+		return nil, fmt.Errorf("search candidates: %w", err)
+	}
+	defer rows.Close()
+	candidates := make([]SearchCandidate, 0)
+	for rows.Next() {
+		var candidate SearchCandidate
+		if err := rows.Scan(
+			&candidate.Document.Title, &candidate.Document.Abstract, &candidate.Document.Authors,
+			&candidate.Document.ItemType, &candidate.Document.Subjects, &candidate.Document.Divisions,
+			&candidate.Document.DateDeposited, &candidate.Document.SourceYear, &candidate.Document.URI,
+			&candidate.Document.Score, &candidate.Exact,
+		); err != nil {
+			return nil, fmt.Errorf("scan search candidate: %w", err)
+		}
+		candidate.Rank = len(candidates) + 1
+		candidates = append(candidates, candidate)
+	}
+	if err := rows.Err(); err != nil {
+		return nil, fmt.Errorf("read search candidates: %w", err)
+	}
+	return candidates, nil
 }
 
 func (store *Store) Filters(ctx context.Context) (FilterValues, error) {

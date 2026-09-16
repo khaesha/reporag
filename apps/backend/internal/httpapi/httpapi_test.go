@@ -12,6 +12,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
+	"github.com/khaesha/reporag/apps/backend/internal/search"
 	"github.com/khaesha/reporag/apps/backend/internal/store"
 )
 
@@ -105,7 +106,7 @@ func TestSearch(t *testing.T) {
 	if response.Code != http.StatusOK {
 		t.Fatalf("status=%d body=%s", response.Code, response.Body.String())
 	}
-	if received.Query != "machine learning" || received.Year == nil || *received.Year != 2024 || received.Division != "Computer Science" || received.ItemType != "Thesis" || received.HasAbstract == nil || *received.HasAbstract || received.Sort != "date" || received.Page != 2 || received.Limit != 5 {
+	if received.Query != "machine learning" || received.Mode != "hybrid" || received.Year == nil || *received.Year != 2024 || received.Division != "Computer Science" || received.ItemType != "Thesis" || received.HasAbstract == nil || *received.HasAbstract || received.Sort != "date" || received.Page != 2 || received.Limit != 5 {
 		t.Fatalf("unexpected params: %+v", received)
 	}
 	var body searchResponse
@@ -130,7 +131,7 @@ func TestSearchDefaults(t *testing.T) {
 	)
 	response := httptest.NewRecorder()
 	handler.ServeHTTP(response, httptest.NewRequest(http.MethodGet, "/api/v1/search?q=robot", nil))
-	if response.Code != http.StatusOK || received.Sort != "relevance" || received.Page != 1 || received.Limit != 10 {
+	if response.Code != http.StatusOK || received.Mode != "hybrid" || received.Sort != "relevance" || received.Page != 1 || received.Limit != 10 {
 		t.Fatalf("status=%d params=%+v", response.Code, received)
 	}
 	if !strings.Contains(response.Body.String(), `"results":[]`) {
@@ -144,7 +145,7 @@ func TestSearchValidation(t *testing.T) {
 		"", "?q=%20", "?q=" + url.QueryEscape(strings.Repeat("x", 201)),
 		"?q=x&year=1899", "?q=x&year=invalid",
 		"?q=x&division=%20", "?q=x&division=" + url.QueryEscape(strings.Repeat("x", 201)),
-		"?q=x&item_type=%20", "?q=x&has_abstract=1", "?q=x&sort=score",
+		"?q=x&item_type=%20", "?q=x&has_abstract=1", "?q=x&sort=score", "?q=x&mode=invalid",
 		"?q=x&page=0", "?q=x&page=invalid", "?q=x&limit=0", "?q=x&limit=51",
 	}
 	handler := newTestHandler(func(context.Context) error { return nil }, nil, nil)
@@ -174,6 +175,22 @@ func TestSearchAndFilterErrors(t *testing.T) {
 		if response.Code != http.StatusInternalServerError || !strings.Contains(response.Body.String(), `"code":"internal_error"`) {
 			t.Errorf("path=%s status=%d body=%s", path, response.Code, response.Body.String())
 		}
+	}
+}
+
+func TestSemanticSearchError(t *testing.T) {
+	gin.SetMode(gin.TestMode)
+	handler := newTestHandler(
+		func(context.Context) error { return nil },
+		func(context.Context, store.SearchParams) (store.SearchResult, error) {
+			return store.SearchResult{}, search.ErrSemanticUnavailable
+		},
+		nil,
+	)
+	response := httptest.NewRecorder()
+	handler.ServeHTTP(response, httptest.NewRequest(http.MethodGet, "/api/v1/search?q=robot&mode=semantic", nil))
+	if response.Code != http.StatusServiceUnavailable || !strings.Contains(response.Body.String(), `"code":"semantic_unavailable"`) {
+		t.Fatalf("status=%d body=%s", response.Code, response.Body.String())
 	}
 }
 

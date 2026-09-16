@@ -55,15 +55,15 @@ Exit: every eligible record has a current valid vector or an explicit reported f
 
 ## Phase 2: Build and evaluate hybrid retrieval
 
-- [ ] Extend `GET /api/v1/search` with `lexical`, `semantic`, and `hybrid` modes; default to hybrid.
-- [ ] Reuse all Chapter 1 filters, validation, alternate sorts, pagination, and response fields.
-- [ ] Retrieve fixed lexical and vector candidate sets and fuse them with reciprocal rank fusion.
-- [ ] Preserve exact-title and exact-author ranking.
-- [ ] Return lexical results when query embedding fails in hybrid mode; return a useful error in semantic mode.
-- [ ] Keep records without vectors discoverable lexically.
-- [ ] Add filtered semantic, fusion-ordering, stable-pagination, fallback, and regression tests.
-- [ ] Run lexical, semantic, and hybrid evaluation on the same judged set.
-- [ ] Measure exact vector-search p95; do not add HNSW unless it misses the latency gate.
+- [x] Extend `GET /api/v1/search` with `lexical`, `semantic`, and `hybrid` modes; default to hybrid.
+- [x] Reuse all Chapter 1 filters, validation, alternate sorts, pagination, and response fields.
+- [x] Retrieve fixed lexical and vector candidate sets and fuse them with reciprocal rank fusion.
+- [x] Preserve exact-title and exact-author ranking.
+- [x] Return lexical results when query embedding fails in hybrid mode; return a useful error in semantic mode.
+- [x] Keep records without vectors discoverable lexically.
+- [x] Add filtered semantic, fusion-ordering, stable-pagination, fallback, and regression tests.
+- [x] Run lexical, semantic, and hybrid evaluation on the same judged set.
+- [x] Measure exact vector-search p95; do not add HNSW unless it misses the latency gate.
 
 Checks from `apps/backend`:
 
@@ -74,6 +74,8 @@ go test ./...
 ```
 
 Exit: hybrid improves `nDCG@10` by at least 10% relative on conceptual and bilingual queries, exact lookup does not regress, at least 85% of all queries have a relevant top-5 result, and local hybrid-search p95 is below 500 ms.
+
+Current status: complete. Hybrid nDCG@10 is 0.8559 for conceptual queries and 0.9347 for bilingual queries, versus lexical 0 and 0.2; exact title and author success is 1.0; overall top-5 success is 0.99. Exact local vector-search p95 is 18.1 ms, so no HNSW index is needed.
 
 ## Phase 3: Add related theses and corpus trends
 
