@@ -39,9 +39,27 @@ type searchResponse struct {
 	Results []store.SearchDocument `json:"results"`
 }
 
+type relatedRequest struct {
+	URI      string  `form:"uri"`
+	Division *string `form:"division"`
+	Limit    int     `form:"limit,default=6"`
+}
+
+type relatedResponse struct {
+	SourceURI string                 `json:"source_uri"`
+	Results   []store.SearchDocument `json:"results"`
+}
+
+type trendsRequest struct {
+	Year     *int    `form:"year"`
+	Division *string `form:"division"`
+}
+
 func New(
 	ping func(context.Context) error,
 	search func(context.Context, store.SearchParams) (store.SearchResult, error),
+	related func(context.Context, store.RelatedParams) (store.RelatedResult, error),
+	trends func(context.Context, store.TrendParams) (store.TrendResult, error),
 	filters func(context.Context) (store.FilterValues, error),
 	frontendOrigin string,
 ) http.Handler {
@@ -61,8 +79,62 @@ func New(
 		c.JSON(http.StatusOK, gin.H{"status": "ready"})
 	})
 	router.GET("/api/v1/search", searchHandler(search))
+	router.GET("/api/v1/related", relatedHandler(related))
+	router.GET("/api/v1/trends", trendsHandler(trends))
 	router.GET("/api/v1/filters", filtersHandler(filters))
 	return router
+}
+
+func relatedHandler(related func(context.Context, store.RelatedParams) (store.RelatedResult, error)) gin.HandlerFunc {
+	return func(c *gin.Context) {
+		var request relatedRequest
+		if err := c.ShouldBindQuery(&request); err != nil {
+			writeError(c, http.StatusBadRequest, "invalid_query", "query parameters must use valid types")
+			return
+		}
+		params, err := request.params()
+		if err != nil {
+			writeError(c, http.StatusBadRequest, "invalid_query", err.Error())
+			return
+		}
+		result, err := related(c.Request.Context(), params)
+		if errors.Is(err, store.ErrRelatedNotFound) {
+			writeError(c, http.StatusNotFound, "not_found", "source record not found")
+			return
+		}
+		if errors.Is(err, store.ErrRelatedEmbeddingMissing) {
+			writeError(c, http.StatusConflict, "embedding_unavailable", "source record has no current embedding")
+			return
+		}
+		if err != nil {
+			slog.Error("related search failed", "request_id", c.GetString("request_id"), "error", err)
+			writeError(c, http.StatusInternalServerError, "internal_error", "related theses unavailable")
+			return
+		}
+		c.JSON(http.StatusOK, relatedResponse{SourceURI: result.SourceURI, Results: result.Documents})
+	}
+}
+
+func trendsHandler(trends func(context.Context, store.TrendParams) (store.TrendResult, error)) gin.HandlerFunc {
+	return func(c *gin.Context) {
+		var request trendsRequest
+		if err := c.ShouldBindQuery(&request); err != nil {
+			writeError(c, http.StatusBadRequest, "invalid_query", "query parameters must use valid types")
+			return
+		}
+		params, err := request.params()
+		if err != nil {
+			writeError(c, http.StatusBadRequest, "invalid_query", err.Error())
+			return
+		}
+		result, err := trends(c.Request.Context(), params)
+		if err != nil {
+			slog.Error("trend lookup failed", "request_id", c.GetString("request_id"), "error", err)
+			writeError(c, http.StatusInternalServerError, "internal_error", "trends unavailable")
+			return
+		}
+		c.JSON(http.StatusOK, result)
+	}
 }
 
 func searchHandler(execute func(context.Context, store.SearchParams) (store.SearchResult, error)) gin.HandlerFunc {
@@ -156,6 +228,35 @@ func (request searchRequest) params() (store.SearchParams, error) {
 		Query: query, Mode: request.Mode, Year: request.Year, Division: division, ItemType: itemType,
 		HasAbstract: hasAbstract, Sort: request.Sort, Page: request.Page, Limit: request.Limit,
 	}, nil
+}
+
+func (request relatedRequest) params() (store.RelatedParams, error) {
+	uri := strings.TrimSpace(request.URI)
+	if uri == "" {
+		return store.RelatedParams{}, errors.New("uri is required")
+	}
+	if utf8.RuneCountInString(uri) > 2048 {
+		return store.RelatedParams{}, errors.New("uri must be at most 2048 characters")
+	}
+	division, err := filterValue("division", request.Division)
+	if err != nil {
+		return store.RelatedParams{}, err
+	}
+	if request.Limit < 1 || request.Limit > 20 {
+		return store.RelatedParams{}, errors.New("limit must be between 1 and 20")
+	}
+	return store.RelatedParams{URI: uri, Division: division, Limit: request.Limit}, nil
+}
+
+func (request trendsRequest) params() (store.TrendParams, error) {
+	if request.Year != nil && (*request.Year < 1900 || *request.Year > 2100) {
+		return store.TrendParams{}, errors.New("year must be between 1900 and 2100")
+	}
+	division, err := filterValue("division", request.Division)
+	if err != nil {
+		return store.TrendParams{}, err
+	}
+	return store.TrendParams{Year: request.Year, Division: division}, nil
 }
 
 func filterValue(name string, value *string) (string, error) {

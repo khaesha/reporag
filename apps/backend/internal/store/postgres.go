@@ -8,6 +8,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
 
 	"github.com/khaesha/reporag/apps/backend/internal/records"
@@ -43,6 +44,11 @@ var searchSorts = map[string]string{
 	"title":     "lower(title), title, uri",
 	"date":      "date_deposited DESC NULLS LAST, lower(title), uri",
 }
+
+var (
+	ErrRelatedNotFound         = errors.New("related source not found")
+	ErrRelatedEmbeddingMissing = errors.New("related source embedding unavailable")
+)
 
 type Counts struct {
 	Inserted int
@@ -86,6 +92,39 @@ type SearchCandidate struct {
 	Document SearchDocument
 	Rank     int
 	Exact    bool
+}
+
+type RelatedParams struct {
+	URI      string
+	Division string
+	Limit    int
+}
+
+type RelatedResult struct {
+	SourceURI string
+	Documents []SearchDocument
+}
+
+type TrendParams struct {
+	Year     *int
+	Division string
+}
+
+type TrendBucket struct {
+	Value string `json:"value"`
+	Count int    `json:"count"`
+}
+
+type TrendResult struct {
+	Total            int           `json:"total"`
+	MissingAbstracts int           `json:"missing_abstracts"`
+	MissingDivisions int           `json:"missing_divisions"`
+	MissingItemTypes int           `json:"missing_item_types"`
+	MissingSubjects  int           `json:"missing_subjects"`
+	ByYear           []TrendBucket `json:"by_year"`
+	ByDivision       []TrendBucket `json:"by_division"`
+	ByItemType       []TrendBucket `json:"by_item_type"`
+	BySubject        []TrendBucket `json:"by_subject"`
 }
 
 type FilterValues struct {
@@ -257,6 +296,146 @@ func (store *Store) SemanticCandidates(ctx context.Context, params SearchParams,
 		LIMIT $%d`, where, len(arguments)+1)
 	arguments = append(arguments, limit)
 	return scanCandidates(ctx, store.pool, query, arguments)
+}
+
+func (store *Store) Related(ctx context.Context, params RelatedParams, model string, dimensions int) (RelatedResult, error) {
+	var current bool
+	err := store.pool.QueryRow(ctx, `
+		SELECT embedding IS NOT NULL AND embedding_input_hash IS NOT NULL
+			AND embedding_model = $2 AND embedding_dimensions = $3
+		FROM documents WHERE uri = $1`, params.URI, model, dimensions).Scan(&current)
+	if errors.Is(err, pgx.ErrNoRows) {
+		return RelatedResult{}, ErrRelatedNotFound
+	}
+	if err != nil {
+		return RelatedResult{}, fmt.Errorf("find related source: %w", err)
+	}
+	if !current {
+		return RelatedResult{}, ErrRelatedEmbeddingMissing
+	}
+
+	rows, err := store.pool.Query(ctx, `
+		WITH source AS (SELECT embedding FROM documents WHERE uri = $1)
+		SELECT title, abstract, authors, item_type, subjects, divisions,
+		       date_deposited, source_year, uri,
+		       1 - (documents.embedding OPERATOR(extensions.<=>) source.embedding) AS score
+		FROM documents CROSS JOIN source
+		WHERE uri <> $1 AND documents.embedding IS NOT NULL AND embedding_input_hash IS NOT NULL
+		  AND embedding_model = $2 AND embedding_dimensions = $3
+		  AND ($4 = '' OR divisions = $4)
+		ORDER BY documents.embedding OPERATOR(extensions.<=>) source.embedding, lower(title), uri
+		LIMIT $5`, params.URI, model, dimensions, params.Division, params.Limit)
+	if err != nil {
+		return RelatedResult{}, fmt.Errorf("find related documents: %w", err)
+	}
+	defer rows.Close()
+
+	result := RelatedResult{SourceURI: params.URI, Documents: make([]SearchDocument, 0, params.Limit)}
+	for rows.Next() {
+		var document SearchDocument
+		if err := rows.Scan(
+			&document.Title, &document.Abstract, &document.Authors, &document.ItemType,
+			&document.Subjects, &document.Divisions, &document.DateDeposited,
+			&document.SourceYear, &document.URI, &document.Score,
+		); err != nil {
+			return RelatedResult{}, fmt.Errorf("scan related document: %w", err)
+		}
+		result.Documents = append(result.Documents, document)
+	}
+	if err := rows.Err(); err != nil {
+		return RelatedResult{}, fmt.Errorf("read related documents: %w", err)
+	}
+	return result, nil
+}
+
+func (store *Store) Trends(ctx context.Context, params TrendParams) (TrendResult, error) {
+	arguments, where := trendFilter(params)
+	var result TrendResult
+	if err := store.pool.QueryRow(ctx, `
+		SELECT count(*),
+			count(*) FILTER (WHERE abstract IS NULL),
+			count(*) FILTER (WHERE divisions IS NULL),
+			count(*) FILTER (WHERE item_type IS NULL),
+			count(*) FILTER (WHERE subjects IS NULL)
+		FROM documents WHERE `+where, arguments...).Scan(
+		&result.Total, &result.MissingAbstracts, &result.MissingDivisions,
+		&result.MissingItemTypes, &result.MissingSubjects,
+	); err != nil {
+		return TrendResult{}, fmt.Errorf("count trends: %w", err)
+	}
+	var err error
+	if result.ByYear, err = store.trendBuckets(ctx, `source_year::text`, where, arguments, `value DESC`); err != nil {
+		return TrendResult{}, err
+	}
+	if result.ByDivision, err = store.trendBuckets(ctx, `divisions`, where+` AND divisions IS NOT NULL`, arguments, `count(*) DESC, lower(value), value`); err != nil {
+		return TrendResult{}, err
+	}
+	if result.ByItemType, err = store.trendBuckets(ctx, `item_type`, where+` AND item_type IS NOT NULL`, arguments, `count(*) DESC, lower(value), value`); err != nil {
+		return TrendResult{}, err
+	}
+	if result.BySubject, err = store.trendBuckets(ctx, subjectClassSQL, where+` AND subjects IS NOT NULL`, arguments, `count(*) DESC, lower(value), value`); err != nil {
+		return TrendResult{}, err
+	}
+	return result, nil
+}
+
+const subjectClassSQL = `CASE split_part(subjects, ' > ', 1)
+	WHEN 'B Philosophy' THEN 'B Philosophy, Psychology, Religion'
+	WHEN 'G Geography' THEN 'G Geography, Anthropology, Recreation'
+	WHEN 'H Social sciences' THEN 'H Social Sciences'
+	WHEN 'J Political science' THEN 'J Political Science'
+	WHEN 'K Law' THEN 'K Law'
+	WHEN 'L Education' THEN 'L Education'
+	WHEN 'M Music' THEN 'M Music'
+	WHEN 'P Language' THEN 'P Language and Literature'
+	WHEN 'Q Science' THEN 'Q Science'
+	WHEN 'S Agriculture' THEN 'S Agriculture'
+	WHEN 'T Technology' THEN 'T Technology'
+	WHEN 'V Naval science' THEN 'V Naval Science'
+	WHEN 'Z Bibliography' THEN 'Z Bibliography and Information Resources'
+END`
+
+func trendFilter(params TrendParams) ([]any, string) {
+	arguments := make([]any, 0, 2)
+	conditions := make([]string, 0, 2)
+	if params.Year != nil {
+		arguments = append(arguments, *params.Year)
+		conditions = append(conditions, fmt.Sprintf("source_year = $%d", len(arguments)))
+	}
+	if params.Division != "" {
+		arguments = append(arguments, params.Division)
+		conditions = append(conditions, fmt.Sprintf("divisions = $%d", len(arguments)))
+	}
+	if len(conditions) == 0 {
+		return arguments, "TRUE"
+	}
+	return arguments, strings.Join(conditions, " AND ")
+}
+
+func (store *Store) trendBuckets(ctx context.Context, expression, where string, arguments []any, orderBy string) ([]TrendBucket, error) {
+	rows, err := store.pool.Query(ctx, `
+		SELECT value, count(*)
+		FROM (SELECT `+expression+` AS value FROM documents WHERE `+where+`) values
+		WHERE value IS NOT NULL
+		GROUP BY value
+		ORDER BY `+orderBy+`
+		LIMIT 20`, arguments...)
+	if err != nil {
+		return nil, fmt.Errorf("list trend buckets: %w", err)
+	}
+	defer rows.Close()
+	buckets := make([]TrendBucket, 0)
+	for rows.Next() {
+		var bucket TrendBucket
+		if err := rows.Scan(&bucket.Value, &bucket.Count); err != nil {
+			return nil, fmt.Errorf("scan trend bucket: %w", err)
+		}
+		buckets = append(buckets, bucket)
+	}
+	if err := rows.Err(); err != nil {
+		return nil, fmt.Errorf("read trend buckets: %w", err)
+	}
+	return buckets, nil
 }
 
 func appendSearchFilters(arguments *[]any, conditions []string, params SearchParams) string {

@@ -1,3 +1,6 @@
+import { useRef, useState } from "react";
+import { buildRelatedURL } from "./search-url.mjs";
+
 export type SearchResult = {
   title: string;
   abstract: string | null;
@@ -33,6 +36,11 @@ export type SearchSelection = {
   sort: "relevance" | "title" | "date";
 };
 
+type RelatedResponse = {
+  source_uri: string;
+  results: SearchResult[];
+};
+
 type Props = {
   response: SearchResponse | null;
   status: "idle" | "loading" | "success" | "error";
@@ -53,6 +61,51 @@ const sortOptions = [
   ["title", "Title A–Z"],
   ["date", "Newest deposit"],
 ] as const;
+
+function RelatedTheses({ uri }: { uri: string }) {
+	const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
+	const [results, setResults] = useState<SearchResult[]>([]);
+	const [error, setError] = useState("");
+	const request = useRef<AbortController>(null);
+
+	async function load() {
+		request.current?.abort();
+		const controller = new AbortController();
+		request.current = controller;
+		setStatus("loading");
+    setError("");
+    try {
+		const response = await fetch(buildRelatedURL(process.env.NEXT_PUBLIC_API_URL ?? "", { uri }), { signal: controller.signal });
+      const body: unknown = await response.json();
+      if (!response.ok) {
+        const message = body as { error?: { message?: unknown } };
+        throw new Error(typeof message.error?.message === "string" ? message.error.message : "Related theses unavailable.");
+      }
+      const related = body as Partial<RelatedResponse>;
+      if (related.source_uri !== uri || !Array.isArray(related.results)) throw new Error("Invalid related-theses response.");
+      setResults(related.results);
+		setStatus("success");
+	} catch (requestError) {
+		if (controller.signal.aborted) return;
+      setStatus("error");
+      setError(requestError instanceof Error ? requestError.message : "Related theses unavailable.");
+    }
+  }
+
+  return (
+    <div className="mt-4 border-t border-[#e5e5e0] pt-3">
+      {status === "idle" && <button type="button" onClick={() => void load()} className="min-h-11 rounded-2xl bg-[#e5e5e0] px-4 text-sm font-bold text-black hover:bg-[#c8c8c1] focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-[#435ee5]">Find related theses</button>}
+      {status === "loading" && <p className="text-sm text-[#62625b]" role="status">Finding related theses…</p>}
+      {status === "error" && <div role="alert" className="text-sm text-[#62625b]"><p>{error}</p><button type="button" onClick={() => void load()} className="mt-2 min-h-11 rounded-2xl bg-[#e5e5e0] px-4 font-bold text-black hover:bg-[#c8c8c1] focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-[#435ee5]">Try again</button></div>}
+      {status === "success" && (
+        <div aria-live="polite">
+          <h3 className="text-sm font-bold text-black">Related theses</h3>
+          {results.length === 0 ? <p className="mt-1 text-sm text-[#62625b]">No related theses in this indexed corpus.</p> : <ul className="mt-2 space-y-2">{results.map((result) => <li key={result.uri}><a href={result.uri} className="rounded-sm text-sm font-semibold text-[#33332e] underline decoration-[#91918c] underline-offset-4 focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-[#435ee5]">{result.title}</a><span className="ml-2 text-xs text-[#62625b]">{result.source_year}</span></li>)}</ul>}
+        </div>
+      )}
+    </div>
+  );
+}
 
 export default function SearchResults({
   response,
@@ -185,6 +238,7 @@ export default function SearchResults({
                   <a href={result.uri} className="mt-4 inline-flex min-h-11 items-center rounded-2xl px-1 text-sm font-bold text-[#33332e] underline decoration-[#91918c] underline-offset-4 focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-[#435ee5]">
                     Open repository record <span aria-hidden="true" className="ml-1">→</span>
                   </a>
+                  <RelatedTheses uri={result.uri} />
                 </article>
               </li>
             ))}

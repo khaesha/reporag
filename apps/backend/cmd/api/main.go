@@ -45,9 +45,12 @@ func run() error {
 	defer pool.Close()
 	database := store.New(pool)
 	searchService := search.New(database, ai.New(cfg.OpenRouterAPIKey))
+	related := func(ctx context.Context, params store.RelatedParams) (store.RelatedResult, error) {
+		return database.Related(ctx, params, ai.EmbeddingModel, ai.EmbeddingDimensions)
+	}
 
 	timeoutHandler := http.TimeoutHandler(
-		httpapi.New(pool.Ping, searchService.Search, database.Filters, cfg.FrontendOrigin),
+		httpapi.New(pool.Ping, searchService.Search, related, database.Trends, database.Filters, cfg.FrontendOrigin),
 		cfg.RequestTimeout,
 		`{"error":{"code":"request_timeout","message":"request timed out"}}`,
 	)

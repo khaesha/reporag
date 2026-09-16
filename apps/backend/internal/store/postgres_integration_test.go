@@ -3,6 +3,7 @@ package store
 import (
 	"context"
 	"encoding/json"
+	"errors"
 	"os"
 	"path/filepath"
 	"runtime"
@@ -115,7 +116,50 @@ func TestImportInvalidatesChangedEmbeddingAndSemanticCandidates(t *testing.T) {
 	}
 }
 
+func TestRelatedAndTrends(t *testing.T) {
+	store, ctx := openTestStore(t)
+	division := "Computer Science"
+	itemType := "Thesis"
+	abstract := "available"
+	physics := "Physics"
+	documents := []records.Document{
+		{URI: "u1", SourceYear: 2024, Title: "Source", Abstract: &abstract, Authors: []string{}, ItemType: &itemType, Subjects: stringPointer("Q Science > QA Computer"), Divisions: &division, SearchText: "Source"},
+		{URI: "u2", SourceYear: 2024, Title: "Related", Authors: []string{}, ItemType: &itemType, Subjects: stringPointer("L Education > LB Theory"), Divisions: &division, SearchText: "Related"},
+		{URI: "u3", SourceYear: 2023, Title: "Missing vector", Authors: []string{}, Subjects: stringPointer("Q Science > QA Physics"), Divisions: &physics, SearchText: "Missing vector"},
+	}
+	if _, err := store.ImportFile(ctx, documents); err != nil {
+		t.Fatal(err)
+	}
+	first := make([]float32, 1536)
+	first[0] = 1
+	second := make([]float32, 1536)
+	second[0] = 0.9
+	if err := store.UpdateEmbeddings(ctx, []EmbeddingUpdate{
+		{URI: "u1", Vector: first, Model: "model", InputHash: "hash", Dimensions: 1536},
+		{URI: "u2", Vector: second, Model: "model", InputHash: "hash", Dimensions: 1536},
+	}); err != nil {
+		t.Fatal(err)
+	}
+	related, err := store.Related(ctx, RelatedParams{URI: "u1", Division: division, Limit: 6}, "model", 1536)
+	if err != nil || related.SourceURI != "u1" || len(related.Documents) != 1 || related.Documents[0].URI != "u2" {
+		t.Fatalf("related=%+v error=%v", related, err)
+	}
+	if _, err := store.Related(ctx, RelatedParams{URI: "missing", Limit: 6}, "model", 1536); !errors.Is(err, ErrRelatedNotFound) {
+		t.Fatalf("missing source error=%v", err)
+	}
+	if _, err := store.Related(ctx, RelatedParams{URI: "u3", Limit: 6}, "model", 1536); !errors.Is(err, ErrRelatedEmbeddingMissing) {
+		t.Fatalf("missing embedding error=%v", err)
+	}
+
+	trends, err := store.Trends(ctx, TrendParams{Year: intPointer(2024)})
+	if err != nil || trends.Total != 2 || trends.MissingAbstracts != 1 || len(trends.ByYear) != 1 || trends.ByYear[0].Value != "2024" || len(trends.BySubject) != 2 || trends.BySubject[0].Value != "L Education" || trends.BySubject[1].Value != "Q Science" {
+		t.Fatalf("trends=%+v error=%v", trends, err)
+	}
+}
+
 func stringPointer(value string) *string { return &value }
+
+func intPointer(value int) *int { return &value }
 
 func TestExactVectorSearchP95(t *testing.T) {
 	pool, ctx := openTestPool(t)
