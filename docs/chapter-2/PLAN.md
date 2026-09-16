@@ -110,18 +110,18 @@ Current status: complete. Related retrieval uses current stored embeddings only,
 
 ## Phase 4: Add grounded synthesis
 
-- [ ] Add `POST /api/v1/answer` with strict body and filter validation.
-- [ ] Retrieve context server-side through hybrid search; reject client-provided evidence.
-- [ ] Use at most eight records with abstracts under a fixed token budget.
-- [ ] Treat metadata and abstracts as untrusted evidence and delimit them from model instructions.
-- [ ] Request structured output with numbered citation identifiers.
-- [ ] Verify every citation identifier against retrieved context before returning output.
-- [ ] Return explicit insufficient-evidence state and abstract-only basis label.
-- [ ] Bound model concurrency, request time, input size, and output size.
-- [ ] Log latency, usage, model, and estimated cost without full queries, evidence, or answers.
-- [ ] Add explicit frontend synthesis action, cited links, and separate loading, insufficient-evidence, failure, and success states.
-- [ ] Add deterministic fake-model tests for supported, insufficient, malformed, invalid-citation, timeout, and provider-error responses.
-- [ ] Configure deployment-level rate limits before enabling the endpoint publicly.
+- [x] Add `POST /api/v1/answer` with strict body and filter validation.
+- [x] Retrieve context server-side through hybrid search; reject client-provided evidence.
+- [x] Use at most eight records with abstracts under a fixed token budget.
+- [x] Treat metadata and abstracts as untrusted evidence and delimit them from model instructions.
+- [x] Request structured output with numbered citation identifiers.
+- [x] Verify every citation identifier against retrieved context before returning output.
+- [x] Return explicit insufficient-evidence state and abstract-only basis label.
+- [x] Bound model concurrency, request time, input size, and output size.
+- [x] Log latency, usage, model, and estimated cost without full queries, evidence, or answers.
+- [x] Add explicit frontend synthesis action, cited links, and separate loading, insufficient-evidence, failure, and success states.
+- [x] Add deterministic fake-model tests for supported, insufficient, malformed, invalid-citation, timeout, and provider-error responses.
+- [x] Configure deployment-level rate limits before enabling the endpoint publicly.
 
 Backend checks:
 
@@ -140,6 +140,8 @@ npm exec -- next build --webpack
 ```
 
 Exit: generated text is optional, abstract-grounded, citation-validated, cost-bounded, and unable to break ordinary retrieval.
+
+Current status: complete. Synthesis retrieves hybrid evidence server-side, sends only bounded available abstracts to the locked generation model, rejects malformed or unsupported citations, and remains disabled for public traffic until the documented proxy rate limit is installed.
 
 ## Phase 5: Prove Supabase deployment
 

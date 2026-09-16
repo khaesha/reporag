@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { buildRelatedURL, buildSearchURL } from "./search-url.mjs";
+import { buildAnswerURL, buildRelatedURL, buildSearchURL } from "./search-url.mjs";
 
 test("builds encoded search URLs and omits empty filters", () => {
   const url = new URL(
@@ -54,4 +54,8 @@ test("builds related URL", () => {
     uri: "https://repository.test/1",
     division: "Computer Science",
   });
+});
+
+test("builds answer URL", () => {
+  assert.equal(buildAnswerURL("http://localhost:8080/"), "http://localhost:8080/api/v1/answer");
 });

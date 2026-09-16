@@ -20,6 +20,7 @@ func vector(value float32) []float32 {
 func testClient(server *httptest.Server) *Client {
 	client := New("test-key")
 	client.endpoint = server.URL
+	client.generationEndpoint = server.URL
 	client.http = server.Client()
 	client.wait = func(context.Context, time.Duration) error { return nil }
 	return client
@@ -65,5 +66,25 @@ func TestEmbedRejectsMalformedVector(t *testing.T) {
 	defer server.Close()
 	if _, err := testClient(server).Embed(context.Background(), []string{"one"}); err == nil {
 		t.Fatal("expected malformed vector error")
+	}
+}
+
+func TestGenerateReturnsUsageAndRejectsMalformedContent(t *testing.T) {
+	server := httptest.NewServer(http.HandlerFunc(func(writer http.ResponseWriter, request *http.Request) {
+		if request.URL.Path != "/" || request.Header.Get("Authorization") != "Bearer test-key" {
+			t.Fatal("unexpected generation request")
+		}
+		json.NewEncoder(writer).Encode(map[string]any{
+			"choices": []map[string]any{{"message": map[string]any{"content": `{"answer":"Supported [1]"}`}}},
+			"usage":   map[string]any{"prompt_tokens": 12, "completion_tokens": 4},
+		})
+	}))
+	defer server.Close()
+	result, err := testClient(server).Generate(context.Background(), "prompt")
+	if err != nil || result.Text == "" || result.PromptTokens != 12 || result.CompletionTokens != 4 {
+		t.Fatalf("result=%+v error=%v", result, err)
+	}
+	if _, err := testClient(server).Generate(context.Background(), ""); err == nil {
+		t.Fatal("expected invalid prompt error")
 	}
 }

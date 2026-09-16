@@ -68,7 +68,7 @@ func TestHybridFallsBackToLexical(t *testing.T) {
 	if _, err := database.ImportFile(ctx, []records.Document{{URI: "u1", SourceYear: 2024, Title: "Robot", Authors: []string{}, SearchText: "Robot robot"}}); err != nil {
 		t.Fatal(err)
 	}
-	service := &Service{database: database, embed: func(context.Context, []string) ([][]float32, error) { return nil, errors.New("down") }, sem: make(chan struct{}, 4)}
+	service := &Service{database: database, embed: func(context.Context, []string) ([][]float32, error) { return nil, errors.New("down") }}
 	result, err := service.Search(ctx, store.SearchParams{Query: "robot", Mode: "hybrid", Sort: "relevance", Page: 1, Limit: 10})
 	if err != nil || !result.Degraded || len(result.Documents) != 1 || result.Documents[0].URI != "u1" {
 		t.Fatalf("result=%+v error=%v", result, err)

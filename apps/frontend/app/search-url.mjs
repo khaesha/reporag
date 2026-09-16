@@ -37,3 +37,9 @@ export function buildRelatedURL(apiURL, params) {
   if (params.division) url.searchParams.set("division", params.division);
   return url.toString();
 }
+
+export function buildAnswerURL(apiURL) {
+  const base = apiURL.trim().replace(/\/+$/, "");
+  if (!base) throw new Error("NEXT_PUBLIC_API_URL is not configured");
+  return new URL(`${base}/api/v1/answer`).toString();
+}
