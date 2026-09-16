@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import { buildRelatedURL } from "./search-url.mjs";
+import { buildAnswerURL, buildRelatedURL } from "./search-url.mjs";
 
 export type SearchResult = {
   title: string;
@@ -39,6 +39,13 @@ export type SearchSelection = {
 type RelatedResponse = {
   source_uri: string;
   results: SearchResult[];
+};
+
+type AnswerResponse = {
+	answer: string;
+	basis: string;
+	citations: { id: number; title: string; uri: string }[];
+	insufficient_evidence: boolean;
 };
 
 type Props = {
@@ -105,6 +112,50 @@ function RelatedTheses({ uri }: { uri: string }) {
       )}
     </div>
   );
+}
+
+function Synthesis({ query, selection }: { query: string; selection: SearchSelection }) {
+	const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
+	const [response, setResponse] = useState<AnswerResponse | null>(null);
+	const [error, setError] = useState("");
+	const request = useRef<AbortController>(null);
+
+	async function load() {
+		request.current?.abort();
+		const controller = new AbortController();
+		request.current = controller;
+		setStatus("loading");
+		setError("");
+		try {
+			const result = await fetch(buildAnswerURL(process.env.NEXT_PUBLIC_API_URL ?? ""), {
+				method: "POST",
+				headers: { "Content-Type": "application/json" },
+				body: JSON.stringify({ query, ...(selection.year ? { year: Number(selection.year) } : {}), ...(selection.division ? { division: selection.division } : {}) }),
+				signal: controller.signal,
+			});
+			const body: unknown = await result.json();
+			if (!result.ok) {
+				const message = body as { error?: { message?: unknown } };
+				throw new Error(typeof message.error?.message === "string" ? message.error.message : "Synthesis unavailable.");
+			}
+			const answer = body as Partial<AnswerResponse>;
+			if (typeof answer.answer !== "string" || typeof answer.basis !== "string" || !Array.isArray(answer.citations) || typeof answer.insufficient_evidence !== "boolean") throw new Error("Invalid synthesis response.");
+			setResponse(answer as AnswerResponse);
+			setStatus("success");
+		} catch (requestError) {
+			if (controller.signal.aborted) return;
+			setStatus("error");
+			setError(requestError instanceof Error ? requestError.message : "Synthesis unavailable.");
+		}
+	}
+
+	return <section className="mb-5 rounded-2xl border border-[#dadad3] bg-white p-5" aria-label="Abstract synthesis">
+		{status === "idle" && <><h2 className="text-lg font-semibold text-black">Compare retrieved abstracts</h2><p className="mt-1 text-sm text-[#62625b]">Optional synthesis based on repository metadata and available abstracts only.</p><button type="button" onClick={() => void load()} className="mt-4 min-h-11 rounded-2xl bg-[#e60023] px-4 text-sm font-bold text-white hover:bg-[#cc001f] focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-[#435ee5]">Summarize retrieved abstracts</button></>}
+		{status === "loading" && <p role="status" className="text-sm text-[#62625b]">Synthesizing retrieved abstracts…</p>}
+		{status === "error" && <div role="alert"><p className="text-sm text-[#62625b]">{error}</p><button type="button" onClick={() => void load()} className="mt-3 min-h-11 rounded-2xl bg-[#e5e5e0] px-4 text-sm font-bold text-black hover:bg-[#c8c8c1] focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-[#435ee5]">Try again</button></div>}
+		{status === "success" && response?.insufficient_evidence && <div aria-live="polite"><h2 className="text-lg font-semibold text-black">Insufficient evidence</h2><p className="mt-1 text-sm text-[#62625b]">Available abstracts from these results cannot support a grounded answer.</p><p className="mt-3 text-xs font-semibold text-[#62625b]">{response.basis}</p></div>}
+		{status === "success" && response && !response.insufficient_evidence && <div aria-live="polite"><h2 className="text-lg font-semibold text-black">Abstract synthesis</h2><p className="mt-3 whitespace-pre-wrap text-base leading-[1.5] text-[#33332e]">{response.answer}</p><p className="mt-3 text-xs font-semibold text-[#62625b]">{response.basis}</p><ol className="mt-4 space-y-2" aria-label="Synthesis citations">{response.citations.map((citation) => <li key={citation.id}><a href={citation.uri} className="rounded-sm text-sm font-semibold text-[#33332e] underline decoration-[#91918c] underline-offset-4 focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-[#435ee5]">[{citation.id}] {citation.title}</a></li>)}</ol></div>}
+	</section>;
 }
 
 export default function SearchResults({
@@ -217,6 +268,7 @@ export default function SearchResults({
           <p className="mb-4 text-sm font-medium text-[#62625b]" aria-live="polite">
             {response.total.toLocaleString()} result{response.total === 1 ? "" : "s"} for “{response.query}”
           </p>
+          <Synthesis key={`${response.query}:${selection.year}:${selection.division}`} query={response.query} selection={selection} />
           <ol className="space-y-3">
             {response.results.map((result) => (
               <li key={result.uri}>

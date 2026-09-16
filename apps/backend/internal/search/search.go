@@ -18,11 +18,10 @@ var ErrSemanticUnavailable = errors.New("semantic search unavailable")
 type Service struct {
 	database *store.Store
 	embed    func(context.Context, []string) ([][]float32, error)
-	sem      chan struct{}
 }
 
 func New(database *store.Store, client *ai.Client) *Service {
-	return &Service{database: database, embed: client.Embed, sem: make(chan struct{}, 4)}
+	return &Service{database: database, embed: client.Embed}
 }
 
 func (service *Service) Search(ctx context.Context, params store.SearchParams) (store.SearchResult, error) {
@@ -80,12 +79,6 @@ func (service *Service) Search(ctx context.Context, params store.SearchParams) (
 }
 
 func (service *Service) embedding(ctx context.Context, query string) ([]float32, time.Duration, error) {
-	select {
-	case service.sem <- struct{}{}:
-		defer func() { <-service.sem }()
-	case <-ctx.Done():
-		return nil, 0, ctx.Err()
-	}
 	started := time.Now()
 	vectors, err := service.embed(ctx, []string{query})
 	if err != nil || len(vectors) != 1 {

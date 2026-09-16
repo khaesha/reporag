@@ -23,7 +23,7 @@ func Load() (Config, error) {
 		OpenRouterAPIKey: strings.TrimSpace(os.Getenv("OPENROUTER_API_KEY")),
 		Port:             8080,
 		FrontendOrigin:   "http://localhost:3000",
-		RequestTimeout:   35 * time.Second,
+		RequestTimeout:   70 * time.Second,
 	}
 	if cfg.DatabaseURL == "" {
 		return Config{}, errors.New("DATABASE_URL is required")

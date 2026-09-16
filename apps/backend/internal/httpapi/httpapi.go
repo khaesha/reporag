@@ -4,10 +4,13 @@ import (
 	"context"
 	"crypto/rand"
 	"encoding/hex"
+	"encoding/json"
 	"errors"
 	"fmt"
+	"io"
 	"log/slog"
 	"math"
+	"mime"
 	"net/http"
 	"strings"
 	"time"
@@ -15,6 +18,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
+	"github.com/khaesha/reporag/apps/backend/internal/ai"
+	"github.com/khaesha/reporag/apps/backend/internal/answer"
 	"github.com/khaesha/reporag/apps/backend/internal/search"
 	"github.com/khaesha/reporag/apps/backend/internal/store"
 )
@@ -55,11 +60,18 @@ type trendsRequest struct {
 	Division *string `form:"division"`
 }
 
+type answerRequest struct {
+	Query    string  `json:"query"`
+	Year     *int    `json:"year"`
+	Division *string `json:"division"`
+}
+
 func New(
 	ping func(context.Context) error,
 	search func(context.Context, store.SearchParams) (store.SearchResult, error),
 	related func(context.Context, store.RelatedParams) (store.RelatedResult, error),
 	trends func(context.Context, store.TrendParams) (store.TrendResult, error),
+	answer func(context.Context, answer.Request) (answer.Response, error),
 	filters func(context.Context) (store.FilterValues, error),
 	frontendOrigin string,
 ) http.Handler {
@@ -81,8 +93,50 @@ func New(
 	router.GET("/api/v1/search", searchHandler(search))
 	router.GET("/api/v1/related", relatedHandler(related))
 	router.GET("/api/v1/trends", trendsHandler(trends))
+	router.POST("/api/v1/answer", answerHandler(answer))
 	router.GET("/api/v1/filters", filtersHandler(filters))
 	return router
+}
+
+func answerHandler(execute func(context.Context, answer.Request) (answer.Response, error)) gin.HandlerFunc {
+	return func(c *gin.Context) {
+		mediaType, _, err := mime.ParseMediaType(c.GetHeader("Content-Type"))
+		if err != nil || mediaType != "application/json" {
+			writeError(c, http.StatusUnsupportedMediaType, "invalid_content_type", "Content-Type must be application/json")
+			return
+		}
+		var request answerRequest
+		decoder := json.NewDecoder(http.MaxBytesReader(c.Writer, c.Request.Body, 4096))
+		decoder.DisallowUnknownFields()
+		if err := decoder.Decode(&request); err != nil {
+			writeError(c, http.StatusBadRequest, "invalid_request", "request body must be valid JSON")
+			return
+		}
+		if err := decoder.Decode(&struct{}{}); err != io.EOF {
+			writeError(c, http.StatusBadRequest, "invalid_request", "request body must contain one JSON object")
+			return
+		}
+		params, err := request.params()
+		if err != nil {
+			writeError(c, http.StatusBadRequest, "invalid_request", err.Error())
+			return
+		}
+		started := time.Now()
+		result, err := execute(c.Request.Context(), params)
+		if err != nil {
+			if errors.Is(err, answer.ErrUnavailable) {
+				slog.Warn("answer unavailable", "request_id", c.GetString("request_id"), "duration", time.Since(started))
+				writeError(c, http.StatusServiceUnavailable, "answer_unavailable", "synthesis unavailable")
+				return
+			}
+			slog.Error("answer failed", "request_id", c.GetString("request_id"), "error", err)
+			writeError(c, http.StatusInternalServerError, "internal_error", "synthesis unavailable")
+			return
+		}
+		cost := float64(result.PromptTokens)*0.20/1_000_000 + float64(result.CompletionTokens)*1.20/1_000_000
+		slog.Info("answer timing", "request_id", c.GetString("request_id"), "model", ai.GenerationModel, "duration", time.Since(started), "model_duration", result.ModelDuration, "prompt_tokens", result.PromptTokens, "completion_tokens", result.CompletionTokens, "estimated_cost_usd", cost, "citations", len(result.Citations), "insufficient_evidence", result.InsufficientEvidence)
+		c.JSON(http.StatusOK, result)
+	}
 }
 
 func relatedHandler(related func(context.Context, store.RelatedParams) (store.RelatedResult, error)) gin.HandlerFunc {
@@ -257,6 +311,24 @@ func (request trendsRequest) params() (store.TrendParams, error) {
 		return store.TrendParams{}, err
 	}
 	return store.TrendParams{Year: request.Year, Division: division}, nil
+}
+
+func (request answerRequest) params() (answer.Request, error) {
+	query := strings.TrimSpace(request.Query)
+	if query == "" {
+		return answer.Request{}, errors.New("query is required")
+	}
+	if utf8.RuneCountInString(query) > 500 {
+		return answer.Request{}, errors.New("query must be at most 500 characters")
+	}
+	if request.Year != nil && (*request.Year < 1900 || *request.Year > 2100) {
+		return answer.Request{}, errors.New("year must be between 1900 and 2100")
+	}
+	division, err := filterValue("division", request.Division)
+	if err != nil {
+		return answer.Request{}, err
+	}
+	return answer.Request{Query: query, Year: request.Year, Division: division}, nil
 }
 
 func filterValue(name string, value *string) (string, error) {

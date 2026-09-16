@@ -12,6 +12,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
+	"github.com/khaesha/reporag/apps/backend/internal/answer"
 	"github.com/khaesha/reporag/apps/backend/internal/search"
 	"github.com/khaesha/reporag/apps/backend/internal/store"
 )
@@ -37,7 +38,10 @@ func newTestHandler(
 	trends := func(context.Context, store.TrendParams) (store.TrendResult, error) {
 		return store.TrendResult{ByYear: []store.TrendBucket{}, ByDivision: []store.TrendBucket{}, ByItemType: []store.TrendBucket{}, BySubject: []store.TrendBucket{}}, nil
 	}
-	return New(ping, search, related, trends, filters, "http://localhost:3000")
+	answerFn := func(context.Context, answer.Request) (answer.Response, error) {
+		return answer.Response{Basis: answer.Basis, Citations: []answer.Citation{}}, nil
+	}
+	return New(ping, search, related, trends, answerFn, filters, "http://localhost:3000")
 }
 
 func TestProbes(t *testing.T) {
@@ -217,6 +221,7 @@ func TestRelatedAndTrends(t *testing.T) {
 			trendParams = params
 			return store.TrendResult{ByYear: []store.TrendBucket{}, ByDivision: []store.TrendBucket{}, ByItemType: []store.TrendBucket{}, BySubject: []store.TrendBucket{}}, nil
 		},
+		func(context.Context, answer.Request) (answer.Response, error) { return answer.Response{}, nil },
 		func(context.Context) (store.FilterValues, error) { return store.FilterValues{}, nil },
 		"http://localhost:3000",
 	)
@@ -251,6 +256,7 @@ func TestRelatedErrors(t *testing.T) {
 				return store.RelatedResult{}, test.err
 			},
 			func(context.Context, store.TrendParams) (store.TrendResult, error) { return store.TrendResult{}, nil },
+			func(context.Context, answer.Request) (answer.Response, error) { return answer.Response{}, nil },
 			func(context.Context) (store.FilterValues, error) { return store.FilterValues{}, nil },
 			"http://localhost:3000",
 		)
@@ -259,6 +265,75 @@ func TestRelatedErrors(t *testing.T) {
 		if response.Code != test.status || !strings.Contains(response.Body.String(), `"code":"`+test.code+`"`) {
 			t.Errorf("status=%d body=%s", response.Code, response.Body.String())
 		}
+	}
+}
+
+func TestAnswer(t *testing.T) {
+	gin.SetMode(gin.TestMode)
+	var received answer.Request
+	handler := New(
+		func(context.Context) error { return nil },
+		func(context.Context, store.SearchParams) (store.SearchResult, error) {
+			return store.SearchResult{}, nil
+		},
+		func(context.Context, store.RelatedParams) (store.RelatedResult, error) {
+			return store.RelatedResult{}, nil
+		},
+		func(context.Context, store.TrendParams) (store.TrendResult, error) { return store.TrendResult{}, nil },
+		func(_ context.Context, request answer.Request) (answer.Response, error) {
+			received = request
+			return answer.Response{Answer: "Supported [1]", Basis: answer.Basis, Citations: []answer.Citation{{ID: 1, Title: "Title", URI: "https://example.test/1"}}, InsufficientEvidence: false}, nil
+		},
+		func(context.Context) (store.FilterValues, error) { return store.FilterValues{}, nil },
+		"http://localhost:3000",
+	)
+	response := httptest.NewRecorder()
+	request := httptest.NewRequest(http.MethodPost, "/api/v1/answer", strings.NewReader(`{"query":"  summarize plants ","year":2024,"division":"Computer Science"}`))
+	request.Header.Set("Content-Type", "application/json")
+	handler.ServeHTTP(response, request)
+	if response.Code != http.StatusOK || received.Query != "summarize plants" || received.Year == nil || *received.Year != 2024 || received.Division != "Computer Science" || !strings.Contains(response.Body.String(), `"citations":[`) {
+		t.Fatalf("status=%d request=%+v body=%s", response.Code, received, response.Body.String())
+	}
+	for _, body := range []string{`{"query":""}`, `{"query":"x","evidence":"client supplied"}`, `{"query":"x"}{}`} {
+		response = httptest.NewRecorder()
+		request = httptest.NewRequest(http.MethodPost, "/api/v1/answer", strings.NewReader(body))
+		request.Header.Set("Content-Type", "application/json")
+		handler.ServeHTTP(response, request)
+		if response.Code != http.StatusBadRequest {
+			t.Errorf("body=%s status=%d", body, response.Code)
+		}
+	}
+	response = httptest.NewRecorder()
+	request = httptest.NewRequest(http.MethodPost, "/api/v1/answer", strings.NewReader(`{"query":"x"}`))
+	handler.ServeHTTP(response, request)
+	if response.Code != http.StatusUnsupportedMediaType {
+		t.Fatalf("content type status=%d", response.Code)
+	}
+}
+
+func TestAnswerUnavailable(t *testing.T) {
+	gin.SetMode(gin.TestMode)
+	handler := New(
+		func(context.Context) error { return nil },
+		func(context.Context, store.SearchParams) (store.SearchResult, error) {
+			return store.SearchResult{}, nil
+		},
+		func(context.Context, store.RelatedParams) (store.RelatedResult, error) {
+			return store.RelatedResult{}, nil
+		},
+		func(context.Context, store.TrendParams) (store.TrendResult, error) { return store.TrendResult{}, nil },
+		func(context.Context, answer.Request) (answer.Response, error) {
+			return answer.Response{}, answer.ErrUnavailable
+		},
+		func(context.Context) (store.FilterValues, error) { return store.FilterValues{}, nil },
+		"http://localhost:3000",
+	)
+	response := httptest.NewRecorder()
+	request := httptest.NewRequest(http.MethodPost, "/api/v1/answer", strings.NewReader(`{"query":"x"}`))
+	request.Header.Set("Content-Type", "application/json")
+	handler.ServeHTTP(response, request)
+	if response.Code != http.StatusServiceUnavailable || !strings.Contains(response.Body.String(), `"code":"answer_unavailable"`) {
+		t.Fatalf("status=%d body=%s", response.Code, response.Body.String())
 	}
 }
 
