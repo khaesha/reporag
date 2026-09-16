@@ -27,3 +27,13 @@ export function buildSearchURL(apiURL, params) {
     url.searchParams.set("has_abstract", params.hasAbstract);
   return url.toString();
 }
+
+export function buildRelatedURL(apiURL, params) {
+  const base = apiURL.trim().replace(/\/+$/, "");
+  if (!base) throw new Error("NEXT_PUBLIC_API_URL is not configured");
+
+  const url = new URL(`${base}/api/v1/related`);
+  url.searchParams.set("uri", params.uri);
+  if (params.division) url.searchParams.set("division", params.division);
+  return url.toString();
+}

@@ -79,14 +79,14 @@ Current status: complete. Hybrid nDCG@10 is 0.8559 for conceptual queries and 0.
 
 ## Phase 3: Add related theses and corpus trends
 
-- [ ] Add `GET /api/v1/related` using stored embeddings and optional division filtering.
-- [ ] Exclude the source record and distinguish missing URI from unavailable embedding.
-- [ ] Add `GET /api/v1/trends` using parameterized SQL aggregations.
-- [ ] Return counts by year, division, item type, normalized subject, and missing abstract.
-- [ ] Bound trend result sizes and report missing values without inference.
-- [ ] Add frontend related-thesis actions and a corpus-trends view.
-- [ ] Describe trends as indexed corpus coverage, not total institutional output.
-- [ ] Preserve loading, empty, error, keyboard, focus, touch-target, and text-equivalent behavior.
+- [x] Add `GET /api/v1/related` using stored embeddings and optional division filtering.
+- [x] Exclude the source record and distinguish missing URI from unavailable embedding.
+- [x] Add `GET /api/v1/trends` using parameterized SQL aggregations.
+- [x] Return counts by year, division, item type, normalized subject, and missing abstract.
+- [x] Bound trend result sizes and report missing values without inference.
+- [x] Add frontend related-thesis actions and a corpus-trends view.
+- [x] Describe trends as indexed corpus coverage, not total institutional output.
+- [x] Preserve loading, empty, error, keyboard, focus, touch-target, and text-equivalent behavior.
 
 Backend checks:
 
@@ -105,6 +105,8 @@ npm exec -- next build --webpack
 ```
 
 Exit: users can move from one record to related records and inspect reproducible corpus trends without generated labels.
+
+Current status: complete. Related retrieval uses current stored embeddings only, excludes the source, and distinguishes missing source from unavailable embedding. Trends use parameterized metadata aggregations, audited primary subject classes, and bounded result sets.
 
 ## Phase 4: Add grounded synthesis
 

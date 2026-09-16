@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { buildSearchURL } from "./search-url.mjs";
+import { buildRelatedURL, buildSearchURL } from "./search-url.mjs";
 
 test("builds encoded search URLs and omits empty filters", () => {
   const url = new URL(
@@ -40,4 +40,18 @@ test("requires an API URL", () => {
       }),
     /NEXT_PUBLIC_API_URL/,
   );
+});
+
+test("builds related URL", () => {
+  const url = new URL(
+    buildRelatedURL("http://localhost:8080", {
+      uri: "https://repository.test/1",
+      division: "Computer Science",
+    }),
+  );
+  assert.equal(url.pathname, "/api/v1/related");
+  assert.deepEqual(Object.fromEntries(url.searchParams), {
+    uri: "https://repository.test/1",
+    division: "Computer Science",
+  });
 });

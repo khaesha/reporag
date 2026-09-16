@@ -18,9 +18,10 @@ export default function Home() {
             SearchLens
           </span>
         </div>
-        <span className="rounded-full bg-[#f6f6f3] px-3 py-1.5 text-xs font-semibold text-[#62625b]">
-          Chapter 1
-        </span>
+        <nav className="flex items-center gap-3" aria-label="Primary navigation">
+          <a href="/trends" className="min-h-11 rounded-2xl px-3 py-3 text-xs font-semibold text-[#33332e] underline decoration-[#91918c] underline-offset-4 focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-[#435ee5]">Corpus trends</a>
+          <span className="rounded-full bg-[#f6f6f3] px-3 py-1.5 text-xs font-semibold text-[#62625b]">Chapter 2</span>
+        </nav>
       </header>
 
       <main className="mx-auto flex w-full max-w-5xl flex-1 flex-col items-center px-4 py-12 sm:px-6">

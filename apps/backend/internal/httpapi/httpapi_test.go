@@ -31,7 +31,13 @@ func newTestHandler(
 			return store.FilterValues{Years: []int32{}, Divisions: []string{}, ItemTypes: []string{}}, nil
 		}
 	}
-	return New(ping, search, filters, "http://localhost:3000")
+	related := func(context.Context, store.RelatedParams) (store.RelatedResult, error) {
+		return store.RelatedResult{Documents: []store.SearchDocument{}}, nil
+	}
+	trends := func(context.Context, store.TrendParams) (store.TrendResult, error) {
+		return store.TrendResult{ByYear: []store.TrendBucket{}, ByDivision: []store.TrendBucket{}, ByItemType: []store.TrendBucket{}, BySubject: []store.TrendBucket{}}, nil
+	}
+	return New(ping, search, related, trends, filters, "http://localhost:3000")
 }
 
 func TestProbes(t *testing.T) {
@@ -191,6 +197,68 @@ func TestSemanticSearchError(t *testing.T) {
 	handler.ServeHTTP(response, httptest.NewRequest(http.MethodGet, "/api/v1/search?q=robot&mode=semantic", nil))
 	if response.Code != http.StatusServiceUnavailable || !strings.Contains(response.Body.String(), `"code":"semantic_unavailable"`) {
 		t.Fatalf("status=%d body=%s", response.Code, response.Body.String())
+	}
+}
+
+func TestRelatedAndTrends(t *testing.T) {
+	gin.SetMode(gin.TestMode)
+	var relatedParams store.RelatedParams
+	var trendParams store.TrendParams
+	handler := New(
+		func(context.Context) error { return nil },
+		func(context.Context, store.SearchParams) (store.SearchResult, error) {
+			return store.SearchResult{}, nil
+		},
+		func(_ context.Context, params store.RelatedParams) (store.RelatedResult, error) {
+			relatedParams = params
+			return store.RelatedResult{SourceURI: params.URI, Documents: []store.SearchDocument{}}, nil
+		},
+		func(_ context.Context, params store.TrendParams) (store.TrendResult, error) {
+			trendParams = params
+			return store.TrendResult{ByYear: []store.TrendBucket{}, ByDivision: []store.TrendBucket{}, ByItemType: []store.TrendBucket{}, BySubject: []store.TrendBucket{}}, nil
+		},
+		func(context.Context) (store.FilterValues, error) { return store.FilterValues{}, nil },
+		"http://localhost:3000",
+	)
+	response := httptest.NewRecorder()
+	handler.ServeHTTP(response, httptest.NewRequest(http.MethodGet, "/api/v1/related?uri=https%3A%2F%2Fexample.test%2F1&division=Computer+Science", nil))
+	if response.Code != http.StatusOK || relatedParams.URI != "https://example.test/1" || relatedParams.Division != "Computer Science" || relatedParams.Limit != 6 {
+		t.Fatalf("status=%d params=%+v", response.Code, relatedParams)
+	}
+	response = httptest.NewRecorder()
+	handler.ServeHTTP(response, httptest.NewRequest(http.MethodGet, "/api/v1/trends?year=2024&division=Computer+Science", nil))
+	if response.Code != http.StatusOK || trendParams.Year == nil || *trendParams.Year != 2024 || trendParams.Division != "Computer Science" {
+		t.Fatalf("status=%d params=%+v", response.Code, trendParams)
+	}
+}
+
+func TestRelatedErrors(t *testing.T) {
+	gin.SetMode(gin.TestMode)
+	for _, test := range []struct {
+		err    error
+		status int
+		code   string
+	}{
+		{store.ErrRelatedNotFound, http.StatusNotFound, "not_found"},
+		{store.ErrRelatedEmbeddingMissing, http.StatusConflict, "embedding_unavailable"},
+	} {
+		handler := New(
+			func(context.Context) error { return nil },
+			func(context.Context, store.SearchParams) (store.SearchResult, error) {
+				return store.SearchResult{}, nil
+			},
+			func(context.Context, store.RelatedParams) (store.RelatedResult, error) {
+				return store.RelatedResult{}, test.err
+			},
+			func(context.Context, store.TrendParams) (store.TrendResult, error) { return store.TrendResult{}, nil },
+			func(context.Context) (store.FilterValues, error) { return store.FilterValues{}, nil },
+			"http://localhost:3000",
+		)
+		response := httptest.NewRecorder()
+		handler.ServeHTTP(response, httptest.NewRequest(http.MethodGet, "/api/v1/related?uri=https%3A%2F%2Fexample.test%2F1", nil))
+		if response.Code != test.status || !strings.Contains(response.Body.String(), `"code":"`+test.code+`"`) {
+			t.Errorf("status=%d body=%s", response.Code, response.Body.String())
+		}
 	}
 }
 
