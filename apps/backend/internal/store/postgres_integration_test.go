@@ -6,15 +6,17 @@ import (
 	"os"
 	"path/filepath"
 	"runtime"
+	"sort"
 	"testing"
 	"time"
 
 	"github.com/jackc/pgx/v5/pgxpool"
 
+	"github.com/khaesha/reporag/apps/backend/internal/ai"
 	"github.com/khaesha/reporag/apps/backend/internal/records"
 )
 
-func openTestStore(t *testing.T) (*Store, context.Context) {
+func openTestPool(t *testing.T) (*pgxpool.Pool, context.Context) {
 	t.Helper()
 	databaseURL := os.Getenv("TEST_DATABASE_URL")
 	if databaseURL == "" {
@@ -34,7 +36,13 @@ func openTestStore(t *testing.T) (*Store, context.Context) {
 	}
 	t.Cleanup(pool.Close)
 
-	_, err = pool.Exec(ctx, `CREATE TEMP TABLE documents (
+	return pool, ctx
+}
+
+func openTestStore(t *testing.T) (*Store, context.Context) {
+	t.Helper()
+	pool, ctx := openTestPool(t)
+	_, err := pool.Exec(ctx, `CREATE TEMP TABLE documents (
 		uri text PRIMARY KEY, source_year smallint CHECK (source_year BETWEEN 1900 AND 2100),
 		title text NOT NULL, abstract text, authors text[] NOT NULL, item_type text,
 		subjects text, divisions text, depositing_user text, date_deposited timestamptz,
@@ -71,6 +79,63 @@ func TestEmbeddingStoreUpdatesOnlyValidatedVectors(t *testing.T) {
 	}
 	if err := store.UpdateEmbeddings(ctx, []EmbeddingUpdate{{URI: "u1", Vector: []float32{1}, Dimensions: 1536}}); err == nil {
 		t.Fatal("expected dimension validation error")
+	}
+}
+
+func TestImportInvalidatesChangedEmbeddingAndSemanticCandidates(t *testing.T) {
+	store, ctx := openTestStore(t)
+	division := "Computer Science"
+	document := records.Document{URI: "u1", SourceYear: 2024, Title: "Semantic title", Authors: []string{"Ada"}, Divisions: &division, SearchText: "Semantic title Ada"}
+	other := records.Document{URI: "u2", SourceYear: 2024, Title: "Other", Authors: []string{}, SearchText: "Other"}
+	if _, err := store.ImportFile(ctx, []records.Document{document, other}); err != nil {
+		t.Fatal(err)
+	}
+	first := make([]float32, 1536)
+	first[0] = 1
+	second := make([]float32, 1536)
+	second[1] = 1
+	if err := store.UpdateEmbeddings(ctx, []EmbeddingUpdate{
+		{URI: "u1", Vector: first, Model: "model", InputHash: "hash", Dimensions: 1536},
+		{URI: "u2", Vector: second, Model: "model", InputHash: "hash", Dimensions: 1536},
+	}); err != nil {
+		t.Fatal(err)
+	}
+	candidates, err := store.SemanticCandidates(ctx, SearchParams{Query: "semantic", Division: division}, first, "model", 1536, 10)
+	if err != nil || len(candidates) != 1 || candidates[0].Document.URI != "u1" {
+		t.Fatalf("candidates=%+v error=%v", candidates, err)
+	}
+
+	document.Subjects = stringPointer("changed subject")
+	if _, err := store.ImportFile(ctx, []records.Document{document}); err != nil {
+		t.Fatal(err)
+	}
+	documents, err := store.EmbeddingDocuments(ctx)
+	if err != nil || documents[0].HasEmbedding || documents[0].EmbeddingModel != nil || documents[0].EmbeddingInputHash != nil || documents[0].EmbeddingDimensions != nil {
+		t.Fatalf("documents=%+v error=%v", documents, err)
+	}
+}
+
+func stringPointer(value string) *string { return &value }
+
+func TestExactVectorSearchP95(t *testing.T) {
+	pool, ctx := openTestPool(t)
+	store := New(pool)
+	vector := make([]float32, ai.EmbeddingDimensions)
+	vector[0] = 1
+	durations := make([]time.Duration, 100)
+	for index := range durations {
+		started := time.Now()
+		candidates, err := store.SemanticCandidates(ctx, SearchParams{Query: "benchmark"}, vector, ai.EmbeddingModel, ai.EmbeddingDimensions, 50)
+		if err != nil || len(candidates) == 0 {
+			t.Fatalf("candidates=%d error=%v", len(candidates), err)
+		}
+		durations[index] = time.Since(started)
+	}
+	sort.Slice(durations, func(left, right int) bool { return durations[left] < durations[right] })
+	p95 := durations[94]
+	t.Logf("exact vector search p95=%s", p95)
+	if p95 >= 500*time.Millisecond {
+		t.Fatalf("exact vector search p95=%s", p95)
 	}
 }
 

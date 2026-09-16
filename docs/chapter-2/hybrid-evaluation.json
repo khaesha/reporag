@@ -1,0 +1,87 @@
+{
+  "generated_at": "2026-09-16T02:50:13.651Z",
+  "corpus_api": "http://localhost:8080",
+  "mode": "hybrid",
+  "evaluation_sha256": "b08f56410a95a2d97e5eb26d371c9e90d32b28b2714bf7a004be20b498bfb1ac",
+  "queries": 100,
+  "metrics": {
+    "recall_at_10": 0.9767,
+    "mrr_at_10": 0.9503,
+    "ndcg_at_10": 0.9503,
+    "top_5_success": 0.99
+  },
+  "by_intent": {
+    "abbreviation": {
+      "queries": 15,
+      "recall_at_10": 1,
+      "mrr_at_10": 0.9667,
+      "ndcg_at_10": 0.9754,
+      "top_5_success": 1
+    },
+    "bilingual": {
+      "queries": 15,
+      "recall_at_10": 0.9556,
+      "mrr_at_10": 0.9556,
+      "ndcg_at_10": 0.9347,
+      "top_5_success": 1
+    },
+    "conceptual": {
+      "queries": 20,
+      "recall_at_10": 0.9167,
+      "mrr_at_10": 0.86,
+      "ndcg_at_10": 0.8559,
+      "top_5_success": 0.95
+    },
+    "exact_author": {
+      "queries": 15,
+      "recall_at_10": 1,
+      "mrr_at_10": 1,
+      "ndcg_at_10": 1,
+      "top_5_success": 1
+    },
+    "exact_title": {
+      "queries": 15,
+      "recall_at_10": 1,
+      "mrr_at_10": 1,
+      "ndcg_at_10": 1,
+      "top_5_success": 1
+    },
+    "lexical": {
+      "queries": 20,
+      "recall_at_10": 1,
+      "mrr_at_10": 0.95,
+      "ndcg_at_10": 0.9631,
+      "top_5_success": 1
+    }
+  },
+  "by_division": {
+    "Program Studi Fisika - S1": {
+      "queries": 27,
+      "recall_at_10": 1,
+      "mrr_at_10": 1,
+      "ndcg_at_10": 0.9902,
+      "top_5_success": 1
+    },
+    "Program Studi Ilmu Komputer": {
+      "queries": 47,
+      "recall_at_10": 1,
+      "mrr_at_10": 0.9681,
+      "ndcg_at_10": 0.9764,
+      "top_5_success": 1
+    },
+    "Program Studi Pendidikan Ilmu Komputer": {
+      "queries": 26,
+      "recall_at_10": 0.9103,
+      "mrr_at_10": 0.8667,
+      "ndcg_at_10": 0.8617,
+      "top_5_success": 0.9615
+    }
+  },
+  "latency": {
+    "measured_rounds": 5,
+    "samples": 500,
+    "p50_ms": 806.9,
+    "p95_ms": 910.09,
+    "max_ms": 1818.93
+  }
+}

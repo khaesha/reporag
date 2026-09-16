@@ -15,7 +15,7 @@ func TestLoad(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	if cfg.Port != 8080 || cfg.FrontendOrigin != "http://localhost:3000" || cfg.RequestTimeout != 10*time.Second {
+	if cfg.Port != 8080 || cfg.FrontendOrigin != "http://localhost:3000" || cfg.RequestTimeout != 35*time.Second {
 		t.Fatalf("unexpected defaults: %+v", cfg)
 	}
 }

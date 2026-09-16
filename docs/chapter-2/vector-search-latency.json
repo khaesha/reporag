@@ -1,0 +1,6 @@
+{
+  "generated_at": "2026-09-16T02:50:00Z",
+  "method": "100 exact cosine candidate searches against local pgvector corpus; current model and 1,536 dimensions; no embedding-provider time",
+  "samples": 100,
+  "p95_ms": 18.1
+}
