@@ -1,7 +1,7 @@
 SHELL := /bin/sh
 ENV_FILE := .env
 
-.PHONY: env check-env db-up db-down migrate-002 api import embed backend-test
+.PHONY: env check-env db-up db-down migrate migrate-report migrate-002 api import embed backend-test
 
 env:
 	@if test -e "$(ENV_FILE)"; then \
@@ -28,14 +28,20 @@ db-down: check-env
 migrate-002: check-env
 	@set -a; . ./$(ENV_FILE); set +a; docker compose --env-file "$(ENV_FILE)" exec -T db psql -v ON_ERROR_STOP=1 -U "$$POSTGRES_USER" -d "$$POSTGRES_DB" -f /docker-entrypoint-initdb.d/002_semantic_search.sql
 
+migrate: check-env
+	@set -a; . ./$(ENV_FILE); set +a; DATABASE_URL="$${ADMIN_DATABASE_URL:-$$DATABASE_URL}"; export DATABASE_URL; cd apps/backend && exec go run ./cmd/migrate -dir migrations
+
+migrate-report: check-env
+	@set -a; . ./$(ENV_FILE); set +a; DATABASE_URL="$${ADMIN_DATABASE_URL:-$$DATABASE_URL}"; export DATABASE_URL; cd apps/backend && exec go run ./cmd/migrate -report
+
 api: check-env
 	@set -a; . ./$(ENV_FILE); set +a; cd apps/backend && exec go run ./cmd/api
 
 import: check-env
-	@set -a; . ./$(ENV_FILE); set +a; cd apps/backend && exec go run ./cmd/import -corpus ../../docs/repository-data
+	@set -a; . ./$(ENV_FILE); set +a; DATABASE_URL="$${ADMIN_DATABASE_URL:-$$DATABASE_URL}"; export DATABASE_URL; cd apps/backend && exec go run ./cmd/import -corpus ../../docs/repository-data
 
 embed: check-env
-	@set -a; . ./$(ENV_FILE); set +a; cd apps/backend && exec go run ./cmd/embed
+	@set -a; . ./$(ENV_FILE); set +a; DATABASE_URL="$${ADMIN_DATABASE_URL:-$$DATABASE_URL}"; export DATABASE_URL; cd apps/backend && exec go run ./cmd/embed
 
 backend-test: check-env
 	@set -a; . ./$(ENV_FILE); set +a; cd apps/backend && go vet ./... && go test ./...

@@ -91,6 +91,8 @@ node scripts/benchmark-search.mjs
 
 An alternate API base URL may be supplied as the first argument.
 
+For Supabase PostgreSQL deployment, migration, least-privilege runtime access, verified TLS, backup, restore, and remote timing instructions, see [Chapter 2 deployment notes](docs/chapter-2/DEPLOYMENT.md).
+
 ## Chapter 2 Phase 0
 
 With the expanded corpus in `docs/repository-data`, reproduce its audit and lexical baseline:
