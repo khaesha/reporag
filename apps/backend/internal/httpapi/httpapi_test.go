@@ -116,6 +116,9 @@ func TestSearch(t *testing.T) {
 	if response.Code != http.StatusOK {
 		t.Fatalf("status=%d body=%s", response.Code, response.Body.String())
 	}
+	if response.Header().Get("Server-Timing") != "model;dur=0.00, retrieval;dur=0.00" {
+		t.Fatalf("timing=%q", response.Header().Get("Server-Timing"))
+	}
 	if received.Query != "machine learning" || received.Mode != "hybrid" || received.Year == nil || *received.Year != 2024 || received.Division != "Computer Science" || received.ItemType != "Thesis" || received.HasAbstract == nil || *received.HasAbstract || received.Sort != "date" || received.Page != 2 || received.Limit != 5 {
 		t.Fatalf("unexpected params: %+v", received)
 	}

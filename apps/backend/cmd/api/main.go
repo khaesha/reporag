@@ -21,6 +21,8 @@ import (
 	"github.com/khaesha/reporag/apps/backend/internal/store"
 )
 
+const maxDatabaseConnections = 5
+
 func main() {
 	slog.SetDefault(slog.New(slog.NewJSONHandler(os.Stdout, nil)))
 	if err := run(); err != nil {
@@ -39,6 +41,7 @@ func run() error {
 	if err != nil {
 		return errors.New("DATABASE_URL is invalid")
 	}
+	poolConfig.MaxConns = maxDatabaseConnections
 	pool, err := pgxpool.NewWithConfig(context.Background(), poolConfig)
 	if err != nil {
 		return errors.New("database pool initialization failed")

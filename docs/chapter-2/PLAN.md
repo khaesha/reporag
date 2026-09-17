@@ -145,22 +145,22 @@ Current status: complete. Synthesis retrieves hybrid evidence server-side, sends
 
 ## Phase 5: Prove Supabase deployment
 
-- [ ] Create a clean Supabase project in the intended production region and record its PostgreSQL and pgvector versions.
-- [ ] Keep `apps/backend/migrations` as the single migration source and add the smallest command that applies every migration in order through a direct connection.
-- [ ] Ensure the pgvector migration uses the `extensions` schema and works unchanged in local PostgreSQL and Supabase.
+- [x] Create a clean Supabase project in the intended production region and record its PostgreSQL and pgvector versions.
+- [x] Keep `apps/backend/migrations` as the single migration source and add the smallest command that applies every migration in order through a direct connection.
+- [x] Ensure the pgvector migration uses the `extensions` schema and works unchanged in local PostgreSQL and Supabase.
 - [ ] Provision separate administrative and least-privilege runtime database credentials; never expose either to the frontend.
 - [ ] Require remote TLS and document certificate verification or its recorded limitation.
 - [ ] Use a direct runtime connection when supported; otherwise use Supavisor session mode for an IPv4-only backend.
 - [ ] Do not use transaction pooling with current pgx prepared statements.
 - [ ] Apply migrations, import the final corpus, and generate embeddings through the direct administrative connection.
 - [ ] Configure the deployed Go API with only its runtime `DATABASE_URL` and existing server/model secrets.
-- [ ] Set a bounded pgx pool below the selected Supabase project's connection limit.
-- [ ] Run readiness, lexical, semantic, hybrid, related, trend, and synthesis smoke checks against Supabase.
-- [ ] Verify exact-title searchability and record count match the clean local baseline.
+- [x] Set a bounded pgx pool below the selected Supabase project's connection limit.
+- [x] Run readiness, lexical, semantic, hybrid, related, trend, and synthesis smoke checks against Supabase.
+- [x] Verify exact-title searchability and record count match the clean local baseline.
 - [ ] Verify the runtime role cannot alter schema or write corpus records.
 - [ ] Run `pg_dump` and restore smoke checks through direct connections.
-- [ ] Measure Supabase retrieval p50 and p95 separately from model latency.
-- [ ] Document rollback by restoring the previous server-side `DATABASE_URL`; no frontend change should be required.
+- [x] Measure Supabase retrieval p50 and p95 separately from model latency.
+- [x] Document rollback by restoring the previous server-side `DATABASE_URL`; no frontend change should be required.
 
 Checks:
 
@@ -171,6 +171,8 @@ make backend-test
 Also run the documented remote migration, import, embedding, backup, restore, and API smoke commands. Never place Supabase credentials in committed files or command output.
 
 Exit: unchanged Go application and migrations work against Supabase PostgreSQL, pgvector queries pass, privileges are limited, secrets stay server-side, and remote measurements are recorded.
+
+Current status: accepted with explicit tech debt. The Supabase Session Pooler project has PostgreSQL 17.6, pgvector 0.8.2, 2,190 documents, and 2,190 embeddings; migrations and remote API smoke checks pass. Deferred to the Chapter 2 release gate: repeat administrative operations through direct IPv6 or an IPv4 add-on; replace the temporary administrative API credential with `searchlens_runtime` and prove it cannot write or alter schema; run backup/restore through PostgreSQL client tools against a disposable project. Do not deploy publicly until all are resolved.
 
 ## Phase 6: Chapter 2 release gate
 

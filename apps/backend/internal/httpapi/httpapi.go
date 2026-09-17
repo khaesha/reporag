@@ -217,6 +217,7 @@ func searchHandler(execute func(context.Context, store.SearchParams) (store.Sear
 			slog.Warn("search degraded", "request_id", c.GetString("request_id"), "mode", params.Mode)
 		}
 		slog.Info("search timing", "request_id", c.GetString("request_id"), "mode", params.Mode, "model_duration", result.ModelTime, "retrieval_duration", result.SearchTime)
+		c.Header("Server-Timing", fmt.Sprintf("model;dur=%.2f, retrieval;dur=%.2f", float64(result.ModelTime)/float64(time.Millisecond), float64(result.SearchTime)/float64(time.Millisecond)))
 		c.JSON(http.StatusOK, searchResponse{
 			Query: params.Query, Page: params.Page, Limit: params.Limit,
 			Total: result.Total, Results: result.Documents,
