@@ -1,6 +1,6 @@
 # SearchLens
 
-SearchLens is a learning project for discovering Universitas Pendidikan Indonesia (UPI) thesis metadata and available abstracts. Chapter 1 uses PostgreSQL full-text search; it does not access restricted PDFs, generate answers, or use embeddings.
+SearchLens is a learning project for discovering Universitas Pendidikan Indonesia (UPI) thesis metadata and available abstracts. Chapter 2 adds pgvector hybrid retrieval, related records, corpus trends, and optional abstract-grounded synthesis. It never accesses restricted PDFs or chapter-level content.
 
 ## Architecture
 
@@ -8,9 +8,10 @@ SearchLens is a learning project for discovering Universitas Pendidikan Indonesi
 flowchart LR
     B[Browser] --> F[Next.js frontend]
     F --> A[Go + Gin API]
-    A --> P[(PostgreSQL)]
+    A --> P[(PostgreSQL + pgvector)]
     J[Corpus JSON] --> I[Go importer]
     I --> P
+    E[Embedding + generation provider] --> A
     F --> U[UPI repository URI]
 ```
 
@@ -109,6 +110,28 @@ rtk node scripts/benchmark-embeddings.mjs
 ```
 
 Cached vectors stay under ignored `.cache/embeddings`; the benchmark report records model usage, cost, latency, retrieval metrics, and winner.
+
+## Chapter 2 operation
+
+Set `OPENROUTER_API_KEY` and the database URL in ignored `.env`. The locked models are `google/gemini-embedding-2` (1,536 dimensions) and the configured generation model; model identifiers, token limits, and timeout remain server-side configuration. Apply migrations, import, and embed with:
+
+```sh
+make migrate
+make import
+make embed
+```
+
+With the API running, reproduce the release retrieval evidence:
+
+```sh
+node scripts/evaluate-search.mjs http://localhost:8080 docs/chapter-2/evaluation.json docs/chapter-2/release-hybrid.json hybrid
+node scripts/verify-exact-titles.mjs http://localhost:8080 docs/chapter-2/release-exact-titles.json
+node scripts/evaluate-synthesis.mjs http://localhost:8080 docs/chapter-2/synthesis-results.json
+```
+
+Generated answers are optional and grounded only in retrieved available abstracts. Citations link to the original repository URI; missing abstracts produce insufficient evidence rather than invented content. Retrieval and deployment evidence is recorded in [the Chapter 2 plan](docs/chapter-2/PLAN.md); public-deployment blockers are in [Tech Debt](docs/chapter-2/TECH_DEBT.md).
+
+For rollback, restore the previous server-side `DATABASE_URL`; no frontend configuration changes are needed. Do not publicly enable synthesis until the documented proxy rate limit and all Tech Debt blockers are resolved.
 
 ## Database backup
 

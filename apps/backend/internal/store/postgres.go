@@ -40,7 +40,7 @@ const (
 )
 
 var searchSorts = map[string]string{
-	"relevance": "score DESC, lower(title), uri",
+	"relevance": "(lower(title) = lower($1) OR $1 = ANY(authors)) DESC, score DESC, lower(title), uri",
 	"title":     "lower(title), title, uri",
 	"date":      "date_deposited DESC NULLS LAST, lower(title), uri",
 }

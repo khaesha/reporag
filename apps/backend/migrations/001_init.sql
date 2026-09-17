@@ -1,6 +1,6 @@
 BEGIN;
 
-CREATE TABLE documents (
+CREATE TABLE IF NOT EXISTS documents (
     id              bigint GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     uri             text NOT NULL UNIQUE,
     source_year     smallint NOT NULL CHECK (source_year BETWEEN 1900 AND 2100),
@@ -18,8 +18,8 @@ CREATE TABLE documents (
     imported_at     timestamptz NOT NULL DEFAULT now()
 );
 
-CREATE INDEX documents_search_idx ON documents USING gin (search_vector);
-CREATE INDEX documents_year_idx ON documents (source_year);
-CREATE INDEX documents_item_type_idx ON documents (item_type);
+CREATE INDEX IF NOT EXISTS documents_search_idx ON documents USING gin (search_vector);
+CREATE INDEX IF NOT EXISTS documents_year_idx ON documents (source_year);
+CREATE INDEX IF NOT EXISTS documents_item_type_idx ON documents (item_type);
 
 COMMIT;

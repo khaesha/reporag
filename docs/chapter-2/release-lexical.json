@@ -1,0 +1,87 @@
+{
+  "generated_at": "2026-09-17T10:48:19.934Z",
+  "corpus_api": "http://localhost:8080",
+  "mode": "lexical",
+  "evaluation_sha256": "b08f56410a95a2d97e5eb26d371c9e90d32b28b2714bf7a004be20b498bfb1ac",
+  "queries": 100,
+  "metrics": {
+    "recall_at_10": 0.61,
+    "mrr_at_10": 0.595,
+    "ndcg_at_10": 0.5989,
+    "top_5_success": 0.61
+  },
+  "by_intent": {
+    "abbreviation": {
+      "queries": 15,
+      "recall_at_10": 0.6667,
+      "mrr_at_10": 0.6333,
+      "ndcg_at_10": 0.6421,
+      "top_5_success": 0.6667
+    },
+    "bilingual": {
+      "queries": 15,
+      "recall_at_10": 0.2,
+      "mrr_at_10": 0.2,
+      "ndcg_at_10": 0.2,
+      "top_5_success": 0.2
+    },
+    "conceptual": {
+      "queries": 20,
+      "recall_at_10": 0,
+      "mrr_at_10": 0,
+      "ndcg_at_10": 0,
+      "top_5_success": 0
+    },
+    "exact_author": {
+      "queries": 15,
+      "recall_at_10": 1,
+      "mrr_at_10": 0.9667,
+      "ndcg_at_10": 0.9754,
+      "top_5_success": 1
+    },
+    "exact_title": {
+      "queries": 15,
+      "recall_at_10": 1,
+      "mrr_at_10": 1,
+      "ndcg_at_10": 1,
+      "top_5_success": 1
+    },
+    "lexical": {
+      "queries": 20,
+      "recall_at_10": 0.9,
+      "mrr_at_10": 0.875,
+      "ndcg_at_10": 0.8815,
+      "top_5_success": 0.9
+    }
+  },
+  "by_division": {
+    "Program Studi Fisika - S1": {
+      "queries": 27,
+      "recall_at_10": 0.5926,
+      "mrr_at_10": 0.5741,
+      "ndcg_at_10": 0.5789,
+      "top_5_success": 0.5926
+    },
+    "Program Studi Ilmu Komputer": {
+      "queries": 47,
+      "recall_at_10": 0.7021,
+      "mrr_at_10": 0.7021,
+      "ndcg_at_10": 0.7021,
+      "top_5_success": 0.7021
+    },
+    "Program Studi Pendidikan Ilmu Komputer": {
+      "queries": 26,
+      "recall_at_10": 0.4615,
+      "mrr_at_10": 0.4231,
+      "ndcg_at_10": 0.4331,
+      "top_5_success": 0.4615
+    }
+  },
+  "latency": {
+    "measured_rounds": 5,
+    "samples": 500,
+    "p50_ms": 195.36,
+    "p95_ms": 217.67,
+    "max_ms": 234.24
+  }
+}
