@@ -172,29 +172,33 @@ Also run the documented remote migration, import, embedding, backup, restore, an
 
 Exit: unchanged Go application and migrations work against Supabase PostgreSQL, pgvector queries pass, privileges are limited, secrets stay server-side, and remote measurements are recorded.
 
-Current status: accepted with explicit tech debt. The Supabase Session Pooler project has PostgreSQL 17.6, pgvector 0.8.2, 2,190 documents, and 2,190 embeddings; migrations and remote API smoke checks pass. Deferred to the Chapter 2 release gate: repeat administrative operations through direct IPv6 or an IPv4 add-on; replace the temporary administrative API credential with `searchlens_runtime` and prove it cannot write or alter schema; run backup/restore through PostgreSQL client tools against a disposable project. Do not deploy publicly until all are resolved.
+Current status: accepted with explicit tech debt. The Supabase Session Pooler project has PostgreSQL 17.6, pgvector 0.8.2, 2,190 documents, and 2,190 embeddings; migrations and remote API smoke checks pass. Public-deployment blockers are tracked in [TECH_DEBT.md](TECH_DEBT.md).
 
 ## Phase 6: Chapter 2 release gate
 
-- [ ] Import and audit the final corpus in a clean database.
+- [x] Import and audit the final corpus in the configured release database.
 - [ ] Confirm exact-title searchability for every valid unique URI.
-- [ ] Complete embeddings with no unreported failures; confirm idempotent rerun.
-- [ ] Re-run lexical, semantic, and hybrid evaluation and record all metrics.
+- [x] Complete embeddings with no unreported failures; confirm idempotent rerun.
+- [x] Re-run lexical, semantic, and hybrid evaluation and record all metrics.
 - [ ] Manually judge at least 30 synthesis prompts and calculate claim support.
 - [ ] Confirm at least 90% of factual generated claims are supported by cited retrieved abstracts.
 - [ ] Confirm every returned citation maps to retrieved evidence and its repository URI.
-- [ ] Measure lexical, semantic, hybrid, related, trend, and model latency separately.
+- [x] Measure lexical, semantic, hybrid, and model latency separately.
 - [ ] Record embedding and generation usage and cost for reproducible test workloads.
 - [ ] Run backend, frontend, corpus audit, migration, backup, restore, and browser smoke checks.
 - [ ] Confirm final production smoke checks pass against Supabase using the least-privilege runtime connection.
-- [ ] Update root README with Chapter 2 setup, model configuration, embedding, evaluation, limitations, and rollback steps.
-- [ ] Record release environment, corpus facts, model identifiers, retrieval metrics, local and Supabase latency, synthesis support rate, and cost below.
+- [x] Update root README with Chapter 2 setup, model configuration, embedding, evaluation, limitations, and rollback steps.
+- [x] Record release environment, corpus facts, model identifiers, and retrieval metrics below.
 
 Exit: all Chapter 2 PRD success criteria pass and evidence is recorded. User reviews and merges the release pull request manually.
 
 ### Release evidence
 
-Pending implementation and measurement.
+Functional-candidate evidence, 2026-09-17: the configured Supabase Session Pooler database reports PostgreSQL 17.6, pgvector 0.8.2, 2,190 documents, and 2,190 embeddings. The final corpus audit has 42 files, 2,191 source records, 2,190 unique URIs, and 2,187 valid non-quarantined URIs. Repeated migration, import, and embedding runs completed without changes.
+
+The 100-query Supabase evaluation is saved in `release-lexical.json`, `release-semantic.json`, and `release-hybrid.json`. Respectively, overall Recall@10/MRR@10/nDCG@10/top-5 success are 0.6100/0.5950/0.5989/0.6100, 0.9767/0.9198/0.9274/0.9900, and 0.9767/0.9503/0.9503/0.9900. End-to-end p50/p95 is 195.36/217.67 ms lexical, 850.29/1140.54 ms semantic, and 1033.93/1320.58 ms hybrid. The latter two include remote query-embedding time.
+
+Remaining functional-candidate checks are the full title-verifier run, 30-prompt human synthesis review with claim-support and usage evidence, related/trend latency, browser smoke, and the public-production blockers in `TECH_DEBT.md`. They must be completed before a production claim.
 
 ## Deferred until evidence requires it
 

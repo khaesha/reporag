@@ -9,6 +9,20 @@ const relevant = (judgment) => judgment.relevance >= 2;
 const mean = (values) => values.reduce((sum, value) => sum + value, 0) / values.length;
 const rounded = (value) => Number(value.toFixed(4));
 
+async function fetchSearch(url, item, round) {
+  let failure;
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const response = await fetch(url, { signal: AbortSignal.timeout(40_000) });
+      if (response.status < 500) return response;
+      failure = new Error(`HTTP ${response.status}`);
+    } catch (error) {
+      failure = error;
+    }
+  }
+  throw new Error(`${item.id} round ${round + 1}: ${failure?.message || failure?.name || "request failed"}`);
+}
+
 export function scoreQuery(judgments, rankedURIs, limit = 10) {
   const grades = new Map(judgments.map(({ uri, relevance }) => [uri, relevance]));
   const relevantURIs = judgments.filter(relevant).map(({ uri }) => uri);
@@ -86,7 +100,7 @@ async function run(baseURL, evaluationPath, mode) {
       url.searchParams.set("sort", "relevance");
 		url.searchParams.set("mode", mode);
       const start = performance.now();
-      const response = await fetch(url, { signal: AbortSignal.timeout(40_000) });
+      const response = await fetchSearch(url, item, round);
       if (!response.ok) throw new Error(`${url}: HTTP ${response.status}`);
       const body = await response.json();
       if (!Array.isArray(body.results)) throw new Error(`${url}: invalid search response`);
