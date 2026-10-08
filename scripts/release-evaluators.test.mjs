@@ -5,7 +5,7 @@ import path from "node:path";
 import test from "node:test";
 
 import { selectPrompts } from "./evaluate-synthesis.mjs";
-import { records, verify } from "./verify-exact-titles.mjs";
+import { records, titleGroups, verify } from "./verify-exact-titles.mjs";
 
 test("exact-title records exclude quarantine and duplicate URIs", async () => {
   const directory = await mkdtemp(path.join(os.tmpdir(), "searchlens-release-"));
@@ -23,9 +23,37 @@ test("exact-title records exclude quarantine and duplicate URIs", async () => {
 
 test("exact-title verification accepts an unambiguous result within the result page", async () => {
   const originalFetch = global.fetch;
-  global.fetch = async () => new Response(JSON.stringify({ results: [{ uri: "other" }, { uri: "wanted" }] }));
+  global.fetch = async () => new Response(JSON.stringify({ total: 2, results: [{ uri: "other" }, { uri: "wanted" }] }));
   try {
-    assert.deepEqual(await verify("http://example.test", [{ title: "Same", uri: "wanted" }]), { checked: 1, failures: [], passed: 1 });
+    const result = await verify("http://example.test", [{ title: "Same", uri: "wanted" }]);
+    assert.equal(result.checked, 1);
+    assert.equal(result.passed, 1);
+    assert.deepEqual(result.failures, []);
+    assert.deepEqual(result.records, [{ title: "Same", uri: "wanted", title_group_size: 1, disposition: "pass", page: 1, rank: 2 }]);
+  } finally {
+    global.fetch = originalFetch;
+  }
+});
+
+test("exact-title verification paginates normalized duplicate-title groups", async () => {
+  const originalFetch = global.fetch;
+  const pages = [];
+  global.fetch = async (url) => {
+    pages.push(new URL(url).searchParams.get("page"));
+    const page = new URL(url).searchParams.get("page");
+    return new Response(JSON.stringify(page === "1"
+      ? { total: 12, results: [{ uri: "first" }] }
+      : { total: 12, results: [{ uri: "second" }] }));
+  };
+  try {
+    const entries = [{ title: "Same title", uri: "first" }, { title: "Same: title", uri: "second" }];
+    assert.equal(titleGroups(entries).length, 1);
+    const result = await verify("http://example.test", entries);
+    assert.equal(result.passed, 2);
+    assert.deepEqual(pages, ["1", "2"]);
+    assert.deepEqual(result.records.map(({ uri, page, rank }) => ({ uri, page, rank })), [
+      { uri: "first", page: 1, rank: 1 }, { uri: "second", page: 2, rank: 11 },
+    ]);
   } finally {
     global.fetch = originalFetch;
   }

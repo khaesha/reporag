@@ -155,7 +155,7 @@ func TestSearchDefaults(t *testing.T) {
 func TestSearchValidation(t *testing.T) {
 	gin.SetMode(gin.TestMode)
 	tests := []string{
-		"", "?q=%20", "?q=" + url.QueryEscape(strings.Repeat("x", 201)),
+		"", "?q=%20", "?q=" + url.QueryEscape(strings.Repeat("x", 501)),
 		"?q=x&year=1899", "?q=x&year=invalid",
 		"?q=x&division=%20", "?q=x&division=" + url.QueryEscape(strings.Repeat("x", 201)),
 		"?q=x&item_type=%20", "?q=x&has_abstract=1", "?q=x&sort=score", "?q=x&mode=invalid",
@@ -168,6 +168,17 @@ func TestSearchValidation(t *testing.T) {
 		if response.Code != http.StatusBadRequest || !strings.Contains(response.Body.String(), `"code":"invalid_query"`) {
 			t.Errorf("query=%q status=%d body=%s", query, response.Code, response.Body.String())
 		}
+	}
+}
+
+func TestSearchAcceptsLongCorpusTitle(t *testing.T) {
+	gin.SetMode(gin.TestMode)
+	query := strings.Repeat("x", 296)
+	handler := newTestHandler(func(context.Context) error { return nil }, nil, nil)
+	response := httptest.NewRecorder()
+	handler.ServeHTTP(response, httptest.NewRequest(http.MethodGet, "/api/v1/search?q="+url.QueryEscape(query), nil))
+	if response.Code != http.StatusOK {
+		t.Fatalf("status=%d body=%s", response.Code, response.Body.String())
 	}
 }
 
@@ -233,10 +244,16 @@ func TestRelatedAndTrends(t *testing.T) {
 	if response.Code != http.StatusOK || relatedParams.URI != "https://example.test/1" || relatedParams.Division != "Computer Science" || relatedParams.Limit != 6 {
 		t.Fatalf("status=%d params=%+v", response.Code, relatedParams)
 	}
+	if !strings.HasPrefix(response.Header().Get("Server-Timing"), "retrieval;dur=") {
+		t.Fatalf("timing=%q", response.Header().Get("Server-Timing"))
+	}
 	response = httptest.NewRecorder()
 	handler.ServeHTTP(response, httptest.NewRequest(http.MethodGet, "/api/v1/trends?year=2024&division=Computer+Science", nil))
 	if response.Code != http.StatusOK || trendParams.Year == nil || *trendParams.Year != 2024 || trendParams.Division != "Computer Science" {
 		t.Fatalf("status=%d params=%+v", response.Code, trendParams)
+	}
+	if !strings.HasPrefix(response.Header().Get("Server-Timing"), "retrieval;dur=") {
+		t.Fatalf("timing=%q", response.Header().Get("Server-Timing"))
 	}
 }
 

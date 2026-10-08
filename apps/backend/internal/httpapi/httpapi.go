@@ -151,6 +151,7 @@ func relatedHandler(related func(context.Context, store.RelatedParams) (store.Re
 			writeError(c, http.StatusBadRequest, "invalid_query", err.Error())
 			return
 		}
+		started := time.Now()
 		result, err := related(c.Request.Context(), params)
 		if errors.Is(err, store.ErrRelatedNotFound) {
 			writeError(c, http.StatusNotFound, "not_found", "source record not found")
@@ -165,6 +166,9 @@ func relatedHandler(related func(context.Context, store.RelatedParams) (store.Re
 			writeError(c, http.StatusInternalServerError, "internal_error", "related theses unavailable")
 			return
 		}
+		duration := time.Since(started)
+		slog.Info("related timing", "request_id", c.GetString("request_id"), "retrieval_duration", duration)
+		c.Header("Server-Timing", fmt.Sprintf("retrieval;dur=%.2f", float64(duration)/float64(time.Millisecond)))
 		c.JSON(http.StatusOK, relatedResponse{SourceURI: result.SourceURI, Results: result.Documents})
 	}
 }
@@ -181,12 +185,16 @@ func trendsHandler(trends func(context.Context, store.TrendParams) (store.TrendR
 			writeError(c, http.StatusBadRequest, "invalid_query", err.Error())
 			return
 		}
+		started := time.Now()
 		result, err := trends(c.Request.Context(), params)
 		if err != nil {
 			slog.Error("trend lookup failed", "request_id", c.GetString("request_id"), "error", err)
 			writeError(c, http.StatusInternalServerError, "internal_error", "trends unavailable")
 			return
 		}
+		duration := time.Since(started)
+		slog.Info("trend timing", "request_id", c.GetString("request_id"), "retrieval_duration", duration)
+		c.Header("Server-Timing", fmt.Sprintf("retrieval;dur=%.2f", float64(duration)/float64(time.Millisecond)))
 		c.JSON(http.StatusOK, result)
 	}
 }
@@ -242,8 +250,8 @@ func (request searchRequest) params() (store.SearchParams, error) {
 	if query == "" {
 		return store.SearchParams{}, errors.New("q is required")
 	}
-	if utf8.RuneCountInString(query) > 200 {
-		return store.SearchParams{}, errors.New("q must be at most 200 characters")
+	if utf8.RuneCountInString(query) > 500 {
+		return store.SearchParams{}, errors.New("q must be at most 500 characters")
 	}
 	if request.Year != nil && (*request.Year < 1900 || *request.Year > 2100) {
 		return store.SearchParams{}, errors.New("year must be between 1900 and 2100")

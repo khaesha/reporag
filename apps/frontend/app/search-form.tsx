@@ -233,7 +233,7 @@ export default function SearchForm() {
             onChange={(event) => setQuery(event.target.value)}
             placeholder="Search by title, author, or topic"
             autoComplete="off"
-            maxLength={200}
+            maxLength={500}
             className="h-full min-w-0 flex-1 bg-transparent text-base text-black outline-none placeholder:text-[#91918c]"
           />
           <button

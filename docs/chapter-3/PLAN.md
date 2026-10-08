@@ -29,14 +29,14 @@ References: [PRD baseline](PRD.md#3-baseline), [architecture scope](ARCHITECTURE
 
 ## Phase 1: Resolve exact-title verification and latency gaps
 
-- [ ] Add the smallest diagnostic output needed to classify the 93 recorded misses.
-- [ ] Identify duplicate-title groups, verifier defects, source anomalies, and retrieval defects.
-- [ ] Define and test deterministic verification for distinct URIs sharing one title.
-- [ ] Fix only confirmed shared retrieval or verifier defects.
-- [ ] Rerun exact-title verification for all 2,187 valid URIs.
-- [ ] Rerun lexical, semantic, and hybrid evaluation on the unchanged 100-query set.
-- [ ] Measure lexical, semantic, hybrid, related, trend, vector, and provider latency separately.
-- [ ] Save classification, verifier, evaluation, and latency evidence under `docs/chapter-3`.
+- [x] Add the smallest diagnostic output needed to classify the 93 recorded misses.
+- [x] Identify duplicate-title groups, verifier defects, source anomalies, and retrieval defects.
+- [x] Define and test deterministic verification for distinct URIs sharing one title.
+- [x] Fix only confirmed shared retrieval or verifier defects.
+- [x] Rerun exact-title verification for all 2,187 valid URIs.
+- [x] Rerun lexical, semantic, and hybrid evaluation on the unchanged 100-query set.
+- [x] Measure lexical, semantic, hybrid, related, trend, vector, and provider latency separately.
+- [x] Save classification, verifier, evaluation, and latency evidence under `docs/chapter-3`.
 
 Relevant checks:
 
