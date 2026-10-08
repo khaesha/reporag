@@ -92,7 +92,7 @@ node scripts/benchmark-search.mjs
 
 An alternate API base URL may be supplied as the first argument.
 
-For Supabase PostgreSQL deployment, migration, least-privilege runtime access, verified TLS, backup, restore, and remote timing instructions, see [Chapter 2 deployment notes](docs/chapter-2/DEPLOYMENT.md).
+Historical Chapter 2 hosted-database evidence remains in [Chapter 2 deployment notes](docs/chapter-2/DEPLOYMENT.md). Current hosted deployment is [To Be Discussed](docs/TECH_DEBT.md).
 
 ## Chapter 2 Phase 0
 
@@ -129,9 +129,9 @@ node scripts/verify-exact-titles.mjs http://localhost:8080 docs/chapter-2/releas
 node scripts/evaluate-synthesis.mjs http://localhost:8080 docs/chapter-2/synthesis-results.json
 ```
 
-Generated answers are optional and grounded only in retrieved available abstracts. Citations link to the original repository URI; missing abstracts produce insufficient evidence rather than invented content. Retrieval and deployment evidence is recorded in [the Chapter 2 plan](docs/chapter-2/PLAN.md); public-deployment blockers are in [Tech Debt](docs/chapter-2/TECH_DEBT.md).
+Generated answers are optional and grounded only in retrieved available abstracts. Citations link to the original repository URI; missing abstracts produce insufficient evidence rather than invented content. Retrieval and deployment evidence is recorded in [the Chapter 2 plan](docs/chapter-2/PLAN.md); cross-chapter decisions are in [the review](docs/REVIEW.md), and public-deployment blockers are in [Tech Debt](docs/TECH_DEBT.md).
 
-For rollback, restore the previous server-side `DATABASE_URL`; no frontend configuration changes are needed. Do not publicly enable synthesis until the documented proxy rate limit and all Tech Debt blockers are resolved.
+For local rollback, restore the previous server-side `DATABASE_URL`; frontend configuration remains unchanged. Hosted deployment and public synthesis requirements are To Be Discussed.
 
 ## Database backup
 
