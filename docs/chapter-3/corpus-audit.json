@@ -1,0 +1,459 @@
+{
+  "corpus_sha256": "0162b461c5c8af7d199dd6adc9eb998143a9c2d1063aac7d06c08fbff8057e0d",
+  "files": 42,
+  "records": 2191,
+  "unique_uris": 2190,
+  "valid_unique_uris": 2187,
+  "duplicate_uri_count": 1,
+  "quarantined_uri_count": 3,
+  "yearly_coverage": [
+    {
+      "value": "1991",
+      "count": 1
+    },
+    {
+      "value": "2008",
+      "count": 55
+    },
+    {
+      "value": "2009",
+      "count": 144
+    },
+    {
+      "value": "2010",
+      "count": 210
+    },
+    {
+      "value": "2011",
+      "count": 230
+    },
+    {
+      "value": "2012",
+      "count": 82
+    },
+    {
+      "value": "2013",
+      "count": 117
+    },
+    {
+      "value": "2014",
+      "count": 155
+    },
+    {
+      "value": "2015",
+      "count": 82
+    },
+    {
+      "value": "2016",
+      "count": 165
+    },
+    {
+      "value": "2017",
+      "count": 150
+    },
+    {
+      "value": "2018",
+      "count": 120
+    },
+    {
+      "value": "2019",
+      "count": 137
+    },
+    {
+      "value": "2020",
+      "count": 62
+    },
+    {
+      "value": "2021",
+      "count": 40
+    },
+    {
+      "value": "2022",
+      "count": 61
+    },
+    {
+      "value": "2023",
+      "count": 93
+    },
+    {
+      "value": "2024",
+      "count": 117
+    },
+    {
+      "value": "2025",
+      "count": 149
+    },
+    {
+      "value": "2026",
+      "count": 21
+    }
+  ],
+  "degree_programs": [
+    {
+      "value": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Biologi - S1 > Program Studi Pendidikan Biologi Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Fisika - S1",
+      "count": 1
+    },
+    {
+      "value": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Fisika - S1",
+      "count": 413
+    },
+    {
+      "value": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+      "count": 819
+    },
+    {
+      "value": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Pendidikan Ilmu Komputer",
+      "count": 2
+    },
+    {
+      "value": "Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Pendidikan Ilmu Komputer",
+      "count": 955
+    },
+    {
+      "value": "UPI Kampus Serang > PGSD UPI Kampus Serang",
+      "count": 1
+    }
+  ],
+  "normalized_degree_programs": [
+    {
+      "value": "Program Studi Fisika - S1",
+      "count": 413
+    },
+    {
+      "value": "Program Studi Ilmu Komputer",
+      "count": 819
+    },
+    {
+      "value": "Program Studi Pendidikan Ilmu Komputer",
+      "count": 955
+    }
+  ],
+  "item_types": [
+    {
+      "value": "Article",
+      "count": 1
+    },
+    {
+      "value": "Thesis (S1)",
+      "count": 2184
+    },
+    {
+      "value": "Thesis (S2)",
+      "count": 6
+    }
+  ],
+  "missing_fields": {
+    "title": 0,
+    "abstract": 3,
+    "authors": 0,
+    "item_type": 0,
+    "subjects": 5,
+    "divisions": 0,
+    "depositing_user": 0,
+    "date_deposited": 0,
+    "uri": 0
+  },
+  "invalid_field_count": 0,
+  "invalid_fields": [],
+  "duplicate_uris": [
+    {
+      "uri": "http://repository.upi.edu/id/eprint/110535",
+      "count": 2
+    }
+  ],
+  "probable_duplicate_title_count": 34,
+  "probable_duplicate_titles": [
+    {
+      "title": "AGGREGASI WEBSITE PADA WEB PORTAL UNIVERSITAS BERDASARKAN FRAMEWORK KRISHNA PRASAD DENGAN MENGGUNAKAN XMLRPC",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/112215",
+        "http://repository.upi.edu/id/eprint/112237"
+      ]
+    },
+    {
+      "title": "E-PORTFOLIO PADA PENILAIAN PEMBELAJARAN COLLABORATIVE PROBLEM SOLVING BERBASIS LEARNING MANAGEMENT SYSTEM",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/47908",
+        "http://repository.upi.edu/id/eprint/49046"
+      ]
+    },
+    {
+      "title": "EFEKTIVITAS PENERAPAN MULTIMEDIA PEMBELAJARAN INTERAKTIF KOMPONEN PERANGKAT KERAS (HARDWARE) KOMPUTER DENGAN MENGGUNAKAN METODE DISKUSI KELOMPOK PADA SISWA KELAS VII SMPN 40 BANDUNG",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/104789",
+        "http://repository.upi.edu/id/eprint/112586"
+      ]
+    },
+    {
+      "title": "FRONT-END WEBSITE SYSTEM UNTUK MENINGKATKAN USABILITY LMS MOODLE DENGAN MENGGUNAKAN METODE HUMAN-CENTERED SOFTWARE ENGINEERING",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/14278",
+        "http://repository.upi.edu/id/eprint/14279"
+      ]
+    },
+    {
+      "title": "IMPLEMENTASI MODEL EXPERIENTIAL LEARNING BERBANTU MULTIMEDIA BERBASIS SIDE SCROLLING GAMES UNTUK MENINGKATKAN ASPEK KOGNITIF SISWA SMK KELAS X TERHADAP PEMROGRAMAN DASAR",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/40409",
+        "http://repository.upi.edu/id/eprint/47334"
+      ]
+    },
+    {
+      "title": "MEMBANGUN CUSTOMER TRUST DI DALAM SISTEM E-COMMERCE DENGAN PENDEKATAN THREE DIMENSION OF TRUST",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/4478",
+        "http://repository.upi.edu/id/eprint/9268"
+      ]
+    },
+    {
+      "title": "MEMPERBAIKI KESALAHAN STRATEGI BELAJAR SISWA KELAS VII SMP DI BANDUNG DALAM MEMPELAJARI KONSEP FISIKA DENGAN MODEL PEMBELAJARAN INKUIRI",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/112178",
+        "http://repository.upi.edu/id/eprint/112679"
+      ]
+    },
+    {
+      "title": "MENGATASI KESULITAN SISWA DALAM MEMPELAJARI MATERI PESAWAT SEDERHANA MELALUI MODEL PEMBELAJARAN KOOPERATIF JIGSAW DI KELAS 8 A SMPN 1 RENGASDENGKLOK-KARAWANG",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/110114",
+        "http://repository.upi.edu/id/eprint/112404"
+      ]
+    },
+    {
+      "title": "MENGEMBANGKAN MULTIMEDIA PEMBELAJARAN INTERAKTIF PADA MATA PELAJARAN KETERAMPILAN KOMPUTER DAN PENGELOLAAN INFORMASI BERBASIS SISTEM PENDUKUNG KEPUTUSAN MENGGUNAKAN METODE PROMETHEE",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/107382",
+        "http://repository.upi.edu/id/eprint/107389"
+      ]
+    },
+    {
+      "title": "PENERAPAN ENTERPRISE SERVICE BUS UNTUK INTEGRASI LAYANAN MICROSERVICE BERBASIS REST DAN JSON",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/45714",
+        "http://repository.upi.edu/id/eprint/47691"
+      ]
+    },
+    {
+      "title": "PENERAPAN METODE TEAMS GAMES TOURNAMENT (TGT) BERBANTU MULTIMEDIA ANIMASI INTERAKTIF UNTUK MENINGKATKAN KEMAMPUAN KOGNITIF SISWA",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/42163",
+        "http://repository.upi.edu/id/eprint/47371"
+      ]
+    },
+    {
+      "title": "PENERAPAN MODEL LEARNING CYCLE TERHADAP PENGUASAAN KONSEP PADA POKOK BAHASAN LISTRIK DINAMIS (HUKUM OHM DAN HAMBATAN)",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/100969",
+        "http://repository.upi.edu/id/eprint/110394"
+      ]
+    },
+    {
+      "title": "PENERAPAN MODEL PEMBELAJARAN GENERATIF UNTUK MENINGKATKAN PEMAHAMAN KONSEP FISIKA PADA SISWA SMP",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/112414",
+        "http://repository.upi.edu/id/eprint/85579",
+        "http://repository.upi.edu/id/eprint/85746"
+      ]
+    },
+    {
+      "title": "PENERAPAN MODEL PEMBELAJARAN INKUIRI TERBIMBING UNTUK MENINGKATKAN HASIL BELAJAR FISIKA SISWA SMA",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/101003",
+        "http://repository.upi.edu/id/eprint/112658"
+      ]
+    },
+    {
+      "title": "PENERAPAN MODEL PEMBELAJARAN INKUIRI TERBIMBING UNTUK MENINGKATKAN HASIL BELAJAR SISWA KELAS XI DALAM PEMBELAJARAN TIK",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/112602",
+        "http://repository.upi.edu/id/eprint/79860"
+      ]
+    },
+    {
+      "title": "PENERAPAN MODEL PEMBELAJARAN KOOPERATIF DENGAN TEKNIK THINK PAIR SHARE DALAM PEMBELAJARAN FISIKA UNTUK MENINGKATKAN KETERAMPILAN PROSES BERKOMUNIKASI SISWA",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/112149",
+        "http://repository.upi.edu/id/eprint/112410"
+      ]
+    },
+    {
+      "title": "PENERAPAN MODEL PEMBELAJARAN KOOPERATIF TIPE STAD (STUDENT TEAMS ACHIEVEMENT DIVISIONS) UNTUK MENINGKATKAN KETERAMPILAN PROSES SAINS DAN PRESTASI BELAJAR FISIKA SISWA",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/85575",
+        "http://repository.upi.edu/id/eprint/85742"
+      ]
+    },
+    {
+      "title": "PENERAPAN MODEL PEMBELAJARAN TANDUR UNTUK MENINGKATKAN KETERAMPILAN BERKOMUNIKASI SISWA SMA PADA PEMBELAJARAN FISIKA",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/112186",
+        "http://repository.upi.edu/id/eprint/112473"
+      ]
+    },
+    {
+      "title": "PENGARUH METODE KOOPERATIF TEAM ASSISTED INDIVIDUALIZATION YANG DIPADUKAN DENGAN PRAKTIKUM TERHADAP PRESTASI BELAJAR TEKNOLOGI INFORMASI DAN KOMUNIKASI",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/4454",
+        "http://repository.upi.edu/id/eprint/9752"
+      ]
+    },
+    {
+      "title": "PENGARUH MODEL PEMBELAJARAN PBI TERHADAP KEMAMPUAN ANALISIS SISWA DALAM POKOK BAHASAN GERAK MELINGKAR BERATURAN",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/112140",
+        "http://repository.upi.edu/id/eprint/112154"
+      ]
+    },
+    {
+      "title": "PENGARUH MOLARITAS Ga2O3 DAN LAJU ALIRAN GAS N2 TERHADAP KARAKTERISTIK FISIS FILM TIPIS GaN YANG DITUMBUHKAN DENGAN METODE SOL-GEL MENGGUNAKAN TEKNIK SPIN-COATING",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/112246",
+        "http://repository.upi.edu/id/eprint/112667"
+      ]
+    },
+    {
+      "title": "PENGARUH MOLARITAS LARUTAN EOSIN Y TERHADAP EFISIENSI SEL SURYA STRUKTUR DSSC (DYE-SENSITIZED SOLAR CELL)",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/110125",
+        "http://repository.upi.edu/id/eprint/112413"
+      ]
+    },
+    {
+      "title": "PENGEMBANGAN DAN IMPLEMENTASI MOBILE LEARNING BERBASIS J2ME UNTUK MATA PELAJARAN KETERAMPILAN KOMPUTER DAN PENGELOLAAN INFORMASI :STUDI EKSPERIMEN SISWA KELAS XI SMK NEGERI 2 TASIKMALAYA",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/112250",
+        "http://repository.upi.edu/id/eprint/96802"
+      ]
+    },
+    {
+      "title": "PENGEMBANGAN MEDIA PEMBELAJARAN CERDAS UNTUK MENCIPTAKAN PEMBELAJARAN MANDIRI DIDALAM KELAS MENGGUNAKAN METODE DISCOVERY LEARNING",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/45336",
+        "http://repository.upi.edu/id/eprint/47585"
+      ]
+    },
+    {
+      "title": "PENGEMBANGAN MULTIMEDIA INTERAKTIF CAI MODEL INSTRUCTIONAL GAMES UNTUK MENINGKATKAN HASIL BELAJAR SISWA",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/14007",
+        "http://repository.upi.edu/id/eprint/15926"
+      ]
+    },
+    {
+      "title": "PENGEMBANGAN SISTEM PENGENALAN WAJAH 2D DENGAN IMPLEMENTASI ALGORITMA EIGENFACE DAN MANHATTAN DISTANCE",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/4493",
+        "http://repository.upi.edu/id/eprint/8391"
+      ]
+    },
+    {
+      "title": "RANCANG BANGUN DIGITAL MAGAZINE UNTUK MENUNJANG PEMAHAMAN SISWA SMK PADA MATA PELAJARAN PEMODELAN PERANGKAT LUNAK",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/40400",
+        "http://repository.upi.edu/id/eprint/47329"
+      ]
+    },
+    {
+      "title": "RANCANG BANGUN GAME EDUKASI UNTUK MENDUKUNG PEMBELAJARAN LOGIKA DAN ALGORITMA KOMPUTER",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/42167",
+        "http://repository.upi.edu/id/eprint/47372"
+      ]
+    },
+    {
+      "title": "SELF ASSESSMENT TATA KELOLA TEKNOLOGI INFORMASI BERDASARKAN FRAMEWORK INFORMATION TECHNOLOGY INFRASTRUCTURE LIBRARY (ITIL)",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/106767",
+        "http://repository.upi.edu/id/eprint/1347"
+      ]
+    },
+    {
+      "title": "SISTEM ALAT PENDETEKSI FREKUENSI PUTARAN UNTUK MENENTUKAN MOMEN INERSIA KATROL BERBASIS MIKROKONTROLER",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/112067",
+        "http://repository.upi.edu/id/eprint/112153"
+      ]
+    },
+    {
+      "title": "SISTEM INFORMASI EKSEKUTIF PEDAGANG KAKI LIMA KOTA BANDUNG DENGAN PROSES PENGUMPULAN PEDAGANG KAKI LIMA MENGGUNAKAN SMS GATEWAY",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/22082",
+        "http://repository.upi.edu/id/eprint/23690"
+      ]
+    },
+    {
+      "title": "SISTEM PAKAR DIAGNOSA PENYAKIT HEPATITIS DENGAN MENGGUNAKAN METODE CASE BASED REASONING (CBR)",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/110582",
+        "http://repository.upi.edu/id/eprint/110616"
+      ]
+    },
+    {
+      "title": "SISTEM REKOMENDASI PRIORITAS PENERIMA LAYANAN KONSELING SISWA MENGGUNAKAN METODE SIMPLE ADDITIVE WEIGHTING (SAW) : STUDI KASUS : SMP LABORATORIUM UPI",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/15644",
+        "http://repository.upi.edu/id/eprint/16264"
+      ]
+    },
+    {
+      "title": "UPAYA MENGURANGI MISKONSEPSI SISWA MELALUI PENERAPAN MODEL PEMBELAJARAN GENERATIF",
+      "uris": [
+        "http://repository.upi.edu/id/eprint/105230",
+        "http://repository.upi.edu/id/eprint/84263"
+      ]
+    }
+  ],
+  "unmapped_subject_value_count": 9,
+  "unmapped_subjects": [
+    {
+      "value": "> N Visual arts (General) For photography, see TR Q Science > QA Mathematics > QA76 Computer software T Technology > T Technology (General)",
+      "count": 1
+    },
+    {
+      "value": "> NC Drawing Design Illustration Q Science > QA Mathematics > QA76 Computer software",
+      "count": 1
+    },
+    {
+      "value": "> NK Decorative arts Applied arts Decoration and ornament T Technology > T Technology (General)",
+      "count": 1
+    },
+    {
+      "value": "> NX Arts in general Q Science > QA Mathematics > QA75 Electronic computers. Computer science",
+      "count": 1
+    },
+    {
+      "value": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam ?? MIPA ?? Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Pendidikan Ilmu Komputer",
+      "count": 2
+    },
+    {
+      "value": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer",
+      "count": 66
+    },
+    {
+      "value": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Pendidikan Ilmu Komputer",
+      "count": 48
+    },
+    {
+      "value": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Ilmu Komputer ?? MIPA ??",
+      "count": 3
+    },
+    {
+      "value": "Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Pendidikan Ilmu Komputer Universitas Pendidikan Indonesia > Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam > Program Studi Matematika - S1 > Program Studi Pendidikan Matematika",
+      "count": 1
+    }
+  ],
+  "quarantined_uris": [
+    {
+      "uri": "http://repository.upi.edu/id/eprint/110535",
+      "reason": "Duplicate URI with a concatenated Computer Science division value"
+    },
+    {
+      "uri": "http://repository.upi.edu/id/eprint/35100",
+      "reason": "PGSD record outside the three collected degree programs"
+    },
+    {
+      "uri": "http://repository.upi.edu/id/eprint/80790",
+      "reason": "Physics record with a malformed concatenated Biology and Physics division value"
+    }
+  ]
+}
