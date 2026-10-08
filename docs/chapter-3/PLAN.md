@@ -6,12 +6,12 @@ Chapter 3 targets a reproducible local release. Hosted deployment is [To Be Disc
 
 ## Phase 0: Lock the local release baseline
 
-- [ ] Record local PostgreSQL and pgvector versions.
-- [ ] Record corpus digest, source rows, unique URIs, valid URIs, database documents, and current embeddings.
-- [ ] Record locked embedding and generation model identifiers and limits.
-- [ ] Confirm Chapter 2 evidence is immutable and Chapter 3 evidence uses new files.
-- [ ] Update root documentation to distinguish local release from any future hosted deployment.
-- [ ] Record hosted deployment as `To Be Discussed`.
+- [x] Record local PostgreSQL and pgvector versions.
+- [x] Record corpus digest, source rows, unique URIs, valid URIs, database documents, and current embeddings.
+- [x] Record locked embedding and generation model identifiers and limits.
+- [x] Confirm Chapter 2 evidence is immutable and Chapter 3 evidence uses new files.
+- [x] Update root documentation to distinguish local release from any future hosted deployment.
+- [x] Record hosted deployment as `To Be Discussed`.
 
 Checks:
 

@@ -1,6 +1,8 @@
 # SearchLens
 
-SearchLens is a learning project for discovering Universitas Pendidikan Indonesia (UPI) thesis metadata and available abstracts. Chapter 2 adds pgvector hybrid retrieval, related records, corpus trends, and optional abstract-grounded synthesis. It never accesses restricted PDFs or chapter-level content.
+SearchLens is a learning project for discovering Universitas Pendidikan Indonesia (UPI) thesis metadata and available abstracts. Chapter 2 adds pgvector hybrid retrieval, related records, corpus trends, and optional abstract-grounded synthesis. Chapter 3 proves a reproducible local release of that existing feature set. It never accesses restricted PDFs or chapter-level content.
+
+Chapter 3 makes a local-only release claim: PostgreSQL remains bound to loopback and the application runs on one host. Historical Chapter 2 hosted-database evidence remains unchanged; future hosted deployment is [To Be Discussed](docs/TECH_DEBT.md). This repository does not currently claim public-production readiness.
 
 ## Architecture
 
