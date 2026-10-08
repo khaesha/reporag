@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-10-08T09:00:10.565Z",
+  "corpus_api": "http://localhost:8080",
+  "source_uri": "http://repository.upi.edu/id/eprint/107059",
+  "related": {
+    "samples": 100,
+    "end_to_end_p50_ms": 19.83,
+    "end_to_end_p95_ms": 22.77,
+    "retrieval_p50_ms": 18.92,
+    "retrieval_p95_ms": 21.56
+  },
+  "trends": {
+    "samples": 100,
+    "end_to_end_p50_ms": 4.12,
+    "end_to_end_p95_ms": 4.46,
+    "retrieval_p50_ms": 3.78,
+    "retrieval_p95_ms": 3.95
+  }
+}

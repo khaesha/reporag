@@ -20,21 +20,74 @@ export async function records(directory, quarantinePath) {
   });
 }
 
-export async function verify(baseURL, entries) {
-  const failures = [];
-  for (let offset = 0; offset < entries.length; offset += 20) {
-    const batch = await Promise.all(entries.slice(offset, offset + 20).map(async entry => {
-    const url = new URL("/api/v1/search", baseURL);
-    url.searchParams.set("q", entry.title);
-    url.searchParams.set("mode", "lexical");
-    url.searchParams.set("limit", "10");
-    const response = await fetch(url, { signal: AbortSignal.timeout(15_000) });
-    const body = await response.json();
-    return !response.ok || !body.results?.some(result => result.uri === entry.uri) ? entry.uri : null;
-    }));
-    failures.push(...batch.filter(Boolean));
+export function titleGroups(entries) {
+  const grouped = new Map();
+  for (const entry of entries) {
+    const title = entry.title.trim();
+    const normalized = title
+      .normalize("NFKC")
+      .toLocaleLowerCase("id-ID")
+      .replace(/[^\p{L}\p{N}]+/gu, " ")
+      .trim();
+    const group = grouped.get(normalized) ?? [];
+    group.push({ title, uri: entry.uri });
+    grouped.set(normalized, group);
   }
-  return { checked: entries.length, failures, passed: entries.length - failures.length };
+  return [...grouped.values()]
+    .map((group) => ({
+      title: group.map((entry) => entry.title).toSorted((left, right) => left.localeCompare(right))[0],
+      entries: group.toSorted((left, right) => left.uri.localeCompare(right.uri)),
+    }))
+    .toSorted((left, right) => left.title.localeCompare(right.title));
+}
+
+export async function verify(baseURL, entries) {
+  const verified = [];
+  const failures = [];
+  for (const group of titleGroups(entries)) {
+    const found = new Map();
+    let failure = "";
+    for (let page = 1; ; page++) {
+    const url = new URL("/api/v1/search", baseURL);
+      url.searchParams.set("q", group.title);
+      url.searchParams.set("mode", "lexical");
+      url.searchParams.set("limit", "10");
+      url.searchParams.set("page", String(page));
+      let response;
+      let body;
+      try {
+        response = await fetch(url, { signal: AbortSignal.timeout(15_000) });
+        body = await response.json();
+      } catch (error) {
+        failure = error.message || "request failed";
+        break;
+      }
+      if (!response.ok) {
+        failure = `HTTP ${response.status}`;
+        break;
+      }
+      if (!Array.isArray(body.results) || !Number.isInteger(body.total) || body.total < 0) {
+        failure = "invalid search response";
+        break;
+      }
+      for (const [index, result] of body.results.entries()) {
+        if (group.entries.some((entry) => entry.uri === result.uri)) {
+          found.set(result.uri, { page, rank: (page - 1) * 10 + index + 1 });
+        }
+      }
+      if (found.size === group.entries.length || page * 10 >= body.total) break;
+    }
+    for (const entry of group.entries) {
+      const result = found.get(entry.uri);
+      if (result) {
+        verified.push({ ...entry, title_group_size: group.entries.length, disposition: "pass", ...result });
+        continue;
+      }
+      verified.push({ ...entry, title_group_size: group.entries.length, disposition: "failure", reason: failure || "URI not found in paginated results" });
+      failures.push(entry.uri);
+    }
+  }
+  return { checked: entries.length, title_groups: titleGroups(entries).length, failures, passed: entries.length - failures.length, records: verified };
 }
 
 const script = fileURLToPath(import.meta.url);

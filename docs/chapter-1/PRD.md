@@ -111,7 +111,7 @@ Optional parameters:
 | `page` | Positive integer |
 | `limit` | 1–50 |
 
-The trimmed query must contain 1–200 characters. Supplied division and item-type values must contain 1–200 characters. Unknown but valid exact filter values return an empty result set. `date` sorts newest deposits first with missing dates last.
+The trimmed query must contain 1–500 characters. Supplied division and item-type values must contain 1–200 characters. Unknown but valid exact filter values return an empty result set. `date` sorts newest deposits first with missing dates last.
 
 ### Search response
 

@@ -3,7 +3,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
-import { percentile } from "./benchmark-search.mjs";
+import { percentile, serverTiming } from "./benchmark-search.mjs";
 
 const relevant = (judgment) => judgment.relevance >= 2;
 const mean = (values) => values.reduce((sum, value) => sum + value, 0) / values.length;
@@ -89,6 +89,8 @@ async function run(baseURL, evaluationPath, mode) {
   const evaluation = JSON.parse(contents);
   validateEvaluation(evaluation);
   const latency = [];
+  const retrieval = [];
+  const model = [];
   const rankings = [];
 
   for (let round = 0; round < 6; round++) {
@@ -104,7 +106,11 @@ async function run(baseURL, evaluationPath, mode) {
       if (!response.ok) throw new Error(`${url}: HTTP ${response.status}`);
       const body = await response.json();
       if (!Array.isArray(body.results)) throw new Error(`${url}: invalid search response`);
-      if (round > 0) latency.push(performance.now() - start);
+      if (round > 0) {
+        latency.push(performance.now() - start);
+        retrieval.push(serverTiming(response.headers.get("server-timing"), "retrieval"));
+        model.push(serverTiming(response.headers.get("server-timing"), "model"));
+      }
       if (round === 1) rankings[index] = body.results.map(({ uri }) => uri);
     }
   }
@@ -125,6 +131,10 @@ async function run(baseURL, evaluationPath, mode) {
       p50_ms: Number(percentile(latency, 0.5).toFixed(2)),
       p95_ms: Number(percentile(latency, 0.95).toFixed(2)),
       max_ms: Number(Math.max(...latency).toFixed(2)),
+      retrieval_p50_ms: Number(percentile(retrieval, 0.5).toFixed(2)),
+      retrieval_p95_ms: Number(percentile(retrieval, 0.95).toFixed(2)),
+      model_p50_ms: Number(percentile(model, 0.5).toFixed(2)),
+      model_p95_ms: Number(percentile(model, 0.95).toFixed(2)),
     },
   };
 }
