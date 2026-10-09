@@ -100,15 +100,15 @@ References: [PRD database requirements](PRD.md#85-local-database-operations), [d
 
 ## Phase 4: Chapter 3 local release gate
 
-- [ ] Run all backend checks with database integration enabled.
-- [ ] Run all frontend unit, lint, TypeScript, and production-build checks.
-- [ ] Run corpus audit and all script tests.
-- [ ] Run readiness, lexical, semantic, hybrid, related, trend, and synthesis smoke checks.
-- [ ] Run browser checks for loading, empty, error, keyboard, focus, touch, related, trends, and synthesis states.
-- [ ] Verify restored-database operation through the existing local connection.
-- [ ] Record final environment, corpus, retrieval, latency, synthesis, usage, cost, backup, and restore evidence.
-- [ ] Update README, this plan, and deployment documentation with exact verified commands.
-- [ ] Confirm hosted deployment remains marked `To Be Discussed`.
+- [x] Run all backend checks with database integration enabled.
+- [x] Run all frontend unit, lint, TypeScript, and production-build checks.
+- [x] Run corpus audit and all script tests.
+- [x] Run readiness, lexical, semantic, hybrid, related, trend, and synthesis smoke checks.
+- [x] Run browser checks for loading, empty, error, keyboard, focus, touch, related, trends, and synthesis states.
+- [x] Verify restored-database operation through the existing local connection.
+- [x] Record final environment, corpus, retrieval, latency, synthesis, usage, cost, backup, and restore evidence.
+- [x] Update README, this plan, and deployment documentation with exact verified commands.
+- [x] Confirm hosted deployment remains marked `To Be Discussed`.
 
 Backend checks:
 

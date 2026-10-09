@@ -112,6 +112,16 @@ Record these under `docs/chapter-3`:
 | Backup/restore | Dump checksum, restored counts, smoke checks |
 | Application checks | Backend, frontend, scripts, API, browser |
 
+The verified final API smoke command is:
+
+```sh
+rtk node scripts/release-smoke.mjs http://localhost:8080 /absolute/path/release-smoke.json
+```
+
+It requires the API to be running against the imported local corpus. Keep new
+evidence outside tracked paths when reproducing a release. The committed Phase
+4 record links the verified output and retains the Phase 3 restore evidence.
+
 ## 10. Hosted deployment
 
 **To Be Discussed.** Do not reuse this local runbook as evidence for a public deployment.
