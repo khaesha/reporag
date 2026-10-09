@@ -44,7 +44,7 @@ rtk make migrate-report
 
 Run migration, import, and embedding a second time. The second import and embedding runs must report no changes. Record output in Chapter 3 evidence without secrets or full queries.
 
-Do not destroy an existing volume to simulate a clean release. Use a separate disposable database or isolated Compose project. Phase 3 must document the exact verified isolation command before the release gate runs.
+Do not destroy an existing volume to simulate a clean release. Use the verified Phase 3 command below; it creates two uniquely named disposable databases on the loopback PostgreSQL server and never targets the active database.
 
 ## 5. Start application
 
@@ -69,9 +69,13 @@ Keep PostgreSQL bound to `127.0.0.1`. Run readiness and representative API reque
 
 ## 7. Backup and restore
 
-Create a custom-format dump through the existing local connection and save it outside tracked repository files. Record checksum, creation time, PostgreSQL version, and source document and embedding counts.
+Create a custom-format dump through the existing local connection and save it outside tracked repository files. The verified command builds a clean disposable database, imports and embeds twice, dumps it, restores into a second disposable database, and writes safe evidence under `docs/chapter-3`:
 
-Restore only into a separate disposable local database. Never use `--clean` against the active release database.
+```sh
+rtk make phase3-verify BACKUP_DIR=/absolute/path/outside/repository
+```
+
+`BACKUP_DIR` must already exist and be absolute. Retain the emitted custom-format dump as the last verified local recovery artifact. The command rejects non-loopback database URLs, uses generated `searchlens_phase3_*` names only, stops its temporary API, and drops only those generated databases. Never use `--clean` against the active release database.
 
 After restore, verify:
 
@@ -81,7 +85,7 @@ After restore, verify:
 - API readiness;
 - one lexical, semantic, hybrid, related, trend, and synthesis request.
 
-Phase 3 must add exact backup and restore commands to this section after they pass on the supported local environment. Until then, backup and restore remain unverified.
+The verified Phase 3 result is recorded in [`database-operations.json`](database-operations.json). If the command fails, it still attempts to drop only its generated disposable databases; the dump remains in `BACKUP_DIR` if it was already created.
 
 ## 8. Rollback and cleanup
 

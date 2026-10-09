@@ -1,7 +1,7 @@
 SHELL := /bin/sh
 ENV_FILE := .env
 
-.PHONY: env check-env db-up db-down migrate migrate-report migrate-002 api import embed backend-test
+.PHONY: env check-env db-up db-down migrate migrate-report migrate-002 api import embed backend-test phase3-verify
 
 env:
 	@if test -e "$(ENV_FILE)"; then \
@@ -45,3 +45,8 @@ embed: check-env
 
 backend-test: check-env
 	@set -a; . ./$(ENV_FILE); set +a; cd apps/backend && go vet ./... && go test ./...
+
+phase3-verify: check-env
+	@test -n "$(BACKUP_DIR)" || { echo "BACKUP_DIR must be an absolute existing directory" >&2; exit 1; }
+	@test -d "$(BACKUP_DIR)" || { echo "BACKUP_DIR must exist" >&2; exit 1; }
+	@set -a; . ./$(ENV_FILE); set +a; BACKUP_DIR="$(BACKUP_DIR)" exec node scripts/verify-local-db.mjs

@@ -78,12 +78,12 @@ References: [PRD synthesis requirements](PRD.md#84-synthesis-evidence), [archite
 
 ## Phase 3: Prove local database operations
 
-- [ ] Build a clean isolated local database from ordered migrations.
-- [ ] Import and embed twice; record idempotent second runs.
-- [ ] Create a custom-format dump through the existing local connection.
-- [ ] Restore into a separate disposable local database.
-- [ ] Run readiness, representative API, count, and embedding checks after restore.
-- [ ] Document safe cleanup and rollback without targeting the active database.
+- [x] Build a clean isolated local database from ordered migrations.
+- [x] Import and embed twice; record idempotent second runs.
+- [x] Create a custom-format dump through the existing local connection.
+- [x] Restore into a separate disposable local database.
+- [x] Run readiness, representative API, count, and embedding checks after restore.
+- [x] Document safe cleanup and rollback without targeting the active database.
 
 Checks:
 

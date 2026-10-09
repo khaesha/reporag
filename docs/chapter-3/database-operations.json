@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-10-09T08:35:38.926Z",
+  "clean_build": {
+    "first_import": {
+      "inserted": 2190,
+      "updated": 1,
+      "rejected": 0,
+      "total": 2191
+    },
+    "second_import": {
+      "inserted": 0,
+      "updated": 2191,
+      "rejected": 0,
+      "total": 2191
+    },
+    "first_embed": {
+      "embedded": 2190,
+      "skipped": 0,
+      "failed": 0,
+      "total": 2190
+    },
+    "second_embed": {
+      "embedded": 0,
+      "skipped": 2190,
+      "failed": 0,
+      "total": 2190
+    },
+    "report": {
+      "postgresql": "18.6 (Debian 18.6-1.pgdg13+2)",
+      "pgvector": "0.8.6",
+      "documents": 2190,
+      "embeddings": 2190
+    }
+  },
+  "backup": {
+    "filename": "searchlens-phase3-2026-10-09T08-33-05-741Z.dump",
+    "sha256": "1500f08168f17f2fa42b14e30c501e2ca70673cf6436879a2aa81e81190516d8"
+  },
+  "restore": {
+    "report": {
+      "postgresql": "18.6 (Debian 18.6-1.pgdg13+2)",
+      "pgvector": "0.8.6",
+      "documents": 2190,
+      "embeddings": 2190
+    },
+    "smoke_checks": [
+      "ready",
+      "lexical",
+      "semantic",
+      "hybrid",
+      "related",
+      "trends",
+      "synthesis"
+    ]
+  }
+}
