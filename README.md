@@ -94,6 +94,18 @@ node scripts/benchmark-search.mjs
 
 An alternate API base URL may be supplied as the first argument.
 
+For the final Chapter 3 local release smoke, keep the API running and write a new
+evidence file (do not overwrite the committed result):
+
+```sh
+rtk node scripts/release-smoke.mjs http://localhost:8080 /absolute/path/release-smoke.json
+```
+
+It checks readiness plus lexical, semantic, hybrid, related, trend, and
+abstract-synthesis paths. The full verified release record is
+[Phase 4](docs/chapter-3/PHASE-4.md). It is a local-only result; hosted
+deployment remains [To Be Discussed](docs/TECH_DEBT.md).
+
 Historical Chapter 2 hosted-database evidence remains in [Chapter 2 deployment notes](docs/chapter-2/DEPLOYMENT.md). Current hosted deployment is [To Be Discussed](docs/TECH_DEBT.md).
 
 ## Chapter 2 Phase 0
