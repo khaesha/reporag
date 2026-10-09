@@ -9,9 +9,11 @@ import (
 	"net/url"
 	"strings"
 	"testing"
+	"time"
 
 	"github.com/gin-gonic/gin"
 
+	"github.com/khaesha/reporag/apps/backend/internal/ai"
 	"github.com/khaesha/reporag/apps/backend/internal/answer"
 	"github.com/khaesha/reporag/apps/backend/internal/search"
 	"github.com/khaesha/reporag/apps/backend/internal/store"
@@ -302,7 +304,7 @@ func TestAnswer(t *testing.T) {
 		func(context.Context, store.TrendParams) (store.TrendResult, error) { return store.TrendResult{}, nil },
 		func(_ context.Context, request answer.Request) (answer.Response, error) {
 			received = request
-			return answer.Response{Answer: "Supported [1]", Basis: answer.Basis, Citations: []answer.Citation{{ID: 1, Title: "Title", URI: "https://example.test/1"}}, InsufficientEvidence: false}, nil
+			return answer.Response{Answer: "Supported [1]", Basis: answer.Basis, Citations: []answer.Citation{{ID: 1, Title: "Title", URI: "https://example.test/1"}}, InsufficientEvidence: false, PromptTokens: 10, CompletionTokens: 5, ModelDuration: 12 * time.Millisecond}, nil
 		},
 		func(context.Context) (store.FilterValues, error) { return store.FilterValues{}, nil },
 		"http://localhost:3000",
@@ -311,7 +313,7 @@ func TestAnswer(t *testing.T) {
 	request := httptest.NewRequest(http.MethodPost, "/api/v1/answer", strings.NewReader(`{"query":"  summarize plants ","year":2024,"division":"Computer Science"}`))
 	request.Header.Set("Content-Type", "application/json")
 	handler.ServeHTTP(response, request)
-	if response.Code != http.StatusOK || received.Query != "summarize plants" || received.Year == nil || *received.Year != 2024 || received.Division != "Computer Science" || !strings.Contains(response.Body.String(), `"citations":[`) {
+	if response.Code != http.StatusOK || received.Query != "summarize plants" || received.Year == nil || *received.Year != 2024 || received.Division != "Computer Science" || !strings.Contains(response.Body.String(), `"citations":[`) || !strings.Contains(response.Body.String(), `"model":"`+ai.GenerationModel+`"`) || !strings.Contains(response.Body.String(), `"prompt_tokens":10`) || !strings.Contains(response.Body.String(), `"completion_tokens":5`) || !strings.Contains(response.Body.String(), `"model_latency_ms":12`) || !strings.Contains(response.Body.String(), `"estimated_cost_usd":0.000008`) {
 		t.Fatalf("status=%d request=%+v body=%s", response.Code, received, response.Body.String())
 	}
 	for _, body := range []string{`{"query":""}`, `{"query":"x","evidence":"client supplied"}`, `{"query":"x"}{}`} {

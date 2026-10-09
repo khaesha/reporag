@@ -1,0 +1,1051 @@
+{
+  "prompts": [
+    {
+      "id": "concept-015",
+      "query": "simulasi virtual untuk membantu siswa memahami konsep fisika yang abstrak",
+      "expected": "supported",
+      "request_id": "f20a717b6a5c32b51b0242b591eda195",
+      "status": 200,
+      "answer": "Media simulasi virtual dapat membantu siswa memahami konsep fisika yang abstrak dengan meningkatkan pemahaman konsep secara signifikan dibandingkan pembelajaran tanpa simulasi.[1][2] Penggunaannya juga dilaporkan dapat meningkatkan pemahaman pada materi suhu dan kalor serta mengurangi miskonsepsi siswa.[3] Pada materi listrik arus searah, simulasi virtual yang dipadukan dengan strategi konflik kognitif menghasilkan peningkatan pemahaman kategori tinggi dengan gain ternormalisasi 0,79.[7]",
+      "insufficient_evidence": false,
+      "citations": [
+        {
+          "id": 1,
+          "title": "PENGGUNAAN MEDIA SIMULASI VIRTUAL DALAM PEMBELAJARAN BERBASIS MASALAH (PROBLEM BASED LEARNING) PADA PROSES PEMBELAJARAN FISIKA UNTUK MENINGKATKAN PEMAHAMAN KONSEP SISWA SMA",
+          "uri": "http://repository.upi.edu/id/eprint/107437",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 2,
+          "title": "PENGARUH PENGGUNAAN MEDIA SIMULASI VIRTUAL DALAM PEMBELAJARAN FISIKA UNTUK MENINGKATKAN PEMAHAMAN KONSEP SISWA SMA KELAS XI DI BANDUNG",
+          "uri": "http://repository.upi.edu/id/eprint/112346",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 3,
+          "title": "PENGGUNAAN MEDIA SIMULASI VIRTUAL PADA PEMBELAJARAN KONSEPTUAL INTERAKTIF UNTUK MENINGKATKAN PEMAHAMAN KONSEP FISIKA DAN MEMINIMALKAN KUANTITAS MISKONSEPSI SISWA SMA KELAS X",
+          "uri": "http://repository.upi.edu/id/eprint/112331",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 7,
+          "title": "PENERAPAN STRATEGI KONFLIK KOGNITIF BERBANTUAN MEDIA SIMULASI VIRTUAL PADA MODEL PEMBELAJARAN BERORIENTASI PERUBAHAN KONSEPTUAL UNTUK MENINGKATKAN PEMAHAMAN KONSEP DAN MENURUNKAN KUANTITAS SISWA YANG MISKONSEPSI",
+          "uri": "http://repository.upi.edu/id/eprint/12572",
+          "corpus_match": true,
+          "abstract_available": true
+        }
+      ],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3488,
+        "completion_tokens": 216,
+        "latency_ms": 5232.517208,
+        "model_latency_ms": 4118.365291,
+        "estimated_cost_usd": 0.0009568000000000001
+      },
+      "claims": []
+    },
+    {
+      "id": "concept-001",
+      "query": "memprediksi hujan dari pola cuaca menggunakan jaringan saraf",
+      "expected": "supported",
+      "request_id": "c9642377d12f3d371162a7b20eda7825",
+      "status": 200,
+      "answer": "Penelitian yang paling relevan adalah peramalan curah hujan menggunakan jaringan saraf tiruan berbasis backpropagation. Tujuannya memprediksi jumlah curah hujan pada waktu mendatang untuk mendukung perencanaan dan antisipasi terhadap curah hujan yang terlalu rendah atau tinggi.[1]",
+      "insufficient_evidence": false,
+      "citations": [
+        {
+          "id": 1,
+          "title": "PENERAPAN JARINGAN SARAF TIRUAN BACKPROPAGATION UNTUK PERAMALAN CURAH HUJAN",
+          "uri": "http://repository.upi.edu/id/eprint/112136",
+          "corpus_match": true,
+          "abstract_available": true
+        }
+      ],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3460,
+        "completion_tokens": 196,
+        "latency_ms": 4509.440209,
+        "model_latency_ms": 3398.589417,
+        "estimated_cost_usd": 0.0009272
+      },
+      "claims": []
+    },
+    {
+      "id": "concept-008",
+      "query": "belajar merakit komputer melalui simulasi multimedia interaktif",
+      "expected": "supported",
+      "request_id": "c7cc335abd0b03ab88014eb3258edc5b",
+      "status": 200,
+      "answer": "Belajar merakit komputer melalui simulasi multimedia interaktif dapat dilakukan dengan beberapa pilihan media: multimedia simulasi CBI untuk mereplikasi kegiatan perakitan dan meningkatkan motivasi belajar hingga 7,79% [1]; multimedia 3D berbasis Android yang memperoleh kelayakan 88,6%, respons siswa 86,6%, dan memungkinkan seluruh siswa melakukan simulasi perakitan [3]; multimedia 3D dengan model SAVI yang menghasilkan gain 0,68 pada kelas eksperimen [2]; serta multimedia interaktif 3D berbasis model Luther yang memperoleh gain 0,56 dan respons siswa 88,87% [6]. Alternatif lain adalah multimedia interaktif berbasis game petualangan dengan metode discovery learning, yang memperoleh peningkatan gain 0,663 dalam pemahaman kognitif siswa [5].",
+      "insufficient_evidence": false,
+      "citations": [
+        {
+          "id": 1,
+          "title": "PENGEMBANGAN MULTIMEDIA PEMBELAJARAN INTERAKTIF MENGADAPTASI KONSEP COMPUTER BASED INSTRUCTION (CBI) MODEL SIMULASI UNTUK MENINGKATKAN MOTIVASI BELAJAR SISWA DALAM PEMBELAJARAN MERAKIT KOMPUTER",
+          "uri": "http://repository.upi.edu/id/eprint/110952",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 2,
+          "title": "PEMBELAJARAN PERAKITAN KOMPUTER DENGAN MODEL SAVI BERBANTUAN MULTIMEDIA 3D UNTUK MENINGKATKAN PEMAHAMAN SISWA",
+          "uri": "http://repository.upi.edu/id/eprint/26481",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 3,
+          "title": "MULTIMEDIA 3D BERBASIS ANDROID UNTUK PERAKITAN KOMPUTER",
+          "uri": "http://repository.upi.edu/id/eprint/39104",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 5,
+          "title": "RANCANG BANGUN MULTIMEDIA INTERAKTIF BERBASIS GAME PETUALANGAN DENGAN METODE DISCOVERY LEARNING UNTUK MENINGKATKAN PEMAHAMAN KOGNITIF SISWA TERHADAP MATA PELAJARAN PERAKITAN KOMPUTER DI SMK",
+          "uri": "http://repository.upi.edu/id/eprint/24880",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 6,
+          "title": "PENGEMBANGAN MULTIMEDIA PERAKITAN KOMPUTER 3D MODEL LUTHER UNTUK MENINGKATKAN KOGNITIF SISWA SMK X RPL",
+          "uri": "http://repository.upi.edu/id/eprint/69929",
+          "corpus_match": true,
+          "abstract_available": true
+        }
+      ],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3596,
+        "completion_tokens": 316,
+        "latency_ms": 5040.269541,
+        "model_latency_ms": 3896.298208,
+        "estimated_cost_usd": 0.0010984
+      },
+      "claims": []
+    },
+    {
+      "id": "concept-016",
+      "query": "mengubah pemahaman awal siswa yang keliru melalui pembelajaran generatif",
+      "expected": "supported",
+      "request_id": "ca1e724a3106e163bf4108ad81fb3df4",
+      "status": 200,
+      "answer": "Pembelajaran generatif dapat mengubah pemahaman awal siswa yang keliru dengan mendorong mereka aktif mengonstruksi dan meninjau kembali konsep yang dipelajari.[4] Penerapannya terbukti mengurangi miskonsepsi siswa pada materi listrik dinamis, dari rata-rata 48,20% sebelum tindakan menjadi 31,20% pada siklus I, 24,25% pada siklus II, dan 24% pada siklus III.[1] Model ini juga meningkatkan pemahaman konsep; pada pembelajaran fisika, skor gain meningkat dari 0,33 pada seri I menjadi 0,37 pada seri II dan 0,44 pada seri III.[4] Jika didukung multimedia interaktif, peningkatan pemahaman konsep pembelajaran generatif lebih tinggi daripada pembelajaran konvensional, dengan rata-rata n-gain 0,463 berbanding 0,236.[6]",
+      "insufficient_evidence": false,
+      "citations": [
+        {
+          "id": 1,
+          "title": "UPAYA MENGURANGI MISKONSEPSI SISWA MELALUI PENERAPAN MODEL PEMBELAJARAN GENERATIF",
+          "uri": "http://repository.upi.edu/id/eprint/84263",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 4,
+          "title": "PENERAPAN MODEL PEMBELAJARAN GENERATIF UNTUK MENINGKATKAN PEMAHAMAN KONSEP FISIKA PADA SISWA SMP",
+          "uri": "http://repository.upi.edu/id/eprint/85579",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 6,
+          "title": "IMPLEMENTASI PEMBELAJARAN GENERATIF BERBANTUAN MULTIMEDIA INTERAKTIF UNTUK MENINGKATKAN PEMAHAMAN KONSEP DAN KETERAMPILAN BERPIKIR KRITIS SISWA SEKOLAH MENENGAH KEJURUAN (SMK)",
+          "uri": "http://repository.upi.edu/id/eprint/382",
+          "corpus_match": true,
+          "abstract_available": true
+        }
+      ],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3487,
+        "completion_tokens": 309,
+        "latency_ms": 5187.816959,
+        "model_latency_ms": 3410.295625,
+        "estimated_cost_usd": 0.0010682
+      },
+      "claims": []
+    },
+    {
+      "id": "concept-002",
+      "query": "mencari rute labirin empat arah dengan heuristik jarak Manhattan",
+      "expected": "supported",
+      "request_id": "a4da6a02202d199149247d2b0ab6c6da",
+      "status": 200,
+      "answer": "Gunakan algoritma A* untuk mencari rute labirin empat arah. A* memilih simpul dengan nilai heuristik terendah dan menggunakan heuristik Manhattan untuk pergerakan empat arah, dengan mengunjungi simpul-simpul anak dari simpul yang telah diproses hingga mencapai tujuan [1]. Dalam perhitungannya, A* mempertimbangkan biaya dari simpul awal g(n) dan estimasi biaya menuju tujuan h(n) [3]. Jika pencarian tidak menemukan tujuan, proses dapat melakukan runut balik ke simpul sebelumnya [1].",
+      "insufficient_evidence": false,
+      "citations": [
+        {
+          "id": 1,
+          "title": "PERBANDINGAN ALGORITMA A* DAN BREADTH FIRST SEARCH PADA BLOCK MAZE",
+          "uri": "http://repository.upi.edu/id/eprint/106797",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 3,
+          "title": "PENCARIAN LINTASAN TERPENDEK DAN TEREFISIEN BERDASARKAN JALUR DAN TARIF RELATIF ANGKUTAN KOTA (ANGKOT) MENGGUNAKAN ALGORITMA A*",
+          "uri": "http://repository.upi.edu/id/eprint/38363",
+          "corpus_match": true,
+          "abstract_available": true
+        }
+      ],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3533,
+        "completion_tokens": 331,
+        "latency_ms": 5004.36275,
+        "model_latency_ms": 3837.803458,
+        "estimated_cost_usd": 0.0011038
+      },
+      "claims": []
+    },
+    {
+      "id": "concept-009",
+      "query": "mengajarkan dasar ilmu komputer tanpa memakai perangkat komputer",
+      "expected": "supported",
+      "request_id": "1544892d09c9dde61e5c793a4701b0d1",
+      "status": 200,
+      "answer": "Metode tersebut adalah Computer Science Unplugged (CSU), yaitu pembelajaran konsep ilmu komputer tanpa perangkat komputer melalui aktivitas fisik dan media sederhana seperti kartu, tali, krayon, permainan bowling, pencarian kartu, atau melipat kertas.[3][4][5] CSU dapat digunakan untuk mengajarkan algoritma, array, pencarian, pemrograman dasar, bilangan biner, basis data, dan subnetting.[2][4][5][6]",
+      "insufficient_evidence": false,
+      "citations": [
+        {
+          "id": 2,
+          "title": "PENERAPAN COMPUTER SCIENCE UNPLUGGED UNTUK MENINGKATKAN COMPUTATIONAL THINKING PADA MATA PELAJARAN BASIS DATA",
+          "uri": "http://repository.upi.edu/id/eprint/132550",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 3,
+          "title": "PENERAPAN COMPUTER SCIENCE UNPLUGGED PADA MATA PELAJARAN PEMROGRAMAN DASAR UNTUK MENINGKATKAN COMPUTATIONAL THINKING SISWA SMK",
+          "uri": "http://repository.upi.edu/id/eprint/79324",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 4,
+          "title": "IMPLEMENTASI COMPUTER SCIENCE UNPLUGGED (CSU) PADA MATA PELAJARAN PEMOGRAMAN DASAR UNTUK MENINGKATKAN KOGNITIF SISWA",
+          "uri": "http://repository.upi.edu/id/eprint/90419",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 5,
+          "title": "PENERAPAN COMPUTER SCIENCE UNPLUGGED (CS UNPLUGGED) PADA MATA PELAJARAN KOMPUTER DAN JARINGAN DASAR GUNA MENINGKATKAN KEMAMPUAN BERPIKIR LOGIS SISWA",
+          "uri": "http://repository.upi.edu/id/eprint/89964",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 6,
+          "title": "PENGARUH METODE PEMBELAJARAN UNPLUGGED DALAM KONSEP DASAR TIK TERHADAP HASIL BELAJAR SISWA SMK KELAS X : Studi Kasus Pada Siswa Kelas X Jurusan Komputer dan Teknik Jaringan di SMK Pasundan 1 Cimahi",
+          "uri": "http://repository.upi.edu/id/eprint/4372",
+          "corpus_match": true,
+          "abstract_available": true
+        }
+      ],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3450,
+        "completion_tokens": 213,
+        "latency_ms": 4803.419167,
+        "model_latency_ms": 3644.795042,
+        "estimated_cost_usd": 0.0009456
+      },
+      "claims": []
+    },
+    {
+      "id": "concept-017",
+      "query": "material keramik zirkonia stabil untuk menyangga bahan bakar reaktor",
+      "expected": "supported",
+      "request_id": "eb9af17c91bd63332c1e2a1888a31eb7",
+      "status": 200,
+      "answer": "Material yang sesuai adalah keramik matriks inert berbasis ZrO₂ yang distabilkan CaO dan ditambahkan Al₂O₃. Bahan ini membentuk kecenderungan struktur kubik, memiliki densitas sinter lebih dari 94% densitas teoritis, tahan terhadap air, serta memiliki kekerasan dan ketangguhan tinggi, sehingga memenuhi sebagian kriteria sebagai penyangga bahan bakar reaktor nuklir.[1]",
+      "insufficient_evidence": false,
+      "citations": [
+        {
+          "id": 1,
+          "title": "PEMBUATAN KERAMIK MATRIKS INERT ZrO2 YANG DISTABILKAN CaO DENGAN PENAMBAHAN Al2O3 UNTUK PENDUKUNG BAHAN BAKAR REAKTOR NUKLIR DAN KARAKTERISASINYA",
+          "uri": "http://repository.upi.edu/id/eprint/107859",
+          "corpus_match": true,
+          "abstract_available": true
+        }
+      ],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 4347,
+        "completion_tokens": 261,
+        "latency_ms": 5036.566667,
+        "model_latency_ms": 3865.667458,
+        "estimated_cost_usd": 0.0011826
+      },
+      "claims": []
+    },
+    {
+      "id": "concept-003",
+      "query": "mengatur lama lampu hijau berdasarkan kondisi kepadatan persimpangan",
+      "expected": "supported",
+      "request_id": "3ea516bc1bdecb703ed2eeeafa10e31a",
+      "status": 200,
+      "answer": "Gunakan sistem lampu lalu lintas adaptif berbasis logika fuzzy untuk menentukan durasi lampu hijau sesuai tingkat kepadatan kendaraan pada tiap ruas jalan. Algoritma genetika dapat digunakan untuk mengoptimalkan aturan atau rancangan sistem fuzzy apabila aturan pakar belum tersedia. [2]",
+      "insufficient_evidence": false,
+      "citations": [
+        {
+          "id": 2,
+          "title": "PENGGUNAAN SISTEM FUZZY DENGAN ALGORITMA GENETIKA PADA TRAFFIC LIGHT ADAPTIF",
+          "uri": "http://repository.upi.edu/id/eprint/110961",
+          "corpus_match": true,
+          "abstract_available": true
+        }
+      ],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3429,
+        "completion_tokens": 170,
+        "latency_ms": 4703.572833,
+        "model_latency_ms": 3456.159375,
+        "estimated_cost_usd": 0.0008898
+      },
+      "claims": []
+    },
+    {
+      "id": "bilingual-011",
+      "query": "guided inquiry to improve academic skills in physics",
+      "expected": "supported",
+      "request_id": "405bdecc5dc2303b3e87577dd0e226b7",
+      "status": 200,
+      "answer": "Guided inquiry can improve students’ academic skills in physics. In one high-school study, students’ skills in hypothesizing, identifying variables, relating variables, and designing experiments increased from very low to moderate, with moderate improvement and moderate instructional effectiveness [1]. Related studies also reported improved academic skills and physics achievement after modified inquiry [2], as well as improved generic skills, science-process skills, and achievement following guided inquiry [3][4].",
+      "insufficient_evidence": false,
+      "citations": [
+        {
+          "id": 1,
+          "title": "PENERAPAN MODEL PEMBELAJARAN INKUIRI TERBIMBING UNTUK MENINGKATKAN KECAKAPAN AKADEMIK SISWA PADA PEMBELAJARAN FISIKA",
+          "uri": "http://repository.upi.edu/id/eprint/111493",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 2,
+          "title": "PENERAPAN MODEL PEMBELAJARAN MODIFIED INQUIRY UNTUK MENINGKATKAN KECAKAPAN AKADEMIK DAN PRESTASI BELAJAR FISIKA SISWA SMA",
+          "uri": "http://repository.upi.edu/id/eprint/107222",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 3,
+          "title": "PENINGKATAN KETERAMPILAN GENERIK DAN PRESTASI BELAJAR SISWA SMA DENGAN PENERAPAN MODEL INKUIRI TERBIMBING",
+          "uri": "http://repository.upi.edu/id/eprint/106717",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 4,
+          "title": "PENERAPAN MODEL PEMBELAJARAN INKUIRI TERBIMBING SEBAGAI UPAYA MENINGKATKAN KETERAMPILAN PROSES SAINS DAN PRESTASI BELAJAR FISIKA SISWA SMA",
+          "uri": "http://repository.upi.edu/id/eprint/112573",
+          "corpus_match": true,
+          "abstract_available": true
+        }
+      ],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3322,
+        "completion_tokens": 202,
+        "latency_ms": 4223.482708,
+        "model_latency_ms": 3113.577334,
+        "estimated_cost_usd": 0.0009068000000000001
+      },
+      "claims": []
+    },
+    {
+      "id": "bilingual-001",
+      "query": "rainfall forecasting with a backpropagation neural network",
+      "expected": "supported",
+      "request_id": "3a8a76548cf7f955d4e964cae6c06fda",
+      "status": 200,
+      "answer": "A 2011 study titled “Penerapan Jaringan Saraf Tiruan Backpropagation untuk Peramalan Curah Hujan” applies a backpropagation artificial neural network to rainfall forecasting. Its stated purpose is to estimate future rainfall amounts to support planning and disaster preparedness, since excessively low or high rainfall can cause disasters.[1]",
+      "insufficient_evidence": false,
+      "citations": [
+        {
+          "id": 1,
+          "title": "PENERAPAN JARINGAN SARAF TIRUAN BACKPROPAGATION UNTUK PERAMALAN CURAH HUJAN",
+          "uri": "http://repository.upi.edu/id/eprint/112136",
+          "corpus_match": true,
+          "abstract_available": true
+        }
+      ],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3524,
+        "completion_tokens": 183,
+        "latency_ms": 4106.12375,
+        "model_latency_ms": 2843.127833,
+        "estimated_cost_usd": 0.0009244000000000001
+      },
+      "claims": []
+    },
+    {
+      "id": "bilingual-006",
+      "query": "interactive learning media for computer assembly simulation",
+      "expected": "supported",
+      "request_id": "0486886a92a47faec03bbcb21b5f74e7",
+      "status": 200,
+      "answer": "Relevant interactive learning media for computer assembly simulation include: (1) CBI-based computer-assembly simulation multimedia, developed to replicate assembly activities where infrastructure is limited; it achieved 83.89% multimedia-expert validation, 78.56% educational-expert validation, 86.46% user validation, and increased student motivation by 7.79%.[1] (2) Luther-model interactive 3D multimedia, rated 84.1% by material experts and 84.23% by media experts, with medium effectiveness (gain 0.56) and 88.87% student response.[2] (3) SAVI-assisted 3D multimedia, which produced a 0.68 gain in the experimental class compared with 0.54 in the control class.[3] (4) Discovery-learning adventure-game multimedia, which achieved a 0.663 average gain in students’ cognitive understanding.[4] (5) Android-based 3D multimedia developed with Unity 3D, which received 88.6% feasibility, 86.6% student response, and enabled all participating students to perform the assembly simulation.[5]",
+      "insufficient_evidence": false,
+      "citations": [
+        {
+          "id": 1,
+          "title": "PENGEMBANGAN MULTIMEDIA PEMBELAJARAN INTERAKTIF MENGADAPTASI KONSEP COMPUTER BASED INSTRUCTION (CBI) MODEL SIMULASI UNTUK MENINGKATKAN MOTIVASI BELAJAR SISWA DALAM PEMBELAJARAN MERAKIT KOMPUTER",
+          "uri": "http://repository.upi.edu/id/eprint/110952",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 2,
+          "title": "PENGEMBANGAN MULTIMEDIA PERAKITAN KOMPUTER 3D MODEL LUTHER UNTUK MENINGKATKAN KOGNITIF SISWA SMK X RPL",
+          "uri": "http://repository.upi.edu/id/eprint/69929",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 3,
+          "title": "PEMBELAJARAN PERAKITAN KOMPUTER DENGAN MODEL SAVI BERBANTUAN MULTIMEDIA 3D UNTUK MENINGKATKAN PEMAHAMAN SISWA",
+          "uri": "http://repository.upi.edu/id/eprint/26481",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 4,
+          "title": "RANCANG BANGUN MULTIMEDIA INTERAKTIF BERBASIS GAME PETUALANGAN DENGAN METODE DISCOVERY LEARNING UNTUK MENINGKATKAN PEMAHAMAN KOGNITIF SISWA TERHADAP MATA PELAJARAN PERAKITAN KOMPUTER DI SMK",
+          "uri": "http://repository.upi.edu/id/eprint/24880",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 5,
+          "title": "MULTIMEDIA 3D BERBASIS ANDROID UNTUK PERAKITAN KOMPUTER",
+          "uri": "http://repository.upi.edu/id/eprint/39104",
+          "corpus_match": true,
+          "abstract_available": true
+        }
+      ],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3159,
+        "completion_tokens": 387,
+        "latency_ms": 5415.710166,
+        "model_latency_ms": 4257.454167,
+        "estimated_cost_usd": 0.0010962
+      },
+      "claims": []
+    },
+    {
+      "id": "bilingual-012",
+      "query": "virtual simulation for conceptual understanding in high school physics",
+      "expected": "supported",
+      "request_id": "c761a53e9efbc9793c06c1c4c2203d4e",
+      "status": 200,
+      "answer": "Virtual simulations appear effective for improving conceptual understanding in high-school physics when integrated with instructional approaches such as problem-based learning, interactive conceptual learning, or cognitive-conflict strategies.[1][2][3][4][6] Reported outcomes include moderate normalized gains for gas kinetics (0.32 versus 0.20 with conventional instruction), improved understanding and reduced misconceptions in temperature and heat, and higher gains with fewer misconceptions in static fluids (0.36 versus 0.28; misconceptions 21.8% versus 29.5%).[2][3][4] A cognitive-conflict approach supported by virtual simulation produced a high normalized gain of 0.79 in direct-current circuits and substantially reduced misconceptions.[6] Computer-simulation multimedia for work and energy also produced a moderate average normalized gain of 0.37, although the gain for analysis skills was low (0.12). [7]",
+      "insufficient_evidence": false,
+      "citations": [
+        {
+          "id": 1,
+          "title": "PENGGUNAAN MEDIA SIMULASI VIRTUAL DALAM PEMBELAJARAN BERBASIS MASALAH (PROBLEM BASED LEARNING) PADA PROSES PEMBELAJARAN FISIKA UNTUK MENINGKATKAN PEMAHAMAN KONSEP SISWA SMA",
+          "uri": "http://repository.upi.edu/id/eprint/107437",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 2,
+          "title": "PENGARUH PENGGUNAAN MEDIA SIMULASI VIRTUAL DALAM PEMBELAJARAN FISIKA UNTUK MENINGKATKAN PEMAHAMAN KONSEP SISWA SMA KELAS XI DI BANDUNG",
+          "uri": "http://repository.upi.edu/id/eprint/112346",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 3,
+          "title": "PENGGUNAAN MEDIA SIMULASI VIRTUAL PADA PEMBELAJARAN KONSEPTUAL INTERAKTIF UNTUK MENINGKATKAN PEMAHAMAN KONSEP FISIKA DAN MEMINIMALKAN KUANTITAS MISKONSEPSI SISWA SMA KELAS X",
+          "uri": "http://repository.upi.edu/id/eprint/112331",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 4,
+          "title": "EFEKTIVITAS PENGGUNAAN MEDIA SIMULASI VIRTUAL PADA PEMBELAJARAN KONSEPTUAL INTERAKTIF DALAM MENINGKATKAN PEMAHAMAN KONSEP FISIKA DAN MEMINIMALKAN MISKONSEPSI SISWA",
+          "uri": "http://repository.upi.edu/id/eprint/112389",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 6,
+          "title": "PENERAPAN STRATEGI KONFLIK KOGNITIF BERBANTUAN MEDIA SIMULASI VIRTUAL PADA MODEL PEMBELAJARAN BERORIENTASI PERUBAHAN KONSEPTUAL UNTUK MENINGKATKAN PEMAHAMAN KONSEP DAN MENURUNKAN KUANTITAS SISWA YANG MISKONSEPSI",
+          "uri": "http://repository.upi.edu/id/eprint/12572",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 7,
+          "title": "PENGEMBANGAN DAN PENGGUNAAN MULTIMEDIA SIMULASI KOMPUTER TOPIK USAHA DAN ENERGI UNTUK MENINGKATKAN PENGUASAAN KONSEP SISWA SMA",
+          "uri": "http://repository.upi.edu/id/eprint/12740",
+          "corpus_match": true,
+          "abstract_available": true
+        }
+      ],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3483,
+        "completion_tokens": 311,
+        "latency_ms": 5209.393583,
+        "model_latency_ms": 4089.33325,
+        "estimated_cost_usd": 0.0010698
+      },
+      "claims": []
+    },
+    {
+      "id": "bilingual-002",
+      "query": "pathfinding comparison of A star and breadth first search in a maze",
+      "expected": "supported",
+      "request_id": "9981a3df116379fe966062f4d1bb4387",
+      "status": 200,
+      "answer": "In a 4-direction block maze, Breadth-First Search explores nodes level by level from the start, while A* uses a heuristic—Manhattan distance—to prioritize nodes toward the goal [1]. BFS can have a shorter execution time when visiting child nodes is inexpensive, but A* generally visits fewer nodes [1]. Considering execution time, search completeness, memory usage, and path optimality, the cited study concludes that A* performs better overall than BFS [1].",
+      "insufficient_evidence": false,
+      "citations": [
+        {
+          "id": 1,
+          "title": "PERBANDINGAN ALGORITMA A* DAN BREADTH FIRST SEARCH PADA BLOCK MAZE",
+          "uri": "http://repository.upi.edu/id/eprint/106797",
+          "corpus_match": true,
+          "abstract_available": true
+        }
+      ],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3308,
+        "completion_tokens": 255,
+        "latency_ms": 4207.964292,
+        "model_latency_ms": 3115.700125,
+        "estimated_cost_usd": 0.0009676000000000001
+      },
+      "claims": []
+    },
+    {
+      "id": "bilingual-007",
+      "query": "project based mobile learning for computational thinking",
+      "expected": "supported",
+      "request_id": "ba2fc93450c59bdc3e1d5e07df225fe0",
+      "status": 200,
+      "answer": "Penelitian yang paling relevan adalah pengembangan media pembelajaran mobile learning berbasis Project-Based Learning (PjBL) untuk meningkatkan kemampuan berpikir komputasi siswa.[1] Penelitian ini menggunakan model ADDIE dan desain pra-eksperimental one-group pretest-posttest pada 33 siswa SMA.[1] Hasilnya menunjukkan peningkatan signifikan dengan p<0,05, meliputi dekomposisi 0,56, abstraksi 0,51, pengenalan pola 0,45, dan berpikir algoritmik 0,44.[1]",
+      "insufficient_evidence": false,
+      "citations": [
+        {
+          "id": 1,
+          "title": "RANCANG BANGUN MEDIA PEMBELAJARAN BERBASIS MOBILE LEARNING DENGAN MODEL PROJECT-BASED LEARNING UNTUK MENINGKATKAN KEMAMPUAN BERPIKIR KOMPUTASI SISWA",
+          "uri": "http://repository.upi.edu/id/eprint/132153",
+          "corpus_match": true,
+          "abstract_available": true
+        }
+      ],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3445,
+        "completion_tokens": 226,
+        "latency_ms": 4813.558834,
+        "model_latency_ms": 3454.837208,
+        "estimated_cost_usd": 0.0009602
+      },
+      "claims": []
+    },
+    {
+      "id": "bilingual-013",
+      "query": "calcium stabilized zirconia ceramic for nuclear fuel support",
+      "expected": "supported",
+      "request_id": "c154c8b69858c74a2c17549095fae8f8",
+      "status": 200,
+      "answer": "Calcia-stabilized zirconia (ZrO₂–CaO) ceramic, with optional Al₂O₃ addition, was investigated as an inert matrix/support for nuclear reactor fuel. The sintered pellets achieved average density above 94% of theoretical density, predominantly cubic zirconia structure, small grains, few pores, high hardness and toughness, and no density change after a 100°C water-inertness test; the material therefore met some inert-matrix criteria.[1]",
+      "insufficient_evidence": false,
+      "citations": [
+        {
+          "id": 1,
+          "title": "PEMBUATAN KERAMIK MATRIKS INERT ZrO2 YANG DISTABILKAN CaO DENGAN PENAMBAHAN Al2O3 UNTUK PENDUKUNG BAHAN BAKAR REAKTOR NUKLIR DAN KARAKTERISASINYA",
+          "uri": "http://repository.upi.edu/id/eprint/107859",
+          "corpus_match": true,
+          "abstract_available": true
+        }
+      ],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 4342,
+        "completion_tokens": 191,
+        "latency_ms": 4208.33625,
+        "model_latency_ms": 3048.346792,
+        "estimated_cost_usd": 0.0010976
+      },
+      "claims": []
+    },
+    {
+      "id": "bilingual-003",
+      "query": "secure Android instant messaging using RSA encryption",
+      "expected": "supported",
+      "request_id": "c89c0f24267e63905bc57434a5f13de9",
+      "status": 200,
+      "answer": "A 2014 study implemented RSA encryption for instant messaging on Android. It reported that the system was safer than using no encryption, operated fully on Android 2.2 and later, maintained 100% encryption/decryption accuracy, and produced encrypted messages of 349 bytes in the study regardless of original message length. [1]",
+      "insufficient_evidence": false,
+      "citations": [
+        {
+          "id": 1,
+          "title": "SISTEM ENKRIPSI INSTANT MESSAGING DENGAN MENGGUNAKAN ALGORITMA RSA PADA PLATFORM ANDROID",
+          "uri": "http://repository.upi.edu/id/eprint/14328",
+          "corpus_match": true,
+          "abstract_available": true
+        }
+      ],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3276,
+        "completion_tokens": 156,
+        "latency_ms": 4776.051708,
+        "model_latency_ms": 3617.623417,
+        "estimated_cost_usd": 0.0008424000000000001
+      },
+      "claims": []
+    },
+    {
+      "id": "abbr-011",
+      "query": "NHT berpikir kritis fisika SMA",
+      "expected": "supported",
+      "request_id": "1d85d02c5ebf95adeb6fa13f157b9c24",
+      "status": 200,
+      "answer": "Penelitian tentang penerapan model kooperatif Numbered Head Together (NHT) dalam pembelajaran fisika SMA menggunakan desain kuasi eksperimen one-group pretest-posttest pada 39 siswa kelas X. Hasilnya menunjukkan peningkatan keterampilan berpikir kritis dengan gain ternormalisasi 0,57 (kategori sedang), peningkatan hasil belajar kognitif sebesar 0,65 (kategori sedang), serta korelasi positif antara peningkatan keterampilan berpikir kritis dan hasil belajar dengan koefisien 0,58 (hubungan sedang). [1]",
+      "insufficient_evidence": false,
+      "citations": [
+        {
+          "id": 1,
+          "title": "PENERAPAN MODEL PEMBELAJARAN KOOPERATIF TIPE NUMBERED HEAD TOGETHER (NHT) DALAM PEMBELAJARAN FISIKA UNTUK MENINGKATKAN KETERAMPILAN BERPIKIR KRITIS DAN HASIL BELAJAR SISWA SMA",
+          "uri": "http://repository.upi.edu/id/eprint/106454",
+          "corpus_match": true,
+          "abstract_available": true
+        }
+      ],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3460,
+        "completion_tokens": 198,
+        "latency_ms": 4055.096625,
+        "model_latency_ms": 2860.007583,
+        "estimated_cost_usd": 0.0009296
+      },
+      "claims": []
+    },
+    {
+      "id": "abbr-001",
+      "query": "PSO parallel R tekanan pipa",
+      "expected": "supported",
+      "request_id": "668820a7c6213c978a93b6f8c3a914dd",
+      "status": 200,
+      "answer": "Penelitian tahun 2017 menerapkan Particle Swarm Optimization (PSO) dengan parallel computing dalam bahasa R untuk menentukan distribusi tekanan pada jaringan pipa air. Sistem persamaan nonlinier diubah menjadi masalah optimasi dan diselesaikan menggunakan PSO. Implementasi paralelnya memakai package R “foreach” dan “doParallel” untuk mengurangi waktu komputasi; hasil penelitian menyatakan bahwa pendekatan ini dapat meningkatkan kinerja secara efektif. [1]",
+      "insufficient_evidence": false,
+      "citations": [
+        {
+          "id": 1,
+          "title": "IMPLEMENTASI PARTICLE SWARM OPTIMIZATION DENGAN PARALLEL COMPUTING DI R UNTUK DISTRIBUSI TEKANAN PADA JARINGAN PIPA AIR",
+          "uri": "http://repository.upi.edu/id/eprint/30954",
+          "corpus_match": true,
+          "abstract_available": true
+        }
+      ],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3282,
+        "completion_tokens": 199,
+        "latency_ms": 4642.385416,
+        "model_latency_ms": 3460.657792,
+        "estimated_cost_usd": 0.0008952000000000001
+      },
+      "claims": []
+    },
+    {
+      "id": "abbr-006",
+      "query": "AES CTR LZW repositori web",
+      "expected": "supported",
+      "request_id": "ff660925613dcf4702b758c6e5d5f7df",
+      "status": 200,
+      "answer": "Repositori berbasis web yang menggunakan AES Counter Mode dan kompresi LZW adalah penelitian berjudul “Pengamanan File Menggunakan Algoritma AES Counter Mode dan Kompresi LZW pada Repositori Berbasis Web” oleh Ibnu Hamzah pada 2011. Penelitian ini menerapkan AES Counter Mode dan LZW untuk file text/html, text/plain, serta application/octet-stream, dengan rasio kompresi mencapai 0,69 atau lebih dari 30%. [1]",
+      "insufficient_evidence": false,
+      "citations": [
+        {
+          "id": 1,
+          "title": "PENGAMANAN FILE MENGGUNAKAN ALGORITMA AES COUNTER MODE DAN KOMPRESI LZW PADA REPOSITORI BERBASIS WEB",
+          "uri": "http://repository.upi.edu/id/eprint/112201",
+          "corpus_match": true,
+          "abstract_available": true
+        }
+      ],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3267,
+        "completion_tokens": 186,
+        "latency_ms": 5030.856542,
+        "model_latency_ms": 3888.406125,
+        "estimated_cost_usd": 0.0008766000000000001
+      },
+      "claims": []
+    },
+    {
+      "id": "abbr-012",
+      "query": "CLIS hasil belajar kognitif",
+      "expected": "supported",
+      "request_id": "41bc8b7491f59c4f6e28649944fcc777",
+      "status": 200,
+      "answer": "Penelitian Yuyum Yumiasih (2008) menerapkan model pembelajaran CLIS (Children’s Learning in Science) pada materi Wujud Zat untuk meningkatkan hasil belajar ranah kognitif siswa SMP.[1]",
+      "insufficient_evidence": false,
+      "citations": [
+        {
+          "id": 1,
+          "title": "PENERAPAN MODEL PEMBELAJARAN CLIS (CHILDREN’S LEARNING IN SCIENCE) UNTUK MENINGKATKAN HASIL BELAJAR RANAH KOGNITIF SISWA SMP",
+          "uri": "http://repository.upi.edu/id/eprint/102427",
+          "corpus_match": true,
+          "abstract_available": true
+        }
+      ],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3434,
+        "completion_tokens": 140,
+        "latency_ms": 3186.47425,
+        "model_latency_ms": 2092.986375,
+        "estimated_cost_usd": 0.0008548000000000001
+      },
+      "claims": []
+    },
+    {
+      "id": "abbr-002",
+      "query": "RSA Android IM",
+      "expected": "supported",
+      "request_id": "a81ab023305cca2a4f81b00e15f037c9",
+      "status": 200,
+      "answer": "Penelitian yang paling relevan adalah “Sistem Enkripsi Instant Messaging dengan Menggunakan Algoritma RSA pada Platform Android” oleh Rizky Riadhy (2014). [1] Penelitian ini menerapkan RSA untuk mengenkripsi pesan pada aplikasi instant messaging Android. [1] Hasilnya menunjukkan sistem dapat berjalan 100% pada Android OS 2.2 ke atas, akurasi enkripsi dan dekripsi mencapai 100%, serta ukuran pesan terenkripsi tetap 349 byte dalam pengujian, tidak bergantung pada panjang pesan asli. [1]",
+      "insufficient_evidence": false,
+      "citations": [
+        {
+          "id": 1,
+          "title": "SISTEM ENKRIPSI INSTANT MESSAGING DENGAN MENGGUNAKAN ALGORITMA RSA PADA PLATFORM ANDROID",
+          "uri": "http://repository.upi.edu/id/eprint/14328",
+          "corpus_match": true,
+          "abstract_available": true
+        }
+      ],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3316,
+        "completion_tokens": 199,
+        "latency_ms": 4158.095167,
+        "model_latency_ms": 2910.385833,
+        "estimated_cost_usd": 0.000902
+      },
+      "claims": []
+    },
+    {
+      "id": "abbr-007",
+      "query": "IBCF rekomendasi lagu",
+      "expected": "supported",
+      "request_id": "111e79c134eb7dbb916f2b04ecbb8981",
+      "status": 200,
+      "answer": "IBCF (Item-Based Collaborative Filtering) dapat digunakan untuk sistem rekomendasi lagu dengan memanfaatkan rating atau catatan transaksi pengguna. Pada penelitian dengan 789 data rating, penggunaan K=20 menghasilkan MAE terendah sebesar 0,166667.[1]",
+      "insufficient_evidence": false,
+      "citations": [
+        {
+          "id": 1,
+          "title": "PENERAPAN ITEM-BASED COLLABORATIVE FILTERING DALAM PEMBUATAN SISTEM REKOMENDASI LAGU",
+          "uri": "http://repository.upi.edu/id/eprint/4406",
+          "corpus_match": true,
+          "abstract_available": true
+        }
+      ],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3357,
+        "completion_tokens": 142,
+        "latency_ms": 4077.252958,
+        "model_latency_ms": 2972.320792,
+        "estimated_cost_usd": 0.0008418000000000001
+      },
+      "claims": []
+    },
+    {
+      "id": "abbr-013",
+      "query": "5E learning cycle fisika",
+      "expected": "supported",
+      "request_id": "bea421baf14794586048fdda233f4b38",
+      "status": 200,
+      "answer": "Learning Cycle 5E merupakan model pembelajaran yang dapat diterapkan dalam pembelajaran fisika untuk meningkatkan hasil belajar siswa pada ranah kognitif dan psikomotor.[1] Penelitian pada siswa SMA menunjukkan peningkatan hasil belajar kognitif dengan rata-rata gain ternormalisasi 0,69 dalam kategori sedang, disertai peningkatan aspek afektif dan psikomotor.[2] Model ini juga dapat meningkatkan aktivitas dan hasil belajar siswa SMP, meskipun perubahan pada ranah afektif dan psikomotor tidak selalu meningkat pada setiap seri pembelajaran.[3] Selain hasil belajar, Learning Cycle 5E dapat meningkatkan keterampilan proses sains dengan peningkatan sebesar 0,59 dalam kategori sedang.[4] Penerapannya bersama strategi PAKEM dilaporkan lebih efektif meningkatkan hasil belajar kognitif dibandingkan pembelajaran tradisional.[5] Model ini juga dapat meningkatkan keterampilan berpikir kritis siswa melalui kegiatan pemecahan masalah.[8]",
+      "insufficient_evidence": false,
+      "citations": [
+        {
+          "id": 1,
+          "title": "PENERAPAN MODEL LEARNING CYCLE 5E UNTUK MENINGKATKAN HASIL BELAJAR SISWA DALAM PEMBELAJARAN FISIKA",
+          "uri": "http://repository.upi.edu/id/eprint/106710",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 2,
+          "title": "PENERAPAN MODEL PEMBELAJARAN SIKLUS BELAJAR (LEARNING CYCLE) TIPE 5E UNTUK MENINGKATKAN HASIL BELAJAR SISWA SMA PADA PEMBELAJARAN FISIKA",
+          "uri": "http://repository.upi.edu/id/eprint/109919",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 3,
+          "title": "IMPLEMENTASI MODEL PEMBELAJARAN LEARNING CYCLE 5E UNTUK MENINGKATKAN AKTIVITAS DAN HASIL BELAJAR SISWA SMP",
+          "uri": "http://repository.upi.edu/id/eprint/107746",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 4,
+          "title": "PENERAPAN MODEL LEARNING CYCLE 5E DALAM UPAYA MENINGKATKAN KETERAMPILAN PROSES SAINS SISWA SMA PADA PEMBELAJARAN FISIKA",
+          "uri": "http://repository.upi.edu/id/eprint/112351",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 5,
+          "title": "PENERAPAN STRATEGI PAKEM DENGAN MODEL PEMBELAJARAN LEARNING CYCLE 5E UNTUK MENINGKATKAN HASIL BELAJAR SISWA DALAM PEMBELAJARAN FISIKA",
+          "uri": "http://repository.upi.edu/id/eprint/108623",
+          "corpus_match": true,
+          "abstract_available": true
+        },
+        {
+          "id": 8,
+          "title": "PENERAPAN MODEL SIKLUS BELAJAR 5E UNTUK MENINGKATKAN KETERAMPILAN BERPIKIR KRITIS SISWA PADA PEMBELAJARAN FISIKA",
+          "uri": "http://repository.upi.edu/id/eprint/82153",
+          "corpus_match": true,
+          "abstract_available": true
+        }
+      ],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3475,
+        "completion_tokens": 332,
+        "latency_ms": 4853.442875,
+        "model_latency_ms": 3718.536167,
+        "estimated_cost_usd": 0.0010934
+      },
+      "claims": []
+    },
+    {
+      "id": "abbr-003",
+      "query": "A* BFS block maze",
+      "expected": "supported",
+      "request_id": "d006d68a5f97882e3360d213b4a4f1a6",
+      "status": 200,
+      "answer": "Pada block maze dengan pencarian 4 arah, A* menggunakan heuristik Manhattan distance dan mengunjungi lebih sedikit simpul, sedangkan BFS mengunjungi simpul-simpul pada setiap tingkat dari simpul asal. BFS dapat memiliki waktu eksekusi lebih singkat dalam kondisi tertentu, tetapi berdasarkan waktu eksekusi, ketuntasan, penggunaan ruang, dan optimalisasi, penelitian tersebut menyimpulkan bahwa A* berkinerja lebih baik daripada BFS.[1]",
+      "insufficient_evidence": false,
+      "citations": [
+        {
+          "id": 1,
+          "title": "PERBANDINGAN ALGORITMA A* DAN BREADTH FIRST SEARCH PADA BLOCK MAZE",
+          "uri": "http://repository.upi.edu/id/eprint/106797",
+          "corpus_match": true,
+          "abstract_available": true
+        }
+      ],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3342,
+        "completion_tokens": 182,
+        "latency_ms": 4840.341375,
+        "model_latency_ms": 3645.889958,
+        "estimated_cost_usd": 0.0008868000000000001
+      },
+      "claims": []
+    },
+    {
+      "id": "missing-http://repository.upi.edu/id/eprint/104944",
+      "query": "PENERAPAN MODEL PEMBELAJARAN INVESTIGASI KELOMPOK UNTUK MENINGKATKAN KTERAMPILAN PROSES SAINS SISWA SMA",
+      "expected": "insufficient",
+      "request_id": "69e6ecf64832dc2fde8db02ee7e99a05",
+      "status": 200,
+      "answer": "Penelitian yang sesuai adalah karya Ira Rahayu (2010) berjudul “Penerapan Model Pembelajaran Kooperatif Tipe Group Investigation untuk Meningkatkan Prestasi Belajar dan Keterampilan Proses Sains Siswa.” Penelitian ini menggunakan metode kuasi eksperimen pada siswa kelas XI IPA di salah satu SMA di Kota Bandung. Hasilnya menunjukkan peningkatan keterampilan proses sains dengan rata-rata gain ternormalisasi 0,505 dalam kategori sedang, sedangkan prestasi belajar meningkat dengan gain 0,833 dalam kategori tinggi. [1]",
+      "insufficient_evidence": false,
+      "citations": [
+        {
+          "id": 1,
+          "title": "PENERAPAN MODEL PEMBELAJARAN KOOPERATIF TIPE GROUP INVESTIGATION UNTUK MENINGKATKAN PRESTASI BELAJAR DAN KETERAMPILAN PROSES SAINS SISWA",
+          "uri": "http://repository.upi.edu/id/eprint/107658",
+          "corpus_match": true,
+          "abstract_available": true
+        }
+      ],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3579,
+        "completion_tokens": 247,
+        "latency_ms": 5135.818125,
+        "model_latency_ms": 4008.959958,
+        "estimated_cost_usd": 0.0010122
+      },
+      "claims": []
+    },
+    {
+      "id": "missing-http://repository.upi.edu/id/eprint/107397",
+      "query": "EFEKTIVITAS PENERAPAN MODEL PEMBELAJARAN CREATIVE PROBLEM SOLVING UNTUK MENINGKATKAN PEMAHAMAN SISWA DALAM MATA PELAJARAN TEKNOLOGI INFORMASI DAN KOMUNIKASI :Studi Kasus Terhadap Siswa Kelas XI SMA Negeri 5 Cimahi",
+      "expected": "insufficient",
+      "request_id": "262cbed8c728413a13681038566cb296",
+      "status": 200,
+      "answer": "",
+      "insufficient_evidence": true,
+      "citations": [],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3210,
+        "completion_tokens": 53,
+        "latency_ms": 2608.431166,
+        "model_latency_ms": 1491.214292,
+        "estimated_cost_usd": 0.0007056
+      },
+      "claims": []
+    },
+    {
+      "id": "missing-http://repository.upi.edu/id/eprint/21542",
+      "query": "PENERAPAN PEMBELAJARAN PROBLEM POSING BERBANTU MULTIMEDIA INTERAKTIF PADA MATA PELAJARAN JARINGAN DASAR UNTUK MENINGKATKAN PEMAHAMAN SISWA SMK",
+      "expected": "insufficient",
+      "request_id": "4a378638598e70bbce4029e208254d76",
+      "status": 200,
+      "answer": "Penelitian yang paling relevan adalah karya Qori Halimatul Hidayah tahun 2017 berjudul “Penerapan Multimedia Menggunakan Metode Problem Posing untuk Meningkatkan Hasil Belajar Siswa pada Mata Pelajaran Jaringan Dasar di SMK.” [1] Penelitian ini menerapkan tahapan analisis, desain, pengembangan, implementasi, dan penilaian, serta menggunakan validasi ahli materi dan media melalui angket. [1] Multimedia memperoleh kelayakan 81% dari aspek materi, 70% dari aspek media, dan respons siswa sebesar 91%. [1] Peningkatan rata-rata gain mencapai 0,24 pada kelas eksperimen dan 0,09 pada kelas kontrol, sehingga multimedia berbasis problem posing dinilai layak diterapkan dalam pembelajaran jaringan dasar. [1]",
+      "insufficient_evidence": false,
+      "citations": [
+        {
+          "id": 1,
+          "title": "PENERAPAN MULTIMEDIA MENGGUNAKAN METODE PROBLEM POSING UNTUK MENINGKATKAN HASIL BELAJAR SISWA PADA MATA PELAJARAN JARINGAN DASAR DI SMK",
+          "uri": "http://repository.upi.edu/id/eprint/32908",
+          "corpus_match": true,
+          "abstract_available": true
+        }
+      ],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3352,
+        "completion_tokens": 396,
+        "latency_ms": 5405.480459,
+        "model_latency_ms": 4162.250875,
+        "estimated_cost_usd": 0.0011456
+      },
+      "claims": []
+    },
+    {
+      "id": "insufficient-27",
+      "query": "tesis tentang komputasi kuantum pada korpus ini",
+      "expected": "insufficient",
+      "request_id": "f57b8a4e7fef5952e0c9e9f552852ca8",
+      "status": 200,
+      "answer": "",
+      "insufficient_evidence": true,
+      "citations": [],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3386,
+        "completion_tokens": 86,
+        "latency_ms": 4054.107584,
+        "model_latency_ms": 2936.928625,
+        "estimated_cost_usd": 0.0007804000000000001
+      },
+      "claims": []
+    },
+    {
+      "id": "insufficient-28",
+      "query": "tesis tentang paleontologi dinosaurus pada korpus ini",
+      "expected": "insufficient",
+      "request_id": "81020ca627852f3ba9ca02592e0e2820",
+      "status": 200,
+      "answer": "",
+      "insufficient_evidence": true,
+      "citations": [],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3487,
+        "completion_tokens": 64,
+        "latency_ms": 2901.954666,
+        "model_latency_ms": 1785.349375,
+        "estimated_cost_usd": 0.0007742000000000001
+      },
+      "claims": []
+    },
+    {
+      "id": "insufficient-29",
+      "query": "tesis tentang budidaya tanaman mars pada korpus ini",
+      "expected": "insufficient",
+      "request_id": "023ee1b00d75917d429a8afbe5265c54",
+      "status": 200,
+      "answer": "",
+      "insufficient_evidence": true,
+      "citations": [],
+      "citation_valid": true,
+      "telemetry": {
+        "model": "openai/gpt-5.6-luna",
+        "prompt_tokens": 3665,
+        "completion_tokens": 82,
+        "latency_ms": 3183.011833,
+        "model_latency_ms": 2060.637834,
+        "estimated_cost_usd": 0.0008314
+      },
+      "claims": []
+    }
+  ],
+  "summary": {
+    "prompts": 30,
+    "successful": 30,
+    "citations_valid": true,
+    "models": [
+      "openai/gpt-5.6-luna"
+    ],
+    "prompt_tokens": 104261,
+    "completion_tokens": 6429,
+    "estimated_cost_usd": 0.028567,
+    "latency_ms": {
+      "p50": 4703.57,
+      "p95": 5405.48,
+      "max": 5415.71
+    },
+    "model_latency_ms": {
+      "p50": 3454.84,
+      "p95": 4162.25,
+      "max": 4257.45
+    }
+  },
+  "review_required": true
+}

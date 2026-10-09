@@ -55,14 +55,14 @@ References: [PRD exact-title requirements](PRD.md#82-exact-title-correctness), [
 
 ## Phase 2: Complete synthesis evaluation
 
-- [ ] Define the minimal claim-review record shape.
-- [ ] Review all factual claims across the existing 30-prompt workload against cited abstracts.
-- [ ] Record support judgment and concise reviewer evidence for each claim.
-- [ ] Calculate claim-support rate and require at least 90%.
-- [ ] Confirm every citation maps to retrieved evidence and its authoritative URI.
-- [ ] Capture generation model, input/output usage, latency, and estimated cost.
-- [ ] Preserve supported, insufficient, malformed, invalid-citation, timeout, and provider-error tests.
-- [ ] Save the completed review under `docs/chapter-3` without overwriting Chapter 2 output.
+- [x] Define the minimal claim-review record shape.
+- [x] Review all factual claims across the existing 30-prompt workload against cited abstracts.
+- [x] Record support judgment and concise reviewer evidence for each claim.
+- [x] Calculate claim-support rate and require at least 90%.
+- [x] Confirm every citation maps to retrieved evidence and its authoritative URI.
+- [x] Capture generation model, input/output usage, latency, and estimated cost.
+- [x] Preserve supported, insufficient, malformed, invalid-citation, timeout, and provider-error tests.
+- [x] Save the completed review under `docs/chapter-3` without overwriting Chapter 2 output.
 
 Checks:
 
