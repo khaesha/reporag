@@ -40,9 +40,19 @@ type Response struct {
 	Basis                string        `json:"basis"`
 	Citations            []Citation    `json:"citations"`
 	InsufficientEvidence bool          `json:"insufficient_evidence"`
+	Telemetry            Telemetry     `json:"telemetry"`
 	PromptTokens         int           `json:"-"`
 	CompletionTokens     int           `json:"-"`
 	ModelDuration        time.Duration `json:"-"`
+}
+
+type Telemetry struct {
+	Model            string  `json:"model"`
+	PromptTokens     int     `json:"prompt_tokens"`
+	CompletionTokens int     `json:"completion_tokens"`
+	LatencyMS        float64 `json:"latency_ms"`
+	ModelLatencyMS   float64 `json:"model_latency_ms"`
+	EstimatedCostUSD float64 `json:"estimated_cost_usd"`
 }
 
 type evidence struct {

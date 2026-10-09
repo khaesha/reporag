@@ -134,7 +134,12 @@ func answerHandler(execute func(context.Context, answer.Request) (answer.Respons
 			return
 		}
 		cost := float64(result.PromptTokens)*0.20/1_000_000 + float64(result.CompletionTokens)*1.20/1_000_000
-		slog.Info("answer timing", "request_id", c.GetString("request_id"), "model", ai.GenerationModel, "duration", time.Since(started), "model_duration", result.ModelDuration, "prompt_tokens", result.PromptTokens, "completion_tokens", result.CompletionTokens, "estimated_cost_usd", cost, "citations", len(result.Citations), "insufficient_evidence", result.InsufficientEvidence)
+		duration := time.Since(started)
+		result.Telemetry = answer.Telemetry{
+			Model: ai.GenerationModel, PromptTokens: result.PromptTokens, CompletionTokens: result.CompletionTokens,
+			LatencyMS: float64(duration) / float64(time.Millisecond), ModelLatencyMS: float64(result.ModelDuration) / float64(time.Millisecond), EstimatedCostUSD: cost,
+		}
+		slog.Info("answer timing", "request_id", c.GetString("request_id"), "model", ai.GenerationModel, "duration", duration, "model_duration", result.ModelDuration, "prompt_tokens", result.PromptTokens, "completion_tokens", result.CompletionTokens, "estimated_cost_usd", cost, "citations", len(result.Citations), "insufficient_evidence", result.InsufficientEvidence)
 		c.JSON(http.StatusOK, result)
 	}
 }

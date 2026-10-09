@@ -4,7 +4,7 @@ import os from "node:os";
 import path from "node:path";
 import test from "node:test";
 
-import { selectPrompts } from "./evaluate-synthesis.mjs";
+import { run, selectPrompts, summarize } from "./evaluate-synthesis.mjs";
 import { records, titleGroups, verify } from "./verify-exact-titles.mjs";
 
 test("exact-title records exclude quarantine and duplicate URIs", async () => {
@@ -64,4 +64,20 @@ test("synthesis sample evenly selects the three judged intents", () => {
   const prompts = selectPrompts(evaluation);
   assert.equal(prompts.length, 24);
   for (const intent of ["conceptual", "bilingual", "abbreviation"]) assert.equal(prompts.filter(prompt => prompt.id.startsWith(intent)).length, 8);
+});
+
+test("synthesis evaluation captures answer telemetry and aggregates it", async () => {
+  const corpus = [{ title: "Evidence", abstract: "Available", uri: "https://example.test/1" }];
+  const fetchFn = async () => new Response(JSON.stringify({
+    answer: "Claim [1]", insufficient_evidence: false,
+    citations: [{ id: 1, title: "Evidence", uri: "https://example.test/1" }],
+    telemetry: { model: "model", prompt_tokens: 10, completion_tokens: 5, latency_ms: 20, model_latency_ms: 15, estimated_cost_usd: 0.000008 },
+  }), { headers: { "x-request-id": "request-1" } });
+  const prompts = await run("http://example.test", [{ id: "one", query: "evidence", expected: "supported" }], corpus, fetchFn);
+  assert.equal(prompts[0].citation_valid, true);
+  assert.equal(prompts[0].telemetry.model, "model");
+  assert.deepEqual(summarize(prompts), {
+    prompts: 1, successful: 1, citations_valid: true, models: ["model"], prompt_tokens: 10, completion_tokens: 5, estimated_cost_usd: 0.000008,
+    latency_ms: { p50: 20, p95: 20, max: 20 }, model_latency_ms: { p50: 15, p95: 15, max: 15 },
+  });
 });
