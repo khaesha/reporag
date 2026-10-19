@@ -4,6 +4,8 @@ SearchLens is a learning project for discovering Universitas Pendidikan Indonesi
 
 Chapter 3 makes a local-only release claim: PostgreSQL remains bound to loopback and the application runs on one host. Historical Chapter 2 hosted-database evidence remains unchanged; future hosted deployment is [To Be Discussed](docs/TECH_DEBT.md). This repository does not currently claim public-production readiness.
 
+New to RAG terminology? Start with the plain-language [RAG glossary](docs/GLOSSARY.md), which explains retrieval modes, embeddings, evaluation metrics, latency, chunking, grounding, and related terms using SearchLens examples.
+
 ## Architecture
 
 ```mermaid
