@@ -1,8 +1,10 @@
 # SearchLens
 
-SearchLens is a learning project for discovering Universitas Pendidikan Indonesia (UPI) thesis metadata and available abstracts. Chapter 2 adds pgvector hybrid retrieval, related records, corpus trends, and optional abstract-grounded synthesis. Chapter 3 proves a reproducible local release of that existing feature set. It never accesses restricted PDFs or chapter-level content.
+SearchLens is a learning project for discovering Universitas Pendidikan Indonesia (UPI) thesis metadata and available abstracts. It supports lexical and hybrid retrieval, related records, corpus trends, and optional abstract-grounded synthesis. It never accesses restricted PDFs or chapter-level content.
 
-Chapter 3 makes a local-only release claim: PostgreSQL remains bound to loopback and the application runs on one host. Historical Chapter 2 hosted-database evidence remains unchanged; future hosted deployment is [To Be Discussed](docs/TECH_DEBT.md). This repository does not currently claim public-production readiness.
+Current release is local-only: PostgreSQL remains bound to loopback and the application runs on one host. Hosted deployment is [To Be Discussed](docs/TECH_DEBT.md); this repository does not currently claim public-production readiness.
+
+New to RAG terminology? Start with the plain-language [RAG glossary](docs/GLOSSARY.md), which explains retrieval modes, embeddings, evaluation metrics, latency, chunking, grounding, and related terms using SearchLens examples.
 
 ## Architecture
 
@@ -35,10 +37,11 @@ gvm use go1.27.1
 make env
 ```
 
-Set `POSTGRES_PASSWORD` in the generated `.env`. Start PostgreSQL and import the corpus:
+Set `POSTGRES_PASSWORD` in the generated `.env`. Start PostgreSQL, apply the database migrations, and import the corpus:
 
 ```sh
 make db-up
+make migrate
 make import
 ```
 
@@ -58,6 +61,60 @@ npm run dev
 ```
 
 Open <http://localhost:3000>. The API listens on <http://localhost:8080> by default. Stop PostgreSQL with `make db-down`.
+
+## Database and corpus maintenance
+
+### Apply database migrations
+
+Run migrations after starting a new database and after pulling a change that adds a file under `apps/backend/migrations/`:
+
+```sh
+make db-up
+make migrate
+make migrate-report
+```
+
+`make migrate` applies the ordered SQL files to the database configured by root `.env`. `make migrate-report` prints the PostgreSQL and pgvector versions plus document and embedding counts. Migrations change the database schema; they do not import corpus records.
+
+### Add corpus data
+
+Place JSON files anywhere under `docs/repository-data/`. Each filename must match `repository_*_data.json` and end with a four-digit source year, for example `repository_physics_2026_data.json`. Importer reads `source_year` from that filename, not from `date_deposited`.
+
+Each file must contain a JSON array whose records use this shape:
+
+```json
+{
+  "title": "Required thesis title",
+  "abstract": "Optional abstract",
+  "authors": ["Author name"],
+  "item_type": "Thesis (S1)",
+  "subjects": "Optional subject",
+  "divisions": "Program Studi Fisika",
+  "depositing_user": "Optional depositor",
+  "date_deposited": "26 Oct 2026 14:30",
+  "uri": "https://repository.upi.edu/id/eprint/12345"
+}
+```
+
+`title` and `uri` are required. Keep repository `uri` unchanged because it is the stable database key and authoritative source link. Use `divisions` for degree-program identity. Optional fields may be `null`; do not invent missing abstracts. Non-empty deposit dates must use `DD Mon YYYY HH:MM` with an English three-letter month.
+
+Audit, import, and refresh embeddings after adding data:
+
+```sh
+node scripts/audit-corpus.mjs
+make import
+make embed
+```
+
+`make embed` requires `OPENROUTER_API_KEY` in root `.env`. Importer processes one file per transaction. Invalid data reports its filename and zero-based array position; that file is rolled back. Adding a degree program also requires expanding the fixed retrieval evaluation set before release.
+
+### Correct or replace corpus data
+
+Edit or replace the JSON file, keep each record's existing `uri`, then repeat the audit, import, and embedding commands above.
+
+Do not delete database rows first. Import is idempotent: a new URI inserts one row, while an existing URI updates that row without creating a duplicate. Changes to title, abstract, authors, subjects, or divisions invalidate that record's embedding; `make embed` regenerates only missing or stale embeddings.
+
+Import is not a full mirror operation. Removing a record from JSON or changing its URI does not remove the old database row, and there is no automatic prune command. [Back up the database](#database-backup), identify obsolete URIs, and delete only those rows explicitly. Never clear the whole table to correct one degree program.
 
 ## Checks
 
@@ -94,58 +151,17 @@ node scripts/benchmark-search.mjs
 
 An alternate API base URL may be supplied as the first argument.
 
-For the final Chapter 3 local release smoke, keep the API running and write a new
+For the full local release smoke, keep the API running and write a new
 evidence file (do not overwrite the committed result):
 
 ```sh
-rtk node scripts/release-smoke.mjs http://localhost:8080 /absolute/path/release-smoke.json
+node scripts/release-smoke.mjs http://localhost:8080 /absolute/path/release-smoke.json
 ```
 
 It checks readiness plus lexical, semantic, hybrid, related, trend, and
-abstract-synthesis paths. The full verified release record is
-[Phase 4](docs/chapter-3/PHASE-4.md). It is a local-only result; hosted
+abstract-synthesis paths. The [verified release record](docs/chapter-3/PHASE-4.md)
+is local-only; hosted
 deployment remains [To Be Discussed](docs/TECH_DEBT.md).
-
-Historical Chapter 2 hosted-database evidence remains in [Chapter 2 deployment notes](docs/chapter-2/DEPLOYMENT.md). Current hosted deployment is [To Be Discussed](docs/TECH_DEBT.md).
-
-## Chapter 2 Phase 0
-
-With the expanded corpus in `docs/repository-data`, reproduce its audit and lexical baseline:
-
-```sh
-rtk node scripts/audit-corpus.mjs docs/repository-data docs/chapter-2/corpus-audit.json
-rtk node scripts/evaluate-search.mjs http://localhost:8080 docs/chapter-2/evaluation.json docs/chapter-2/lexical-baseline.json
-```
-
-After manually reviewing the judged set, configure `OPENROUTER_API_KEY` and compare the locked 1,536-dimension embedding candidates:
-
-```sh
-rtk node scripts/benchmark-embeddings.mjs
-```
-
-Cached vectors stay under ignored `.cache/embeddings`; the benchmark report records model usage, cost, latency, retrieval metrics, and winner.
-
-## Chapter 2 operation
-
-Set `OPENROUTER_API_KEY` and the database URL in ignored `.env`. The locked models are `google/gemini-embedding-2` (1,536 dimensions) and the configured generation model; model identifiers, token limits, and timeout remain server-side configuration. Apply migrations, import, and embed with:
-
-```sh
-make migrate
-make import
-make embed
-```
-
-With the API running, reproduce the release retrieval evidence:
-
-```sh
-node scripts/evaluate-search.mjs http://localhost:8080 docs/chapter-2/evaluation.json docs/chapter-2/release-hybrid.json hybrid
-node scripts/verify-exact-titles.mjs http://localhost:8080 docs/chapter-2/release-exact-titles.json
-node scripts/evaluate-synthesis.mjs http://localhost:8080 docs/chapter-2/synthesis-results.json
-```
-
-Generated answers are optional and grounded only in retrieved available abstracts. Citations link to the original repository URI; missing abstracts produce insufficient evidence rather than invented content. Retrieval and deployment evidence is recorded in [the Chapter 2 plan](docs/chapter-2/PLAN.md); cross-chapter decisions are in [the review](docs/REVIEW.md), and public-deployment blockers are in [Tech Debt](docs/TECH_DEBT.md).
-
-For local rollback, restore the previous server-side `DATABASE_URL`; frontend configuration remains unchanged. Hosted deployment and public synthesis requirements are To Be Discussed.
 
 ## Database backup
 
